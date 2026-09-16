@@ -12,6 +12,8 @@ const NATIVE_LANGUAGES = [
   { code: 'vi', label: 'Tiếng Việt (베트남어)' },
   { code: 'zh', label: '中文 (중국어)' },
   { code: 'ja', label: '日本語 (일본어)' },
+  { code: 'mn', label: 'Монгол (몽골어)' },
+  { code: 'th', label: 'ภาษาไทย (태국어)' },
   { code: 'ru', label: 'Русский (러시아어)' },
   { code: 'es', label: 'Español (스페인어)' }
 ];
