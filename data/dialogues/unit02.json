@@ -3,9 +3,9 @@
     "unit": 2,
     "dialogue_id": "d2-1",
     "speaker": "김민호",
-    "korean_text": "안녕하세요. 저는 김민호예요. 저는 회사원이에요. 리홍 씨는요?",
-    "translation": "Hello. I am Minho Kim. I am an office worker. How about you, Rihong?",
-    "audio_hint": "밝고 정중한 첫인사 톤, 질문 끝은 억양을 살짝 올림"
+    "korean_text": "안녕하세요. 저는 김민호예요.",
+    "translation": "Hello. I am Minho Kim.",
+    "audio_hint": "밝고 정중한 첫인사 톤"
   },
   {
     "unit": 2,
@@ -13,19 +13,27 @@
     "speaker": "리홍",
     "korean_text": "안녕하세요. 저는 리홍이에요. 반갑습니다. 민호 씨는 직업이 뭐예요?",
     "translation": "Hello. I am Rihong. Nice to meet you. What is your job, Minho?",
-    "audio_hint": "반가움을 담은 상냥하고 정중한 톤"
+    "audio_hint": "반가움을 담은 상냥하고 정중한 톤, 질문 억양"
   },
   {
     "unit": 2,
     "dialogue_id": "d2-3",
     "speaker": "김민호",
+    "korean_text": "저는 회사원이에요. 리홍 씨는요?",
+    "translation": "I am an office worker. How about you, Rihong?",
+    "audio_hint": "자신의 직업을 소개하고 상대방에게 되묻는 톤"
+  },
+  {
+    "unit": 2,
+    "dialogue_id": "d2-4",
+    "speaker": "리홍",
     "korean_text": "저는 의사예요.",
     "translation": "I am a doctor.",
     "audio_hint": "차분하고 명확한 대답 어조"
   },
   {
     "unit": 2,
-    "dialogue_id": "d2-4",
+    "dialogue_id": "d2-5",
     "speaker": "이수연",
     "korean_text": "도안닝 씨 가족은 몇 명이에요?",
     "translation": "Doanning, how many people are there in your family?",
@@ -33,7 +41,7 @@
   },
   {
     "unit": 2,
-    "dialogue_id": "d2-5",
+    "dialogue_id": "d2-6",
     "speaker": "도안닝",
     "korean_text": "세 명이에요. 저, 엄마, 아빠가 있어요. 수연 씨 가족은 몇 명이에요?",
     "translation": "There are three people. Me, mom, and dad. How many people are in Suyeon's family?",
@@ -41,7 +49,7 @@
   },
   {
     "unit": 2,
-    "dialogue_id": "d2-6",
+    "dialogue_id": "d2-7",
     "speaker": "이수연",
     "korean_text": "네 명이에요. 엄마, 아빠, 저, 동생이 있어요.",
     "translation": "There are four people. Mom, dad, me, and a younger sibling.",

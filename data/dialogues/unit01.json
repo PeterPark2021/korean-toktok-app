@@ -1,90 +1,58 @@
 [
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d01_01",
+    "unit": 1,
+    "dialogue_id": "d1-1",
     "speaker": "김민호",
-    "korean_text": "안녕하세요. 저는 김민호예요. 저는 회사원이에요. 리홍 씨는요?",
-    "translation": "Hello. I am Minho Kim. I am an office worker. How about you, Rihong?",
-    "audio_hint": "밝고 정중한 첫인사 톤, 질문 끝은 억양을 살짝 올림"
+    "korean_text": "안녕하세요. 저는 김민호예요.",
+    "translation": "Hello. I am Minho Kim.",
+    "audio_hint": "밝고 정중한 첫인사 톤"
   },
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d01_02",
+    "unit": 1,
+    "dialogue_id": "d1-2",
     "speaker": "리홍",
     "korean_text": "안녕하세요. 저는 리홍이에요. 반갑습니다. 민호 씨는 직업이 뭐예요?",
     "translation": "Hello. I am Rihong. Nice to meet you. What is your job, Minho?",
-    "audio_hint": "반가움을 담은 상냥하고 정중한 톤"
+    "audio_hint": "반가움을 담은 상냥하고 정중한 톤, 질문 억양"
   },
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d01_03",
+    "unit": 1,
+    "dialogue_id": "d1-3",
     "speaker": "김민호",
+    "korean_text": "저는 회사원이에요. 리홍 씨는요?",
+    "translation": "I am an office worker. How about you, Rihong?",
+    "audio_hint": "자신의 직업을 소개하고 상대방에게 되묻는 톤"
+  },
+  {
+    "unit": 1,
+    "dialogue_id": "d1-4",
+    "speaker": "리홍",
     "korean_text": "저는 의사예요.",
     "translation": "I am a doctor.",
     "audio_hint": "차분하고 명확한 대답 어조"
   },
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d02_01",
+    "unit": 1,
+    "dialogue_id": "d1-5",
     "speaker": "이수연",
     "korean_text": "도안닝 씨 가족은 몇 명이에요?",
     "translation": "Doanning, how many people are there in your family?",
     "audio_hint": "친근하게 물어보는 자연스러운 의문문 억양"
   },
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d02_02",
+    "unit": 1,
+    "dialogue_id": "d1-6",
     "speaker": "도안닝",
     "korean_text": "세 명이에요. 저, 엄마, 아빠가 있어요. 수연 씨 가족은 몇 명이에요?",
     "translation": "There are three people. Me, mom, and dad. How many people are in Suyeon's family?",
     "audio_hint": "밝은 목소리로 가족을 소개하고 되묻는 톤"
   },
   {
-    "unit": 2,
-    "dialogue_id": "unit02_d02_03",
+    "unit": 1,
+    "dialogue_id": "d1-7",
     "speaker": "이수연",
     "korean_text": "네 명이에요. 엄마, 아빠, 저, 동생이 있어요.",
     "translation": "There are four people. Mom, dad, me, and a younger sibling.",
     "audio_hint": "또박또박하고 명확한 톤"
-  },
-  {
-    "unit": 3,
-    "dialogue_id": "unit03_d01_01",
-    "speaker": "도안닝",
-    "korean_text": "수연 씨, 뭐 해요?",
-    "translation": "Suyeon, what are you doing?",
-    "audio_hint": "일상 대화의 자연스럽고 쾌활한 억양"
-  },
-  {
-    "unit": 3,
-    "dialogue_id": "unit03_d01_02",
-    "speaker": "이수연",
-    "korean_text": "커피를 마셔요.",
-    "translation": "I am drinking coffee.",
-    "audio_hint": "편안하고 여유로운 톤"
-  },
-  {
-    "unit": 3,
-    "dialogue_id": "unit03_d01_03",
-    "speaker": "도안닝",
-    "korean_text": "어디에서 마셔요?",
-    "translation": "Where are you drinking it?",
-    "audio_hint": "궁금증을 담은 질문 톤"
-  },
-  {
-    "unit": 3,
-    "dialogue_id": "unit03_d01_04",
-    "speaker": "이수연",
-    "korean_text": "카페에서요. 도안닝 씨는 지금 뭐 해요?",
-    "translation": "At a cafe. What are you doing right now, Doanning?",
-    "audio_hint": "상대방의 상황을 되묻는 부드러운 억양"
-  },
-  {
-    "unit": 3,
-    "dialogue_id": "unit03_d01_05",
-    "speaker": "도안닝",
-    "korean_text": "저는 집에서 쉬어요.",
-    "translation": "I am resting at home.",
-    "audio_hint": "차분하고 휴식을 취하는 편안한 어조"
   }
 ]
