@@ -15,9 +15,10 @@ export interface UseTTSReturn {
 
 /**
  * Clean text for Korean TTS:
- * - Strips tildes (~, ～) and special punctuation that causes TTS to literally speak "물결" or "틸드"
+ * - Converts tildes (~, ～) and connecting symbols to natural punctuation pauses (e.g. ", ")
+ * - Converts numeric ranges (e.g. 1~2, 9시~6시) to natural Korean reading ("에서")
  * - Strips emojis and parenthesized annotations
- * - Cleans up duplicate punctuation marks
+ * - Cleans up and normalizes punctuation marks so TTS speaks with authentic prosody and pauses
  */
 export function cleanKoreanForTTS(text: string): string {
   if (!text) return '';
@@ -30,13 +31,24 @@ export function cleanKoreanForTTS(text: string): string {
       .replace(/\{.*?\}/g, ' ')
       // 2. Remove emojis
       .replace(/[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}]/gu, ' ')
-      // 3. Remove tildes (~, ～) and special symbols that TTS reads aloud as words
-      .replace(/[~～^_*#@&|/\\+=<>`$%"'·]/g, ' ')
-      // 4. Normalize multiple punctuation marks to single ones
-      .replace(/\.{2,}/g, '.')
-      .replace(/!{2,}/g, '!')
-      .replace(/\?{2,}/g, '?')
-      // 5. Consolidate whitespace
+      // 3. Convert range tildes between numbers (e.g. 1~2, 9시~6시) to "에서" for natural reading
+      .replace(/(\d+)\s*[~～]\s*(\d+)/g, '$1에서 $2')
+      // 4. Convert tildes (~, ～) into commas with space (", ") so TTS takes a natural conversational pause/breath
+      .replace(/[~～]+/g, ', ')
+      // 5. Convert connecting symbols (/, |, ·, \) into pauses
+      .replace(/[\/|·\\]/g, ', ')
+      // 6. Remove remaining unpronounceable special symbols
+      .replace(/[\^_*#@+=<>`$%"']/g, ' ')
+      // 7. Normalize multiple punctuation marks
+      .replace(/\.{2,}/g, '. ')
+      .replace(/!{2,}/g, '! ')
+      .replace(/\?{2,}/g, '? ')
+      // 8. Clean up conflicting adjacent commas and punctuation
+      .replace(/([.?!])\s*,+/g, '$1 ')
+      .replace(/,+\s*([.?!])/g, '$1 ')
+      .replace(/,+\s*,+/g, ', ')
+      .replace(/\s*,\s*/g, ', ')
+      // 9. Consolidate whitespace
       .replace(/\s+/g, ' ')
       .trim()
   );
