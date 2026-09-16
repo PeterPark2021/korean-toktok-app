@@ -43,6 +43,28 @@ npm run dev
 
 ---
 
+## 🔐 AI 튜터 (Gemini) 키 설정
+
+`/api/explain.ts`는 Vercel 서버리스 함수로, Gemini API 키를 서버에서만 사용합니다.
+**클라이언트 코드나 `VITE_` 접두사 환경변수에는 절대 키를 넣지 마세요** — 그러면 빌드된 JS 파일에
+키가 그대로 노출됩니다.
+
+1. 로컬 개발: `.env.example`을 복사해 `.env.local`로 만들고 `GEMINI_API_KEY`를 채웁니다.
+2. Vercel 배포: 프로젝트 설정 → Environment Variables에서 `GEMINI_API_KEY`를 **서버 전용**으로 등록합니다.
+3. 키가 없어도 앱은 정상 작동합니다 (내장 폴백 설명으로 자동 전환).
+
+## 🚀 배포 (Deployment)
+
+```bash
+# Vercel CLI로 배포하는 경우
+npm i -g vercel
+vercel
+# 이후 Vercel 대시보드에서 GEMINI_API_KEY 환경변수를 등록하세요.
+```
+
+Netlify를 쓰는 경우 `/api/explain.ts`를 Netlify Functions 형식(`netlify/functions/explain.ts`)으로
+옮기고 핸들러 시그니처만 맞춰주면 동일하게 동작합니다.
+
 ## 📖 문서 (Documentation)
 
 자세한 시스템 구조 및 다음 개발을 위한 가이드는 [HANDOFF.md](HANDOFF.md)를 참고하세요.

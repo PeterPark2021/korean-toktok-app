@@ -56,59 +56,31 @@ export const fetchAIExplanation = async (params: AIExplanationParams): Promise<s
   const { quiz, userAnswer } = params;
   const userAnsStr = Array.isArray(userAnswer) ? userAnswer.join(' ') : userAnswer || '(선택 안 함)';
 
-  const apiKey =
-    (typeof window !== 'undefined' && localStorage.getItem('gemini_api_key')) ||
-    (import.meta as any).env?.VITE_GEMINI_API_KEY ||
-    null;
+  // API 키는 클라이언트에 절대 두지 않습니다. 대신 서버리스 프록시(/api/explain)를
+  // 호출하고, 그 함수가 서버 환경변수(GEMINI_API_KEY)를 이용해 Gemini를 대신 호출합니다.
+  try {
+    const response = await fetch('/api/explain', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        quiz: {
+          question: quiz.question,
+          answer: quiz.answer,
+          explanation: quiz.explanation
+        },
+        userAnswer
+      })
+    });
 
-  // If Gemini API Key is provided, call Google Gemini API (gemini-1.5-flash / gemini-2.0-flash)
-  if (apiKey && apiKey.trim().length > 10) {
-    try {
-      const prompt = `당신은 친절하고 명쾌한 한국어 전문 AI 튜터(Gemini AI)입니다.
-초급 한국어 외국인 학습자가 다음 퀴즈 문제를 풀다가 오답을 골랐습니다.
-- 문제 지문: ${quiz.question}
-- 정답: ${quiz.answer}
-- 학생이 고른 오답: ${userAnsStr}
-- 기본 문법 설명: ${quiz.explanation}
-
-초급 한국어 학습자에게 이 문법을 쉬운 일상생활의 비유(예: 옷과 모자 맞추기, 신발 짝 맞추기, 주인공 이름표 달기 등)를 들어 친절하게 설명해주세요.
-3~4문장 내외로 친근하고 격려하는 어조(해요체)로 알기 쉽게 작성해주세요.`;
-
-      const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey.trim()}`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            contents: [
-              {
-                parts: [
-                  {
-                    text: prompt
-                  }
-                ]
-              }
-            ],
-            generationConfig: {
-              temperature: 0.7,
-              maxOutputTokens: 500
-            }
-          })
-        }
-      );
-
-      if (response.ok) {
-        const result = await response.json();
-        const text = result.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (text) {
-          return text;
-        }
+    if (response.ok) {
+      const result = await response.json();
+      if (result?.text) {
+        return result.text;
       }
-    } catch (e) {
-      console.warn('Gemini API call failed, falling back to built-in tutor engine:', e);
     }
+    // 503(서버에 키 미설정) 등 예상된 실패는 조용히 폴백으로 넘어갑니다.
+  } catch (e) {
+    console.warn('AI explanation proxy call failed, falling back to built-in tutor engine:', e);
   }
 
   // Fallback / Instant Intelligent Tutor Response with 400ms simulate thinking
