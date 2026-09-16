@@ -213,7 +213,30 @@ export const useProgress = () => {
     [data]
   );
 
-  const activeStats = getEditionStats('kbs');
+  // Data Backup & Restore utilities
+  const exportProgressData = useCallback((): string => {
+    return JSON.stringify(data, null, 2);
+  }, [data]);
+
+  const importProgressData = useCallback((jsonString: string): boolean => {
+    try {
+      const parsed = JSON.parse(jsonString);
+      if (parsed && typeof parsed === 'object' && parsed.progress && parsed.quizScores) {
+        setData(parsed);
+        return true;
+      }
+      return false;
+    } catch (e) {
+      console.error('Failed to import progress JSON:', e);
+      return false;
+    }
+  }, []);
+
+  const resetProgressData = useCallback(() => {
+    setData(initialStorageData);
+  }, []);
+
+  const activeStats = getEditionStats(data.currentEdition || 'kbs');
 
   const stats = {
     streakDays: data.streakDays,
@@ -237,6 +260,9 @@ export const useProgress = () => {
     recordQuizAttempt,
     getUnitProgress,
     getUnitQuizScore,
-    getEditionStats
+    getEditionStats,
+    exportProgressData,
+    importProgressData,
+    resetProgressData
   };
 };

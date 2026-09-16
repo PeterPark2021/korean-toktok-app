@@ -1,21 +1,34 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/common/Layout';
-import { StudyPage } from './pages/StudyPage';
-import { QuizPage } from './pages/QuizPage';
-import { ProgressPage } from './pages/ProgressPage';
+
+// Code-split route pages to optimize initial bundle size
+const StudyPage = lazy(() => import('./pages/StudyPage').then(m => ({ default: m.StudyPage })));
+const QuizPage = lazy(() => import('./pages/QuizPage').then(m => ({ default: m.QuizPage })));
+const ProgressPage = lazy(() => import('./pages/ProgressPage').then(m => ({ default: m.ProgressPage })));
+
+function PageLoadingFallback() {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-[50vh] space-y-4">
+      <div className="w-10 h-10 border-4 border-rose-200 border-t-rose-600 rounded-full animate-spin" />
+      <p className="text-xs font-semibold text-slate-500 animate-pulse">학습 데이터를 불러오는 중입니다...</p>
+    </div>
+  );
+}
 
 export function App() {
   return (
     <BrowserRouter>
       <Layout>
-        <Routes>
-          <Route path="/" element={<StudyPage />} />
-          <Route path="/study" element={<StudyPage />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/progress" element={<ProgressPage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <Suspense fallback={<PageLoadingFallback />}>
+          <Routes>
+            <Route path="/" element={<StudyPage />} />
+            <Route path="/study" element={<StudyPage />} />
+            <Route path="/quiz" element={<QuizPage />} />
+            <Route path="/progress" element={<ProgressPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </Layout>
     </BrowserRouter>
   );

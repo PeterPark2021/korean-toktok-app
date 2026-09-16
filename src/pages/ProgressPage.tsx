@@ -13,7 +13,11 @@ import {
   Award,
   Layers,
   Check,
-  ChevronRight
+  ChevronRight,
+  Download,
+  Upload,
+  ShieldCheck,
+  AlertTriangle
 } from 'lucide-react';
 import { useProgress, getUnitKey } from '../hooks/useProgress';
 import { useTTS } from '../hooks/useTTS';
@@ -42,8 +46,55 @@ export const ProgressPage: React.FC = () => {
     streakDays,
     totalStudyMinutes,
     getEditionStats,
-    toggleVocabMastered
+    toggleVocabMastered,
+    exportProgressData,
+    importProgressData,
+    resetProgressData
   } = useProgress();
+
+  const [backupMessage, setBackupMessage] = useState<string | null>(null);
+
+  const handleExport = () => {
+    const jsonStr = exportProgressData();
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const dateStr = new Date().toISOString().split('T')[0];
+    a.href = url;
+    a.download = `korean_toktok_progress_${dateStr}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setBackupMessage('✅ 학습 진도 데이터 백업 파일이 다운로드되었습니다.');
+    setTimeout(() => setBackupMessage(null), 4000);
+  };
+
+  const handleImport = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (evt) => {
+      const content = evt.target?.result as string;
+      if (content) {
+        const success = importProgressData(content);
+        if (success) {
+          setBackupMessage('🎉 학습 진도가 성공적으로 복원되었습니다!');
+        } else {
+          setBackupMessage('⚠️ 올바른 백업 파일 형식이 아닙니다.');
+        }
+        setTimeout(() => setBackupMessage(null), 4000);
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
+  };
+
+  const handleReset = () => {
+    if (window.confirm('정말 모든 학습 진도와 퀴즈 점수를 초기화하시겠습니까? (되돌릴 수 없습니다)')) {
+      resetProgressData();
+      setBackupMessage('🔄 학습 진도가 초기화되었습니다.');
+      setTimeout(() => setBackupMessage(null), 4000);
+    }
+  };
 
   const { speak, speaking, currentSpeakingText } = useTTS();
 
@@ -732,6 +783,61 @@ export const ProgressPage: React.FC = () => {
           </div>
         </div>
       )}
+
+      {/* 9. Data Persistence & Backup Management Card */}
+      <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 text-white space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className="p-2.5 rounded-2xl bg-indigo-500/20 text-indigo-400 border border-indigo-500/30">
+              <ShieldCheck size={22} />
+            </div>
+            <div>
+              <h3 className="font-bold text-base text-white">학습 진도 데이터 관리 & 기기 이전 백업</h3>
+              <p className="text-xs text-slate-400">
+                학습 진도는 브라우저 로컬 저장소에 보관됩니다. 기기 변경이나 캐시 삭제 전 안전하게 백업하세요.
+              </p>
+            </div>
+          </div>
+
+          {backupMessage && (
+            <div className="text-xs font-semibold px-3.5 py-1.5 rounded-xl bg-indigo-950/80 border border-indigo-500/40 text-indigo-300 animate-in fade-in duration-200">
+              {backupMessage}
+            </div>
+          )}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-3 pt-1">
+          <button
+            type="button"
+            onClick={handleExport}
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white font-bold text-xs transition-all shadow-md shadow-indigo-600/20 cursor-pointer"
+          >
+            <Download size={15} />
+            <span>진도 백업 파일 다운로드 (JSON)</span>
+          </button>
+
+          <label className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 font-bold text-xs transition-all border border-slate-700 cursor-pointer">
+            <Upload size={15} />
+            <span>백업 파일 복원하기</span>
+            <input
+              type="file"
+              accept=".json"
+              onChange={handleImport}
+              className="hidden"
+            />
+          </label>
+
+          <button
+            type="button"
+            onClick={handleReset}
+            className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl text-rose-400 hover:text-rose-300 hover:bg-rose-950/40 active:scale-95 text-xs font-semibold transition-all ml-auto cursor-pointer"
+            title="모든 진도 초기화"
+          >
+            <AlertTriangle size={14} />
+            <span>진도 초기화</span>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
