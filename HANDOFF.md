@@ -1,8 +1,8 @@
 # Korean TokTok (한국어 톡톡) - Developer Hand-off Document
 
-> **문서 버전:** 1.4.0  
+> **문서 버전:** 1.5.0  
 > **최종 갱신일:** 2026-09-16  
-> **프로젝트 성격:** 다문화가정 및 외국인 학습자를 위한 실용 한국어 회화, 어휘, 문법, 문화, 퀴즈, 게이미피케이션, 회원 인증, 음소 단위 발음 교정, 실시간 AI 프리토킹 롤플레이(Gemini Live) 통합 학습 플랫폼
+> **프로젝트 성격:** 다문화가정 및 외국인 학습자를 위한 실용 한국어 회화, 어휘, 문법, 문화, 퀴즈, 게이미피케이션, 회원 인증, 음소 단위 발음 교정, 실시간 AI 프리토킹 롤플레이(Gemini Live), 홈 UI/UX 최적화 통합 학습 플랫폼
 
 ---
 
@@ -11,9 +11,15 @@
 **Korean TokTok (한국어 톡톡)**은 KBS 실용 한국어 교재 및 Wiz 한국어 교육 과정을 기반으로, 초급부터 고급까지 총 45개 단원의 실생활 한국어를 효과적으로 학습할 수 있는 반응형 웹 플랫폼입니다.
 
 - **프론트엔드 스택:** React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons
+- **홈 UI/UX & 정보 위계 최적화:**
+  - 상단 부피가 컸던 교재 에디션 선택기를 슬림한 헤더 캡슐 토글(`[ 📘 KBS 공식 교재 | ⚡ Wiz AI 강화 ]`)로 축소
+  - 학습자가 로그인 후 가장 궁금한 **"이어서 학습하기 (Continue Learning)" Hero Card**를 최상단으로 배치
+  - "학습 완료됨" 상태를 클릭 버튼 형태가 아닌 비활성 **상태 뱃지(`🟢 학습 완료됨 ✓`)**로 명확히 분리하고, 전진 액션 버튼(**"다음 단원으로 이동 →"**)을 기본 제공
+  - 사이드바 및 대시보드에 **7일 주간 스트릭 점(월~일) 및 시각적 프로그레스 바(`1/45 = 2.2%`)** 게이미피케이션 탑재
+  - 교재 레벨 필터(전체/초급A~고급A)와 탐색 도구(목차/검색)를 2열 분리하여 WCAG AA 고대비 디자인 적용
 - **회원 인증 & 프로필:** `AuthContext` 기반 회원가입, 로그인, 게스트 모드, 소셜 로그인(Google/Kakao), 9개국어 모국어(한국어, 영어, 베트남어, 중국어, 일본어, 러시아어, 스페인어, 몽골어, 태국어) 및 아바타 커스텀
 - **음성/AI 기능:**
-  - Web Speech API (TTS 음성 합성 & STT 발음 채점)
+  - Web Speech API (TTS 음성 합성 & STT 발음 채점 - `~` 물결표 및 기호 발음 제거 전처리)
   - 한글 초성/중성/종성 음소 단위 정밀 오발음 분석 & 글자별 하이라이트 교정 엔진 (`src/utils/pronunciationAnalysis.ts`)
   - **실시간 프리토킹 롤플레이 (Gemini Live)**: 8개 실생활 상황(식당, 병원, 카페, 부동산 등) 음성/채팅 롤플레이 & 실시간 원어민식 표현 코칭 & 화자별 최대 7턴 제한 (`api/roleplay.ts`, `src/services/roleplayService.ts`)
   - Google Gemini AI (`@google/genai`) 서버리스 프록시 문법 튜터 (`api/explain.ts`) 및 내장 비유 해설 엔진
@@ -91,7 +97,19 @@ interface QuizItem {
 
 ## 3. 주요 구현 기능 및 모듈 설명
 
-### 3.1 실시간 프리토킹 롤플레이 (Gemini Live) (`api/roleplay.ts`, `src/components/roleplay/`, `src/pages/RoleplayPage.tsx`)
+### 3.1 홈 첫 화면 정보 위계 및 UX 개선 (`src/pages/StudyPage.tsx`, `EditionSelector.tsx`, `BookFilterBar.tsx`)
+- **이어서 학습하기 (Hero Card) 최상단 승격**:
+  - 화면 상단에서 학습자의 최근 진도/다음 추천 단원을 바로 확인할 수 있는 대형 Hero Card 렌더링
+  - 완료된 단원의 경우 **`🟢 학습 완료됨 ✓` 상태 뱃지**와 **`[ 다음 단원(Unit N+1)으로 이동 → ]`** 고시인성 액션 버튼 제공
+  - 미완료 단원의 경우 **`[ ▶ 바로 학습하기 ]`** 및 **`[ 단원 퀴즈 풀기 ]`** 안내
+- **에디션 선택기 슬림화 (`EditionSelector.tsx`)**:
+  - 상단 50%를 차지하던 큰 카드를 상단 우측 컴팩트 토글 바로 축소하고, 필요 시 펼쳐볼 수 있는 아코디언 서랍 제공
+- **필터 탭 & 탐색 도구 2열 분리 (`BookFilterBar.tsx`)**:
+  - 1열: 교재 레벨 필터(전체/초급A/초급B/중급A/중급B/고급A)
+  - 2열: 전체 교재 목차 열기 & 한글 자모 분해 검색 도구
+  - WCAG AA(4.5:1 이상) 명도 대비 보장
+
+### 3.2 실시간 프리토킹 롤플레이 (Gemini Live) (`api/roleplay.ts`, `src/components/roleplay/`, `src/pages/RoleplayPage.tsx`)
 - **8대 실생활 시나리오**:
   1. 🍲 식당에서 반찬 & 앞접시 추가 요청하기 (초급)
   2. 🩺 병원에서 감기/배탈 증상 설명하기 (초급~중급)
@@ -111,7 +129,7 @@ interface QuizItem {
 - **무중단 스마트 폴백 엔진 (`src/services/roleplayService.ts`)**:
   - API 키가 없거나 네트워크 장애 시에도 내장 지능형 대화 트리와 정규식 미션 판별 엔진으로 100% 정상 작동
 
-### 3.2 음소 및 글자 단위 정밀 발음 교정 & 섀도잉 (`src/utils/pronunciationAnalysis.ts`, `SpeechPracticeModal.tsx`)
+### 3.3 음소 및 글자 단위 정밀 발음 교정 & 섀도잉 (`src/utils/pronunciationAnalysis.ts`, `SpeechPracticeModal.tsx`)
 - **Needleman-Wunsch 동적 정렬 알고리즘**: 목표 문장과 음성 인식 텍스트를 글자 단위로 매핑하여 누락/오발음/정확 음절을 정확히 판별
 - **한글 자모(초성/중성/종성) 오발음 분해 분석**:
   - **초성 오류**: 예사소리/된소리/거센소리(ㄱ/ㄲ/ㅋ, ㅂ/ㅃ/ㅍ 등) 발음 강도 안내
@@ -121,32 +139,29 @@ interface QuizItem {
   - 글자별 색상 뱃지 (🟢 초록: 정확, 🔴 빨강: 오발음 및 인식 글자 표기, 🟡 노랑: 누락)
   - 오발음 글자 클릭 시 해당 음절만 원음 TTS 재생 및 맞춤 조음 팁 팝업
 
-### 3.3 회원가입, 로그인 & 프로필 관리 모듈 (`src/contexts/AuthContext.tsx`)
+### 3.4 회원가입, 로그인 & 프로필 관리 모듈 (`src/contexts/AuthContext.tsx`)
 - **이메일/비밀번호 인증**: 유효성 검사, 중복 가입 방지, 안전한 로컬 세션 유지
 - **게스트 체험 모드 (Guest Mode)**: 가입 없이 즉시 모든 기능을 체험하고, 이후 진도 유실 없이 정식 회원으로 전환 가능
 - **소셜 로그인 (Google / Kakao)**: 1클릭 간편 로그인 지원
 - **학습자 맞춤 설정**: 9개국 모국어 및 대표 캐릭터 아바타, 목표 레벨 설정
 
-### 3.4 비주얼 회화 뷰어 (`src/components/study/DialogueViewer.tsx`)
+### 3.5 비주얼 회화 뷰어 (`src/components/study/DialogueViewer.tsx`)
 - **캐릭터 아바타 시스템 (`src/utils/characterAvatar.ts`)**: 발화자별 8종 전용 아바타 매핑
 - **상황별 배너 일러스트 (`src/utils/unitSituation.ts`)**: 단원별 첫 만남, 쇼핑, 식당, 길 찾기 등 고해상도 상황 삽화 렌더링
 - **롤플레이 & 섀도잉**: Web Speech API 기반 음성 듣기(TTS) 및 마이크 발음 정확도(STT) 실시간 채점
 
-### 3.5 어휘 플래시카드 & 문화 톡톡 (`src/components/study/CultureViewer.tsx`, `VocabFlashcard.tsx`)
+### 3.6 어휘 플래시카드 & 문화 톡톡 (`src/components/study/CultureViewer.tsx`, `VocabFlashcard.tsx`)
 - **어휘 연상 비주얼 큐 (`src/utils/vocabVisuals.ts`)**: 10개 시맨틱 카테고리에 따른 컬러 태그, 이모지 및 연상 기억 힌트
 - **문화 톡톡 4번째 탭 (`src/data/culture/cultureData.ts`)**: 45개 전 단원 한국 문화 배경, 고화질 실사 사진, 에티켓 Do & Don't, 원어민 필수 표현 수록
 
-### 3.6 멀티모달 퀴즈 엔진 (`src/components/quiz/QuizEngine.tsx`, `MultipleChoiceCard.tsx`)
+### 3.7 멀티모달 퀴즈 엔진 (`src/components/quiz/QuizEngine.tsx`, `MultipleChoiceCard.tsx`)
 - **그림/사진 기반 객관식 퀴즈 (`src/utils/visualQuizHelper.ts`)**: 시각 자극(상황도, 문화 사진, 캐릭터 등)을 동적으로 퀴즈 카드에 포함
 - **즉각적인 정답/오답 피드백**: 정답 애니메이션 및 상세 한국어 해설 표시
 
-### 3.7 게이미피케이션 & 대시보드 (`src/components/dashboard/BadgeCollection.tsx`, `src/pages/ProgressPage.tsx`)
+### 3.8 게이미피케이션 & 대시보드 (`src/components/dashboard/BadgeCollection.tsx`, `src/pages/ProgressPage.tsx`, `Sidebar.tsx`)
 - **14종 메탈릭 성취 뱃지 (`src/data/badges/badgeData.ts`)**: 브론즈부터 다이아몬드까지 실시간 조건 계산 및 모달 팝업
+- **주간 스트릭 & 시각적 진행률 바**: 7일 주간 연속 학습 도트(월~일) 및 실시간 프로그레스 바 탑재
 - **학습 진도 백업/복원 기능**: 진도 데이터를 JSON 파일로 원클릭 내보내기/불러오기 지원
-
-### 3.8 초성 및 자모 분해 검색 엔진 (`src/utils/hangulSearch.ts`, `src/services/searchService.ts`)
-- **입력 중 깜박임 완전 제거**: 한글 조합 중(예: `존` -> `존ㅊ` -> `존칭`)에도 끊김 없이 매칭되는 자모 분해 알고리즘
-- `useDeferredValue` + 동기 검색 처리로 키 입력 지연 및 모달 리렌더링 제거
 
 ### 3.9 Google Gemini AI 문법 튜터 & 보안 프록시 (`api/explain.ts`, `src/services/aiExplanation.ts`)
 - Vercel Node.js 서버리스 함수로 Gemini API 키를 서버 전용(`process.env.GEMINI_API_KEY`)으로 격리
@@ -174,7 +189,7 @@ korean-toktok-app/
 ├── src/
 │   ├── components/
 │   │   ├── auth/               # AuthModal, UserProfileModal
-│   │   ├── common/             # Layout, Sidebar, BottomNav, GlobalSearchModal
+│   │   ├── common/             # Layout, Sidebar, BottomNav, GlobalSearchModal, BookFilterBar, EditionSelector
 │   │   ├── dashboard/          # BadgeCollection, ProgressStats
 │   │   ├── quiz/               # QuizEngine, MultipleChoiceCard
 │   │   ├── roleplay/           # RoleplayCard, RoleplayChatRoom
@@ -231,4 +246,5 @@ npm run build
    - 무료 체험 단원 및 프리미엄 단원/AI 튜터 무제한 질문 패키지.
 4. **Google AdMob / 애드센스 광고 위젯 연동**:
    - 단원 완료 보상형 광고 및 학습 대시보드 하단 배너 광고 슬롯.
+
 
