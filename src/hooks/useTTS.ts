@@ -13,6 +13,35 @@ export interface UseTTSReturn {
   queueIndex: number;
 }
 
+/**
+ * Clean text for Korean TTS:
+ * - Strips tildes (~, ～) and special punctuation that causes TTS to literally speak "물결" or "틸드"
+ * - Strips emojis and parenthesized annotations
+ * - Cleans up duplicate punctuation marks
+ */
+export function cleanKoreanForTTS(text: string): string {
+  if (!text) return '';
+
+  return (
+    text
+      // 1. Remove parenthesized text e.g. (휴가), (부서 팀장), (웃음)
+      .replace(/\(.*?\)/g, ' ')
+      .replace(/\[.*?\]/g, ' ')
+      .replace(/\{.*?\}/g, ' ')
+      // 2. Remove emojis
+      .replace(/[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}]/gu, ' ')
+      // 3. Remove tildes (~, ～) and special symbols that TTS reads aloud as words
+      .replace(/[~～^_*#@&|/\\+=<>`$%"'·]/g, ' ')
+      // 4. Normalize multiple punctuation marks to single ones
+      .replace(/\.{2,}/g, '.')
+      .replace(/!{2,}/g, '!')
+      .replace(/\?{2,}/g, '?')
+      // 5. Consolidate whitespace
+      .replace(/\s+/g, ' ')
+      .trim()
+  );
+}
+
 export const useTTS = (): UseTTSReturn => {
   const [speaking, setSpeaking] = useState(false);
   const [currentSpeakingText, setCurrentSpeakingText] = useState<string | null>(null);
@@ -62,8 +91,8 @@ export const useTTS = (): UseTTSReturn => {
       // 이전 발화 정지
       window.speechSynthesis.cancel();
 
-      // 특수문자나 괄호 정리
-      const cleanText = text.replace(/\(.*?\)/g, '').trim();
+      // 특수문자(~, 물결표, 이모지, 괄호 등) 정리
+      const cleanText = cleanKoreanForTTS(text);
       if (!cleanText) return;
 
       const utterance = new SpeechSynthesisUtterance(cleanText);
@@ -115,19 +144,19 @@ export const useTTS = (): UseTTSReturn => {
           return;
         }
 
-        const text = texts[currentIdx];
+        const rawText = texts[currentIdx];
         setQueueIndex(currentIdx);
         queueRef.current.onIndex?.(currentIdx);
 
-        const cleanText = text.replace(/\(.*?\)/g, '').trim();
-        const utterance = new SpeechSynthesisUtterance(cleanText);
+        const cleanText = cleanKoreanForTTS(rawText);
+        const utterance = new SpeechSynthesisUtterance(cleanText || rawText);
         utterance.lang = 'ko-KR';
         utterance.rate = speechRate;
         if (koreanVoice) utterance.voice = koreanVoice;
 
         utterance.onstart = () => {
           setSpeaking(true);
-          setCurrentSpeakingText(text);
+          setCurrentSpeakingText(rawText);
         };
 
         utterance.onend = () => {
