@@ -15,9 +15,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🍲',
       tone: '정감 있고 친절하며 활기찬 어조 (~드릴게요, 맛있게 드세요)'
     },
-    userRole: '손님',
-    initialMessage: '어서오세요 손님! 맛있게 드시고 계신가요? 필요한 거 있으시면 편하게 말씀해 주세요~',
-    initialTranslation: 'Welcome! Are you enjoying your meal? Please let me know if you need anything~',
+    userRole: '김민호 (손님)',
+    initialMessage: '어서오세요 민호 씨! 맛있게 드시고 계신가요? 필요한 거 있으시면 편하게 말씀해 주세요~',
+    initialTranslation: 'Welcome, Minho! Are you enjoying your meal? Please let me know if you need anything~',
     missions: [
       {
         id: 'm-kimchi',
@@ -61,9 +61,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🩺',
       tone: '자상하고 차분하며 전문적인 어조 (~어떠신가요, 푹 쉬셔야 합니다)'
     },
-    userRole: '환자',
-    initialMessage: '안녕하세요, 어디가 불편해서 오셨나요? 언제부터 증상이 시작되었는지 말씀해 주세요.',
-    initialTranslation: 'Hello, what brings you in today? Please tell me when your symptoms started.',
+    userRole: '리홍 (환자)',
+    initialMessage: '안녕하세요, 리홍 씨. 어디가 불편해서 오셨나요? 언제부터 증상이 시작되었는지 말씀해 주세요.',
+    initialTranslation: 'Hello, Li Hong. What brings you in today? Please tell me when your symptoms started.',
     missions: [
       {
         id: 'm-symptoms',
@@ -107,9 +107,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '☕',
       tone: '밝고 상냥하며 빠른 톤 (~주문 도와드릴게요, 영수증 필요하세요?)'
     },
-    userRole: '손님',
-    initialMessage: '안녕하세요! 톡톡 커피입니다. 오늘 어떤 음료로 주문 도와드릴까요?',
-    initialTranslation: 'Hello! Welcome to TokTok Coffee. What beverage can I get started for you today?',
+    userRole: '도안닝 (손님)',
+    initialMessage: '안녕하세요, 도안닝 씨! 톡톡 커피입니다. 오늘 어떤 음료로 주문 도와드릴까요?',
+    initialTranslation: 'Hello, Doan! Welcome to TokTok Coffee. What beverage can I get started for you today?',
     missions: [
       {
         id: 'm-order',
@@ -153,9 +153,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🏠',
       tone: '신뢰감 있고 친절하며 상세히 안내하는 어조 (~좋은 방 있습니다, 언제 입주하세요?)'
     },
-    userRole: '자취 준비생',
-    initialMessage: '안녕하세요! 좋은 방 많이 있습니다. 찾으시는 지역이나 희망하시는 보증금, 월세 조건이 어떻게 되시나요?',
-    initialTranslation: 'Hello! We have lots of great rooms. What area and budget (deposit/monthly rent) are you looking for?',
+    userRole: '이수연 (자취 준비생)',
+    initialMessage: '안녕하세요, 수연 씨! 좋은 방 많이 있습니다. 찾으시는 지역이나 희망하시는 보증금, 월세 조건이 어떻게 되시나요?',
+    initialTranslation: 'Hello, Suyeon! We have lots of great rooms. What area and budget are you looking for?',
     missions: [
       {
         id: 'm-budget',
@@ -199,9 +199,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🍓',
       tone: '우렁차고 인심 좋은 정감 넘치는 시장 억양 (~골라골라, 덤 팍팍 줄게!)'
     },
-    userRole: '손님',
-    initialMessage: '어서와요 손님! 오늘 아침에 갓 따온 산청 딸기랑 나주 배가 기가 막히게 달아~ 한번 맛보고 가!',
-    initialTranslation: 'Come on in! Freshly picked strawberries and pears arrived this morning and they are super sweet~ try a piece!',
+    userRole: '리홍 (손님)',
+    initialMessage: '어서와요 리홍 씨! 오늘 아침에 갓 따온 산청 딸기랑 나주 배가 기가 막히게 달아~ 한번 맛보고 가!',
+    initialTranslation: 'Come on in, Li Hong! Freshly picked strawberries and pears arrived this morning and they are super sweet~ try a piece!',
     missions: [
       {
         id: 'm-price',
@@ -245,9 +245,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '💼',
       tone: '격식 있고 배려심 있는 직장 상사 어조 (~사유가 어떻게 되나요, 업무 공유 부탁해요)'
     },
-    userRole: '팀원 (사원)',
-    initialMessage: '네, OO 씨. 지금 잠깐 이야기 나눌 수 있어요. 무슨 일 있으신가요?',
-    initialTranslation: 'Yes, I have a moment to talk. What is on your mind?',
+    userRole: '김민호 (팀원 / 사원)',
+    initialMessage: '네, 민호 씨. 지금 잠깐 이야기 나눌 수 있어요. 무슨 일 있으신가요?',
+    initialTranslation: 'Yes, Minho. I have a moment to talk. What is on your mind?',
     missions: [
       {
         id: 'm-request',
@@ -291,9 +291,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🚕',
       tone: '구수하고 친근한 어조 (~손님 어디로 모실까요, 안전하게 모시겠습니다)'
     },
-    userRole: '승객',
-    initialMessage: '어서 타세요 손님! 날씨가 참 덥죠? 어디로 모셔다 드릴까요?',
-    initialTranslation: "Hop in! Quite hot today, isn't it? Where can I take you today?",
+    userRole: '도안닝 (승객)',
+    initialMessage: '어서 타세요 도안닝 손님! 날씨가 참 덥죠? 어디로 모셔다 드릴까요?',
+    initialTranslation: "Hop in, Doan! Quite hot today, isn't it? Where can I take you today?",
     missions: [
       {
         id: 'm-dest',
@@ -337,9 +337,9 @@ export const ROLEPLAY_SCENARIOS: RoleplayScenario[] = [
       avatarEmoji: '🏛️',
       tone: '단정하고 정중하며 공손한 어조 (~신분증 보여주시겠어요, 서명 부탁드립니다)'
     },
-    userRole: '민원인',
-    initialMessage: '띵동~ 23번 손님, 이쪽 3번 창구로 오세요. 어떤 서류 발급 도와드릴까요?',
-    initialTranslation: 'Ding-dong~ Customer 23, please come to counter 3. What documents do you need today?',
+    userRole: '이수연 (민원인)',
+    initialMessage: '띵동~ 23번 손님, 이쪽 3번 창구로 오세요. 수연 님, 어떤 서류 발급 도와드릴까요?',
+    initialTranslation: 'Ding-dong~ Customer 23, please come to counter 3. Suyeon, what documents do you need today?',
     missions: [
       {
         id: 'm-doc',

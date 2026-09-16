@@ -72,8 +72,8 @@ export const RoleplayChatRoom: React.FC<RoleplayChatRoomProps> = ({
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const aiAvatar = getSpeakerAvatar(scenario.aiPersona.avatarId);
-  const userAvatar = getSpeakerAvatar(user.avatarId || 'minho');
+  const aiAvatar = getSpeakerAvatar(scenario.aiPersona.avatarId || scenario.aiPersona.name);
+  const userAvatar = getSpeakerAvatar(scenario.userRole || user.avatarId || 'minho');
 
   // Speech Recognition for STT input
   const {
@@ -294,7 +294,7 @@ export const RoleplayChatRoom: React.FC<RoleplayChatRoomProps> = ({
                 <div className={`max-w-[82%] sm:max-w-[75%] space-y-1.5 ${isAi ? 'items-start' : 'items-end'}`}>
                   {/* Sender Name */}
                   <div className={`text-[10px] font-bold text-slate-400 px-1 ${isAi ? 'text-left' : 'text-right'}`}>
-                    {isAi ? `${scenario.aiPersona.name} (${scenario.aiPersona.role})` : user.name || '나'}
+                    {isAi ? `${scenario.aiPersona.name} (${scenario.aiPersona.role})` : `${scenario.userRole} (${user.name || '나'})`}
                   </div>
 
                   {/* Speech Bubble */}
