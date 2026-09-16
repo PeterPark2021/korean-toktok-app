@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q43-1",
+    "type": "multiple_choice",
+    "question": "하나의 사실과 동시에 다른 측면의 현상이 병행됨을 나타내는 고급 연결어미는?",
+    "options": [
+      "-는 한편",
+      "-는 탓에",
+      "-는 셈 치고",
+      "-자마자"
+    ],
+    "answer": "-는 한편",
+    "explanation": "두 가지 측면의 동시 병행 진술은 '-는 한편'을 씁니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-2",
+    "type": "multiple_choice",
+    "question": "앞 대상에 뒤지지 않을 만큼 중요하고 대등함을 나타내는 비교 표현은?",
+    "options": [
+      "-에 못지않게",
+      "-에 미루어 볼 때",
+      "-을 비롯하여",
+      "-(으)ㅁ에 따라"
+    ],
+    "answer": "-에 못지않게",
+    "explanation": "동등한 중요성이나 가치를 강조할 때는 '-에 못지않게'를 씁니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-3",
+    "type": "multiple_choice",
+    "question": "말이나 소문이 매우 빠르고 멀리 퍼져 나감을 경계하는 속담은?",
+    "options": [
+      "발 없는 말이 천 리 간다",
+      "소 잃고 외양간 고친다",
+      "원숭이도 나무에서 떨어진다",
+      "등잔 밑이 어둡다"
+    ],
+    "answer": "발 없는 말이 천 리 간다",
+    "explanation": "말의 빠른 전파와 파급력을 경계하는 속담은 '발 없는 말이 천 리 간다'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-4",
+    "type": "multiple_choice",
+    "question": "아는 사람이 많아 사교 범위와 인맥이 매우 넓음을 뜻하는 신체 관용구는?",
+    "options": [
+      "발이 넓다",
+      "손이 크다",
+      "귀가 얇다",
+      "입이 무겁다"
+    ],
+    "answer": "발이 넓다",
+    "explanation": "인맥이 넓고 사교적인 상태를 '발이 넓다'라고 합니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-5",
+    "type": "multiple_choice",
+    "question": "말이나 글을 자유자재로 유창하게 다루는 능력을 가리키는 명사는?",
+    "options": [
+      "구사력",
+      "가창력",
+      "파급력",
+      "정서"
+    ],
+    "answer": "구사력",
+    "explanation": "언어나 기술을 능숙히 활용하는 능력을 '구사력(驅使力)'이라고 합니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-6",
+    "type": "fill_in_the_blank",
+    "question": "새로운 지식을 배우___ 한편 전통의 가치도 지켜야 합니다. (병행)",
+    "answer": "는",
+    "explanation": "'배우는 한편'의 관형사형 어미 '는'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-7",
+    "type": "fill_in_the_blank",
+    "question": "전문가에 못___않게 풍부한 지식을 갖추고 있어요. (지)",
+    "answer": "지",
+    "explanation": "'못지않게'의 '지'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-8",
+    "type": "fill_in_the_blank",
+    "question": "조상의 지혜가 고스___히 담겨 있습니다. (온전하게)",
+    "answer": "란",
+    "explanation": "'고스란히'의 '란'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-9",
+    "type": "fill_in_the_blank",
+    "question": "교훈적인 옛 격언을 ___담이라고 합니다. (속)",
+    "answer": "속",
+    "explanation": "'속담(俗談)'의 '속'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-10",
+    "type": "fill_in_the_blank",
+    "question": "소문이나 영향력이 널리 퍼져 나가는 힘을 ___급력이라고 합니다. (파)",
+    "answer": "파",
+    "explanation": "'파급력(波及力)'의 '파'입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [발 없는 말이 / 퍼졌어요 / 천 리 간다고 / 소문이 금방]",
+    "answer": "발 없는 말이 천 리 간다고 소문이 금방 퍼졌어요",
+    "explanation": "속담 인용구(발 없는 말이 천 리 간다고) + 주어(소문이) + 부사(금방) + 서술어(퍼졌어요) 순서입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [표현력을 풍부하게 하는 / 한편 / 정서를 반영합니다 / 문화적]",
+    "answer": "표현력을 풍부하게 하는 한편 문화적 정서를 반영합니다",
+    "explanation": "전행절(표현력을 풍부하게 하는 한편) + 후행절(문화적 정서를 반영합니다) 순서입니다.",
+    "source_unit": 43
+  },
+  {
+    "quiz_id": "q43-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [이해가 중요해요 / 어휘력에 못지않게 / 문화적]",
+    "answer": "어휘력에 못지않게 문화적 이해가 중요해요",
+    "explanation": "비교기준구(어휘력에 못지않게) + 주어(문화적 이해가) + 서술어(중요해요) 순서입니다.",
+    "source_unit": 43
+  }
+]

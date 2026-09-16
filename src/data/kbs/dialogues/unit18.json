@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 18,
+    "dialogue_id": "d18-1",
+    "speaker": "동현",
+    "korean_text": "선배님, 짐이 정말 많으시네요. 제가 좀 들어 드릴게요.",
+    "translation": "Senior, you have so much luggage. I will carry it for you.",
+    "audio_hint": "적극적으로 도움을 자청하는 친절한 톤"
+  },
+  {
+    "unit": 18,
+    "dialogue_id": "d18-2",
+    "speaker": "유라",
+    "korean_text": "고마워요, 동현 씨! 혼자 들기 무거웠는데 정말 든든하네요.",
+    "translation": "Thank you, Donghyun! It was too heavy to carry alone, so this is really reassuring.",
+    "audio_hint": "고마움을 진심으로 전하는 밝은 어조"
+  },
+  {
+    "unit": 18,
+    "dialogue_id": "d18-3",
+    "speaker": "동현",
+    "korean_text": "제가 차까지 옮겨 드릴 테니까 선배님은 먼저 가서 문을 열어 주세요.",
+    "translation": "I will move it to the car for you, so please go ahead and open the door.",
+    "audio_hint": "자신 있게 제안하며 역할을 나누는 톤"
+  },
+  {
+    "unit": 18,
+    "dialogue_id": "d18-4",
+    "speaker": "유라",
+    "korean_text": "네, 알겠어요. 참, 다음 주에 출장 다녀오는 동안 제 화분에 물 좀 줄 수 있어요?",
+    "translation": "Yes, got it. By the way, while I'm away on a business trip next week, could you water my plant?",
+    "audio_hint": "조심스럽고 정중하게 부탁하는 목소리"
+  },
+  {
+    "unit": 18,
+    "dialogue_id": "d18-5",
+    "speaker": "동현",
+    "korean_text": "그럼요! 걱정하지 마시고 편하게 다녀오세요. 제가 잘 돌볼게요.",
+    "translation": "Of course! Don't worry and have a comfortable trip. I'll take good care of it.",
+    "audio_hint": "흔쾌히 승낙하는 든든한 톤"
+  },
+  {
+    "unit": 18,
+    "dialogue_id": "d18-6",
+    "speaker": "유라",
+    "korean_text": "항상 도와줘서 정말 고마워요. 출장 다녀와서 맛있는 밥 살게요!",
+    "translation": "Thank you so much for always helping. I'll buy you a delicious meal after my trip!",
+    "audio_hint": "감사와 보답을 약속하는 훈훈한 마무리"
+  }
+]

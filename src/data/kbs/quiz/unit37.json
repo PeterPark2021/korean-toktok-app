@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q37-1",
+    "type": "multiple_choice",
+    "question": "직접 겪어보고 난 뒤 새로운 사실을 깨달았을 때 쓰는 연결어미는?",
+    "options": [
+      "-고 보니",
+      "-자마자",
+      "-는 바람에",
+      "-는 탓에"
+    ],
+    "answer": "-고 보니",
+    "explanation": "경험 후 새로운 사실의 인지나 반전은 '-고 보니'를 씁니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-2",
+    "type": "multiple_choice",
+    "question": "좋은 결과의 원인에 대해 감사함을 표현하는 어미는?",
+    "options": [
+      "-(으)ㄴ 덕분에",
+      "-(으)ㄴ 탓에",
+      "-는 바람에",
+      "-는 통에"
+    ],
+    "answer": "-(으)ㄴ 덕분에",
+    "explanation": "긍정적인 결과의 공로와 감사는 '-(으)ㄴ 덕분에'로 나타냅니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-3",
+    "type": "multiple_choice",
+    "question": "어떤 대상이나 사람을 처음 접했을 때 느끼는 첫인상은?",
+    "options": [
+      "첫인상",
+      "결말",
+      "동창회",
+      "레시피"
+    ],
+    "answer": "첫인상",
+    "explanation": "처음 만났을 때 받는 느낌을 '첫인상(第一印象)'이라고 합니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-4",
+    "type": "multiple_choice",
+    "question": "마음이 소심하여 매사에 걱정하고 조심스러운 성격을 뜻하는 단어는?",
+    "options": [
+      "소심하다",
+      "무뚝뚝하다",
+      "상쾌하다",
+      "흥미진진하다"
+    ],
+    "answer": "소심하다",
+    "explanation": "담력이 작고 겁이 많은 성격은 '소심하다(小心--)'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-5",
+    "type": "multiple_choice",
+    "question": "상대방의 긍정적인 힘으로 성격이 밝아졌음을 나타내는 올바른 문장은?",
+    "options": [
+      "네 덕분에 성격이 밝아졌어",
+      "네 탓에 성격이 밝아졌어",
+      "네 바람에 성격이 밝아졌어",
+      "네 대신에 성격이 밝아졌어"
+    ],
+    "answer": "네 덕분에 성격이 밝아졌어",
+    "explanation": "긍정적 원인과 감사에는 '명사 + 덕분에'를 사용합니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-6",
+    "type": "fill_in_the_blank",
+    "question": "이야기를 나누___ 보니 공통점이 정말 많았어요. (-고 보니)",
+    "answer": "고",
+    "explanation": "'나누고 보니'의 연결어미 '고'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-7",
+    "type": "fill_in_the_blank",
+    "question": "선생님께서 지도해 주___ 덕분에 시험에 합격했습니다. (은 덕분에)",
+    "answer": "신",
+    "explanation": "'지도해 주신 덕분에'의 '신'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-8",
+    "type": "fill_in_the_blank",
+    "question": "우리가 이렇게 가까워질 ___ 몰랐어요. (예상 밖)",
+    "answer": "줄",
+    "explanation": "'가까워질 줄 몰랐어요'의 의존명사 '줄'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-9",
+    "type": "fill_in_the_blank",
+    "question": "말이나 표정이 정다움 없이 딱딱한 태도를 무___뚝하다고 합니다. (뚝)",
+    "answer": "뚝",
+    "explanation": "'무뚝뚝하다'의 '뚝'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-10",
+    "type": "fill_in_the_blank",
+    "question": "남을 깊이 헤아리는 따뜻한 마음씨를 배려___이라고 합니다. (심)",
+    "answer": "심",
+    "explanation": "'배려심(配慮心)'의 '심'입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [친해지고 보니 / 친구더라고요 / 착한 / 아주]",
+    "answer": "친해지고 보니 아주 착한 친구더라고요",
+    "explanation": "경험절(친해지고 보니) + 부사(아주) + 명사구(착한 친구더라고요) 순서입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [밝아졌어 / 네 덕분에 / 성격도 / 내]",
+    "answer": "네 덕분에 내 성격도 밝아졌어",
+    "explanation": "감사원인(네 덕분에) + 주어(내 성격도) + 서술어(밝아졌어) 순서입니다.",
+    "source_unit": 37
+  },
+  {
+    "quiz_id": "q37-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [사람을 / 겉모습만 보고 / 안 돼요 / 판단하면]",
+    "answer": "겉모습만 보고 사람을 판단하면 안 돼요",
+    "explanation": "행동(겉모습만 보고) + 목적어(사람을) + 금지서술어(판단하면 안 돼요) 순서입니다.",
+    "source_unit": 37
+  }
+]

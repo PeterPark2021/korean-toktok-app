@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 42,
+    "dialogue_id": "d42-1",
+    "speaker": "정우",
+    "korean_text": "한국에서는 태권도를 비롯하여 축구, 야구 등 다양한 스포츠가 국민적 사랑을 받고 있습니다.",
+    "translation": "In Korea, starting with Taekwondo, various sports such as soccer and baseball receive immense national love.",
+    "audio_hint": "스포츠 문화를 소개하는 당당하고 활기찬 톤"
+  },
+  {
+    "unit": 42,
+    "dialogue_id": "d42-2",
+    "speaker": "루카스",
+    "korean_text": "특히 월드컵이나 올림픽 기간에 보여주는 '붉은 악마'의 열정적인 길거리 응원 문화는 전 세계를 놀라게 하기에 충분하지요.",
+    "translation": "In particular, the passionate street cheering culture of the 'Red Devils' shown during World Cup or Olympic periods is truly enough to astonish the whole world.",
+    "audio_hint": "감탄과 깊은 인상을 표하는 목소리"
+  },
+  {
+    "unit": 42,
+    "dialogue_id": "d42-3",
+    "speaker": "정우",
+    "korean_text": "스포츠 경기는 단순한 승패를 떠나 구성원들의 공동체 의식과 유대감을 강화하기 마련입니다.",
+    "translation": "Sports matches inherently tend to strengthen members' community consciousness and bonds, going beyond simple victory or defeat.",
+    "audio_hint": "스포츠의 사회적 가치를 통찰력 있게 진술하는 어조"
+  },
+  {
+    "unit": 42,
+    "dialogue_id": "d42-4",
+    "speaker": "루카스",
+    "korean_text": "국가대표 선수들이 흘린 땀방울과 페어플레이 정신은 국민들에게 깊은 감동을 선사할 뿐만 아니라 삶의 활력소가 됩니다.",
+    "translation": "The sweat and fair play spirit of national athletes not only present profound emotion to the people, but also become a vitalizer for life.",
+    "audio_hint": "선수들의 노력을 기리는 따뜻하고 진중한 톤"
+  },
+  {
+    "unit": 42,
+    "dialogue_id": "d42-5",
+    "speaker": "정우",
+    "korean_text": "스포츠를 통해 계층과 세대를 초월하여 하나로 뭉치는 힘이야말로 스포츠가 지닌 진정한 가치입니다.",
+    "translation": "The power to unite as one transcending class and generation through sports is indeed the true value sports possess.",
+    "audio_hint": "스포츠의 본질을 역설하는 힘찬 목소리"
+  },
+  {
+    "unit": 42,
+    "dialogue_id": "d42-6",
+    "speaker": "루카스",
+    "korean_text": "맞습니다. 건전한 스포츠맨십이 우리 사회 전반에 널리 정착되기를 기대합니다.",
+    "translation": "Agreed. I look forward to sound sportsmanship becoming widely established throughout our entire society.",
+    "audio_hint": "공감과 희망의 마무리 어조"
+  }
+]

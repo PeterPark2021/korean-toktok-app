@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q12-1",
+    "type": "multiple_choice",
+    "question": "'밥'의 알맞은 높임말은 무엇인가요?",
+    "options": [
+      "진지",
+      "댁",
+      "말씀",
+      "성함"
+    ],
+    "answer": "진지",
+    "explanation": "'밥'을 웃어른에게 높여 부를 때는 '진지'를 씁니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-2",
+    "type": "multiple_choice",
+    "question": "'자다'의 주체 높임 동사로 알맞은 것은?",
+    "options": [
+      "주무시다",
+      "계시다",
+      "잡수시다",
+      "편찮으시다"
+    ],
+    "answer": "주무시다",
+    "explanation": "'자다'의 높임 표현은 '주무시다'입니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-3",
+    "type": "multiple_choice",
+    "question": "다음 중 문법적으로 올바른 높임 표현 문장은?",
+    "options": [
+      "할머니께서 집에 계십니다.",
+      "할머니께서 댁에 있으십니다.",
+      "할머니께서 밥을 먹으십니다.",
+      "할머니가 자십니다."
+    ],
+    "answer": "할머니께서 집에 계십니다.",
+    "explanation": "주체 '할머니'를 높일 때 '께서'와 높임 동사 '계십니다'를 씁니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-4",
+    "type": "multiple_choice",
+    "question": "'아프다'를 어르신께 높여 표현한 것은?",
+    "options": [
+      "편찮으시다",
+      "잡수시다",
+      "주무시다",
+      "말씀하시다"
+    ],
+    "answer": "편찮으시다",
+    "explanation": "웃어른이 편치 못하거나 아프실 때는 '편찮으시다'를 씁니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-5",
+    "type": "multiple_choice",
+    "question": "이동 중에 일어난 일을 표현할 때 알맞은 것은?",
+    "options": [
+      "집에 가는 길에 친구를 만났어요.",
+      "집에 가는 바람에 친구를 만났어요.",
+      "집에 가는 탓에 친구를 만났어요.",
+      "집에 가기 위해 친구를 만났어요."
+    ],
+    "answer": "집에 가는 길에 친구를 만났어요.",
+    "explanation": "이동하는 도중을 나타내는 표현은 '-는 길에'입니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-6",
+    "type": "fill_in_the_blank",
+    "question": "선생님께서 교실에서 책을 ___십니다. (읽다 + -으시-)",
+    "answer": "읽으",
+    "explanation": "'읽다'는 받침이 있으므로 '-으시-'가 붙어 '읽으십니다'가 됩니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-7",
+    "type": "fill_in_the_blank",
+    "question": "부모님은 지금 고향 ___에 계십니다. (집의 높임말)",
+    "answer": "댁",
+    "explanation": "'집'의 높임 어휘는 '댁'입니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-8",
+    "type": "fill_in_the_blank",
+    "question": "할아버지, 어서 ___ 잡수세요. (밥의 높임말)",
+    "answer": "진지",
+    "explanation": "'밥'의 높임 표현은 '진지'입니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-9",
+    "type": "fill_in_the_blank",
+    "question": "퇴근하___ 길에 마트에 들렀어요. (-는)",
+    "answer": "는",
+    "explanation": "'퇴근하다'의 어간 뒤에 '-는 길에'가 결합합니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-10",
+    "type": "fill_in_the_blank",
+    "question": "어머니께서 지금 방에서 ___ 계십니다. (주무시다의 활용)",
+    "answer": "주무시고",
+    "explanation": "'주무시다'에 연결어미 '-고'가 붙어 '주무시고 계십니다'가 됩니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [방에서 / 아버지께서 / 주무십니다 / 지금]",
+    "answer": "아버지께서 지금 방에서 주무십니다",
+    "explanation": "주어(아버지께서) + 부사(지금) + 장소(방에서) + 서술어(주무십니다) 순서입니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [장 / 마트에서 / 보고 / 있어요]",
+    "answer": "마트에서 장 보고 있어요",
+    "explanation": "장소(마트에서) + 목적어(장) + 진행동사(보고 있어요) 순으로 배열합니다.",
+    "source_unit": 12
+  },
+  {
+    "quiz_id": "q12-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [진지를 / 할아버지께서 / 잡수십니다 / 맛있게]",
+    "answer": "할아버지께서 진지를 맛있게 잡수십니다",
+    "explanation": "주어(할아버지께서) + 목적어(진지를) + 부사(맛있게) + 서술어(잡수십니다) 순서입니다.",
+    "source_unit": 12
+  }
+]

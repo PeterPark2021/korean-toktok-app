@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q38-1",
+    "type": "multiple_choice",
+    "question": "선행 행동이 반복될수록 뒤의 상태가 비례하여 커짐을 나타내는 어미는?",
+    "options": [
+      "-(으)ㄹ수록",
+      "-(으)려고",
+      "-는 바람에",
+      "-자마자"
+    ],
+    "answer": "-(으)ㄹ수록",
+    "explanation": "비례 관계를 나타내는 문법은 '-(으)ㄹ수록 (더)'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-2",
+    "type": "multiple_choice",
+    "question": "선행 대상과 비슷한 정도나 한도를 나타내는 비교 조사는?",
+    "options": [
+      "-만큼",
+      "-보다",
+      "-처럼",
+      "-마저"
+    ],
+    "answer": "-만큼",
+    "explanation": "동등한 정도나 한도를 나타낼 때는 조사 '-만큼'을 씁니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-3",
+    "type": "multiple_choice",
+    "question": "방법이나 요령을 익혀 나감을 나타내는 표현은?",
+    "options": [
+      "-는 법을 배우다",
+      "-는 탓에 배우다",
+      "-는 바람에 배우다",
+      "-는 셈 치고 배우다"
+    ],
+    "answer": "-는 법을 배우다",
+    "explanation": "방식이나 방법 습득은 '-는 법을 배우다/알다'로 나타냅니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-4",
+    "type": "multiple_choice",
+    "question": "집안에서 식사 후 식기를 씻는 가사 노동은?",
+    "options": [
+      "설거지",
+      "출퇴근",
+      "집들이",
+      "분리수거"
+    ],
+    "answer": "설거지",
+    "explanation": "식기를 씻는 행위는 '설거지'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-5",
+    "type": "multiple_choice",
+    "question": "동사 '익숙하다'에 비례 표현이 올바르게 결합한 형태는?",
+    "options": [
+      "익숙할수록",
+      "익숙하는수록",
+      "익숙은수록",
+      "익숙자마자"
+    ],
+    "answer": "익숙할수록",
+    "explanation": "'익숙하다'에 받침이 없으므로 '-ㄹ수록'이 결합하여 '익숙할수록'이 됩니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-6",
+    "type": "fill_in_the_blank",
+    "question": "책은 읽으면 읽___록 지혜가 깊어져요. (비례 -(으)ㄹ수록)",
+    "answer": "을수",
+    "explanation": "'읽을수록'의 '을수'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-7",
+    "type": "fill_in_the_blank",
+    "question": "전문가___큼 완벽하게 해내지는 못했어요. (비교조사)",
+    "answer": "만",
+    "explanation": "'만큼'의 '만'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-8",
+    "type": "fill_in_the_blank",
+    "question": "김치찌개 맛있게 끓이___ 법을 배웠어요. (-는)",
+    "answer": "는",
+    "explanation": "'끓이는 법'의 관형사형 어미 '는'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-9",
+    "type": "fill_in_the_blank",
+    "question": "어떤 일에 오래 숙련되어 기술이 뛰어난 사람을 ___테랑이라고 합니다. (베)",
+    "answer": "베",
+    "explanation": "'베테랑(Veteran)'의 '베'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-10",
+    "type": "fill_in_the_blank",
+    "question": "차례를 정해 돌아가며 맡는 사람을 ___번이라고 합니다. (당)",
+    "answer": "당",
+    "explanation": "'당번(當番)'의 '당'입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [나누어서 하니까 / 편해요 / 집안일을 / 훨씬]",
+    "answer": "집안일을 나누어서 하니까 훨씬 편해요",
+    "explanation": "목적어(집안일을) + 방법 이유절(나누어서 하니까) + 부사(훨씬) + 서술어(편해요) 순서입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [집안일은 / 빨라져요 / 하면 할수록 / 손이]",
+    "answer": "집안일은 하면 할수록 손이 빨라져요",
+    "explanation": "주제어(집안일은) + 비례절(하면 할수록) + 주어(손이) + 서술어(빨라져요) 순서입니다.",
+    "source_unit": 38
+  },
+  {
+    "quiz_id": "q38-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [배우고 있어요 / 빨래 개는 법을 / 요령껏]",
+    "answer": "빨래 개는 법을 요령껏 배우고 있어요",
+    "explanation": "목적어(빨래 개는 법을) + 부사(요령껏) + 서술어(배우고 있어요) 순서입니다.",
+    "source_unit": 38
+  }
+]

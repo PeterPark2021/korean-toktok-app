@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 3,
+    "dialogue_id": "d3-1",
+    "speaker": "도안닝",
+    "korean_text": "수연 씨, 지금 뭐 해요?",
+    "translation": "Suyeon, what are you doing right now?",
+    "audio_hint": "자연스럽고 쾌활한 일상 질문 톤"
+  },
+  {
+    "unit": 3,
+    "dialogue_id": "d3-2",
+    "speaker": "이수연",
+    "korean_text": "커피를 마셔요. 도안닝 씨는 지금 뭐 해요?",
+    "translation": "I am drinking coffee. What are you doing right now, Doanning?",
+    "audio_hint": "편안하고 여유로운 대답 어조"
+  },
+  {
+    "unit": 3,
+    "dialogue_id": "d3-3",
+    "speaker": "도안닝",
+    "korean_text": "저는 집에서 쉬어요.",
+    "translation": "I am resting at home.",
+    "audio_hint": "차분하고 편안한 어조"
+  },
+  {
+    "unit": 3,
+    "dialogue_id": "d3-4",
+    "speaker": "김민호",
+    "korean_text": "리홍 씨, 어제 뭐 했어요?",
+    "translation": "Rihong, what did you do yesterday?",
+    "audio_hint": "과거 일과를 묻는 친근한 어조"
+  },
+  {
+    "unit": 3,
+    "dialogue_id": "d3-5",
+    "speaker": "리홍",
+    "korean_text": "도서관에서 한국어를 공부했어요. 그리고 극장에서 영화를 봤어요.",
+    "translation": "I studied Korean at the library. And I watched a movie at the theater.",
+    "audio_hint": "밝고 명확한 설명 톤"
+  },
+  {
+    "unit": 3,
+    "dialogue_id": "d3-6",
+    "speaker": "김민호",
+    "korean_text": "영화가 재미있었어요?",
+    "translation": "Was the movie interesting?",
+    "audio_hint": "흥미를 묻는 부드러운 상승 억양"
+  }
+]

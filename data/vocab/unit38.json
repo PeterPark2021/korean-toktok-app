@@ -1,0 +1,72 @@
+[
+  {
+    "word": "집안일",
+    "meaning": "가정에서 일어나는 청소, 세탁, 취사 등의 일 (Housework / chores)",
+    "part_of_speech": "명사",
+    "example_sentence": "주말에는 가족과 함께 집안일을 분담해요.",
+    "level": "중급"
+  },
+  {
+    "word": "분담",
+    "meaning": "일이나 책임을 나누어 맡음 (Division of labor / sharing)",
+    "part_of_speech": "명사",
+    "example_sentence": "역할 분담이 잘되어 프로젝트가 순조로웠습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "당번",
+    "meaning": "어떤 일을 차례로 돌아가며 맡음 (Person on duty)",
+    "part_of_speech": "명사",
+    "example_sentence": "오늘은 내가 교실 청소 당번이에요.",
+    "level": "중급"
+  },
+  {
+    "word": "설거지",
+    "meaning": "식사 후 그릇이나 식기를 씻어 닦는 일 (Dishwashing)",
+    "part_of_speech": "명사",
+    "example_sentence": "기름기 있는 프라이팬을 깨끗이 설거지했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "갈등",
+    "meaning": "생각이나 이해관계가 어긋나 충돌함 (Conflict)",
+    "part_of_speech": "명사",
+    "example_sentence": "솔직한 대화로 룸메이트와의 갈등을 풀었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "서툴다",
+    "meaning": "어떤 일에 익숙하지 못하고 어설프다 (To be clumsy / unskillful)",
+    "part_of_speech": "형용사",
+    "example_sentence": "처음에는 서툴렀지만 연습하니 능숙해졌어요.",
+    "level": "중급"
+  },
+  {
+    "word": "익숙하다",
+    "meaning": "자주 겪어 보아서 능숙하고 편하다 (To be familiar / proficient)",
+    "part_of_speech": "형용사",
+    "example_sentence": "컴퓨터 단축키 사용이 손에 익숙합니다.",
+    "level": "중급"
+  },
+  {
+    "word": "요령",
+    "meaning": "일을 쉽게 처리할 수 있는 방법이나 비결 (Knack / tip / trick)",
+    "part_of_speech": "명사",
+    "example_sentence": "청소도 요령이 생기면 훨씬 빠르게 끝나요.",
+    "level": "중급"
+  },
+  {
+    "word": "베테랑",
+    "meaning": "어떤 분야에 오랜 경험과 뛰어난 기술을 가진 사람 (Veteran / expert)",
+    "part_of_speech": "명사",
+    "example_sentence": "어머니는 30년 경력의 요리 베테랑이십니다.",
+    "level": "중급"
+  },
+  {
+    "word": "살림",
+    "meaning": "가정을 꾸려 나가는 일이나 세간 (Housekeeping / livelihood)",
+    "part_of_speech": "명사",
+    "example_sentence": "알뜰하게 살림을 꾸려 나갔습니다.",
+    "level": "중급"
+  }
+]

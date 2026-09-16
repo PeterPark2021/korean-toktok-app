@@ -1,0 +1,86 @@
+[
+  {
+    "word": "자전거",
+    "meaning": "사람의 힘으로 바퀴를 굴려 달리는 탈것 (Bicycle)",
+    "part_of_speech": "명사",
+    "example_sentence": "주말에 공원에서 자전거를 타요.",
+    "level": "초급"
+  },
+  {
+    "word": "타다",
+    "meaning": "교통수단이나 기구 등에 몸을 싣다 (To ride / take)",
+    "part_of_speech": "동사",
+    "example_sentence": "같이 자전거 탈래요?",
+    "level": "초급"
+  },
+  {
+    "word": "방학",
+    "meaning": "학교에서 학기나 학년 사이에 수업을 쉬는 기간 (School vacation)",
+    "part_of_speech": "명사",
+    "example_sentence": "방학 동안 한국 여행을 할 거예요.",
+    "level": "초급"
+  },
+  {
+    "word": "휴가",
+    "meaning": "직장 등에서 일정한 기간 동안 쉬는 일 (Vacation / Leave)",
+    "part_of_speech": "명사",
+    "example_sentence": "다음 주에 여름 휴가를 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "제주도",
+    "meaning": "대한민국 남서쪽에 있는 가장 큰 섬 (Jeju Island)",
+    "part_of_speech": "명사",
+    "example_sentence": "제주도 바다가 정말 아름다워요.",
+    "level": "초급"
+  },
+  {
+    "word": "여행",
+    "meaning": "일이나 유람을 목적으로 다른 고장이나 나라에 가는 일 (Travel / Trip)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구와 배낭여행을 떠나요.",
+    "level": "초급"
+  },
+  {
+    "word": "사진",
+    "meaning": "카메라로 사물의 형상을 찍은 상 (Photo / Picture)",
+    "part_of_speech": "명사",
+    "example_sentence": "경치가 좋아서 사진을 많이 찍었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "찍다",
+    "meaning": "카메라 등으로 상을 기록하다 (To take a photo)",
+    "part_of_speech": "동사",
+    "example_sentence": "우리 같이 사진 찍어요.",
+    "level": "초급"
+  },
+  {
+    "word": "같이",
+    "meaning": "둘 이상의 사람이 함께 (Together)",
+    "part_of_speech": "부사",
+    "example_sentence": "주말에 같이 밥 먹어요.",
+    "level": "초급"
+  },
+  {
+    "word": "계획",
+    "meaning": "앞으로 할 일의 절차나 방법 등을 미리 정함 (Plan)",
+    "part_of_speech": "명사",
+    "example_sentence": "이번 주말 계획이 뭐예요?",
+    "level": "초급"
+  },
+  {
+    "word": "수영하다",
+    "meaning": "물속에서 헤엄을 치다 (To swim)",
+    "part_of_speech": "동사",
+    "example_sentence": "바다에서 수영했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "등산하다",
+    "meaning": "산에 오르다 (To hike / climb a mountain)",
+    "part_of_speech": "동사",
+    "example_sentence": "가을에 북한산에 등산하러 가요.",
+    "level": "초급"
+  }
+]

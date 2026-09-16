@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 15,
+    "dialogue_id": "d15-1",
+    "speaker": "소라",
+    "korean_text": "진우 씨, 이번 주말이 친구 생일인데 무슨 선물이 좋을까요?",
+    "translation": "Jinwoo, this weekend is my friend's birthday. What gift would be good?",
+    "audio_hint": "고민하며 조언을 구하는 톤"
+  },
+  {
+    "unit": 15,
+    "dialogue_id": "d15-2",
+    "speaker": "진우",
+    "korean_text": "정성스럽게 편지를 쓰거나 케이크를 만들어 주는 건 어때요?",
+    "translation": "How about writing a heartfelt letter or making a cake for them?",
+    "audio_hint": "다정하고 따뜻하게 아이디어를 제안하는 어조"
+  },
+  {
+    "unit": 15,
+    "dialogue_id": "d15-3",
+    "speaker": "소라",
+    "korean_text": "와, 좋은 생각이에요! 진우 씨는 기념일에 주로 뭘 선물해요?",
+    "translation": "Wow, that's a great idea! What do you usually give as gifts on anniversaries, Jinwoo?",
+    "audio_hint": "감탄하며 되묻는 활기찬 톤"
+  },
+  {
+    "unit": 15,
+    "dialogue_id": "d15-4",
+    "speaker": "진우",
+    "korean_text": "저는 이번 100일 기념일에 여자친구한테 따뜻한 목도리를 선물하려고요.",
+    "translation": "For our upcoming 100th-day anniversary, I intend to give my girlfriend a warm scarf.",
+    "audio_hint": "수줍지만 기분 좋은 기대감을 담은 목소리"
+  },
+  {
+    "unit": 15,
+    "dialogue_id": "d15-5",
+    "speaker": "소라",
+    "korean_text": "겨울이라 정말 실용적이고 좋은 선물이 될 것 같아요.",
+    "translation": "Since it's winter, it will likely be a very practical and nice gift.",
+    "audio_hint": "칭찬과 맞장구치는 어조"
+  },
+  {
+    "unit": 15,
+    "dialogue_id": "d15-6",
+    "speaker": "진우",
+    "korean_text": "고마워요. 소라 씨도 친구 생일 파티 잘 준비하세요!",
+    "translation": "Thanks. Sora, you prepare well for your friend's party too!",
+    "audio_hint": "격려하는 밝은 마무리 톤"
+  }
+]

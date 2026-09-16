@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 14,
+    "dialogue_id": "d14-1",
+    "speaker": "메이",
+    "korean_text": "준호 씨, 한국에서 제주도에 가 본 적이 있어요?",
+    "translation": "Junho, have you ever been to Jeju Island in Korea?",
+    "audio_hint": "경험을 묻는 정중하고 호기심 어린 톤"
+  },
+  {
+    "unit": 14,
+    "dialogue_id": "d14-2",
+    "speaker": "준호",
+    "korean_text": "네, 작년 여름 휴가 때 친구들과 다녀온 적이 있어요.",
+    "translation": "Yes, I have been there with friends during summer vacation last year.",
+    "audio_hint": "과거 기억을 떠올리며 밝게 대답하는 어조"
+  },
+  {
+    "unit": 14,
+    "dialogue_id": "d14-3",
+    "speaker": "메이",
+    "korean_text": "제주도 바다가 그렇게 아름답다면서요? 저도 꼭 가 보고 싶어요.",
+    "translation": "I heard Jeju's ocean is so beautiful. I really want to go too.",
+    "audio_hint": "기대감과 설렘이 담긴 목소리"
+  },
+  {
+    "unit": 14,
+    "dialogue_id": "d14-4",
+    "speaker": "준호",
+    "korean_text": "서울 근처라면 남산타워나 한강공원도 가 볼 만해요.",
+    "translation": "If it's near Seoul, Namsan Tower or Han River Park are also worth visiting.",
+    "audio_hint": "친절하게 명소를 추천하는 톤"
+  },
+  {
+    "unit": 14,
+    "dialogue_id": "d14-5",
+    "speaker": "메이",
+    "korean_text": "남산타워에서는 서울 야경을 볼 수 있나요?",
+    "translation": "Can you see the Seoul night view from Namsan Tower?",
+    "audio_hint": "기대하며 묻는 의문문 어조"
+  },
+  {
+    "unit": 14,
+    "dialogue_id": "d14-6",
+    "speaker": "준호",
+    "korean_text": "네, 밤에 가면 야경이 정말 멋지니까 꼭 가 보세요.",
+    "translation": "Yes, if you go at night, the night view is truly magnificent, so be sure to go.",
+    "audio_hint": "자신 있게 권유하는 마무리 톤"
+  }
+]

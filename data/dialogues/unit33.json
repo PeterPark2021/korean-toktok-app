@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 33,
+    "dialogue_id": "d33-1",
+    "speaker": "도현",
+    "korean_text": "수아 씨, 이번 주말에 대학로에 연극을 보러 가기로 했어요.",
+    "translation": "Sua, we decided to go to Daehangno this weekend to watch a play.",
+    "audio_hint": "약속 일정을 즐겁게 밝히는 활기찬 어조"
+  },
+  {
+    "unit": 33,
+    "dialogue_id": "d33-2",
+    "speaker": "수아",
+    "korean_text": "우와, 좋겠네요! 어떤 작품을 예매하셨어요?",
+    "translation": "Wow, sounds great! What production did you book tickets for?",
+    "audio_hint": "호기심 어린 반가운 목소리"
+  },
+  {
+    "unit": 33,
+    "dialogue_id": "d33-3",
+    "speaker": "도현",
+    "korean_text": "요즘 가장 인기 있는 창작 뮤지컬인데, 배우들의 연기가 얼마나 감동적이든지 눈물이 났다고 하더라고요.",
+    "translation": "It's the most popular creative musical these days; they say the actors' performance is so touching that people shed tears.",
+    "audio_hint": "작품의 감동을 강조하며 소개하는 톤"
+  },
+  {
+    "unit": 33,
+    "dialogue_id": "d33-4",
+    "speaker": "수아",
+    "korean_text": "저도 지난달에 그 극단이 공연했던 다른 작품을 봤는데 무대 연출이 대단했어요.",
+    "translation": "I also saw another piece performed by that theater troupe last month, and the stage direction was phenomenal.",
+    "audio_hint": "자신의 관람 경험을 맞장구치는 톤"
+  },
+  {
+    "unit": 33,
+    "dialogue_id": "d33-5",
+    "speaker": "도현",
+    "korean_text": "좌석이 무대와 가까워서 배우들의 숨소리까지 생생하게 느껴질 것 같아요.",
+    "translation": "Because the seats are close to the stage, I feel like we'll vividly hear even the actors' breaths.",
+    "audio_hint": "설레는 기대감을 표현하는 어조"
+  },
+  {
+    "unit": 33,
+    "dialogue_id": "d33-6",
+    "speaker": "수아",
+    "korean_text": "멋진 주말 공연 관람이 되겠네요. 다녀와서 후기 꼭 들려주세요!",
+    "translation": "It's going to be a wonderful weekend performance. Be sure to tell me your review after you go!",
+    "audio_hint": "따뜻한 마무리 축하 톤"
+  }
+]

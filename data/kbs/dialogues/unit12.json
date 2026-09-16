@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 12,
+    "dialogue_id": "d12-1",
+    "speaker": "수진",
+    "korean_text": "민우 씨, 지금 댁에 계세요?",
+    "translation": "Minwoo, are you at home right now?",
+    "audio_hint": "정중하고 공손한 높임 어조"
+  },
+  {
+    "unit": 12,
+    "dialogue_id": "d12-2",
+    "speaker": "민우",
+    "korean_text": "아니요, 마트에서 장 보고 있는데 뭐 사 갈까요?",
+    "translation": "No, I am grocery shopping at the mart. Shall I buy anything and bring it?",
+    "audio_hint": "친절하고 다정한 목소리"
+  },
+  {
+    "unit": 12,
+    "dialogue_id": "d12-3",
+    "speaker": "수진",
+    "korean_text": "할머니께서 드실 과일하고 우유 좀 사다 주세요.",
+    "translation": "Please buy some fruit and milk for grandmother to eat.",
+    "audio_hint": "공손하고 부탁하는 톤"
+  },
+  {
+    "unit": 12,
+    "dialogue_id": "d12-4",
+    "speaker": "민우",
+    "korean_text": "네, 알겠어요. 아버지께서는 지금 진지 잡수셨어요?",
+    "translation": "Yes, I will. Has father had his meal yet?",
+    "audio_hint": "가족에 대한 존칭을 담은 질문 톤"
+  },
+  {
+    "unit": 12,
+    "dialogue_id": "d12-5",
+    "speaker": "수진",
+    "korean_text": "네, 아버지께서는 진지 드시고 지금 방에서 주무세요.",
+    "translation": "Yes, father had dinner and is sleeping in his room now.",
+    "audio_hint": "차분하고 정중한 대답 톤"
+  },
+  {
+    "unit": 12,
+    "dialogue_id": "d12-6",
+    "speaker": "민우",
+    "korean_text": "그렇군요. 제가 얼른 장 봐서 집으로 갈게요.",
+    "translation": "I see. I will finish shopping quickly and come home.",
+    "audio_hint": "신속하고 활기찬 마무리 톤"
+  }
+]

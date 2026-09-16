@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 11,
+    "dialogue_id": "d11-1",
+    "speaker": "지훈",
+    "korean_text": "민수 씨, 오랜만이에요! 그동안 잘 지냈어요?",
+    "translation": "Minsu, long time no see! How have you been doing?",
+    "audio_hint": "반가운 표정과 밝고 활기찬 어조"
+  },
+  {
+    "unit": 11,
+    "dialogue_id": "d11-2",
+    "speaker": "민수",
+    "korean_text": "네, 지훈 씨. 잘 지내는데 요즘 회사 일 때문에 좀 바빠요.",
+    "translation": "Yes, Jihun. I'm doing well, but I'm a bit busy these days because of company work.",
+    "audio_hint": "차분하고 담담하게 근황을 설명하는 톤"
+  },
+  {
+    "unit": 11,
+    "dialogue_id": "d11-3",
+    "speaker": "지훈",
+    "korean_text": "그렇군요. 그런데 오늘 약속에 왜 늦었어요?",
+    "translation": "I see. By the way, why were you late for our appointment today?",
+    "audio_hint": "가볍게 궁금해하는 억양"
+  },
+  {
+    "unit": 11,
+    "dialogue_id": "d11-4",
+    "speaker": "민수",
+    "korean_text": "집에서 나오다가 비가 와서 우산을 가지러 다시 들어갔어요.",
+    "translation": "As I was leaving home, it rained, so I went back in to get an umbrella.",
+    "audio_hint": "약간 미안한 표정으로 설명하는 어조"
+  },
+  {
+    "unit": 11,
+    "dialogue_id": "d11-5",
+    "speaker": "민수",
+    "korean_text": "게다가 출근 시간에 버스를 놓치는 바람에 좀 늦었어요. 정말 미안해요.",
+    "translation": "Besides, I missed the bus during rush hour, so I ended up being late. I'm really sorry.",
+    "audio_hint": "진심으로 사과하는 정중한 톤"
+  },
+  {
+    "unit": 11,
+    "dialogue_id": "d11-6",
+    "speaker": "지훈",
+    "korean_text": "괜찮아요. 많이 기다리지 않았어요. 얼른 들어가서 차 마셔요.",
+    "translation": "It's okay. I haven't waited long. Let's go in quickly and have some tea.",
+    "audio_hint": "상대방을 안심시키는 따뜻한 목소리"
+  }
+]

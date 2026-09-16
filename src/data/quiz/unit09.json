@@ -1,0 +1,111 @@
+[
+  {
+    "quiz_id": "q9-1",
+    "type": "multiple_choice",
+    "question": "함께 자전거를 타자고 다정하게 제안할 때 알맞은 형태는?\n'이번 주말에 같이 자전거 ___?'",
+    "options": ["탈래요", "타을래요", "타러 가요", "탔어요"],
+    "answer": "탈래요",
+    "explanation": "'타다'는 받침이 없으므로 제안 어미 '-ㄹ래요?'가 결합하여 '탈래요?'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-2",
+    "type": "multiple_choice",
+    "question": "미래 계획을 나타내는 표현으로 알맞은 것은?\n'방학 동안 제주도로 여행을 ___.'",
+    "options": ["갈 거예요", "가을 거예요", "갔어요", "가요"],
+    "answer": "갈 거예요",
+    "explanation": "'가다'는 받침이 없으므로 미래 계획 어미 '-ㄹ 거예요'가 결합하여 '갈 거예요'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-3",
+    "type": "multiple_choice",
+    "question": "목적을 나타내는 연결어미로 알맞은 것은?\n'도서관에 책을 ___ 갔어요.'",
+    "options": ["읽으러", "읽러", "읽을래요", "읽어서"],
+    "answer": "읽으러",
+    "explanation": "'읽다'는 받침이 있으므로 목적 이동 어미 '-으러'가 결합하여 '읽으러'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-4",
+    "type": "multiple_choice",
+    "question": "'사진을 찍다'의 미래 계획형으로 올바른 것은?",
+    "options": ["찍을 거예요", "찍ㄹ 거예요", "찍을래요", "찍었어요"],
+    "answer": "찍을 거예요",
+    "explanation": "'찍다'는 받침이 있으므로 '-을 거예요'가 결합하여 '찍을 거예요'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-5",
+    "type": "multiple_choice",
+    "question": "동반자를 나타내는 표현으로 알맞은 것은?\n'친구들___ 같이 제주도에 가요.'",
+    "options": ["하고", "에서", "으로", "에"],
+    "answer": "하고",
+    "explanation": "사람 명사 뒤에 '함께'의 의미를 나타낼 때 조사 '-하고(또는 -이랑)'와 부사 '같이'를 씁니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-6",
+    "type": "fill_in_the_blank",
+    "question": "동사 '보다'의 제안형(-(으)ㄹ래요)을 쓰세요.\n'주말에 극장에서 영화 (_______)?'",
+    "answer": "볼래요",
+    "explanation": "'보다'는 받침이 없으므로 '-ㄹ래요?'가 결합하여 '볼래요?'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-7",
+    "type": "fill_in_the_blank",
+    "question": "동사 '하다'의 미래 계획형(-(으)ㄹ 거예요)을 쓰세요.\n'방학 때 뭐 (_______)?'",
+    "answer": "할 거예요",
+    "explanation": "'하다'에 '-ㄹ 거예요'가 결합하여 '할 거예요'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-8",
+    "type": "fill_in_the_blank",
+    "question": "동사 '먹다'의 목적 이동형(-(으)러)을 쓰세요.\n'식당에 점심 (_______) 가요.'",
+    "answer": "먹으러",
+    "explanation": "'먹다'는 받침이 있으므로 '-으러'가 결합하여 '먹으러'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-9",
+    "type": "fill_in_the_blank",
+    "question": "'함께'를 뜻하는 두 글자 부사(같이)를 쓰세요.\n'우리 (____) 자전거 타요.'",
+    "answer": "같이",
+    "explanation": "둘 이상이 함께 행동함을 뜻하는 부사는 '같이'입니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-10",
+    "type": "fill_in_the_blank",
+    "question": "동사 '쉬다'의 미래형(-(으)ㄹ 거예요)을 쓰세요.\n'주말에는 집에서 푹 (_______).' ",
+    "answer": "쉴 거예요",
+    "explanation": "'쉬다'는 받침이 없으므로 '-ㄹ 거예요'가 결합하여 '쉴 거예요'가 됩니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 약속 제안 문장을 만드세요.",
+    "answer": "이번 주말에 같이 자전거 탈래요",
+    "explanation": "시간 '이번 주말에' + 부사 '같이' + 목적어/서술어 '자전거 탈래요' 순서입니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 방학 계획 질문을 완성하세요.",
+    "answer": "방학 동안 뭐 할 거예요",
+    "explanation": "기간 '방학 동안' + 의문사 '뭐' + 미래 서술어 '할 거예요' 순서입니다.",
+    "source_unit": 9
+  },
+  {
+    "quiz_id": "q9-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.",
+    "answer": "친구들과 제주도로 여행을 갈 거예요",
+    "explanation": "동반자 '친구들과' + 목적지 '제주도로' + 목적 '여행을' + 서술어 '갈 거예요' 순서입니다.",
+    "source_unit": 9
+  }
+]

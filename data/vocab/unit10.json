@@ -1,0 +1,93 @@
+[
+  {
+    "word": "날씨",
+    "meaning": "그날그날의 비, 바람, 구름, 기온 등의 대기 상태 (Weather)",
+    "part_of_speech": "명사",
+    "example_sentence": "오늘 날씨가 정말 화창해요.",
+    "level": "초급"
+  },
+  {
+    "word": "계절",
+    "meaning": "한 해를 기후의 변화에 따라 나눈 네 때 (Season)",
+    "part_of_speech": "명사",
+    "example_sentence": "한국에는 사계절이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "봄",
+    "meaning": "겨울과 여름 사이의 따뜻한 계절 (Spring)",
+    "part_of_speech": "명사",
+    "example_sentence": "봄에는 예쁜 벚꽃이 펴요.",
+    "level": "초급"
+  },
+  {
+    "word": "여름",
+    "meaning": "봄과 가을 사이의 무더운 계절 (Summer)",
+    "part_of_speech": "명사",
+    "example_sentence": "여름에는 바다로 피서를 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "가을",
+    "meaning": "여름과 겨울 사이의 서늘한 계절 (Autumn / Fall)",
+    "part_of_speech": "명사",
+    "example_sentence": "가을에는 단풍이 아름다워요.",
+    "level": "초급"
+  },
+  {
+    "word": "겨울",
+    "meaning": "가을과 봄 사이의 추운 계절 (Winter)",
+    "part_of_speech": "명사",
+    "example_sentence": "겨울에는 하얀 눈이 내려요.",
+    "level": "초급"
+  },
+  {
+    "word": "맑다",
+    "meaning": "구름이나 안개가 없어 하늘이 깨끗하다 (To be clear / sunny)",
+    "part_of_speech": "형용사",
+    "example_sentence": "오늘 하늘이 아주 맑아요.",
+    "level": "초급"
+  },
+  {
+    "word": "흐리다",
+    "meaning": "구름이나 안개가 끼어 맑지 못하다 (To be cloudy)",
+    "part_of_speech": "형용사",
+    "example_sentence": "날씨가 흐리고 바람이 불어요.",
+    "level": "초급"
+  },
+  {
+    "word": "따뜻하다",
+    "meaning": "덥지도 춥지도 않고 알맞게 온도가 높다 (To be warm)",
+    "part_of_speech": "형용사",
+    "example_sentence": "봄 날씨는 따뜻해서 좋아요.",
+    "level": "초급"
+  },
+  {
+    "word": "덥다",
+    "meaning": "기온이 높아 땀이 나고 뜨겁다 (To be hot)",
+    "part_of_speech": "형용사",
+    "example_sentence": "여름은 덥지만 휴가가 있어서 좋아요.",
+    "level": "초급"
+  },
+  {
+    "word": "시원하다",
+    "meaning": "덥지 않고 알맞게 차가워 기분이 좋다 (To be cool / refreshing)",
+    "part_of_speech": "형용사",
+    "example_sentence": "가을바람이 참 시원해요.",
+    "level": "초급"
+  },
+  {
+    "word": "춥다",
+    "meaning": "기온이 낮아 몸이 떨릴 정도로 차갑다 (To be cold)",
+    "part_of_speech": "형용사",
+    "example_sentence": "겨울에는 날씨가 춥고 눈이 와요.",
+    "level": "초급"
+  },
+  {
+    "word": "가장",
+    "meaning": "여럿 가운데서 첫째로 (The most / Best)",
+    "part_of_speech": "부사",
+    "example_sentence": "저는 가을을 가장 좋아해요.",
+    "level": "초급"
+  }
+]

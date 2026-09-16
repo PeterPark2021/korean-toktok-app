@@ -1,0 +1,72 @@
+[
+  {
+    "word": "짐",
+    "meaning": "옮기기 위해 싼 물건 (Luggage / baggage)",
+    "part_of_speech": "명사",
+    "example_sentence": "무거운 짐을 차에 실었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "부탁",
+    "meaning": "어떤 일을 해 달라고 청함 (Favor / request)",
+    "part_of_speech": "명사",
+    "example_sentence": "어려운 부탁을 흔쾌히 들어주셨어요.",
+    "level": "초급"
+  },
+  {
+    "word": "출장",
+    "meaning": "업무를 위해 다른 곳으로 감 (Business trip)",
+    "part_of_speech": "명사",
+    "example_sentence": "부산으로 2박 3일 출장을 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "화분",
+    "meaning": "식물을 심어 가꾸는 그릇 (Flowerpot / potted plant)",
+    "part_of_speech": "명사",
+    "example_sentence": "베란다에 예쁜 화분을 놓았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "돌보다",
+    "meaning": "보살피거나 가꾸다 (To take care of / look after)",
+    "part_of_speech": "동사",
+    "example_sentence": "이웃집 강아지를 하루 동안 돌보았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "든든하다",
+    "meaning": "믿음직하여 마음이 놓이다 (To be reassuring / reliable)",
+    "part_of_speech": "형용사",
+    "example_sentence": "친구들이 곁에 있어서 정말 든든해요.",
+    "level": "초급"
+  },
+  {
+    "word": "옮기다",
+    "meaning": "위치를 다른 곳으로 바꾸다 (To move / transfer)",
+    "part_of_speech": "동사",
+    "example_sentence": "책상을 거실로 옮겼습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "도움",
+    "meaning": "남에게 보탬이 되는 일 (Help / assistance)",
+    "part_of_speech": "명사",
+    "example_sentence": "많은 분의 도움으로 행사를 마쳤어요.",
+    "level": "초급"
+  },
+  {
+    "word": "승낙하다",
+    "meaning": "청이나 요구를 흔쾌히 받아들이다 (To accept / agree)",
+    "part_of_speech": "동사",
+    "example_sentence": "부탁을 기꺼이 승낙했습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "무겁다",
+    "meaning": "무게가 많이 나가다 (To be heavy)",
+    "part_of_speech": "형용사",
+    "example_sentence": "가방이 너무 무거워서 어깨가 아파요.",
+    "level": "초급"
+  }
+]

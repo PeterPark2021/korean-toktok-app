@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 44,
+    "dialogue_id": "d44-1",
+    "speaker": "박 박사",
+    "korean_text": "인공지능과 유전자 가위 기술의 눈부신 발전은 인류에게 무한한 편익을 제공할 뿐더러 불치병 치료의 새로운 지평을 열고 있습니다.",
+    "translation": "The dazzling development of artificial intelligence and CRISPR gene-editing technology not only provides infinite benefits to humanity, but also opens a new horizon for curing incurable diseases.",
+    "audio_hint": "과학 기술의 비전을 선포하는 웅장하고 확신에 찬 어조"
+  },
+  {
+    "unit": 44,
+    "dialogue_id": "d44-2",
+    "speaker": "최 교수",
+    "korean_text": "동의합니다. 하지만 윤리적 고찰이 결여된 기술 개발은 인류의 존엄성을 훼손하는 도구에 지나지 않습니다.",
+    "translation": "I agree. However, technology development lacking ethical consideration is nothing more than a tool that undermines human dignity.",
+    "audio_hint": "윤리적 경각심을 일깨우는 단호하고 무게감 있는 톤"
+  },
+  {
+    "unit": 44,
+    "dialogue_id": "d44-3",
+    "speaker": "박 박사",
+    "korean_text": "맞습니다. 인간 배아 유전자 조작이나 AI 알고리즘 편향성 문제는 과학계 내부에서도 끊임없이 논쟁이 이어지고 있는 사안입니다.",
+    "translation": "That is true. Issues like human embryo gene manipulation or AI algorithm bias are subjects of ongoing controversy within the scientific community.",
+    "audio_hint": "쟁점을 객관적으로 인정하며 짚어 주는 어조"
+  },
+  {
+    "unit": 44,
+    "dialogue_id": "d44-4",
+    "speaker": "최 교수",
+    "korean_text": "따라서 과학적 호기심과 상업적 이익을 앞세우기 전에 생명 윤리 가이드라인을 엄격히 수립하여 실천해 마지않아야 합니다.",
+    "translation": "Therefore, before prioritizing scientific curiosity and commercial profits, we must not cease to strictly establish and practice bioethics guidelines.",
+    "audio_hint": "도덕적 책무를 강조하는 강한 당위 톤"
+  },
+  {
+    "unit": 44,
+    "dialogue_id": "d44-5",
+    "speaker": "박 박사",
+    "korean_text": "기술의 혁신성과 인간성 보존 사이에서 현명한 균형점을 도출하는 것이 우리 시대 과학자들의 소명입니다.",
+    "translation": "Deriving a wise balance between technological innovativeness and the preservation of humanity is the calling of scientists in our era.",
+    "audio_hint": "철학적 성찰을 담은 진지한 목소리"
+  },
+  {
+    "unit": 44,
+    "dialogue_id": "d44-6",
+    "speaker": "최 교수",
+    "korean_text": "인류의 지속 가능한 미래를 위해 과학과 인문학의 융합적 소통이 더욱 활발해지기를 희망합니다.",
+    "translation": "I hope that interdisciplinary communication between science and humanities will become more active for a sustainable future for humanity.",
+    "audio_hint": "비전과 공존을 강조하는 품격 있는 마무리"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "word": "회사원",
+    "meaning": "회사에 근무하는 사람 (Office worker)",
+    "part_of_speech": "명사",
+    "example_sentence": "김민호 씨는 회사원이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "의사",
+    "meaning": "병을 진찰하고 치료하는 사람 (Doctor)",
+    "part_of_speech": "명사",
+    "example_sentence": "저는 병원에서 일하는 의사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "학생",
+    "meaning": "학교에서 공부하는 사람 (Student)",
+    "part_of_speech": "명사",
+    "example_sentence": "동생은 대학교 학생이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "가수",
+    "meaning": "노래를 전문적으로 부르는 사람 (Singer)",
+    "part_of_speech": "명사",
+    "example_sentence": "좋아하는 한국 가수가 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "선생님",
+    "meaning": "학생을 가르치는 분 (Teacher)",
+    "part_of_speech": "명사",
+    "example_sentence": "한국어 선생님을 만났어요.",
+    "level": "초급"
+  },
+  {
+    "word": "가족",
+    "meaning": "부부, 부모, 자녀 등 혈연이나 입양으로 맺어진 집단 (Family)",
+    "part_of_speech": "명사",
+    "example_sentence": "우리 가족은 모두 네 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "부모님",
+    "meaning": "아버지와 어머니를 함께 이르는 말 (Parents)",
+    "part_of_speech": "명사",
+    "example_sentence": "부모님은 서울에 사세요.",
+    "level": "초급"
+  },
+  {
+    "word": "아버지",
+    "meaning": "자신을 낳아 준 남성 부모 (Father)",
+    "part_of_speech": "명사",
+    "example_sentence": "아버지는 회사에 가십니다.",
+    "level": "초급"
+  },
+  {
+    "word": "어머니",
+    "meaning": "자신을 낳아 준 여성 부모 (Mother)",
+    "part_of_speech": "명사",
+    "example_sentence": "어머니는 요리를 잘하세요.",
+    "level": "초급"
+  },
+  {
+    "word": "동생",
+    "meaning": "자기보다 나이가 적은 형제자매 (Younger sibling)",
+    "part_of_speech": "명사",
+    "example_sentence": "남동생과 여동생이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "하나",
+    "meaning": "수효의 맨 처음 수 1 (One)",
+    "part_of_speech": "수사",
+    "example_sentence": "사과 하나를 주세요.",
+    "level": "초급"
+  },
+  {
+    "word": "둘",
+    "meaning": "하나에 하나를 더한 수 2 (Two)",
+    "part_of_speech": "수사",
+    "example_sentence": "친구가 둘 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "셋",
+    "meaning": "둘에 하나를 더한 수 3 (Three)",
+    "part_of_speech": "수사",
+    "example_sentence": "가족이 세 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "넷",
+    "meaning": "셋에 하나를 더한 수 4 (Four)",
+    "part_of_speech": "수사",
+    "example_sentence": "식구가 네 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "명",
+    "meaning": "사람의 수를 세는 단위 (Counter for people)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "학생 다섯 명이 공부해요.",
+    "level": "초급"
+  }
+]

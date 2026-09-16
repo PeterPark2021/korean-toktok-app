@@ -1,0 +1,100 @@
+[
+  {
+    "word": "얼마",
+    "meaning": "값이나 수량이 어느 정도인지 묻는 말 (How much)",
+    "part_of_speech": "명사",
+    "example_sentence": "이 옷은 얼마예요?",
+    "level": "초급"
+  },
+  {
+    "word": "원",
+    "meaning": "대한민국의 화폐 단위 (Won - Korean currency)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "사과 한 개에 1,500원이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "사과",
+    "meaning": "사과나무의 붉고 둥근 과일 (Apple)",
+    "part_of_speech": "명사",
+    "example_sentence": "아침에 맛있는 사과를 먹었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "주스",
+    "meaning": "과일이나 채소를 짜서 만든 음료 (Juice)",
+    "part_of_speech": "명사",
+    "example_sentence": "오렌지 주스 한 병을 샀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "티셔츠",
+    "meaning": "T자 모양의 반소매 셔츠 (T-shirt)",
+    "part_of_speech": "명사",
+    "example_sentence": "흰색 티셔츠를 입었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "바지",
+    "meaning": "하체에 입는 두 가랑이로 된 옷 (Pants / Trousers)",
+    "part_of_speech": "명사",
+    "example_sentence": "편한 바지를 사고 싶어요.",
+    "level": "초급"
+  },
+  {
+    "word": "치마",
+    "meaning": "허리에서 아래로 늘어뜨려 입는 여성용 옷 (Skirt)",
+    "part_of_speech": "명사",
+    "example_sentence": "예쁜 치마를 입었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "모자",
+    "meaning": "머리에 쓰는 물건 (Hat / Cap)",
+    "part_of_speech": "명사",
+    "example_sentence": "햇빛이 강해서 모자를 썼어요.",
+    "level": "초급"
+  },
+  {
+    "word": "신발",
+    "meaning": "발에 신는 물건을 통틀어 이르는 말 (Shoes)",
+    "part_of_speech": "명사",
+    "example_sentence": "새 신발 한 켤레를 샀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "개",
+    "meaning": "사물을 하나하나 셀 때 쓰는 단위 (Counter for general items)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "사과 세 개를 주세요.",
+    "level": "초급"
+  },
+  {
+    "word": "병",
+    "meaning": "병에 담긴 음료를 세는 단위 (Counter for bottles)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "물 두 병을 샀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "벌",
+    "meaning": "옷을 세는 단위 (Counter for clothes)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "코트 한 벌을 샀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "비싸다",
+    "meaning": "물건의 값이 많이 나가다 (To be expensive)",
+    "part_of_speech": "형용사",
+    "example_sentence": "이 옷은 너무 비싸요.",
+    "level": "초급"
+  },
+  {
+    "word": "싸다",
+    "meaning": "물건의 값이 적게 나가다 (To be cheap)",
+    "part_of_speech": "형용사",
+    "example_sentence": "시장에서 물건을 싸게 샀어요.",
+    "level": "초급"
+  }
+]

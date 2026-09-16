@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q24-1",
+    "type": "multiple_choice",
+    "question": "과거 자신의 행동 후 새로운 결과를 발견했을 때 쓰는 어미는?",
+    "options": [
+      "-았/었더니",
+      "-았/었으면",
+      "-는 탓에",
+      "-는 동안에"
+    ],
+    "answer": "-았/었더니",
+    "explanation": "화자의 행위 후 결과나 타인의 반응 발견에는 '-았/었더니'를 씁니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-2",
+    "type": "multiple_choice",
+    "question": "형용사 '어리다'에 시각적 인상을 나타내는 표현이 결합한 올바른 형태는?",
+    "options": [
+      "어려 보여요",
+      "어리게 보여요",
+      "어린 것 같아요",
+      "어리도록 보여요"
+    ],
+    "answer": "어려 보여요",
+    "explanation": "'어리다'에 '-어 보이다'가 결합하여 '어려 보여요'가 됩니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-3",
+    "type": "multiple_choice",
+    "question": "상태의 점진적 변화를 나타내는 올바른 표현은?",
+    "options": [
+      "얼굴이 갸름해졌어요",
+      "얼굴이 갸름할 뻔했어요",
+      "얼굴이 갸름하는 중이에요",
+      "얼굴이 갸름한 법이에요"
+    ],
+    "answer": "얼굴이 갸름해졌어요",
+    "explanation": "상태 변화는 '형용사 + -아/어지다'로 나타냅니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-4",
+    "type": "multiple_choice",
+    "question": "답답한 기분을 상쾌하게 바꾸는 활동을 뜻하는 어휘는?",
+    "options": [
+      "기분 전환",
+      "수강 신청",
+      "자기 관리",
+      "업무 지시"
+    ],
+    "answer": "기분 전환",
+    "explanation": "기분을 새롭게 바꾸는 일은 '기분 전환'입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-5",
+    "type": "multiple_choice",
+    "question": "타인의 훌륭한 행동을 본보기로 삼아 따르는 행위는?",
+    "options": [
+      "본받다",
+      "돌보다",
+      "부탁하다",
+      "출력하다"
+    ],
+    "answer": "본받다",
+    "explanation": "다른 사람의 좋은 점을 배워 따르는 것은 '본받다'입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-6",
+    "type": "fill_in_the_blank",
+    "question": "안경을 벗___더니 인상이 훨씬 부드러워 보여요. (벗다 + -었더니)",
+    "answer": "었",
+    "explanation": "'벗다'에 과거 발견 어미 '-었더니'가 붙어 '벗었더니'가 됩니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-7",
+    "type": "fill_in_the_blank",
+    "question": "날씨가 점점 따뜻___졌어요. (따뜻하다 + -어지다)",
+    "answer": "해",
+    "explanation": "'따뜻하다'의 '하-'에 '-여지다'가 합쳐져 '따뜻해졌다'가 됩니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-8",
+    "type": "fill_in_the_blank",
+    "question": "밝은 옷을 입으니 아주 활기차 ___입니다. (보이다)",
+    "answer": "보",
+    "explanation": "'활기차 보입니다'의 '보'입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-9",
+    "type": "fill_in_the_blank",
+    "question": "체지방을 연소시키는 운동을 ___산소 운동이라고 합니다. (유)",
+    "answer": "유",
+    "explanation": "'유산소(有酸素) 운동'의 '유'입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-10",
+    "type": "fill_in_the_blank",
+    "question": "한결같이 부지런하고 끈기 있는 태도를 ___준하다고 합니다. (꾸)",
+    "answer": "꾸",
+    "explanation": "'꾸준하다'의 '꾸'입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [앞머리를 / 어려 보여요 / 잘랐더니 / 훨씬]",
+    "answer": "앞머리를 잘랐더니 훨씬 어려 보여요",
+    "explanation": "원인 경험절(앞머리를 잘랐더니) + 부사(훨씬) + 인상 서술어(어려 보여요) 순서입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [살이 / 운동을 / 열심히 / 빠졌어요 / 했더니]",
+    "answer": "운동을 열심히 했더니 살이 빠졌어요",
+    "explanation": "노력 행위절(운동을 열심히 했더니) + 주어(살이) + 서술어(빠졌어요) 순서입니다.",
+    "source_unit": 24
+  },
+  {
+    "quiz_id": "q24-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [얼굴이 / 갸름해졌어요 / 예전보다 / 아주]",
+    "answer": "예전보다 얼굴이 아주 갸름해졌어요",
+    "explanation": "비교 부사구(예전보다) + 주어(얼굴이) + 부사(아주) + 상태변화 서술어(갸름해졌어요) 순서입니다.",
+    "source_unit": 24
+  }
+]

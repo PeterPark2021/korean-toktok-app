@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 41,
+    "dialogue_id": "d41-1",
+    "speaker": "한 교수",
+    "korean_text": "최근 전 세계적으로 관측되는 기상이변 현상으로 미루어 보아, 지구 온난화가 심각한 임계점에 도달했음을 알 수 있습니다.",
+    "translation": "Judging from the abnormal climate phenomena observed worldwide recently, we can see that global warming has reached a serious tipping point.",
+    "audio_hint": "전문적이고 학술적인 발표 톤, 명확하고 힘찬 어조"
+  },
+  {
+    "unit": 41,
+    "dialogue_id": "d41-2",
+    "speaker": "김 연구원",
+    "korean_text": "맞습니다. 북극 해빙의 가속화에 비추어 볼 때, 해수면 상승과 기후 난민 문제가 가시화되고 있습니다.",
+    "translation": "That's correct. In light of the acceleration of Arctic sea ice melting, sea level rise and climate refugee issues are becoming visible realities.",
+    "audio_hint": "통계와 데이터에 기반한 진지한 학술 토론 톤"
+  },
+  {
+    "unit": 41,
+    "dialogue_id": "d41-3",
+    "speaker": "한 교수",
+    "korean_text": "온실가스 배출량이 급증함에 따라 사계절의 뚜렷한 경계마저 점차 모호해지고 있는 실정입니다.",
+    "translation": "As greenhouse gas emissions increase rapidly, even the distinct boundaries between the four seasons are gradually blurring.",
+    "audio_hint": "위기의식을 환기하는 단호한 목소리"
+  },
+  {
+    "unit": 41,
+    "dialogue_id": "d41-4",
+    "speaker": "김 연구원",
+    "korean_text": "국가 차원의 탄소중립 정책뿐만 아니라 개별 시민들의 에너지 절약 실천이 수반되어야 합니다.",
+    "translation": "Not only state-level carbon neutrality policies, but individual citizens' energy-saving practices must be accompanied.",
+    "audio_hint": "실천 방안을 제안하는 차분하고 설득력 있는 어조"
+  },
+  {
+    "unit": 41,
+    "dialogue_id": "d41-5",
+    "speaker": "한 교수",
+    "korean_text": "화석연료 의존도를 낮추고 신재생에너지 전환을 가속화하는 것이 지속 가능한 지구를 위한 유일한 해법입니다.",
+    "translation": "Lowering reliance on fossil fuels and accelerating the transition to renewable energy is the sole solution for a sustainable planet.",
+    "audio_hint": "정책적 결단을 촉구하는 단호한 톤"
+  },
+  {
+    "unit": 41,
+    "dialogue_id": "d41-6",
+    "speaker": "김 연구원",
+    "korean_text": "국제 사회의 긴밀한 공조를 통해 인류 공동의 위기를 극복해 나가야 할 것입니다.",
+    "translation": "We must overcome this shared human crisis through close international cooperation.",
+    "audio_hint": "희망과 연대를 강조하는 당당한 마무리"
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "word": "학교",
+    "meaning": "배움을 얻는 교육 기관 (School)",
+    "part_of_speech": "명사",
+    "example_sentence": "민호는 학교에 갑니다.",
+    "level": "초급"
+  },
+  {
+    "word": "빵",
+    "meaning": "밀가루 등으로 구워 만든 음식 (Bread)",
+    "part_of_speech": "명사",
+    "example_sentence": "나는 아침에 빵을 먹는다.",
+    "level": "초급"
+  },
+  {
+    "word": "먹다",
+    "meaning": "음식을 입을 통해 섭취하다 (To eat)",
+    "part_of_speech": "동사",
+    "example_sentence": "식당에서 밥을 먹어요.",
+    "level": "초급"
+  },
+  {
+    "word": "만나다",
+    "meaning": "사람을 보다 / 접하다 (To meet)",
+    "part_of_speech": "동사",
+    "example_sentence": "카페에서 친구를 만나다.",
+    "level": "초급"
+  },
+  {
+    "word": "예쁘다",
+    "meaning": "모양이나 모습이 아름답다 (To be pretty)",
+    "part_of_speech": "형용사",
+    "example_sentence": "그녀는 얼굴이 예쁩니다.",
+    "level": "초급"
+  },
+  {
+    "word": "길다",
+    "meaning": "물체의 길이가 길거나 시간 간격이 크다 (To be long)",
+    "part_of_speech": "형용사",
+    "example_sentence": "머리가 긴 사람이 제 동생이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "춥다",
+    "meaning": "온도가 낮아 차갑다 (To be cold)",
+    "part_of_speech": "형용사",
+    "example_sentence": "오늘 날씨가 매우 춥다.",
+    "level": "초급"
+  },
+  {
+    "word": "뚱뚱하다",
+    "meaning": "살이 많이 쪄서 몸집이 크다 (To be fat/chubby)",
+    "part_of_speech": "형용사",
+    "example_sentence": "몸집이 뚱뚱하다.",
+    "level": "초급"
+  },
+  {
+    "word": "안녕하세요",
+    "meaning": "만났을 때 하는 정중한 인사말 (Hello)",
+    "part_of_speech": "감탄사",
+    "example_sentence": "안녕하세요. 저는 김민호예요.",
+    "level": "초급"
+  },
+  {
+    "word": "이름",
+    "meaning": "사람이나 사물을 부르는 명칭 (Name)",
+    "part_of_speech": "명사",
+    "example_sentence": "이름이 뭐예요?",
+    "level": "초급"
+  },
+  {
+    "word": "직업",
+    "meaning": "생계를 유지하기 위해 하는 일 (Occupation / Job)",
+    "part_of_speech": "명사",
+    "example_sentence": "민호 씨는 직업이 뭐예요?",
+    "level": "초급"
+  },
+  {
+    "word": "회사원",
+    "meaning": "회사에서 일하는 사람 (Office worker)",
+    "part_of_speech": "명사",
+    "example_sentence": "저는 회사원이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "의사",
+    "meaning": "병을 고치는 의료인 (Doctor)",
+    "part_of_speech": "명사",
+    "example_sentence": "저는 병원에서 일하는 의사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "교사",
+    "meaning": "학생을 가르치는 사람 (Teacher)",
+    "part_of_speech": "명사",
+    "example_sentence": "차지원 씨는 교사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "가수",
+    "meaning": "노래 부르는 것을 직업으로 하는 사람 (Singer)",
+    "part_of_speech": "명사",
+    "example_sentence": "아이린 씨는 가수예요.",
+    "level": "초급"
+  },
+  {
+    "word": "학생",
+    "meaning": "학교에서 공부하는 사람 (Student)",
+    "part_of_speech": "명사",
+    "example_sentence": "동생은 학생이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "요리사",
+    "meaning": "음식을 전문적으로 만드는 사람 (Chef / Cook)",
+    "part_of_speech": "명사",
+    "example_sentence": "도안닝 씨는 요리사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "미용사",
+    "meaning": "머리 모양이나 외모를 가꾸어 주는 사람 (Hairdresser)",
+    "part_of_speech": "명사",
+    "example_sentence": "리홍 씨는 미용사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "경찰",
+    "meaning": "치안과 질서를 유지하는 사람 (Police officer)",
+    "part_of_speech": "명사",
+    "example_sentence": "형준 씨는 경찰이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "승무원",
+    "meaning": "비행기나 기차 등에서 승객을 돕는 사람 (Flight attendant)",
+    "part_of_speech": "명사",
+    "example_sentence": "언니는 승무원이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "가족",
+    "meaning": "혈연이나 결혼 등으로 맺어진 공동체 (Family)",
+    "part_of_speech": "명사",
+    "example_sentence": "가족이 몇 명이에요?",
+    "level": "초급"
+  },
+  {
+    "word": "할아버지",
+    "meaning": "아버지나 어머니의 아버지 (Grandfather)",
+    "part_of_speech": "명사",
+    "example_sentence": "할아버지께서는 방에 계세요.",
+    "level": "초급"
+  },
+  {
+    "word": "할머니",
+    "meaning": "아버지나 어머니의 어머니 (Grandmother)",
+    "part_of_speech": "명사",
+    "example_sentence": "할머니께서 텔레비전을 보세요.",
+    "level": "초급"
+  },
+  {
+    "word": "아빠",
+    "meaning": "아버지를 친근하게 부르는 말 (Dad)",
+    "part_of_speech": "명사",
+    "example_sentence": "아빠, 엄마, 저 세 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "엄마",
+    "meaning": "어머니를 친근하게 부르는 말 (Mom)",
+    "part_of_speech": "명사",
+    "example_sentence": "엄마는 요리사예요.",
+    "level": "초급"
+  },
+  {
+    "word": "형",
+    "meaning": "남자가 남성 윗위 손윗누이를 부르는 말 (Older brother for males)",
+    "part_of_speech": "명사",
+    "example_sentence": "우리 형은 학생이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "오빠",
+    "meaning": "여자가 남성 손위 오라버니를 부르는 말 (Older brother for females)",
+    "part_of_speech": "명사",
+    "example_sentence": "오빠가 한 명 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "누나",
+    "meaning": "남자가 손위 여자 형제를 부르는 말 (Older sister for males)",
+    "part_of_speech": "명사",
+    "example_sentence": "누나는 회사에 다녀요.",
+    "level": "초급"
+  },
+  {
+    "word": "언니",
+    "meaning": "여자가 손위 여자 형제를 부르는 말 (Older sister for females)",
+    "part_of_speech": "명사",
+    "example_sentence": "언니와 같이 살아요.",
+    "level": "초급"
+  },
+  {
+    "word": "동생",
+    "meaning": "나이가 나보다 적은 형제자매 (Younger sibling)",
+    "part_of_speech": "명사",
+    "example_sentence": "저는 동생이 두 명 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "아들",
+    "meaning": "부모가 낳은 자식 중 남자 (Son)",
+    "part_of_speech": "명사",
+    "example_sentence": "아들과 딸이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "딸",
+    "meaning": "부모가 낳은 자식 중 여자 (Daughter)",
+    "part_of_speech": "명사",
+    "example_sentence": "딸이 아주 귀여워요.",
+    "level": "초급"
+  },
+  {
+    "word": "하나",
+    "meaning": "숫자 1 (One - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "사과 하나 주세요.",
+    "level": "초급"
+  },
+  {
+    "word": "둘",
+    "meaning": "숫자 2 (Two - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "동생이 둘 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "셋",
+    "meaning": "숫자 3 (Three - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "가족이 세 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "넷",
+    "meaning": "숫자 4 (Four - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "우리 가족은 네 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "다섯",
+    "meaning": "숫자 5 (Five - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "교실에 다섯 명이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "여섯",
+    "meaning": "숫자 6 (Six - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "연필 여섯 자루가 있다.",
+    "level": "초급"
+  },
+  {
+    "word": "일곱",
+    "meaning": "숫자 7 (Seven - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "일곱 시에 만나요.",
+    "level": "초급"
+  },
+  {
+    "word": "여덟",
+    "meaning": "숫자 8 (Eight - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "여덟 시에 학교에 갑니다.",
+    "level": "초급"
+  },
+  {
+    "word": "아홉",
+    "meaning": "숫자 9 (Nine - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "아홉 명이 함께 공부해요.",
+    "level": "초급"
+  },
+  {
+    "word": "열",
+    "meaning": "숫자 10 (Ten - 고유어)",
+    "part_of_speech": "명사",
+    "example_sentence": "우리 반 학생은 열 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "명",
+    "meaning": "사람의 수를 세는 단위 (Counter for people)",
+    "part_of_speech": "명사",
+    "example_sentence": "가족이 세 명이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "몇",
+    "meaning": "수량이 얼마나 되는지 물을 때 쓰는 말 (How many)",
+    "part_of_speech": "명사",
+    "example_sentence": "가족이 몇 명이에요?",
+    "level": "초급"
+  },
+  {
+    "word": "누구",
+    "meaning": "잘 모르는 사람을 가리키는 대명사 (Who)",
+    "part_of_speech": "명사",
+    "example_sentence": "누가 선생님이에요?",
+    "level": "초급"
+  }
+]

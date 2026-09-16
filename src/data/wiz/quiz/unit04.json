@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q4-1",
+    "type": "multiple_choice",
+    "question": "말하는 사람에게서 멀리 있는 사물을 가리킬 때 알맞은 지시대명사는?\n'저기 멀리 있는 ___은 누구 시계예요?'",
+    "options": [
+      "저것",
+      "이것",
+      "그것",
+      "여기"
+    ],
+    "answer": "저것",
+    "explanation": "화자와 청자 모두에게서 멀리 떨어진 사물은 '저것'으로 가리킵니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-2",
+    "type": "multiple_choice",
+    "question": "소유를 나타내는 올바른 조사는?\n'이것은 수연 씨___ 가방이에요.'",
+    "options": [
+      "의",
+      "에",
+      "에서",
+      "을"
+    ],
+    "answer": "의",
+    "explanation": "명사 뒤에 붙어 소유 관계를 나타내는 관형격 조사는 '-의'입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-3",
+    "type": "multiple_choice",
+    "question": "그림 속 안경이 책상 위에 있을 때 올바른 설명은?",
+    "options": [
+      "안경이 책상 위에 있어요.",
+      "안경이 책상 아래에 있어요.",
+      "안경이 책상 뒤에 있어요.",
+      "안경이 책상 안에 있어요."
+    ],
+    "answer": "안경이 책상 위에 있어요.",
+    "explanation": "책상의 윗면 표면에 놓여 있으므로 '책상 위에 있어요'가 맞습니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-4",
+    "type": "multiple_choice",
+    "question": "존재하는 위치를 나타내는 조사로 알맞은 것은?\n'지갑이 가방 안___ 있어요.'",
+    "options": [
+      "에",
+      "에서",
+      "로",
+      "을"
+    ],
+    "answer": "에",
+    "explanation": "사물의 존재 위치나 상태를 나타낼 때는 정적인 위치 조사 '-에'를 사용합니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-5",
+    "type": "multiple_choice",
+    "question": "'저의'를 구어에서 자연스럽게 줄여 쓴 표현은?",
+    "options": [
+      "제",
+      "내",
+      "네",
+      "절"
+    ],
+    "answer": "제",
+    "explanation": "겸양 표현 '저의'는 대화할 때 '제'로 축약되어 '제 가방', '제 책'처럼 쓰입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-6",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 소유격 조사(의)를 쓰세요.\n'민호 씨(____) 휴대전화예요.'",
+    "answer": "의",
+    "explanation": "소유 관계를 나타내는 조사는 '-의'입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-7",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 위치 조사(에/에서)를 쓰세요.\n'컴퓨터가 책상 위(____) 있어요.'",
+    "answer": "에",
+    "explanation": "존재하는 위치를 나타내므로 조사 '-에'를 씁니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-8",
+    "type": "fill_in_the_blank",
+    "question": "화자 가까이에 있는 사물을 묻는 지시대명사(이것/그것/저것)를 쓰세요.\n'(____)은 제 한국어 책이에요.'",
+    "answer": "이것",
+    "explanation": "말하는 사람에게 가까운 사물은 '이것'을 씁니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-9",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 반대 위치를 나타내는 단어를 쓰세요.\n'위'의 반대말은 '(____)' 또는 '밑'입니다.",
+    "answer": "아래",
+    "explanation": "'위'의 반대말은 '아래'입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-10",
+    "type": "fill_in_the_blank",
+    "question": "'나의'를 한 글자로 줄여 쓰세요.\n'(____) 동생이에요.'",
+    "answer": "내",
+    "explanation": "'나의'의 구어 축약형은 '내'입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 책이에요 / 제 / 이것은 ]",
+    "answer": "이것은 제 책이에요",
+    "explanation": "지시대명사 '이것은' + 소유 수식어 '제' + 보어/서술어 '책이에요' 순서입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 위치를 묻는 문장을 만드세요.\n[ 있어요 / 제 / 안경이 / 어디에 ]",
+    "answer": "제 안경이 어디에 있어요",
+    "explanation": "주어 '제 안경이' + 의문사/부사어 '어디에' + 서술어 '있어요' 순서입니다.",
+    "source_unit": 4
+  },
+  {
+    "quiz_id": "q4-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 있어요 / 가방이 / 책상 / 위에 ]",
+    "answer": "책상 위에 가방이 있어요",
+    "explanation": "장소 '책상 위에' + 주어 '가방이' + 서술어 '있어요' 순서로 어순을 배열합니다.",
+    "source_unit": 4
+  }
+]

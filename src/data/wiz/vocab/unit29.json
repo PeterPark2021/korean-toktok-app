@@ -1,0 +1,72 @@
+[
+  {
+    "word": "조리",
+    "meaning": "음식 재료를 가공하여 음식을 만듦 (Cooking / preparation)",
+    "part_of_speech": "명사",
+    "example_sentence": "위생적인 조리 환경이 건강을 지킵니다.",
+    "level": "중급"
+  },
+  {
+    "word": "재료",
+    "meaning": "물건이나 음식을 만드는 데 들어가는 물질 (Ingredient / material)",
+    "part_of_speech": "명사",
+    "example_sentence": "신선한 식재료를 마트에서 골랐어요.",
+    "level": "중급"
+  },
+  {
+    "word": "간장",
+    "meaning": "메주를 발효시켜 짠맛을 내는 전통 조미료 (Soy sauce)",
+    "part_of_speech": "명사",
+    "example_sentence": "볶음밥에 간장으로 간을 맞췄습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "대파",
+    "meaning": "줄기가 굵은 파 (Green onion / scallion)",
+    "part_of_speech": "명사",
+    "example_sentence": "파기름을 내기 위해 대파를 잘게 썰었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "볶다",
+    "meaning": "기름을 두르고 열을 가해 익히다 (To stir-fry)",
+    "part_of_speech": "동사",
+    "example_sentence": "채소와 고기를 팬에 함께 볶았습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "두르다",
+    "meaning": "팬이나 표면에 액체를 둥글게 끼얹다 (To coat / drizzle)",
+    "part_of_speech": "동사",
+    "example_sentence": "달군 프라이팬에 식용유를 둘렀어요.",
+    "level": "중급"
+  },
+  {
+    "word": "풀다",
+    "meaning": "액체나 계란을 휘저어 섞다 (To beat - egg / loosen)",
+    "part_of_speech": "동사",
+    "example_sentence": "그릇에 달걀 두 개를 곱게 풀었습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "골고루",
+    "meaning": "빼놓지 않고 고르게 (Evenly / thoroughly)",
+    "part_of_speech": "부사",
+    "example_sentence": "양념이 골고루 배도록 잘 섞어 주세요.",
+    "level": "중급"
+  },
+  {
+    "word": "레시피",
+    "meaning": "음식을 만드는 방법이나 조리법 (Recipe)",
+    "part_of_speech": "명사",
+    "example_sentence": "유튜브에서 인기 있는 떡볶이 레시피를 따라 했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "도전하다",
+    "meaning": "어려운 일에 용기 있게 맞서다 (To challenge / try out)",
+    "part_of_speech": "동사",
+    "example_sentence": "새로운 요리 만들기에 도전했습니다.",
+    "level": "중급"
+  }
+]

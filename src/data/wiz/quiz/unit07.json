@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q7-1",
+    "type": "multiple_choice",
+    "question": "옷을 세는 올바른 단위명사는?\n'티셔츠 두 ___을 샀어요.'",
+    "options": [
+      "벌",
+      "개",
+      "권",
+      "켤레"
+    ],
+    "answer": "벌",
+    "explanation": "옷의 수량을 셀 때는 단위명사 '벌'을 씁니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-2",
+    "type": "multiple_choice",
+    "question": "신발 한 짝의 세트를 세는 단위명사는?",
+    "options": [
+      "켤레",
+      "개",
+      "마리",
+      "권"
+    ],
+    "answer": "켤레",
+    "explanation": "신발이나 양말처럼 짝을 이루는 물건은 '켤레'로 셉니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-3",
+    "type": "multiple_choice",
+    "question": "대조를 나타내는 연결어미로 알맞은 것은?\n'이 옷은 예쁘___ 조금 비싸요.'",
+    "options": [
+      "지만",
+      "아서",
+      "고",
+      "러"
+    ],
+    "answer": "지만",
+    "explanation": "'예쁘다'와 '비싸다'는 대조적인 내용이므로 '-지만'을 씁니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-4",
+    "type": "multiple_choice",
+    "question": "가격을 묻는 올바른 한국어 표현은?",
+    "options": [
+      "이 사과 얼마예요?",
+      "이 사과 몇 시예요?",
+      "이 사과 어디예요?",
+      "이 사과 어떻게예요?"
+    ],
+    "answer": "이 사과 얼마예요?",
+    "explanation": "물건의 가격을 물을 때는 '얼마예요?'를 사용합니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-5",
+    "type": "multiple_choice",
+    "question": "이유를 나타내는 표현으로 알맞은 것은?\n'가격이 ___ 두 개 샀어요.'",
+    "options": [
+      "싸서",
+      "싸지만",
+      "싸고",
+      "싸러"
+    ],
+    "answer": "싸서",
+    "explanation": "두 개를 산 원인과 이유를 나타내므로 이유 연결어미 '-아서/어서'가 결합한 '싸서'가 맞습니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-6",
+    "type": "fill_in_the_blank",
+    "question": "사과를 세는 일반 단위명사(개)를 쓰세요.\n'사과 세 (____) 주세요.'",
+    "answer": "개",
+    "explanation": "과일이나 낱개 물건은 '개'로 셉니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-7",
+    "type": "fill_in_the_blank",
+    "question": "병 음료를 세는 단위명사(병)를 쓰세요.\n'물 한 (____) 샀어요.'",
+    "answer": "병",
+    "explanation": "병에 든 액체는 '병'으로 셉니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-8",
+    "type": "fill_in_the_blank",
+    "question": "형용사 '비싸다'의 반대말을 쓰세요.\n'값이 비싸다 ↔ 값이 (____).' ",
+    "answer": "싸다",
+    "explanation": "'비싸다'의 반대말은 '싸다'입니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-9",
+    "type": "fill_in_the_blank",
+    "question": "대조를 나타내는 연결어미(지만)를 빈칸에 쓰세요.\n'디자인은 좋(____) 색깔이 마음에 안 들어요.'",
+    "answer": "지만",
+    "explanation": "앞뒤 사실이 상반될 때 연결어미 '-지만'을 결합합니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-10",
+    "type": "fill_in_the_blank",
+    "question": "한국의 화폐 단위를 한 글자로 쓰세요.\n'오천 (____)'",
+    "answer": "원",
+    "explanation": "한국의 화폐 단위는 '원'입니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 가격을 묻는 문장을 완성하세요.\n[ 사과 / 얼마예요 / 이 ]",
+    "answer": "이 사과 얼마예요",
+    "explanation": "지시 수식 '이 사과' + 가격 의문 '얼마예요' 순서입니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 주문 문장을 완성하세요.\n[ 개 / 사과 / 세 / 주세요 ]",
+    "answer": "사과 세 개 주세요",
+    "explanation": "품목 '사과' + 수량 '세 개' + 청유/요청 '주세요' 순서입니다.",
+    "source_unit": 7
+  },
+  {
+    "quiz_id": "q7-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 비싸요 / 이 / 옷은 / 예쁘지만 / 조금 ]",
+    "answer": "이 옷은 예쁘지만 조금 비싸요",
+    "explanation": "주어 '이 옷은' + 대조절 '예쁘지만' + 서술절 '조금 비싸요' 순서입니다.",
+    "source_unit": 7
+  }
+]

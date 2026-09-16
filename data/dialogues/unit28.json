@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 28,
+    "dialogue_id": "d28-1",
+    "speaker": "성훈",
+    "korean_text": "민지 씨, 이번 주말에 회사 동호회에서 테니스 치러 가는데 같이 갈래요?",
+    "translation": "Minji, we're going to play tennis with the company club this weekend, want to come along?",
+    "audio_hint": "활기차고 적극적인 동호회 초대 톤"
+  },
+  {
+    "unit": 28,
+    "dialogue_id": "d28-2",
+    "speaker": "민지",
+    "korean_text": "초대해 줘서 고마워요. 그런데 저는 테니스는 잘 못 쳐서 다른 사람들에게 방해될까 봐요.",
+    "translation": "Thanks for inviting me. But I can't play tennis well, so I'm worried I might get in other people's way.",
+    "audio_hint": "수줍어하며 자신의 운동 실력을 털어놓는 어조"
+  },
+  {
+    "unit": 28,
+    "dialogue_id": "d28-3",
+    "speaker": "성훈",
+    "korean_text": "초보자들을 가르쳐 주는 코치님이 계시니까 걱정하지 마세요.",
+    "translation": "There is a coach who teaches beginners, so don't worry.",
+    "audio_hint": "안심시키며 용기를 주는 톤"
+  },
+  {
+    "unit": 28,
+    "dialogue_id": "d28-4",
+    "speaker": "민지",
+    "korean_text": "다행이네요. 그럼 테니스 라켓을 쥘 줄 몰라도 참가할 수 있나요?",
+    "translation": "That's a relief. Then can I participate even if I don't know how to hold a tennis racket?",
+    "audio_hint": "궁금증을 해소하려는 질문 톤"
+  },
+  {
+    "unit": 28,
+    "dialogue_id": "d28-5",
+    "speaker": "성훈",
+    "korean_text": "그럼요! 저도 처음엔 아무것도 할 줄 몰랐는데 배우다 보니 운동을 즐기는 편이 되었어요.",
+    "translation": "Of course! I didn't know how to do anything at first either, but as I learned, I came to be someone who enjoys sports.",
+    "audio_hint": "자신의 경험을 공유하는 격려의 어조"
+  },
+  {
+    "unit": 28,
+    "dialogue_id": "d28-6",
+    "speaker": "민지",
+    "korean_text": "선배님 말씀 들으니 용기가 나네요. 저도 이번에 꼭 가 볼게요!",
+    "translation": "Hearing you say that gives me courage. I'll definitely go this time!",
+    "audio_hint": "기분 좋게 참가 결정을 내리는 마무리"
+  }
+]

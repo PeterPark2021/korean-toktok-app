@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q34-1",
+    "type": "multiple_choice",
+    "question": "어떤 목적의 행동을 실행했다가 다른 결과로 전환됨을 나타내는 어미는?",
+    "options": [
+      "-았/었다가",
+      "-자마자",
+      "-는 바람에",
+      "-는 동안에"
+    ],
+    "answer": "-았/었다가",
+    "explanation": "선행 동작의 완료 후 반대되거나 다른 동작으로의 전환은 '-았/었다가'를 씁니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-2",
+    "type": "multiple_choice",
+    "question": "어떤 행위를 다른 것으로 대체함을 나타내는 연결 표현은?",
+    "options": [
+      "-는 대신(에)",
+      "-는 탓에",
+      "-는 셈에",
+      "-는 바람에"
+    ],
+    "answer": "-는 대신(에)",
+    "explanation": "행위의 대체나 보상은 '-는 대신(에)'으로 표현합니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-3",
+    "type": "multiple_choice",
+    "question": "사 온 물건에 하자가 있어 되돌려 보내는 행위는?",
+    "options": [
+      "반품",
+      "주문",
+      "출력",
+      "발송"
+    ],
+    "answer": "반품",
+    "explanation": "물건을 매장에 돌려주고 환불받는 것을 '반품(返品)'이라고 합니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-4",
+    "type": "multiple_choice",
+    "question": "복잡하고 귀찮아서 수고로운 느낌을 표현하는 형용사는?",
+    "options": [
+      "번거롭다",
+      "상쾌하다",
+      "꼼꼼하다",
+      "다행이다"
+    ],
+    "answer": "번거롭다",
+    "explanation": "절차나 일이 귀찮고 복잡한 상태는 '번거롭다'입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-5",
+    "type": "multiple_choice",
+    "question": "시대적 흐름이나 사회적으로 널리 퍼진 옷 스타일을 뜻하는 단어는?",
+    "options": [
+      "유행",
+      "전공",
+      "공지",
+      "지연"
+    ],
+    "answer": "유행",
+    "explanation": "사회적으로 널리 퍼져 많은 사람이 따르는 현상은 '유행(流行)'입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-6",
+    "type": "fill_in_the_blank",
+    "question": "시장에 장 보러 갔___가 비가 와서 서둘러 집으로 왔어요. (-았/었다가)",
+    "answer": "었",
+    "explanation": "'갔다가'의 형태이므로 '었'입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-7",
+    "type": "fill_in_the_blank",
+    "question": "외식하는 대___에 집에서 요리를 해 먹었어요. (대체)",
+    "answer": "신",
+    "explanation": "'대신에'의 '신'입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-8",
+    "type": "fill_in_the_blank",
+    "question": "소식에 따르___ 올해는 밝은 색이 유행이래요. (따르면)",
+    "answer": "면",
+    "explanation": "'따르면'의 '면'입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-9",
+    "type": "fill_in_the_blank",
+    "question": "사이즈가 안 맞아 다른 치수로 물건을 ___환했어요. (교)",
+    "answer": "교",
+    "explanation": "'교환(交換)'은 다른 것으로 맞바꾸는 일입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-10",
+    "type": "fill_in_the_blank",
+    "question": "사회적으로 대다수가 따르는 큰 흐름을 ___세라고 합니다. (대)",
+    "answer": "대",
+    "explanation": "'대세(大勢)'는 주도적인 추세입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [갔다가 / 백화점에 / 마음에 안 들어서 / 그냥 왔어요]",
+    "answer": "백화점에 갔다가 마음에 안 들어서 그냥 왔어요",
+    "explanation": "전환 이동절(백화점에 갔다가) + 이유(마음에 안 들어서) + 결과 서술어(그냥 왔어요) 순서입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [오버핏이 / 패션 잡지에 따르면 / 유행이래요 / 올봄에]",
+    "answer": "패션 잡지에 따르면 올봄에 오버핏이 유행이래요",
+    "explanation": "출처(패션 잡지에 따르면) + 시간(올봄에) + 주어(오버핏이) + 간접서술(유행이래요) 순서입니다.",
+    "source_unit": 34
+  },
+  {
+    "quiz_id": "q34-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [온라인으로 / 매장에 가는 / 주문했어요 / 대신에]",
+    "answer": "매장에 가는 대신에 온라인으로 주문했어요",
+    "explanation": "대체절(매장에 가는 대신에) + 수단(온라인으로) + 서술어(주문했어요) 순서입니다.",
+    "source_unit": 34
+  }
+]

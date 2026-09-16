@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q26-1",
+    "type": "multiple_choice",
+    "question": "과거에 직접 보거나 겪은 사실을 회상하며 감탄조로 말할 때 쓰는 어미는?",
+    "options": [
+      "-던데요",
+      "-더군요만",
+      "-(으)려고요",
+      "-자마자요"
+    ],
+    "answer": "-던데요",
+    "explanation": "직접 경험한 과거 사실의 회상 및 감탄에는 '-던데요'를 씁니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-2",
+    "type": "multiple_choice",
+    "question": "직접 경험하여 새롭게 알게 된 사실을 청자에게 전달하는 어미는?",
+    "options": [
+      "-더라고요",
+      "-는 셈이에요",
+      "-기 마련이에요",
+      "-(으)ㄹ 뿐이에요"
+    ],
+    "answer": "-더라고요",
+    "explanation": "과거 직접 경험의 회상 전달 어미는 '-더라고요'입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-3",
+    "type": "multiple_choice",
+    "question": "다른 사람을 위해 행동을 베푸는 것을 나타내는 보조동사는?",
+    "options": [
+      "-아/어 주다",
+      "-아/어 버리다",
+      "-아/어 놓다",
+      "-아/어 두다"
+    ],
+    "answer": "-아/어 주다",
+    "explanation": "수혜 및 도움의 행동을 표현할 때는 '-아/어 주다'를 씁니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-4",
+    "type": "multiple_choice",
+    "question": "노래를 부르는 뛰어난 음악적 능력을 뜻하는 단어는?",
+    "options": [
+      "가창력",
+      "연기력",
+      "순발력",
+      "체력"
+    ],
+    "answer": "가창력",
+    "explanation": "노래 부르는 실력을 '가창력(歌唱力)'이라고 합니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-5",
+    "type": "multiple_choice",
+    "question": "사람과 정서적으로 교감하며 함께 사는 동물을 뜻하는 단어는?",
+    "options": [
+      "반려동물",
+      "야생동물",
+      "가축",
+      "희귀동물"
+    ],
+    "answer": "반려동물",
+    "explanation": "가족처럼 함께 사는 동물을 '반려동물'이라고 부릅니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-6",
+    "type": "fill_in_the_blank",
+    "question": "어제 콘서트에 관객이 정말 많___데요! (-던데요)",
+    "answer": "던",
+    "explanation": "'많다' 뒤에 과거 회상 어미 '-던데요'가 결합합니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-7",
+    "type": "fill_in_the_blank",
+    "question": "그 식당 음식이 참 맛있___더라고요. (회상전달)",
+    "answer": "더",
+    "explanation": "'맛있더라고요'의 '더'입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-8",
+    "type": "fill_in_the_blank",
+    "question": "의사 선생님께서 친절하게 치료해 ___셨어요. (주시다 과거형)",
+    "answer": "주",
+    "explanation": "'치료해 주셨어요'의 '주'입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-9",
+    "type": "fill_in_the_blank",
+    "question": "병을 앓고 난 뒤 몸이 원래대로 회복되는 것을 ___복이라고 합니다. (회)",
+    "answer": "회",
+    "explanation": "'회복(回復)'은 건강을 되찾는 일입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-10",
+    "type": "fill_in_the_blank",
+    "question": "남보다 훨씬 돋보이고 훌륭할 때 ___어나다고 합니다. (뛰)",
+    "answer": "뛰",
+    "explanation": "'뛰어나다'의 '뛰'입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [노래를 / 신인 가수가 / 잘하던데요 / 엄청]",
+    "answer": "신인 가수가 노래를 엄청 잘하던데요",
+    "explanation": "주어(신인 가수가) + 목적어(노래를) + 부사(엄청) + 회상 서술어(잘하던데요) 순서입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [뛰어나더라고요 / 가창력이 / 직접 / 보니까]",
+    "answer": "직접 보니까 가창력이 뛰어나더라고요",
+    "explanation": "조건/경험절(직접 보니까) + 주어(가창력이) + 회상전달 서술어(뛰어나더라고요) 순서입니다.",
+    "source_unit": 26
+  },
+  {
+    "quiz_id": "q26-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [다녀왔어요 / 아파서 / 코코가 / 병원에]",
+    "answer": "코코가 아파서 병원에 다녀왔어요",
+    "explanation": "주어(코코가) + 원인(아파서) + 장소(병원에) + 서술어(다녀왔어요) 순서입니다.",
+    "source_unit": 26
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q42-1",
+    "type": "multiple_choice",
+    "question": "대표적인 예를 선두에 제시하며 유사 사례를 포괄할 때 쓰는 고급 표현은?",
+    "options": [
+      "-을/를 비롯하여",
+      "-을/를 감안하여",
+      "-을/를 무릅쓰고",
+      "-을/를 막론하고"
+    ],
+    "answer": "-을/를 비롯하여",
+    "explanation": "대표 사례를 앞세워 대상을 열거할 때는 '-을/를 비롯하여/비롯한'을 씁니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-2",
+    "type": "multiple_choice",
+    "question": "보편적 이치상 '당연히 그렇게 된다'는 필연성을 나타내는 종결어미는?",
+    "options": [
+      "-기 마련이다",
+      "-기 일쑤이다",
+      "-기 십상이다",
+      "-는 셈이다"
+    ],
+    "answer": "-기 마련이다",
+    "explanation": "필연적인 사물의 이치나 당연한 법칙은 '-기 마련이다'로 표현합니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-3",
+    "type": "multiple_choice",
+    "question": "손과 발을 사용하는 한국 고유의 올림픽 정식 무예 종목은?",
+    "options": [
+      "태권도",
+      "씨름",
+      "검도",
+      "유도"
+    ],
+    "answer": "태권도",
+    "explanation": "한국의 전통 무예이자 올림픽 정식 종목은 '태권도(跆拳道)'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-4",
+    "type": "multiple_choice",
+    "question": "구성원들이 서로 긴밀히 연결되어 있다고 느끼는 끈끈한 결속 감정은?",
+    "options": [
+      "유대감",
+      "승패",
+      "임계점",
+      "가치관"
+    ],
+    "answer": "유대감",
+    "explanation": "서로 밀접하게 맺어져 있는 끈끈한 연대 감정을 '유대감(紐帶感)'이라고 합니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-5",
+    "type": "multiple_choice",
+    "question": "규칙을 준수하고 정정당당하게 승부하는 스포츠 정신은?",
+    "options": [
+      "페어플레이",
+      "오버핏",
+      "레시피",
+      "스튜디오"
+    ],
+    "answer": "페어플레이",
+    "explanation": "정정당당한 겨룸을 뜻하는 스포츠 용어는 '페어플레이(Fair play)'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-6",
+    "type": "fill_in_the_blank",
+    "question": "주장 선수를 비___하여 전 팀원이 맹훈련에 돌입했습니다. (비롯하여)",
+    "answer": "롯",
+    "explanation": "'비롯하여'의 '롯'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-7",
+    "type": "fill_in_the_blank",
+    "question": "진심을 다하면 언젠가 통하___ 마련입니다. (-기 마련이다)",
+    "answer": "기",
+    "explanation": "필연 어미 '-기 마련이다'의 '기'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-8",
+    "type": "fill_in_the_blank",
+    "question": "연기력이 뛰어날 ___만 아니라 가창력도 탁월합니다. (첨가)",
+    "answer": "뿐",
+    "explanation": "'-(으)ㄹ 뿐만 아니라'의 '뿐'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-9",
+    "type": "fill_in_the_blank",
+    "question": "이김과 짐을 아울러 ___패라고 합니다. (승)",
+    "answer": "승",
+    "explanation": "'승패(勝敗)'의 '승'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-10",
+    "type": "fill_in_the_blank",
+    "question": "공통의 목표와 가치를 공유하는 집단을 ___동체라고 합니다. (공)",
+    "answer": "공",
+    "explanation": "'공동체(共同體)'의 '공'입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [축구와 야구도 / 인기가 높습니다 / 태권도를 비롯하여]",
+    "answer": "태권도를 비롯하여 축구와 야구도 인기가 높습니다",
+    "explanation": "대표 제시구(태권도를 비롯하여) + 주어(축구와 야구도) + 서술어(인기가 높습니다) 순서입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [강화하기 마련입니다 / 유대감을 / 함께 응원하면]",
+    "answer": "함께 응원하면 유대감을 강화하기 마련입니다",
+    "explanation": "조건절(함께 응원하면) + 목적어(유대감을) + 필연 서술어(강화하기 마련입니다) 순서입니다.",
+    "source_unit": 42
+  },
+  {
+    "quiz_id": "q42-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [활력소가 됩니다 / 감동을 줄 뿐만 아니라 / 일상의 / 승리는]",
+    "answer": "승리는 감동을 줄 뿐만 아니라 일상의 활력소가 됩니다",
+    "explanation": "주어(승리는) + 첨가절(감동을 줄 뿐만 아니라) + 보어/서술어(일상의 활력소가 됩니다) 순서입니다.",
+    "source_unit": 42
+  }
+]

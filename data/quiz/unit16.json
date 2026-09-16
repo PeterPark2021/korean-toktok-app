@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q16-1",
+    "type": "multiple_choice",
+    "question": "'안경'을 착용할 때 쓰는 알맞은 동사는?",
+    "options": [
+      "쓰다",
+      "입다",
+      "신다",
+      "끼다"
+    ],
+    "answer": "쓰다",
+    "explanation": "안경이나 모자를 머리나 얼굴에 걸칠 때는 '쓰다'를 씁니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-2",
+    "type": "multiple_choice",
+    "question": "'양말'이나 '신발'을 착용할 때 쓰는 동사는?",
+    "options": [
+      "신다",
+      "입다",
+      "쓰다",
+      "매다"
+    ],
+    "answer": "신다",
+    "explanation": "발에 착용하는 신발, 양말 등에는 '신다'를 씁니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-3",
+    "type": "multiple_choice",
+    "question": "형용사 '크다'가 명사 '사람'을 수식할 때 올바른 형태는?",
+    "options": [
+      "키가 큰 사람",
+      "키가 크는 사람",
+      "키가 클 사람",
+      "키가 큽 사람"
+    ],
+    "answer": "키가 큰 사람",
+    "explanation": "형용사 '크다'는 받침이 없으므로 '-(으)ㄴ'이 결합하여 '큰'이 됩니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-4",
+    "type": "multiple_choice",
+    "question": "착용 상태의 지속을 나타내는 문장으로 알맞은 것은?",
+    "options": [
+      "빨간 모자를 쓰고 있어요.",
+      "빨간 모자를 쓰려고 해요.",
+      "빨간 모자를 쓰니까 좋아요.",
+      "빨간 모자를 쓰는 바람에 늦었어요."
+    ],
+    "answer": "빨간 모자를 쓰고 있어요.",
+    "explanation": "착용물이 몸에 유지된 상태를 나타낼 때는 '착용동사 + -고 있다'를 씁니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-5",
+    "type": "multiple_choice",
+    "question": "'손가락에 반지'를 착용할 때 올바른 동사는?",
+    "options": [
+      "끼다",
+      "입다",
+      "신다",
+      "쓰다"
+    ],
+    "answer": "끼다",
+    "explanation": "반지나 장갑 등 틈 사이에 끼우는 착용물에는 '끼다'를 사용합니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-6",
+    "type": "fill_in_the_blank",
+    "question": "추운 날씨에는 손에 따뜻한 장갑을 ___세요. (끼다)",
+    "answer": "끼",
+    "explanation": "'끼다'의 어간 '끼-'에 '-세요'가 붙어 '끼세요'가 됩니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-7",
+    "type": "fill_in_the_blank",
+    "question": "저기 흰색 운동화를 ___고 있는 사람이 민호예요. (신다)",
+    "answer": "신",
+    "explanation": "'신다'의 어간 '신-' 뒤에 '-고 있다'가 붙어 '신고'가 됩니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-8",
+    "type": "fill_in_the_blank",
+    "question": "머리가 ___은 사람이 제 친구예요. (형용사 '길다'의 관형사형)",
+    "answer": "길",
+    "explanation": "'길다'의 'ㄹ'이 탈락하고 'ㄴ'이 붙어 '긴'이 됩니다. (머리가 긴 사람)",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-9",
+    "type": "fill_in_the_blank",
+    "question": "정장에 어울리는 넥타이를 ___었어요. (매다)",
+    "answer": "맸",
+    "explanation": "목에 둘러 묶는 넥타이나 가방은 '매다'(과거형 '맸어요')를 씁니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-10",
+    "type": "fill_in_the_blank",
+    "question": "사람의 겉모습이나 얼굴 생김새를 ___모라고 합니다. (외)",
+    "answer": "외",
+    "explanation": "겉모습을 뜻하는 한자어는 '외모(外貌)'입니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [모자를 / 쓰고 / 빨간색 / 있어요]",
+    "answer": "빨간색 모자를 쓰고 있어요",
+    "explanation": "목적어(빨간색 모자를) + 착용 지속 서술어(쓰고 있어요) 순서입니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [사람이 / 동생이에요 / 안경을 / 쓴]",
+    "answer": "안경을 쓴 사람이 동생이에요",
+    "explanation": "수식 명사구(안경을 쓴 사람이) + 서술어(동생이에요) 어순입니다.",
+    "source_unit": 16
+  },
+  {
+    "quiz_id": "q16-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [입고 / 청바지를 / 신었어요 / 운동화를]",
+    "answer": "청바지를 입고 운동화를 신었어요",
+    "explanation": "의복 착용(청바지를 입고) + 신발 착용(운동화를 신었어요) 순서입니다.",
+    "source_unit": 16
+  }
+]

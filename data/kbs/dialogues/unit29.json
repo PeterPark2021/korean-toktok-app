@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 29,
+    "dialogue_id": "d29-1",
+    "speaker": "현우",
+    "korean_text": "지수야, 자취하면서 집에서 간단하게 만들어 먹을 수 있는 요리 없을까?",
+    "translation": "Jisu, living alone, is there any simple dish I can make and eat at home?",
+    "audio_hint": "요리 초보로서 가볍게 묻는 일상 대화 톤"
+  },
+  {
+    "unit": 29,
+    "dialogue_id": "d29-2",
+    "speaker": "지수",
+    "korean_text": "계란볶음밥이 제일 쉬워! 계란이랑 대파, 진간장만 있으면 됩니다.",
+    "translation": "Egg fried rice is the easiest! You only need eggs, green onions, and soy sauce.",
+    "audio_hint": "자신 있게 초간단 레시피를 소개하는 밝은 목소리"
+  },
+  {
+    "unit": 29,
+    "dialogue_id": "d29-3",
+    "speaker": "현우",
+    "korean_text": "오, 재료가 정말 간단하네! 조리 순서는 어떻게 돼?",
+    "translation": "Oh, the ingredients are so simple! What is the cooking order?",
+    "audio_hint": "흥미를 보이며 집중하는 어조"
+  },
+  {
+    "unit": 29,
+    "dialogue_id": "d29-4",
+    "speaker": "지수",
+    "korean_text": "팬에 기름을 두르고 파를 볶은 채로 계란을 풀어 넣고 섞어 주세요.",
+    "translation": "Coat the pan with oil, and with the green onions stir-fried, pour in beaten eggs and mix them.",
+    "audio_hint": "차근차근 조리법을 설명하는 친절한 톤"
+  },
+  {
+    "unit": 29,
+    "dialogue_id": "d29-5",
+    "speaker": "지수",
+    "korean_text": "그리고 밥을 넣고 간장을 살짝 두른 후 센 불에서 골고루 볶아 내면 끝이에요.",
+    "translation": "And after putting in rice and lightly drizzling soy sauce, stir-fry evenly on high heat, and you're done.",
+    "audio_hint": "마무리 조리 팁을 강조하는 어조"
+  },
+  {
+    "unit": 29,
+    "dialogue_id": "d29-6",
+    "speaker": "현우",
+    "korean_text": "듣기만 해도 정말 맛있겠다. 오늘 저녁에 바로 도전해 볼게!",
+    "translation": "Just hearing it sounds so delicious. I'll challenge it right away tonight!",
+    "audio_hint": "기대에 찬 활기찬 마무리"
+  }
+]

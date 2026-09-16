@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q39-1",
+    "type": "multiple_choice",
+    "question": "앞의 사실에 더하여 다른 사실까지 추가로 포함됨을 나타내는 연결 표현은?",
+    "options": [
+      "-뿐만 아니라",
+      "-는 대신에",
+      "-는 바람에",
+      "-는 탓에"
+    ],
+    "answer": "-뿐만 아니라",
+    "explanation": "추가 첨가를 나타낼 때는 '체언 + 뿐만 아니라 / 동사 + -(으)ㄹ 뿐만 아니라'를 씁니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-2",
+    "type": "multiple_choice",
+    "question": "앞의 전제가 참이라고 해서 반드시 뒤의 결과가 당연한 것은 아님을 나타내는 어미는?",
+    "options": [
+      "-(ㄴ/는)다고 해서",
+      "-(으)려고 해서",
+      "-자마자 해서",
+      "-는 동안 해서"
+    ],
+    "answer": "-(ㄴ/는)다고 해서",
+    "explanation": "부분 부정이나 맹목적 단정을 부정할 때는 '-(ㄴ/는)다고 해서'를 씁니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-3",
+    "type": "multiple_choice",
+    "question": "명절 아침에 조상들을 기리며 간소하게 올리는 전통 제사는?",
+    "options": [
+      "차례",
+      "동창회",
+      "집들이",
+      "공휴일"
+    ],
+    "answer": "차례",
+    "explanation": "명절 아침에 지내는 제사는 '차례(茶禮)'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-4",
+    "type": "multiple_choice",
+    "question": "달라지지 않고 예전 상태 그대로 유지되는 성질을 뜻하는 형용사는?",
+    "options": [
+      "변함없다",
+      "번거롭다",
+      "소심하다",
+      "무뚝뚝하다"
+    ],
+    "answer": "변함없다",
+    "explanation": "한결같이 변하지 않는 상태는 '변함없다'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-5",
+    "type": "multiple_choice",
+    "question": "형용사 '비싸다'에 전제 부분 부정 어미가 결합한 올바른 형태는?",
+    "options": [
+      "비싸다고 해서",
+      "비싼다고 해서",
+      "비쌀다고 해서",
+      "비쌉다고 해서"
+    ],
+    "answer": "비싸다고 해서",
+    "explanation": "형용사 뒤에는 간접 인용 결합으로 '비싸다고 해서'가 됩니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-6",
+    "type": "fill_in_the_blank",
+    "question": "한국 노래뿐___ 아니라 드라마도 정말 좋아해요. (첨가)",
+    "answer": "만",
+    "explanation": "'뿐만 아니라'의 '만'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-7",
+    "type": "fill_in_the_blank",
+    "question": "외국인이라___ 해서 한국 문화를 모르는 것은 아니에요. (인용전제)",
+    "answer": "고",
+    "explanation": "'외국인이라고 해서'의 '고'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-8",
+    "type": "fill_in_the_blank",
+    "question": "개인의 선호에 ___라 선택할 수 있습니다. (따라)",
+    "answer": "따",
+    "explanation": "'따라'의 '따'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-9",
+    "type": "fill_in_the_blank",
+    "question": "국가에서 법으로 정한 공식 휴일을 공___일이라고 합니다. (휴)",
+    "answer": "휴",
+    "explanation": "'공휴일(公休日)'의 '휴'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-10",
+    "type": "fill_in_the_blank",
+    "question": "서로 다른 여러 가지 특성을 ___양성이라고 합니다. (다)",
+    "answer": "다",
+    "explanation": "'다양성(多樣性)'의 '다'입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [어린이날뿐만 아니라 / 쉬어요 / 석가탄신일에도]",
+    "answer": "어린이날뿐만 아니라 석가탄신일에도 쉬어요",
+    "explanation": "첨가구(어린이날뿐만 아니라) + 대상(석가탄신일에도) + 서술어(쉬어요) 순서입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [차례를 지내는 것은 / 한국 사람이라고 해서 / 아니에요 / 모두]",
+    "answer": "한국 사람이라고 해서 모두 차례를 지내는 것은 아니에요",
+    "explanation": "전제절(한국 사람이라고 해서) + 부사(모두) + 부분부정 서술어(차례를 지내는 것은 아니에요) 순서입니다.",
+    "source_unit": 39
+  },
+  {
+    "quiz_id": "q39-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [달라지고 있어요 / 시대의 변화에 따라 / 명절 풍습도]",
+    "answer": "시대의 변화에 따라 명절 풍습도 달라지고 있어요",
+    "explanation": "기준 조건절(시대의 변화에 따라) + 주어(명절 풍습도) + 서술어(달라지고 있어요) 순서입니다.",
+    "source_unit": 39
+  }
+]

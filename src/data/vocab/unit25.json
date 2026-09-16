@@ -1,0 +1,72 @@
+[
+  {
+    "word": "제출",
+    "meaning": "서류나 과제물을 담당자에게 냄 (Submission / turning in)",
+    "part_of_speech": "명사",
+    "example_sentence": "보고서 마감 시간 전에 제출을 마쳤어요.",
+    "level": "중급"
+  },
+  {
+    "word": "밤을 새우다",
+    "meaning": "잠을 자지 않고 밤을 보내다 (To stay up all night)",
+    "part_of_speech": "동사",
+    "example_sentence": "시험공부 때문에 밤을 하얗게 새웠습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "까다롭다",
+    "meaning": "조건이나 성격이 복잡하고 맞추기 어렵다 (To be tricky / demanding)",
+    "part_of_speech": "형용사",
+    "example_sentence": "문제의 조건이 아주 까다로워요.",
+    "level": "중급"
+  },
+  {
+    "word": "리포트",
+    "meaning": "소논문 형태의 학생 보고서 (Report / paper)",
+    "part_of_speech": "명사",
+    "example_sentence": "교수님께서 리포트 주제를 공지하셨어요.",
+    "level": "중급"
+  },
+  {
+    "word": "전문 용어",
+    "meaning": "특정 학문이나 기술 분야에서 쓰이는 말 (Technical term)",
+    "part_of_speech": "명사",
+    "example_sentence": "의학 전문 용어는 사전을 찾아봐야 해요.",
+    "level": "중급"
+  },
+  {
+    "word": "논문",
+    "meaning": "학술적인 연구 결과를 서술한 글 (Thesis / academic paper)",
+    "part_of_speech": "명사",
+    "example_sentence": "졸업 논문을 학술지에 게재했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "마감",
+    "meaning": "일을 끝맺거나 마치는 기한 (Deadline)",
+    "part_of_speech": "명사",
+    "example_sentence": "과제 마감 시한이 오늘 밤 자정입니다.",
+    "level": "중급"
+  },
+  {
+    "word": "난이도",
+    "meaning": "문제나 일의 어렵고 쉬운 정도 (Level of difficulty)",
+    "part_of_speech": "명사",
+    "example_sentence": "이번 중간고사 시험 난이도가 적절했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "학술",
+    "meaning": "학문과 기술 (Academics / scholarly)",
+    "part_of_speech": "명사",
+    "example_sentence": "학술 대회에서 연구 성과를 발표했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "공지하다",
+    "meaning": "어떤 사실을 널리 알리다 (To announce / notice)",
+    "part_of_speech": "동사",
+    "example_sentence": "휴강 일정을 게시판에 공지했습니다.",
+    "level": "중급"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 8,
+    "dialogue_id": "d8-1",
+    "speaker": "김민호",
+    "korean_text": "수연 씨, 오늘 점심에 뭐 먹을까요?",
+    "translation": "Suyeon, what shall we eat for lunch today?",
+    "audio_hint": "메뉴를 제안하며 상대방의 의견을 묻는 톤"
+  },
+  {
+    "unit": 8,
+    "dialogue_id": "d8-2",
+    "speaker": "이수연",
+    "korean_text": "날씨가 더우니까 시원한 냉면을 먹읍시다.",
+    "translation": "Since the weather is hot, let's eat cool cold noodles.",
+    "audio_hint": "청유형으로 밝게 제안하는 톤"
+  },
+  {
+    "unit": 8,
+    "dialogue_id": "d8-3",
+    "speaker": "김민호",
+    "korean_text": "좋아요! 회사 앞 냉면집으로 가요.",
+    "translation": "Sounds good! Let's go to the naengmyeon restaurant in front of the company.",
+    "audio_hint": "동의하며 신나게 응답하는 톤"
+  },
+  {
+    "unit": 8,
+    "dialogue_id": "d8-4",
+    "speaker": "리홍",
+    "korean_text": "여기요, 비빔밥 하나하고 불고기 1인분 주세요.",
+    "translation": "Excuse me, please give us one bibimbap and one serving of bulgogi.",
+    "audio_hint": "식당에서 점원에게 주문하는 또박또박한 톤"
+  },
+  {
+    "unit": 8,
+    "dialogue_id": "d8-5",
+    "speaker": "점원",
+    "korean_text": "네, 알겠습니다. 비빔밥이 조금 매운데 괜찮으세요?",
+    "translation": "Yes, understood. The bibimbap is a bit spicy, is that okay?",
+    "audio_hint": "친절하게 손님의 입맛을 확인하는 종업원 톤"
+  },
+  {
+    "unit": 8,
+    "dialogue_id": "d8-6",
+    "speaker": "리홍",
+    "korean_text": "네, 매운 음식 좋아해요. 많이 안 맵게 해 주세요.",
+    "translation": "Yes, I like spicy food. Please make it not too spicy.",
+    "audio_hint": "부탁하며 미소 짓는 상냥한 톤"
+  }
+]

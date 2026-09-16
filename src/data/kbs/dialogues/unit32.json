@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 32,
+    "dialogue_id": "d32-1",
+    "speaker": "하린",
+    "korean_text": "지우 씨, 아침 뉴스에서 날씨를 알려 주더라고요.",
+    "translation": "Jiu, the morning news reported the weather today.",
+    "audio_hint": "들은 정보를 상기하며 전달하는 차분한 어조"
+  },
+  {
+    "unit": 32,
+    "dialogue_id": "d32-2",
+    "speaker": "지우",
+    "korean_text": "그래요? 오후에 비가 온다고 하던가요?",
+    "translation": "Really? Did they say it's going to rain in the afternoon?",
+    "audio_hint": "궁금해하며 되묻는 톤"
+  },
+  {
+    "unit": 32,
+    "dialogue_id": "d32-3",
+    "speaker": "하린",
+    "korean_text": "네, 기상청 예보에 의하면 저녁부터 강한 돌풍과 함께 비가 내릴 거래요.",
+    "translation": "Yes, according to the meteorological agency, it will rain from evening with strong gusts.",
+    "audio_hint": "뉴스 내용을 근거로 정확히 설명하는 톤"
+  },
+  {
+    "unit": 32,
+    "dialogue_id": "d32-4",
+    "speaker": "지우",
+    "korean_text": "그렇군요. 참, 방송국 투어 프로그램에 다녀온 적이 있어요?",
+    "translation": "I see. By the way, have you ever been on a broadcasting station tour program?",
+    "audio_hint": "새로운 화제를 제안하는 활기찬 목소리"
+  },
+  {
+    "unit": 32,
+    "dialogue_id": "d32-5",
+    "speaker": "하린",
+    "korean_text": "네! 뉴스 스튜디오에서 앵커처럼 뉴스 대본을 읽어 보는 체험도 있더라고요.",
+    "translation": "Yes! There was also an experience where you read news scripts like an anchor in a news studio.",
+    "audio_hint": "과거 견학 경험을 생생히 떠올리는 즐거운 톤"
+  },
+  {
+    "unit": 32,
+    "dialogue_id": "d32-6",
+    "speaker": "지우",
+    "korean_text": "와, 정말 흥미진진했겠네요. 저도 다음 주말에 신청해 봐야겠어요.",
+    "translation": "Wow, that must have been really exciting. I should apply for it next weekend too.",
+    "audio_hint": "기대에 찬 밝은 마무리 어조"
+  }
+]

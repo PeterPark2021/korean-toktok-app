@@ -1,0 +1,72 @@
+[
+  {
+    "word": "기상이변",
+    "meaning": "과거의 경험적 기준을 크게 벗어난 기상 현상 (Abnormal climate / weather anomaly)",
+    "part_of_speech": "명사",
+    "example_sentence": "전 지구적 기상이변으로 폭염과 홍수가 빈발하고 있습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "지구 온난화",
+    "meaning": "지구 표면의 평균 기온이 지속적으로 상승하는 현상 (Global warming)",
+    "part_of_speech": "명사",
+    "example_sentence": "지구 온난화 방지를 위해 온실가스 감축이 시급합니다.",
+    "level": "고급"
+  },
+  {
+    "word": "탄소중립",
+    "meaning": "배출하는 탄소량과 흡수하는 탄소량을 같게 하여 순 배출량을 0으로 만듦 (Carbon neutrality / Net zero)",
+    "part_of_speech": "명사",
+    "example_sentence": "정부는 2050 탄소중립 로드맵을 선언했습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "신재생에너지",
+    "meaning": "태양광, 풍력, 수소 등 화석연료를 대체하는 친환경 에너지 (Renewable energy)",
+    "part_of_speech": "명사",
+    "example_sentence": "신재생에너지 발전 비중을 지속적으로 확대하고 있어요.",
+    "level": "고급"
+  },
+  {
+    "word": "임계점",
+    "meaning": "어떤 물질이나 현상이 급격히 다른 상태로 전환되는 한계 (Critical point / tipping point)",
+    "part_of_speech": "명사",
+    "example_sentence": "기후 변화가 회복 불가능한 임계점을 넘어설 위험이 큽니다.",
+    "level": "고급"
+  },
+  {
+    "word": "해빙",
+    "meaning": "바다에 떠 있는 얼음 또는 얼음이 녹음 (Sea ice / thawing)",
+    "part_of_speech": "명사",
+    "example_sentence": "극지방 해빙 현상으로 북극곰의 서식지가 줄어들고 있습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "공조",
+    "meaning": "목적을 이루기 위해 여러 주체가 서로 보조를 맞추어 도움 (Cooperation / concerted action)",
+    "part_of_speech": "명사",
+    "example_sentence": "국제적 공조를 통해 환경 협정을 준수해야 합니다.",
+    "level": "고급"
+  },
+  {
+    "word": "가시화되다",
+    "meaning": "어떤 현상이나 결과가 눈에 띄게 구체적으로 드러나다 (To become visible / materialize)",
+    "part_of_speech": "동사",
+    "example_sentence": "기후 위기의 여파가 식량 부족으로 가시화되고 있습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "모호하다",
+    "meaning": "말이나 태도, 경계가 흐리터분하여 명확하지 않다 (To be vague / ambiguous)",
+    "part_of_speech": "형용사",
+    "example_sentence": "봄과 가을의 구분이 점차 모호해졌습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "수반되다",
+    "meaning": "어떤 일에 따라붙어 함께 일어나다 (To accompany / entail)",
+    "part_of_speech": "동사",
+    "example_sentence": "제도적 개혁에는 시민 의식의 성숙이 수반되어야 합니다.",
+    "level": "고급"
+  }
+]

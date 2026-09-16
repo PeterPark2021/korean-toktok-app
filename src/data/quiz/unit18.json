@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q18-1",
+    "type": "multiple_choice",
+    "question": "상대방을 위해 공손하게 짐을 들어주겠다고 말할 때 알맞은 표현은?",
+    "options": [
+      "제가 들어 드릴게요",
+      "제가 드려 줄게요",
+      "제가 들게 하세요",
+      "제가 들기를 바래요"
+    ],
+    "answer": "제가 들어 드릴게요",
+    "explanation": "남을 위한 행동 제공의 공손한 종결 표현은 '-아/어 드릴게요'입니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-2",
+    "type": "multiple_choice",
+    "question": "자신의 의지를 전제로 상대방에게 역할을 부탁할 때 쓰는 연결어미는?",
+    "options": [
+      "-(으)ㄹ 테니까",
+      "-(으)려고",
+      "-는 바람에",
+      "-기는 하지만"
+    ],
+    "answer": "-(으)ㄹ 테니까",
+    "explanation": "화자의 의지를 제시하고 청자에게 행동을 권유할 때는 '-(으)ㄹ 테니까'를 씁니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-3",
+    "type": "multiple_choice",
+    "question": "기간이나 시간의 지속을 나타내는 표현은?",
+    "options": [
+      "-는 동안",
+      "-는 길에",
+      "-는 탓에",
+      "-는 법이다"
+    ],
+    "answer": "-는 동안",
+    "explanation": "행동이 지속되는 시간적 구간을 표현할 때는 '-는 동안(에)'을 씁니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-4",
+    "type": "multiple_choice",
+    "question": "업무상 다른 지역이나 나라로 출장을 가는 것을 뜻하는 단어는?",
+    "options": [
+      "출장",
+      "퇴근",
+      "등교",
+      "외식"
+    ],
+    "answer": "출장",
+    "explanation": "회사의 일이나 공무로 다른 곳에 다녀오는 것을 '출장(出張)'이라고 합니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-5",
+    "type": "multiple_choice",
+    "question": "다음 중 '돕다'의 공손한 도움 제공 형태는?",
+    "options": [
+      "도와 드릴게요",
+      "돕아 줄게요",
+      "도와 줄게요",
+      "도와 받으세요"
+    ],
+    "answer": "도와 드릴게요",
+    "explanation": "'돕다'는 'ㅂ' 불규칙 동사로 '도와 드릴게요'로 활용합니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-6",
+    "type": "fill_in_the_blank",
+    "question": "제가 커피를 사 ___ 테니까 맛있게 드세요. (-(으)ㄹ 테니까)",
+    "answer": "올",
+    "explanation": "'사 오다'에 받침이 없으므로 '-ㄹ 테니까'가 붙어 '사 올 테니까'가 됩니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-7",
+    "type": "fill_in_the_blank",
+    "question": "방학 하___ 동안 고향에 다녀올 계획이에요. (-는)",
+    "answer": "는",
+    "explanation": "'하다' 뒤에 기간을 나타내는 관형사형 어미 '-는'이 붙습니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-8",
+    "type": "fill_in_the_blank",
+    "question": "어르신께 자리를 양보해 ___렸습니다. (드리다 과거형)",
+    "answer": "드",
+    "explanation": "'양보해 드렸습니다'의 '드'입니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-9",
+    "type": "fill_in_the_blank",
+    "question": "남에게 어떤 일을 청하는 일을 ___탁이라고 합니다. (부)",
+    "answer": "부",
+    "explanation": "'부탁(付託)'은 남에게 청하는 일입니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-10",
+    "type": "fill_in_the_blank",
+    "question": "식물을 심어 실내에 놓는 그릇은 ___분입니다. (화)",
+    "answer": "화",
+    "explanation": "꽃이나 화초를 심는 통을 '화분(花盆)'이라고 합니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [제가 / 무거운 / 드릴게요 / 짐을 / 들어]",
+    "answer": "제가 무거운 짐을 들어 드릴게요",
+    "explanation": "주어(제가) + 목적어(무거운 짐을) + 서술어(들어 드릴게요) 순서입니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [물을 / 화분에 / 다녀오는 / 동안 / 주세요]",
+    "answer": "다녀오는 동안 화분에 물을 주세요",
+    "explanation": "시간 부사절(다녀오는 동안) + 부사어(화분에) + 목적어(물을) + 서술어(주세요) 순입니다.",
+    "source_unit": 18
+  },
+  {
+    "quiz_id": "q18-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [열어 / 문을 / 테니까 / 먼저 / 주세요 / 갈]",
+    "answer": "먼저 갈 테니까 문을 열어 주세요",
+    "explanation": "의지 제시(먼저 갈 테니까) + 요구(문을 열어 주세요) 순서입니다.",
+    "source_unit": 18
+  }
+]

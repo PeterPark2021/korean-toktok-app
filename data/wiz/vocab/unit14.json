@@ -1,0 +1,72 @@
+[
+  {
+    "word": "경험",
+    "meaning": "직접 겪거나 해 봄 (Experience)",
+    "part_of_speech": "명사",
+    "example_sentence": "여행은 인생에 소중한 경험이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "추천",
+    "meaning": "어떤 대상이 좋다고 권함 (Recommendation)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구에게 맛있는 식당을 추천받았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "야경",
+    "meaning": "밤의 경치나 풍경 (Night view)",
+    "part_of_speech": "명사",
+    "example_sentence": "남산에서 바라본 서울의 야경이 예뻐요.",
+    "level": "초급"
+  },
+  {
+    "word": "명소",
+    "meaning": "경치가 좋거나 유명한 곳 (Famous attraction / sight)",
+    "part_of_speech": "명사",
+    "example_sentence": "한국의 유명한 관광 명소를 방문했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "휴가",
+    "meaning": "직장이나 학교를 쉬는 기간 (Vacation / leave)",
+    "part_of_speech": "명사",
+    "example_sentence": "여름 휴가 때 바다로 여행을 떠나요.",
+    "level": "초급"
+  },
+  {
+    "word": "다녀오다",
+    "meaning": "갔다가 다시 돌아오다 (To go and come back / visit)",
+    "part_of_speech": "동사",
+    "example_sentence": "고향에 잘 다녀왔습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "바다",
+    "meaning": "지구 표면의 넓고 짠 물 (Sea / ocean)",
+    "part_of_speech": "명사",
+    "example_sentence": "여름에는 시원한 바다에서 수영해요.",
+    "level": "초급"
+  },
+  {
+    "word": "풍경",
+    "meaning": "자연이나 도시의 경치 (Scenery / landscape)",
+    "part_of_speech": "명사",
+    "example_sentence": "가을 산의 단풍 풍경이 아름다워요.",
+    "level": "초급"
+  },
+  {
+    "word": "기억나다",
+    "meaning": "지나간 일이 머릿속에 떠오르다 (To remember / come to mind)",
+    "part_of_speech": "동사",
+    "example_sentence": "그 여행지의 이름이 잘 기억나요.",
+    "level": "초급"
+  },
+  {
+    "word": "아름답다",
+    "meaning": "모양이나 경치가 훌륭하고 곱다 (To be beautiful)",
+    "part_of_speech": "형용사",
+    "example_sentence": "일몰 풍경이 참 아름답습니다.",
+    "level": "초급"
+  }
+]

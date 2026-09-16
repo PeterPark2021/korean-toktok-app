@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q40-1",
+    "type": "multiple_choice",
+    "question": "상태의 정도가 어떤 기준에 달할 만큼 극심함을 나타내는 어미는?",
+    "options": [
+      "-(으)ㄹ 정도로",
+      "-(으)ㄹ 뻔하도록",
+      "-(으)ㄹ 겸",
+      "-(으)ㄹ 만하게"
+    ],
+    "answer": "-(으)ㄹ 정도로",
+    "explanation": "정도의 극치를 표현할 때는 '-(으)ㄹ 정도로'를 씁니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-2",
+    "type": "multiple_choice",
+    "question": "위험한 일이 일어날 뻔했으나 실제로는 모면했음을 나타내는 표현은?",
+    "options": [
+      "-(으)ㄹ 뻔하다",
+      "-기 십상이다",
+      "-(으)ㄴ 셈이다",
+      "-는 법이다"
+    ],
+    "answer": "-(으)ㄹ 뻔하다",
+    "explanation": "아슬아슬한 미수 사건을 나타낼 때는 '-(으)ㄹ 뻔하다'를 씁니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-3",
+    "type": "multiple_choice",
+    "question": "반드시 지켜야 한다는 강한 당위를 이중부정으로 강조한 표현은?",
+    "options": [
+      "지키지 않으면 안 되다",
+      "지키는 편이다",
+      "지킬 리가 없다",
+      "지키기 십상이다"
+    ],
+    "answer": "지키지 않으면 안 되다",
+    "explanation": "강한 당위의 이중부정은 '-지 않으면 안 되다'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-4",
+    "type": "multiple_choice",
+    "question": "창작자가 자신이 만든 저작물에 대해 가지는 법적 권리는?",
+    "options": [
+      "저작권",
+      "초상권",
+      "소유권",
+      "투표권"
+    ],
+    "answer": "저작권",
+    "explanation": "창작물의 배타적 권리는 '저작권(著作權)'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-5",
+    "type": "multiple_choice",
+    "question": "법이나 규정을 위반하여 처벌로 부과받는 돈은?",
+    "options": [
+      "벌금",
+      "장학금",
+      "회비",
+      "환불금"
+    ],
+    "answer": "벌금",
+    "explanation": "위법 행위에 대해 부과되는 형벌적 금전은 '벌금(罰金)'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-6",
+    "type": "fill_in_the_blank",
+    "question": "발 디딜 틈이 없___ 정도로 사람이 많았어요. (정도의 극치)",
+    "answer": "을",
+    "explanation": "'없다'에 받침이 있으므로 '-을 정도로'가 결합합니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-7",
+    "type": "fill_in_the_blank",
+    "question": "비행기를 놓칠 ___했어요. (미수)",
+    "answer": "뻔",
+    "explanation": "'놓칠 뻔했어요'의 '뻔'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-8",
+    "type": "fill_in_the_blank",
+    "question": "규칙을 준수하___ 않으면 안 됩니다. (이중부정)",
+    "answer": "지",
+    "explanation": "'준수하지 않으면'의 '지'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-9",
+    "type": "fill_in_the_blank",
+    "question": "도덕적이고 바른 사회 규범을 ___리라고 합니다. (윤)",
+    "answer": "윤",
+    "explanation": "'윤리(倫理)'의 '윤'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-10",
+    "type": "fill_in_the_blank",
+    "question": "법이나 규칙에 어긋나는 행위를 ___법이라고 합니다. (불)",
+    "answer": "불",
+    "explanation": "'불법(不法)'의 '불'입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [알 정도로 / 유명해요 / 외국 사람도 / 엄청]",
+    "answer": "외국 사람도 알 정도로 엄청 유명해요",
+    "explanation": "주어(외국 사람도) + 정도절(알 정도로) + 부사(엄청) + 서술어(유명해요) 순서입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [벌금을 / 큰 / 낼 뻔했어요 / 다운로드하려다가]",
+    "answer": "다운로드하려다가 큰 벌금을 낼 뻔했어요",
+    "explanation": "의도 중단절(다운로드하려다가) + 목적어(큰 벌금을) + 미수 서술어(낼 뻔했어요) 순서입니다.",
+    "source_unit": 40
+  },
+  {
+    "quiz_id": "q40-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [저작권을 / 안 돼요 / 지키지 않으면 / 창작자의]",
+    "answer": "창작자의 저작권을 지키지 않으면 안 돼요",
+    "explanation": "수식 관형어(창작자의) + 목적어(저작권을) + 이중부정 당위(지키지 않으면 안 돼요) 순서입니다.",
+    "source_unit": 40
+  }
+]

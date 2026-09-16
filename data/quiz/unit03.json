@@ -1,0 +1,116 @@
+[
+  {
+    "quiz_id": "q3-1",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 목적격 조사는?\n'카페에서 커피___ 마셔요.'",
+    "options": ["를", "을", "에서", "에"],
+    "answer": "를",
+    "explanation": "'커피'는 받침이 없는 명사이므로 목적격 조사 '-를'이 결합합니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-2",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 장소 조사는?\n'도서관___ 한국어를 공부했어요.'",
+    "options": ["에서", "에", "로", "을"],
+    "answer": "에서",
+    "explanation": "도서관이라는 장소에서 '공부하다'라는 행동을 하므로 활동 장소 조사 '-에서'를 씁니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-3",
+    "type": "multiple_choice",
+    "question": "'보다'의 과거형으로 알맞은 것은?",
+    "options": ["봤어요", "보았어요", "보었어요", "보해요"],
+    "answer": "봤어요",
+    "explanation": "'보다'의 어간 모음 'ㅗ' 뒤에 과거 시제 '-았어요'가 결합하여 축약되면 '봤어요'가 됩니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-4",
+    "type": "multiple_choice",
+    "question": "어제 한 일을 묻고 대답하는 대화로 가장 자연스러운 것은?",
+    "options": [
+      "어제 뭐 해요? - 영화를 봐요.",
+      "어제 뭐 했어요? - 집에서 쉬었어요.",
+      "지금 뭐 했어요? - 공부해요.",
+      "어제 어디에 가요? - 도서관에 가요."
+    ],
+    "answer": "어제 뭐 했어요? - 집에서 쉬었어요.",
+    "explanation": "'어제'는 과거 시점이므로 질문 '뭐 했어요?'와 대답 '쉬었어요' 모두 과거형을 써야 합니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-5",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 조사는?\n'도안닝 씨는 집___ 쉬어요.'",
+    "options": ["에서", "에", "을", "이"],
+    "answer": "에서",
+    "explanation": "집이라는 공간에서 '쉬다'라는 동작을 행하므로 '-에서'가 올바릅니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-6",
+    "type": "fill_in_the_blank",
+    "question": "동사 '공부하다'의 현재형(-아/어요)을 쓰세요.\n'도서관에서 한국어를 (_______).' ",
+    "answer": "공부해요",
+    "explanation": "'-하다'로 끝나는 동사는 비격식 정중체 현재형에서 '-해요'로 바뀝니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-7",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 목적격 조사(을/를)를 쓰세요.\n'극장에서 영화(____) 봤어요.'",
+    "answer": "를",
+    "explanation": "'영화'는 받침이 없으므로 목적격 조사 '-를'을 씁니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-8",
+    "type": "fill_in_the_blank",
+    "question": "동사 '마시다'의 과거형(-았/었어요)을 쓰세요.\n'어제 카페에서 주스를 (_______).' ",
+    "answer": "마셨어요",
+    "explanation": "'마시다'의 '시'에 '-었어요'가 결합하여 '마셨어요'로 축약됩니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-9",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 장소 조사(에/에서)를 쓰세요.\n'공원(____) 운동해요.'",
+    "answer": "에서",
+    "explanation": "운동하는 동작의 활동 장소이므로 '-에서'를 사용합니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-10",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 목적격 조사(을/를)를 쓰세요.\n'아침에 빵(____) 먹었어요.'",
+    "answer": "을",
+    "explanation": "'빵'은 받침(ㅇ)이 있으므로 목적격 조사 '-을'을 씁니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 현재 행동을 말하는 문장을 완성하세요.",
+    "answer": "카페에서 커피를 마셔요",
+    "explanation": "장소 '카페에서' + 목적어 '커피를' + 서술어 '마셔요' 순으로 배열합니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 어제 한 일을 묻는 문장을 완성하세요.",
+    "answer": "어제 뭐 했어요",
+    "explanation": "시간부사 '어제' + 의문사 '뭐' + 서술어 '했어요' 순으로 구성합니다.",
+    "source_unit": 3
+  },
+  {
+    "quiz_id": "q3-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.",
+    "answer": "도서관에서 한국어를 공부했어요",
+    "explanation": "장소 '도서관에서' + 목적어 '한국어를' + 과거 서술어 '공부했어요' 순서입니다.",
+    "source_unit": 3
+  }
+]

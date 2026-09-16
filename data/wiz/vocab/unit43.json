@@ -1,0 +1,72 @@
+[
+  {
+    "word": "속담",
+    "meaning": "예로부터 민간에 전해 내려오는 교훈적인 짧은 격언 (Proverb / saying)",
+    "part_of_speech": "명사",
+    "example_sentence": "속담에는 선조들의 오랜 삶의 지혜가 농축되어 있습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "관용구",
+    "meaning": "둘 이상의 단어가 합쳐져 고유한 특별한 뜻을 나타내는 관용 표현 (Idiom / idiomatic phrase)",
+    "part_of_speech": "명사",
+    "example_sentence": "'손을 씻다'는 관용구로 나쁜 일에서 손을 떼다를 뜻해요.",
+    "level": "고급"
+  },
+  {
+    "word": "비유",
+    "meaning": "어떤 현상이나 대상을 다른 비슷한 것에 빗대어 표현함 (Metaphor / figurative expression)",
+    "part_of_speech": "명사",
+    "example_sentence": "시인은 자연을 인간의 감정에 빗대어 비유했습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "파급력",
+    "meaning": "어떤 현상이 다른 곳으로 미치고 퍼져 나가는 영향력 (Ripple effect / fallout power)",
+    "part_of_speech": "명사",
+    "example_sentence": "SNS를 통한 정보의 파급력은 상상을 초월합니다.",
+    "level": "고급"
+  },
+  {
+    "word": "교훈",
+    "meaning": "행동이나 마음에 깨달음과 가르침을 주는 본보기 (Lesson / moral)",
+    "part_of_speech": "명사",
+    "example_sentence": "과거의 실패로부터 값진 교훈을 얻었습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "정서",
+    "meaning": "사람의 마음에 일어나는 감정이나 분위기 (Sentiment / emotion)",
+    "part_of_speech": "명사",
+    "example_sentence": "한국의 전통 민요에는 한과 흥의 정서가 녹아 있어요.",
+    "level": "고급"
+  },
+  {
+    "word": "고스란히",
+    "meaning": "어떤 손상이나 누락 없이 온전하게 그대로 (Intact / entirely)",
+    "part_of_speech": "부사",
+    "example_sentence": "조상들의 유적이 훼손 없이 고스란히 보존되었습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "구사력",
+    "meaning": "말이나 글, 기술을 자유자재로 다루어 쓰는 능력 (Command / fluency / proficiency)",
+    "part_of_speech": "명사",
+    "example_sentence": "외국어 구사력이 뛰어나 통역사로 활동하고 있습니다.",
+    "level": "고급"
+  },
+  {
+    "word": "발이 넓다",
+    "meaning": "아는 사람이 많아 활동 반경과 인맥이 넓다 (To have a wide circle of acquaintances)",
+    "part_of_speech": "관용구",
+    "example_sentence": "그 선배는 발이 넓어서 모르는 사람이 없어요.",
+    "level": "고급"
+  },
+  {
+    "word": "눈이 높다",
+    "meaning": "사물을 판단하거나 고르는 안목이나 기준이 까다롭다 (To have high standards / discerning taste)",
+    "part_of_speech": "관용구",
+    "example_sentence": "옷을 고를 때 눈이 높아서 마음에 드는 걸 찾기 힘들어요.",
+    "level": "고급"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q35-1",
+    "type": "multiple_choice",
+    "question": "어떤 행동이 일어난 후 경과된 시간을 표현하는 어미는?",
+    "options": [
+      "-(으)ㄴ 지 [시간]이 되다",
+      "-(으)ㄹ 정도로 되다",
+      "-는 동안이 되다",
+      "-는 바람에 되다"
+    ],
+    "answer": "-(으)ㄴ 지 [시간]이 되다",
+    "explanation": "시간의 경과를 나타내는 표현은 '-(으)ㄴ 지 [시간]이 되다'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-2",
+    "type": "multiple_choice",
+    "question": "행동을 지속적으로 반복하여 경험한 결과를 나타내는 어미는?",
+    "options": [
+      "-다 보니",
+      "-자마자",
+      "-는 길에",
+      "-는 탓에"
+    ],
+    "answer": "-다 보니",
+    "explanation": "행동의 반복적 지속 후 발견은 '-다 보니'를 씁니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-3",
+    "type": "multiple_choice",
+    "question": "매번 특정 상황이 일어날 때마다 반복됨을 나타내는 어미는?",
+    "options": [
+      "-(으)ㄹ 때마다",
+      "-(으)ㄹ 때까지",
+      "-(으)ㄹ 때부터",
+      "-(으)ㄹ 때조차"
+    ],
+    "answer": "-(으)ㄹ 때마다",
+    "explanation": "반복적인 시간 조건을 나타낼 때는 '-(으)ㄹ 때마다'를 씁니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-4",
+    "type": "multiple_choice",
+    "question": "스스로 밥을 지어 먹으며 혼자 생활하는 주거 형태는?",
+    "options": [
+      "자취",
+      "합숙",
+      "홈스테이",
+      "기숙사"
+    ],
+    "answer": "자취",
+    "explanation": "독립하여 스스로 밥을 해 먹는 생활은 '자취(自炊)'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-5",
+    "type": "multiple_choice",
+    "question": "동사 '살다'에 '-다 보니'가 결합한 올바른 형태는?",
+    "options": [
+      "살다 보니",
+      "사는다 보니",
+      "살은다 보니",
+      "살자 보니"
+    ],
+    "answer": "살다 보니",
+    "explanation": "동사 어간 '살-' 뒤에 그대로 '-다 보니'가 결합하여 '살다 보니'가 됩니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-6",
+    "type": "fill_in_the_blank",
+    "question": "한국에 온 ___ 벌써 6개월이 지났어요. (경과 시간)",
+    "answer": "지",
+    "explanation": "'온 지'의 의존명사 '지'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-7",
+    "type": "fill_in_the_blank",
+    "question": "계속 한국어를 쓰___ 보니 말하기가 자연스러워졌어요. (-다 보니)",
+    "answer": "다",
+    "explanation": "'쓰다 보니'의 '다'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-8",
+    "type": "fill_in_the_blank",
+    "question": "고향 사진을 볼 때___다 가족이 보고 싶어요. (반복)",
+    "answer": "마",
+    "explanation": "'볼 때마다'의 '마'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-9",
+    "type": "fill_in_the_blank",
+    "question": "새로운 환경에 익숙해지는 과정을 ___응이라고 합니다. (적)",
+    "answer": "적",
+    "explanation": "'적응(適應)'의 '적'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-10",
+    "type": "fill_in_the_blank",
+    "question": "홀로 떨어져 쓸쓸한 감정을 ___롭다고 합니다. (외)",
+    "answer": "외",
+    "explanation": "'외롭다'의 '외'입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [두 달이 / 시작한 지 / 자취를 / 되었어요 / 벌써]",
+    "answer": "자취를 시작한 지 벌써 두 달이 되었어요",
+    "explanation": "목적어(자취를) + 경과 시간절(시작한 지) + 부사(벌써) + 서술어(두 달이 되었어요) 순서입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [외로울 때가 / 혼자 살다 보니 / 많아요 / 밤에]",
+    "answer": "혼자 살다 보니 밤에 외로울 때가 많아요",
+    "explanation": "경험절(혼자 살다 보니) + 시간(밤에) + 주어구(외로울 때가) + 서술어(많아요) 순서입니다.",
+    "source_unit": 35
+  },
+  {
+    "quiz_id": "q35-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [적응해 가고 / 독립적인 생활에 / 점차 / 있어요]",
+    "answer": "독립적인 생활에 점차 적응해 가고 있어요",
+    "explanation": "부사어(독립적인 생활에) + 부사(점차) + 진행 서술어(적응해 가고 있어요) 순서입니다.",
+    "source_unit": 35
+  }
+]

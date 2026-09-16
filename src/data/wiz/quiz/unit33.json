@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q33-1",
+    "type": "multiple_choice",
+    "question": "타인과의 약속이나 자신의 결정을 나타내는 종결 표현은?",
+    "options": [
+      "-기로 하다",
+      "-기 십상이다",
+      "-는 탓이다",
+      "-자마자이다"
+    ],
+    "answer": "-기로 하다",
+    "explanation": "결정이나 약속을 나타낼 때는 '-기로 하다'를 씁니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-2",
+    "type": "multiple_choice",
+    "question": "감정이나 상태의 엄청난 정도를 강하게 강조하는 문장은?",
+    "options": [
+      "얼마나 감동적이든지 눈물이 났어요",
+      "감동적이기 위해 갔어요",
+      "감동적인 바람에 늦었어요",
+      "감동적이기는 한데 비싸요"
+    ],
+    "answer": "얼마나 감동적이든지 눈물이 났어요",
+    "explanation": "정도의 극치를 강조할 때는 '얼마나 -는지 모르다 / -든지'를 씁니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-3",
+    "type": "multiple_choice",
+    "question": "과거에 완료된 사실을 회상하여 명사를 수식하는 관형사형 어미는?",
+    "options": [
+      "-았/었던",
+      "-는",
+      "-(으)ㄹ",
+      "-던가"
+    ],
+    "answer": "-았/었던",
+    "explanation": "과거 완료된 경험의 회상 수식에는 '-았/었던'을 씁니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-4",
+    "type": "multiple_choice",
+    "question": "공연이나 영화를 관람한 뒤 남기는 소감이나 리뷰는?",
+    "options": [
+      "후기",
+      "예매",
+      "좌석",
+      "대본"
+    ],
+    "answer": "후기",
+    "explanation": "경험 후 남기는 감상글을 '후기(後記)'라고 합니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-5",
+    "type": "multiple_choice",
+    "question": "표를 미리 사전 구매하는 행위를 가리키는 단어는?",
+    "options": [
+      "예매",
+      "취소",
+      "환불",
+      "발송"
+    ],
+    "answer": "예매",
+    "explanation": "사전에 좌석이나 티켓을 사는 것을 '예매(豫買)'라고 합니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-6",
+    "type": "fill_in_the_blank",
+    "question": "방학 동안 친구와 여행을 가___로 했습니다. (결정)",
+    "answer": "기",
+    "explanation": "결정 표현 '-기로 하다'의 '기'입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-7",
+    "type": "fill_in_the_blank",
+    "question": "그 영화가 얼마나 슬프___지 극장 안이 눈물바다가 되었어요. (슬프다 + 강조)",
+    "answer": "든",
+    "explanation": "'슬프든지'의 '든'입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-8",
+    "type": "fill_in_the_blank",
+    "question": "지난달에 읽___던 소설의 결말이 인상 깊었어요. (읽다 + 과거회상)",
+    "answer": "었",
+    "explanation": "'읽었던'의 '었'입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-9",
+    "type": "fill_in_the_blank",
+    "question": "배우들이 무대에서 연기하는 예술 장르를 ___극이라고 합니다. (연)",
+    "answer": "연",
+    "explanation": "'연극(演劇)'의 '연'입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-10",
+    "type": "fill_in_the_blank",
+    "question": "마음 깊이 큰 울림을 줄 때 ___동적이라고 합니다. (감)",
+    "answer": "감",
+    "explanation": "'감동적(感動的)'의 '감'입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [보러 가기로 / 연극을 / 주말에 / 했어요]",
+    "answer": "주말에 연극을 보러 가기로 했어요",
+    "explanation": "시간 부사(주말에) + 목적어(연극을) + 약속 서술어(보러 가기로 했어요) 순서입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [눈물이 났어요 / 얼마나 / 감동적이든지 / 연기가]",
+    "answer": "연기가 얼마나 감동적이든지 눈물이 났어요",
+    "explanation": "주어(연기가) + 정도강조절(얼마나 감동적이든지) + 결과 서술어(눈물이 났어요) 순서입니다.",
+    "source_unit": 33
+  },
+  {
+    "quiz_id": "q33-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [지난번에 / 봤던 / 대단했어요 / 무대 연출이]",
+    "answer": "지난번에 봤던 무대 연출이 대단했어요",
+    "explanation": "시간 관형절(지난번에 봤던) + 주어(무대 연출이) + 서술어(대단했어요) 순서입니다.",
+    "source_unit": 33
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "word": "근황",
+    "meaning": "최근의 사정이나 형편 (Recent situation / update)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구에게 편지로 근황을 전했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "오랜만",
+    "meaning": "오래간만, 지나간 시간 (After a long time)",
+    "part_of_speech": "명사",
+    "example_sentence": "오랜만에 친구를 만나서 즐거웠어요.",
+    "level": "초급"
+  },
+  {
+    "word": "바쁘다",
+    "meaning": "일이 많아 쉴 틈이 없다 (To be busy)",
+    "part_of_speech": "형용사",
+    "example_sentence": "이번 주에는 시험 준비로 정말 바빠요.",
+    "level": "초급"
+  },
+  {
+    "word": "놓치다",
+    "meaning": "탈것이나 기회를 잃다 (To miss - transport/opportunity)",
+    "part_of_speech": "동사",
+    "example_sentence": "늦잠을 자서 기차를 놓쳤어요.",
+    "level": "초급"
+  },
+  {
+    "word": "지연",
+    "meaning": "시간이 늦어짐 (Delay)",
+    "part_of_speech": "명사",
+    "example_sentence": "눈 때문에 비행기 출발이 지연되었습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "우산",
+    "meaning": "비를 막는 도구 (Umbrella)",
+    "part_of_speech": "명사",
+    "example_sentence": "비가 오니까 우산을 챙기세요.",
+    "level": "초급"
+  },
+  {
+    "word": "출근",
+    "meaning": "일터로 나감 (Going to work)",
+    "part_of_speech": "명사",
+    "example_sentence": "아침 8시에 출근해요.",
+    "level": "초급"
+  },
+  {
+    "word": "사과하다",
+    "meaning": "잘못에 대해 용서를 구하다 (To apologize)",
+    "part_of_speech": "동사",
+    "example_sentence": "지각해서 선생님께 사과했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "소식",
+    "meaning": "새로운 정보나 안부 (News / word)",
+    "part_of_speech": "명사",
+    "example_sentence": "고향 친구에게서 좋은 소식을 들었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "괜찮다",
+    "meaning": "문제나 탈이 없다 (To be all right / okay)",
+    "part_of_speech": "형용사",
+    "example_sentence": "조금 늦어도 괜찮으니 천천히 오세요.",
+    "level": "초급"
+  }
+]

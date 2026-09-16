@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q14-1",
+    "type": "multiple_choice",
+    "question": "과거에 해 본 경험이 있음을 나타내는 올바른 표현은?",
+    "options": [
+      "가 본 적이 있어요",
+      "가 본 적이 갈래요",
+      "가 볼 때가 있어요",
+      "가 바람에 있어요"
+    ],
+    "answer": "가 본 적이 있어요",
+    "explanation": "과거 경험 유무는 '-(으)ㄴ 적이 있다/없다'로 나타냅니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-2",
+    "type": "multiple_choice",
+    "question": "방문할 가치가 있음을 나타내는 추천 표현은?",
+    "options": [
+      "가 볼 만해요",
+      "가 버렸어요",
+      "가 보도록 해요",
+      "가는 바람이에요"
+    ],
+    "answer": "가 볼 만해요",
+    "explanation": "가치나 추천의 의미를 지닌 어미는 '-(으)ㄹ 만하다'입니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-3",
+    "type": "multiple_choice",
+    "question": "동사 '먹다'에 과거 경험 부정을 결합한 알맞은 형태는?",
+    "options": [
+      "먹은 적이 없어요",
+      "먹는 적이 없어요",
+      "먹을 적이 없어요",
+      "먹어 적이 없어요"
+    ],
+    "answer": "먹은 적이 없어요",
+    "explanation": "'먹다'에 받침이 있으므로 '-은 적이 없다'가 붙어 '먹은 적이 없어요'가 됩니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-4",
+    "type": "multiple_choice",
+    "question": "밤에 보는 아름다운 도시나 자연의 경치를 뜻하는 단어는?",
+    "options": [
+      "야경",
+      "일몰",
+      "명소",
+      "휴가"
+    ],
+    "answer": "야경",
+    "explanation": "밤의 경치나 풍경을 '야경(夜景)'이라고 합니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-5",
+    "type": "multiple_choice",
+    "question": "상대방에게 시도를 권유할 때 쓰는 표현은?",
+    "options": [
+      "한번 먹어 보세요.",
+      "한번 먹은 적이 없어요.",
+      "한번 먹는 바람에 가요.",
+      "한번 먹다가 와요."
+    ],
+    "answer": "한번 먹어 보세요.",
+    "explanation": "시도나 체험을 권유할 때는 '-아/어 보세요'를 씁니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-6",
+    "type": "fill_in_the_blank",
+    "question": "한국 영화를 극장에서 ___ 적이 있나요? (보다 + -(으)ㄴ)",
+    "answer": "본",
+    "explanation": "'보다'에 받침이 없으므로 '본 적이'가 됩니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-7",
+    "type": "fill_in_the_blank",
+    "question": "이 소설은 아주 재미있어서 읽을 ___합니다. (만)",
+    "answer": "만",
+    "explanation": "추천 가치를 나타내는 표현은 '읽을 만합니다'입니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-8",
+    "type": "fill_in_the_blank",
+    "question": "한복을 입___ 보세요. 참 잘 어울려요. (-어 보다)",
+    "answer": "어",
+    "explanation": "'입다'에 어미 '-어'가 결합하여 '입어 보세요'가 됩니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-9",
+    "type": "fill_in_the_blank",
+    "question": "제주도는 한국의 대표적인 관광 ___입니다. (유명한 장소)",
+    "answer": "명소",
+    "explanation": "유명한 곳을 '명소(名所)'라고 합니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-10",
+    "type": "fill_in_the_blank",
+    "question": "직접 겪은 소중한 ___을 이야기했어요. (경험)",
+    "answer": "경험",
+    "explanation": "자신이 겪은 일을 '경험'이라고 합니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [적이 / 가 / 제주도에 / 있어요 / 본]",
+    "answer": "제주도에 가 본 적이 있어요",
+    "explanation": "장소(제주도에) + 경험구(가 본 적이) + 서술어(있어요) 어순입니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [만해요 / 남산도 / 볼 / 가]",
+    "answer": "남산도 가 볼 만해요",
+    "explanation": "주제(남산도) + 추천 서술어(가 볼 만해요) 어순입니다.",
+    "source_unit": 14
+  },
+  {
+    "quiz_id": "q14-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [정말 / 야경이 / 가면 / 멋져요 / 밤에]",
+    "answer": "밤에 가면 야경이 정말 멋져요",
+    "explanation": "조건절(밤에 가면) + 주어(야경이) + 부사(정말) + 서술어(멋져요) 순입니다.",
+    "source_unit": 14
+  }
+]

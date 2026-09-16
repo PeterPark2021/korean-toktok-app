@@ -1,0 +1,72 @@
+[
+  {
+    "word": "연락",
+    "meaning": "서로 소식이나 형편을 주고받음 (Contact / communication)",
+    "part_of_speech": "명사",
+    "example_sentence": "도착하면 바로 연락 주세요.",
+    "level": "초급"
+  },
+  {
+    "word": "배터리",
+    "meaning": "전기를 충전하여 쓰는 전지 (Battery)",
+    "part_of_speech": "명사",
+    "example_sentence": "핸드폰 배터리가 다 닳았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "통화",
+    "meaning": "전화로 말을 주고받음 (Phone call / conversation)",
+    "part_of_speech": "명사",
+    "example_sentence": "지금은 통화 중이라 잠시 후 전화할게요.",
+    "level": "초급"
+  },
+  {
+    "word": "꺼지다",
+    "meaning": "불이나 전원이 나가다 (To turn off / go out)",
+    "part_of_speech": "동사",
+    "example_sentence": "갑자기 방 안의 불이 꺼졌어요.",
+    "level": "초급"
+  },
+  {
+    "word": "켜지다",
+    "meaning": "불이나 전원이 들어오다 (To turn on)",
+    "part_of_speech": "동사",
+    "example_sentence": "컴퓨터 화면이 켜졌습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "부재중",
+    "meaning": "그 자리에 있지 아니한 동안 (Absence / away)",
+    "part_of_speech": "명사",
+    "example_sentence": "부재중 전화가 다섯 통이나 와 있었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "메시지",
+    "meaning": "전하고 싶은 말이나 문자 (Message)",
+    "part_of_speech": "명사",
+    "example_sentence": "문자 메시지를 확인해 보세요.",
+    "level": "초급"
+  },
+  {
+    "word": "정중하다",
+    "meaning": "태도가 깍듯하고 공손하다 (To be polite / courteous)",
+    "part_of_speech": "형용사",
+    "example_sentence": "정중한 태도로 거절했습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "어렵다",
+    "meaning": "하기 힘들거나 곤란하다 (To be difficult / hard)",
+    "part_of_speech": "형용사",
+    "example_sentence": "지금은 시간을 내기가 어렵습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "안도하다",
+    "meaning": "걱정 없이 마음을 놓다 (To feel relieved)",
+    "part_of_speech": "동사",
+    "example_sentence": "무사하다는 소식을 듣고 안도했습니다.",
+    "level": "초급"
+  }
+]

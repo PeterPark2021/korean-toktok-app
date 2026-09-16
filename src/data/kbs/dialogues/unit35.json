@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 35,
+    "dialogue_id": "d35-1",
+    "speaker": "현수",
+    "korean_text": "민재야, 학교 근처 원룸에서 자취를 시작한 지 얼마나 되었어?",
+    "translation": "Minjae, how long has it been since you started living alone in a studio near school?",
+    "audio_hint": "친구의 독립 생활 기간을 묻는 친근한 어조"
+  },
+  {
+    "unit": 35,
+    "dialogue_id": "d35-2",
+    "speaker": "민재",
+    "korean_text": "부모님 곁을 떠나 혼자 자취를 시작한 지 벌써 두 달이 되었어.",
+    "translation": "It's already been two months since I left my parents and started living on my own.",
+    "audio_hint": "시간의 빠름을 실감하는 목소리"
+  },
+  {
+    "unit": 35,
+    "dialogue_id": "d35-3",
+    "speaker": "현수",
+    "korean_text": "혼자 사니까 자유롭고 편하지? 음식이나 청소는 어때?",
+    "translation": "Living alone is free and comfortable, right? How is cooking and cleaning?",
+    "audio_hint": "호기심을 갖고 묻는 톤"
+  },
+  {
+    "unit": 35,
+    "dialogue_id": "d35-4",
+    "speaker": "민재",
+    "korean_text": "자유롭기는 한데 혼자 살다 보니 아플 때나 밤에 외로울 때가 많아.",
+    "translation": "It is free indeed, but as I live alone, there are many times I feel lonely at night or when sick.",
+    "audio_hint": "자취 생활의 현실적인 고충을 털어놓는 담담한 어조"
+  },
+  {
+    "unit": 35,
+    "dialogue_id": "d35-5",
+    "speaker": "현수",
+    "korean_text": "스스로 장도 보고 밥도 챙겨 먹어야 하니까 부모님의 소중함을 더 느끼게 되지?",
+    "translation": "Because you have to grocery shop and fix meals yourself, you come to feel how precious parents are, right?",
+    "audio_hint": "깊이 공감하며 고개를 끄덕이는 톤"
+  },
+  {
+    "unit": 35,
+    "dialogue_id": "d35-6",
+    "speaker": "민재",
+    "korean_text": "맞아. 그래도 점차 독립적인 생활에 적응해 가고 있어.",
+    "translation": "Right. Still, I am gradually adapting to independent life.",
+    "audio_hint": "성숙해진 태도로 긍정적인 마무리"
+  }
+]

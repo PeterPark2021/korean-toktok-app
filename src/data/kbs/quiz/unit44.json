@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q44-1",
+    "type": "multiple_choice",
+    "question": "앞의 사실에 더하여 한층 더 중대한 사실이 추가됨을 나타내는 고급 연결어미는?",
+    "options": [
+      "-(으)ㄹ 뿐더러",
+      "-는 바람에",
+      "-자마자",
+      "-는 대신에"
+    ],
+    "answer": "-(으)ㄹ 뿐더러",
+    "explanation": "점층적 추가 첨가를 나타내는 문어체 어미는 '-(으)ㄹ 뿐더러'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-2",
+    "type": "multiple_choice",
+    "question": "어떤 대상이 일정 한도나 수준에 불과함을 나타내는 고급 표현은?",
+    "options": [
+      "-에 지나지 않다",
+      "-에 비추어 볼 때",
+      "-을 비롯하여",
+      "-(으)ㅁ에 따라"
+    ],
+    "answer": "-에 지나지 않다",
+    "explanation": "불과함이나 한계를 나타낼 때는 '-에 지나지 않다/않는다'를 씁니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-3",
+    "type": "multiple_choice",
+    "question": "공식적인 자리에서 최고의 진심을 다해 끊임없이 축하하거나 감사할 때 쓰는 격조 높은 어미는?",
+    "options": [
+      "-아/어 마지않다",
+      "-아/어 버리다",
+      "-아/어 두다",
+      "-아/어 치우다"
+    ],
+    "answer": "-아/어 마지않다",
+    "explanation": "최고도의 진심과 끊임없는 지속은 '-아/어 마지않다'로 나타냅니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-4",
+    "type": "multiple_choice",
+    "question": "인간으로서 지켜야 할 높고 숭고한 가치와 권리를 뜻하는 단어는?",
+    "options": [
+      "존엄성",
+      "편향성",
+      "혁신성",
+      "유대감"
+    ],
+    "answer": "존엄성",
+    "explanation": "인간의 숭고한 가치를 '존엄성(尊嚴性)'이라고 합니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-5",
+    "type": "multiple_choice",
+    "question": "자신이 일생을 바쳐 수행해야 할 숭고한 사명을 뜻하는 단어는?",
+    "options": [
+      "소명",
+      "사안",
+      "편익",
+      "예매"
+    ],
+    "answer": "소명",
+    "explanation": "인생의 거룩한 사명을 '소명(召命/Vocation)'이라고 합니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-6",
+    "type": "fill_in_the_blank",
+    "question": "성적이 우수할 ___더러 인품도 훌륭합니다. (추가심화)",
+    "answer": "뿐",
+    "explanation": "'-(으)ㄹ 뿐더러'의 '뿐'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-7",
+    "type": "fill_in_the_blank",
+    "question": "그것은 단순한 기우에 지___지 않습니다. (지나지)",
+    "answer": "나",
+    "explanation": "'지나지'의 '나'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-8",
+    "type": "fill_in_the_blank",
+    "question": "귀하의 무궁한 발전을 기원해 마___않습니다. (마지않다)",
+    "answer": "지",
+    "explanation": "'-아/어 마지않다'의 '지'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-9",
+    "type": "fill_in_the_blank",
+    "question": "마땅히 갖추어야 할 요소가 빠져 있는 상태를 ___여라고 합니다. (결)",
+    "answer": "결",
+    "explanation": "'결여(缺如)'의 '결'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-10",
+    "type": "fill_in_the_blank",
+    "question": "서로 다른 영역이 하나로 합쳐지는 것을 ___합이라고 합니다. (융)",
+    "answer": "융",
+    "explanation": "'융합(融合)'의 '융'입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [편익을 제공할 뿐더러 / 기술 발전은 / 새로운 지평을 열고 있습니다]",
+    "answer": "기술 발전은 편익을 제공할 뿐더러 새로운 지평을 열고 있습니다",
+    "explanation": "주어(기술 발전은) + 점층절(편익을 제공할 뿐더러) + 서술어(새로운 지평을 열고 있습니다) 순서입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [도구에 / 지나지 않습니다 / 윤리가 결여된 기술은 / 단순한]",
+    "answer": "윤리가 결여된 기술은 단순한 도구에 지나지 않습니다",
+    "explanation": "주어(윤리가 결여된 기술은) + 부사어구(단순한 도구에) + 한계 서술어(지나지 않습니다) 순서입니다.",
+    "source_unit": 44
+  },
+  {
+    "quiz_id": "q44-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [진심으로 / 축하해 마지않습니다 / 수상자의 영예를]",
+    "answer": "수상자의 영예를 진심으로 축하해 마지않습니다",
+    "explanation": "목적어(수상자의 영예를) + 부사(진심으로) + 최고도 서술어(축하해 마지않습니다) 순서입니다.",
+    "source_unit": 44
+  }
+]

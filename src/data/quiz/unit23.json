@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q23-1",
+    "type": "multiple_choice",
+    "question": "목적을 이루기 위한 전제 조건을 나타내는 연결어미는?",
+    "options": [
+      "-(으)려면",
+      "-(으)ㄹ수록",
+      "-느라고",
+      "-(으)ㄴ 탓에"
+    ],
+    "answer": "-(으)려면",
+    "explanation": "의도와 그에 필요한 조건을 제시할 때는 '-(으)려면'을 씁니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-2",
+    "type": "multiple_choice",
+    "question": "바람직하지 않은 일이 일어날까 염려할 때 쓰는 어미는?",
+    "options": [
+      "-(으)ㄹ까 봐",
+      "-(으)ㄹ 텐데",
+      "-(으)ㄹ 테니까",
+      "-(으)ㄹ 겸"
+    ],
+    "answer": "-(으)ㄹ까 봐",
+    "explanation": "우려나 걱정의 원인을 나타낼 때는 '-(으)ㄹ까 봐(서)'를 사용합니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-3",
+    "type": "multiple_choice",
+    "question": "어떤 동작이 끝나자마자 즉각 이어짐을 나타내는 어미는?",
+    "options": [
+      "-자마자",
+      "-다가",
+      "-거나",
+      "-도록"
+    ],
+    "answer": "-자마자",
+    "explanation": "즉시성을 나타내는 연결어미는 '-자마자'입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-4",
+    "type": "multiple_choice",
+    "question": "대학에서 전문적으로 배우는 핵심 전공과목을 뜻하는 단어는?",
+    "options": [
+      "전공",
+      "교양",
+      "과외",
+      "방학"
+    ],
+    "answer": "전공",
+    "explanation": "전문적으로 연구하고 공부하는 학문 분야는 '전공(專攻)'입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-5",
+    "type": "multiple_choice",
+    "question": "동사 '늦다'에 걱정·우려의 어미가 결합한 올바른 형태는?",
+    "options": [
+      "늦을까 봐",
+      "늦는 바람에",
+      "늦으려고",
+      "늦도록"
+    ],
+    "answer": "늦을까 봐",
+    "explanation": "'늦다'에 받침이 있으므로 '-을까 봐'가 결합하여 '늦을까 봐'가 됩니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-6",
+    "type": "fill_in_the_blank",
+    "question": "한국어 실력을 높이___면 매일 연습해야 해요. (높이다 + 의도조건)",
+    "answer": "려",
+    "explanation": "'높이다'는 받침이 없으므로 '-려면'이 붙어 '높이려면'이 됩니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-7",
+    "type": "fill_in_the_blank",
+    "question": "비가 올___ 봐 우산을 챙겨서 나왔어요. (우려)",
+    "answer": "까",
+    "explanation": "'올까 봐'의 '까'입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-8",
+    "type": "fill_in_the_blank",
+    "question": "집에 오___마자 손부터 깨끗이 씻었어요. (-자마자)",
+    "answer": "자",
+    "explanation": "'오다' 뒤에 즉시 어미 '-자마자'가 결합합니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-9",
+    "type": "fill_in_the_blank",
+    "question": "수업을 듣기 위해 신청하는 절차를 ___강 신청이라고 합니다. (수)",
+    "answer": "수",
+    "explanation": "'수강(受講) 신청'의 '수'입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-10",
+    "type": "fill_in_the_blank",
+    "question": "정해진 인원의 한도를 ___원이라고 합니다. (정)",
+    "answer": "정",
+    "explanation": "'정원(定員)'은 규정된 인원수입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [로그인해야 / 하려면 / 수강 신청을 / 해요 / 미리]",
+    "answer": "수강 신청을 하려면 미리 로그인해야 해요",
+    "explanation": "의도조건절(수강 신청을 하려면) + 부사(미리) + 당위 서술어(로그인해야 해요) 순서입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [정원이 / 걱정돼요 / 찰까 / 봐]",
+    "answer": "정원이 찰까 봐 걱정돼요",
+    "explanation": "주어(정원이) + 우려절(찰까 봐) + 감정 서술어(걱정돼요) 순서입니다.",
+    "source_unit": 23
+  },
+  {
+    "quiz_id": "q23-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [버튼을 / 되자마자 / 눌렀어요 / 10시가 / 신청]",
+    "answer": "10시가 되자마자 신청 버튼을 눌렀어요",
+    "explanation": "즉시조건절(10시가 되자마자) + 목적어(신청 버튼을) + 서술어(눌렀어요) 순서입니다.",
+    "source_unit": 23
+  }
+]

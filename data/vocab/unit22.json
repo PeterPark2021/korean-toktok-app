@@ -1,0 +1,72 @@
+[
+  {
+    "word": "보고서",
+    "meaning": "업무나 조사 결과를 보고하는 글 (Report)",
+    "part_of_speech": "명사",
+    "example_sentence": "기획 보고서를 꼼꼼하게 작성했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "검토",
+    "meaning": "자세히 따져 살펴봄 (Review / examination)",
+    "part_of_speech": "명사",
+    "example_sentence": "서류에 오류가 없는지 최종 검토했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "양식",
+    "meaning": "정해진 서식이나 틀 (Form / format / style)",
+    "part_of_speech": "명사",
+    "example_sentence": "회사 표준 양식에 맞추어 작성해 주세요.",
+    "level": "중급"
+  },
+  {
+    "word": "이행하다",
+    "meaning": "약속이나 지시를 그대로 실행하다 (To fulfill / implement)",
+    "part_of_speech": "동사",
+    "example_sentence": "계약 조건과 업무 지시를 충실히 이행했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "출력하다",
+    "meaning": "컴퓨터의 자료를 종이에 인쇄하다 (To print out)",
+    "part_of_speech": "동사",
+    "example_sentence": "회의 자료를 10부 출력했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "지시",
+    "meaning": "명령하거나 가리켜 일러 줌 (Instruction / directive)",
+    "part_of_speech": "명사",
+    "example_sentence": "팀장님의 업무 지시를 정확히 따랐습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "꼼꼼하다",
+    "meaning": "빈틈없이 세심하다 (To be meticulous / thorough)",
+    "part_of_speech": "형용사",
+    "example_sentence": "김 대리는 일 처리가 아주 꼼꼼해요.",
+    "level": "중급"
+  },
+  {
+    "word": "수정하다",
+    "meaning": "잘못된 부분을 바로잡다 (To revise / correct)",
+    "part_of_speech": "동사",
+    "example_sentence": "피드백을 반영하여 오타를 수정했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "진행하다",
+    "meaning": "일을 앞으로 나아가게 추진하다 (To proceed / carry on)",
+    "part_of_speech": "동사",
+    "example_sentence": "계획대로 프로젝트를 차질 없이 진행합니다.",
+    "level": "중급"
+  },
+  {
+    "word": "협조",
+    "meaning": "힘을 모아 서로 도움 (Cooperation)",
+    "part_of_speech": "명사",
+    "example_sentence": "동료들의 적극적인 협조에 감사드립니다.",
+    "level": "중급"
+  }
+]

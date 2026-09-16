@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q17-1",
+    "type": "multiple_choice",
+    "question": "앞의 사실을 인정하면서 다른 점을 말할 때 쓰는 연결 표현은?",
+    "options": [
+      "춥기는 한데",
+      "추운 바람에",
+      "추우려고",
+      "추운 탓인지"
+    ],
+    "answer": "춥기는 한데",
+    "explanation": "일부 사실을 인정하고 대조할 때는 '-기는 하다'를 씁니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-2",
+    "type": "multiple_choice",
+    "question": "명령문에서 이유를 나타낼 때 결합하는 어미는?",
+    "options": [
+      "-(으)니까",
+      "-아서/어서",
+      "-는데",
+      "-느라고"
+    ],
+    "answer": "-(으)니까",
+    "explanation": "명령문(-으세요)이나 청유문(-ㅂ시다)의 이유에는 '-(으)니까'를 사용합니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-3",
+    "type": "multiple_choice",
+    "question": "상대방에게 행동을 금지할 때 쓰는 정중한 표현은?",
+    "options": [
+      "무리하지 마세요",
+      "무리하게 하세요",
+      "무리하지 않으세요",
+      "무리할 수 없어요"
+    ],
+    "answer": "무리하지 마세요",
+    "explanation": "금지 명령형 어미는 '-지 마세요'입니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-4",
+    "type": "multiple_choice",
+    "question": "형용사 '미끄럽다' 뒤에 '-(으)니까'가 결합한 올바른 형태는?",
+    "options": [
+      "미끄러우니까",
+      "미끄럽으니까",
+      "미끄럽니까",
+      "미끄러니까"
+    ],
+    "answer": "미끄러우니까",
+    "explanation": "'ㅂ' 불규칙 형용사 '미끄럽다'는 모음 앞에서 '우'로 바뀌어 '미끄러우니까'가 됩니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-5",
+    "type": "multiple_choice",
+    "question": "산의 가장 높은 꼭대기를 가리키는 명사는?",
+    "options": [
+      "정상",
+      "등산로",
+      "휴게소",
+      "입구"
+    ],
+    "answer": "정상",
+    "explanation": "산의 가장 높은 곳을 '정상(頂上)'이라고 합니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-6",
+    "type": "fill_in_the_blank",
+    "question": "비가 오___ 우산을 가지고 가세요. (이유 -(으)니까)",
+    "answer": "니까",
+    "explanation": "'오다'에 받침이 없으므로 '-니까'가 붙어 '오니까'가 됩니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-7",
+    "type": "fill_in_the_blank",
+    "question": "몸이 아플 때는 절대 무리하___ 마세요. (-지)",
+    "answer": "지",
+    "explanation": "금지 표현 '-지 마세요'의 연결 형태는 '무리하지'입니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-8",
+    "type": "fill_in_the_blank",
+    "question": "맛있___ 한데 가격이 좀 비싸요. (-기는)",
+    "answer": "기는",
+    "explanation": "'맛있다' 뒤에 부분 인정을 나타내는 '-기는 한데'가 붙습니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-9",
+    "type": "fill_in_the_blank",
+    "question": "숲속의 맑은 공___를 마시며 걸었어요. (공기의 '기')",
+    "answer": "기",
+    "explanation": "'공기(空氣)'는 호흡하는 대기를 뜻합니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-10",
+    "type": "fill_in_the_blank",
+    "question": "넘어지지 않도록 조___해서 걸으세요. (조심)",
+    "answer": "심",
+    "explanation": "'조심(操心)'은 주의하는 마음가짐입니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [마세요 / 무리하지 / 너무 / 몸이 아프니까]",
+    "answer": "몸이 아프니까 너무 무리하지 마세요",
+    "explanation": "이유절(몸이 아프니까) + 부사(너무) + 금지 서술어(무리하지 마세요) 순서입니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [춥기는 / 기분은 / 한데 / 날씨가 / 좋아요]",
+    "answer": "날씨가 춥기는 한데 기분은 좋아요",
+    "explanation": "주어(날씨가) + 부분인정(춥기는 한데) + 대조서술(기분은 좋아요) 어순입니다.",
+    "source_unit": 17
+  },
+  {
+    "quiz_id": "q17-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [걸으세요 / 미끄러우니까 / 조심해서 / 길이]",
+    "answer": "길이 미끄러우니까 조심해서 걸으세요",
+    "explanation": "이유절(길이 미끄러우니까) + 부사(조심해서) + 명령서술(걸으세요) 순입니다.",
+    "source_unit": 17
+  }
+]

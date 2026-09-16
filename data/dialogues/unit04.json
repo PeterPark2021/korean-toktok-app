@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 4,
+    "dialogue_id": "d4-1",
+    "speaker": "리홍",
+    "korean_text": "민호 씨, 이게 뭐예요?",
+    "translation": "Minho, what is this?",
+    "audio_hint": "가까운 물건을 가리키며 묻는 자연스러운 호기심 톤"
+  },
+  {
+    "unit": 4,
+    "dialogue_id": "d4-2",
+    "speaker": "김민호",
+    "korean_text": "이것은 제 한국어 책이에요.",
+    "translation": "This is my Korean book.",
+    "audio_hint": "친절하고 차분한 설명 톤"
+  },
+  {
+    "unit": 4,
+    "dialogue_id": "d4-3",
+    "speaker": "리홍",
+    "korean_text": "그럼 저것은 누구 지갑이에요?",
+    "translation": "Then whose wallet is that over there?",
+    "audio_hint": "멀리 있는 물건을 지칭하며 묻는 상승 억양"
+  },
+  {
+    "unit": 4,
+    "dialogue_id": "d4-4",
+    "speaker": "김민호",
+    "korean_text": "수연 씨의 지갑이에요.",
+    "translation": "It is Suyeon's wallet.",
+    "audio_hint": "명확하고 또박또박한 대답 톤"
+  },
+  {
+    "unit": 4,
+    "dialogue_id": "d4-5",
+    "speaker": "이수연",
+    "korean_text": "도안닝 씨, 제 안경이 어디에 있어요?",
+    "translation": "Doanning, where are my glasses?",
+    "audio_hint": "물건의 위치를 찾는 질문 톤"
+  },
+  {
+    "unit": 4,
+    "dialogue_id": "d4-6",
+    "speaker": "도안닝",
+    "korean_text": "책상 위에 있어요. 가방 옆에 있어요.",
+    "translation": "They are on the desk. They are next to the bag.",
+    "audio_hint": "위치를 짚어주는 친절하고 명확한 톤"
+  }
+]

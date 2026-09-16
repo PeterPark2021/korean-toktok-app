@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 31,
+    "dialogue_id": "d31-1",
+    "speaker": "에밀리",
+    "korean_text": "민재 씨, 저는 K-pop 아이돌 가수의 콘서트를 직접 보기 위해 한국에 왔어요.",
+    "translation": "Minjae, I came to Korea in order to see K-pop idol concerts directly in person.",
+    "audio_hint": "열정적이고 활기찬 자기소개 톤"
+  },
+  {
+    "unit": 31,
+    "dialogue_id": "d31-2",
+    "speaker": "민재",
+    "korean_text": "와, 정말 대단하네요! 좋아하는 한국 드라마도 있나요?",
+    "translation": "Wow, that's truly amazing! Do you also have favorite Korean dramas?",
+    "audio_hint": "호기심을 갖고 반가워하는 어조"
+  },
+  {
+    "unit": 31,
+    "dialogue_id": "d31-3",
+    "speaker": "에밀리",
+    "korean_text": "네, 한국의 역사 드라마는 스토리와 영상미가 매우 뛰어나다.",
+    "translation": "Yes, Korean historical dramas possess exceptionally outstanding storylines and visual aesthetics.",
+    "audio_hint": "자신의 생각을 서술체로 명확히 밝히는 톤"
+  },
+  {
+    "unit": 31,
+    "dialogue_id": "d31-4",
+    "speaker": "민재",
+    "korean_text": "드라마를 보면 한국의 전통문화와 일상 대화도 자연스럽게 익힐 수 있지요.",
+    "translation": "If you watch dramas, you can also naturally learn Korean traditional culture and daily conversations.",
+    "audio_hint": "공감하며 덧붙이는 차분한 어조"
+  },
+  {
+    "unit": 31,
+    "dialogue_id": "d31-5",
+    "speaker": "에밀리",
+    "korean_text": "맞아요. 자막 없이 한국 드라마를 이해하기 위해 매일 한국어를 공부해요.",
+    "translation": "Right. I study Korean every day in order to understand Korean dramas without subtitles.",
+    "audio_hint": "학습 의지가 돋보이는 당찬 톤"
+  },
+  {
+    "unit": 31,
+    "dialogue_id": "d31-6",
+    "speaker": "민재",
+    "korean_text": "에밀리 씨의 열정이라면 곧 한국어로 완벽하게 감상할 수 있을 거예요!",
+    "translation": "With your passion, Emily, you'll soon be able to appreciate them perfectly in Korean!",
+    "audio_hint": "따뜻한 격려와 응원의 마무리"
+  }
+]

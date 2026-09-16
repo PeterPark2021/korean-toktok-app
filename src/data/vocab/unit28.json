@@ -1,0 +1,72 @@
+[
+  {
+    "word": "동호회",
+    "meaning": "같은 취미나 흥미를 가진 사람들의 모임 (Club / hobby group)",
+    "part_of_speech": "명사",
+    "example_sentence": "사내 축구 동호회에 가입했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "초보자",
+    "meaning": "어떤 일이나 기술을 배우기 시작한 사람 (Beginner / novice)",
+    "part_of_speech": "명사",
+    "example_sentence": "초보자를 위한 수영 강습을 신청했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "라켓",
+    "meaning": "테니스나 배드민턴에서 공을 치는 도구 (Racket)",
+    "part_of_speech": "명사",
+    "example_sentence": "새 테니스 라켓을 샀어요.",
+    "level": "중급"
+  },
+  {
+    "word": "가르치다",
+    "meaning": "지식이나 기술을 익히게 하다 (To teach)",
+    "part_of_speech": "동사",
+    "example_sentence": "후배들에게 프로그래밍을 가르쳐 주었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "참가하다",
+    "meaning": "모임이나 대회에 함께 참여하다 (To participate / join)",
+    "part_of_speech": "동사",
+    "example_sentence": "마라톤 대회에 참가하여 완주했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "용기",
+    "meaning": "씩씩하고 굳센 기운 (Courage / bravery)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구의 격려 덕분에 큰 용기를 얻었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "경향",
+    "meaning": "현상이나 행동이 어떤 방향으로 기울어짐 (Tendency / trend)",
+    "part_of_speech": "명사",
+    "example_sentence": "요즘 사람들은 건강을 중시하는 경향이 있습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "다루다",
+    "meaning": "도구나 기계를 조작하거나 다스리다 (To handle / manage)",
+    "part_of_speech": "동사",
+    "example_sentence": "여러 가지 그래픽 도구를 능숙하게 다룹니다.",
+    "level": "중급"
+  },
+  {
+    "word": "자신감",
+    "meaning": "스스로 해낼 수 있다고 믿는 마음 (Self-confidence)",
+    "part_of_speech": "명사",
+    "example_sentence": "발표 연습을 많이 해서 자신감이 생겼어요.",
+    "level": "중급"
+  },
+  {
+    "word": "선호하다",
+    "meaning": "여럿 가운데 특별히 더 좋아하다 (To prefer)",
+    "part_of_speech": "동사",
+    "example_sentence": "야외 운동보다 실내 운동을 선호합니다.",
+    "level": "중급"
+  }
+]

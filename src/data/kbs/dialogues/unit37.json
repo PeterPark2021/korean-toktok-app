@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 37,
+    "dialogue_id": "d37-1",
+    "speaker": "서우",
+    "korean_text": "은채야, 진호 씨 처음 봤을 때는 조금 차갑고 무뚝뚝해 보였지?",
+    "translation": "Eunchae, when you first saw Jinho, he looked a bit cold and blunt, right?",
+    "audio_hint": "첫인상에 대해 조심스럽게 동의를 구하는 톤"
+  },
+  {
+    "unit": 37,
+    "dialogue_id": "d37-2",
+    "speaker": "은채",
+    "korean_text": "응, 그런데 팀 프로젝트를 같이 하며 친해지고 보니 정말 따뜻하고 배려심 깊은 친구더라고.",
+    "translation": "Yeah, but having gotten close doing the team project together, he's truly a warm and thoughtful friend.",
+    "audio_hint": "실제 성격을 겪고 난 뒤의 긍정적 반전을 밝히는 어조"
+  },
+  {
+    "unit": 37,
+    "dialogue_id": "d37-3",
+    "speaker": "서우",
+    "korean_text": "맞아. 겉모습만 보고 섣불리 사람을 판단하면 안 된다는 걸 다시 느꼈어.",
+    "translation": "Right. I felt again that you shouldn't rashly judge a person just by appearances.",
+    "audio_hint": "깊은 깨달음을 담은 차분한 목소리"
+  },
+  {
+    "unit": 37,
+    "dialogue_id": "d37-4",
+    "speaker": "은채",
+    "korean_text": "그리고 진호의 긍정적인 에너지 덕분에 내 소심했던 성격도 많이 밝아졌어.",
+    "translation": "And thanks to Jinho's positive energy, my once-timid personality has become much brighter too.",
+    "audio_hint": "진심 어린 고마움을 담은 밝은 톤"
+  },
+  {
+    "unit": 37,
+    "dialogue_id": "d37-5",
+    "speaker": "서우",
+    "korean_text": "좋은 친구를 곁에 둔 덕분에 서로 긍정적인 영향을 주고받는구나.",
+    "translation": "Thanks to having a good friend by your side, you give and take positive influences with each other.",
+    "audio_hint": "흐뭇해하며 칭찬하는 톤"
+  },
+  {
+    "unit": 37,
+    "dialogue_id": "d37-6",
+    "speaker": "은채",
+    "korean_text": "응, 앞으로도 서로에게 힘이 되어 주는 좋은 관계를 이어가고 싶어.",
+    "translation": "Yeah, I want to keep this good relationship where we empower each other in the future too.",
+    "audio_hint": "따뜻한 우정을 다짐하는 마무리"
+  }
+]

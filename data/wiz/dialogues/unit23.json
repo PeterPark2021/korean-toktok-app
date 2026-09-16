@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 23,
+    "dialogue_id": "d23-1",
+    "speaker": "카리나",
+    "korean_text": "민우 선배, 이번 학기 수강 신청을 하려면 어떻게 해야 돼요?",
+    "translation": "Senior Minwoo, what do I need to do to register for courses this semester?",
+    "audio_hint": "도움을 청하며 궁금해하는 학업 상담 톤"
+  },
+  {
+    "unit": 23,
+    "dialogue_id": "d23-2",
+    "speaker": "민우",
+    "korean_text": "포털 사이트에 미리 로그인해서 희망 과목을 장바구니에 담아 두어야 해요.",
+    "translation": "You have to log into the portal in advance and put the desired courses into your cart.",
+    "audio_hint": "경험자로서 꼼꼼히 설명해 주는 친절한 어조"
+  },
+  {
+    "unit": 23,
+    "dialogue_id": "d23-3",
+    "speaker": "카리나",
+    "korean_text": "인기 있는 강의는 정원이 금방 찰까 봐 걱정돼요.",
+    "translation": "I'm worried that popular lectures might reach full capacity quickly.",
+    "audio_hint": "불안과 우려가 담긴 목소리"
+  },
+  {
+    "unit": 23,
+    "dialogue_id": "d23-4",
+    "speaker": "민우",
+    "korean_text": "정각 10시가 되자마자 신청 버튼을 누르면 성공할 수 있어요.",
+    "translation": "If you click the register button as soon as it hits exactly 10 o'clock, you can succeed.",
+    "audio_hint": "노하우를 전수하며 안심시키는 톤"
+  },
+  {
+    "unit": 23,
+    "dialogue_id": "d23-5",
+    "speaker": "카리나",
+    "korean_text": "전공 수업 과제가 너무 많을까 봐 강의 신청을 취소할까 고민도 돼요.",
+    "translation": "I'm also worried there might be too many major assignments, so I'm debating whether to cancel.",
+    "audio_hint": "학업 부담에 대한 솔직한 토로"
+  },
+  {
+    "unit": 23,
+    "dialogue_id": "d23-6",
+    "speaker": "민우",
+    "korean_text": "처음엔 누구나 부담스럽지만 계획을 잘 세우면 충분히 해낼 수 있어요!",
+    "translation": "Everyone feels burdened at first, but if you make a good plan, you can definitely do it!",
+    "audio_hint": "자신감을 북돋아 주는 격려의 마무리"
+  }
+]

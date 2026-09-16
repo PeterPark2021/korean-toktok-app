@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 39,
+    "dialogue_id": "d39-1",
+    "speaker": "타쿠야",
+    "korean_text": "지안 씨, 5월 달력을 보니 쉬는 날이 꽤 많더라고요.",
+    "translation": "Jian, looking at the May calendar, there are quite a few days off.",
+    "audio_hint": "달력을 보며 신기해하는 어조"
+  },
+  {
+    "unit": 39,
+    "dialogue_id": "d39-2",
+    "speaker": "지안",
+    "korean_text": "맞아요. 한국에서는 5월 5일 어린이날뿐만 아니라 부처님 오신 날도 공휴일로 쉬어요.",
+    "translation": "Right. In Korea, not only Children's Day on May 5th, but also Buddha's Birthday is a public holiday.",
+    "audio_hint": "한국의 공휴일을 친절하게 설명해 주는 톤"
+  },
+  {
+    "unit": 39,
+    "dialogue_id": "d39-3",
+    "speaker": "타쿠야",
+    "korean_text": "그렇군요. 그럼 설날이나 추석 명절에는 한국 사람들 모두 고향에 가서 차례를 지내나요?",
+    "translation": "I see. Then during Lunar New Year or Chuseok holidays, do all Koreans go to their hometowns and perform ancestral rites?",
+    "audio_hint": "명절 전통 문화에 대해 궁금해하는 질문 톤"
+  },
+  {
+    "unit": 39,
+    "dialogue_id": "d39-4",
+    "speaker": "지안",
+    "korean_text": "한국 사람이라고 해서 모두 전통적인 차례를 지내는 것은 아니에요. 요즘은 가족끼리 여행을 가거나 휴식을 취하는 집도 많아졌어요.",
+    "translation": "Just because someone is Korean doesn't mean everyone holds traditional ancestral rites. Nowadays, many households travel with family or take a rest.",
+    "audio_hint": "문화적 다양성과 변화를 객관적으로 설명하는 톤"
+  },
+  {
+    "unit": 39,
+    "dialogue_id": "d39-5",
+    "speaker": "타쿠야",
+    "korean_text": "시대와 가치관의 변화에 따라 명절을 보내는 방식도 다양해지고 있네요.",
+    "translation": "According to the changes in times and values, the ways of spending holidays are becoming diverse too.",
+    "audio_hint": "이해와 공감을 표하는 목소리"
+  },
+  {
+    "unit": 39,
+    "dialogue_id": "d39-6",
+    "speaker": "지안",
+    "korean_text": "맞아요. 그래도 명절의 핵심 의미인 가족 간의 사랑과 감사는 변함없이 이어지고 있어요.",
+    "translation": "Right. Still, the core meaning of holidays—family love and gratitude—continues unchanged.",
+    "audio_hint": "따뜻하고 뜻깊은 마무리 어조"
+  }
+]

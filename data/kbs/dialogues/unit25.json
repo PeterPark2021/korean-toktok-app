@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 25,
+    "dialogue_id": "d25-1",
+    "speaker": "준석",
+    "korean_text": "민우야, 어제 과제 제출하느라고 밤을 꼬박 새웠어.",
+    "translation": "Minwoo, I stayed up all night doing the assignment submission yesterday.",
+    "audio_hint": "피곤하지만 과제를 마친 홀가분한 어조"
+  },
+  {
+    "unit": 25,
+    "dialogue_id": "d25-2",
+    "speaker": "민우",
+    "korean_text": "정말 고생 많았어. 이번 전공 과제가 워낙 까다롭기는 했지.",
+    "translation": "You really worked hard. This major assignment was indeed quite tricky.",
+    "audio_hint": "공감과 위로를 건네는 따뜻한 목소리"
+  },
+  {
+    "unit": 25,
+    "dialogue_id": "d25-3",
+    "speaker": "준석",
+    "korean_text": "응, 내가 평소에 책을 안 읽어서 그런지 국어 리포트 작성이 특히 어려웠어.",
+    "translation": "Yeah, perhaps because I don't usually read books, writing the Korean report was especially hard.",
+    "audio_hint": "자신의 부족한 점을 솔직하게 털어놓는 어조"
+  },
+  {
+    "unit": 25,
+    "dialogue_id": "d25-4",
+    "speaker": "민우",
+    "korean_text": "전문 용어가 많이 나오는 탓에 나도 도서관에서 논문을 몇 편이나 찾았어.",
+    "translation": "Because so many technical terms came up, I also searched several thesis papers in the library.",
+    "audio_hint": "자신의 경험을 덧붙이며 맞장구치는 톤"
+  },
+  {
+    "unit": 25,
+    "dialogue_id": "d25-5",
+    "speaker": "준석",
+    "korean_text": "그래도 마감 전에 무사히 제출해서 다행이야.",
+    "translation": "Still, I'm glad we submitted it safely before the deadline.",
+    "audio_hint": "안도의 한숨을 내쉬는 톤"
+  },
+  {
+    "unit": 25,
+    "dialogue_id": "d25-6",
+    "speaker": "민우",
+    "korean_text": "맞아. 오늘 수업 끝나면 맛있는 거 먹으러 가자!",
+    "translation": "Right. When class ends today, let's go eat something delicious!",
+    "audio_hint": "신나고 활기찬 제안으로 마무리"
+  }
+]

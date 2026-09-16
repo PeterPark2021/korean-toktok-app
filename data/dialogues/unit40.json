@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 40,
+    "dialogue_id": "d40-1",
+    "speaker": "성민",
+    "korean_text": "유진아, 요즘 유튜브에서 이 1인 크리에이터 영상 봤어?",
+    "translation": "Yujin, have you seen this individual creator's video on YouTube lately?",
+    "audio_hint": "스마트폰을 보여주며 흥미롭게 묻는 톤"
+  },
+  {
+    "unit": 40,
+    "dialogue_id": "d40-2",
+    "speaker": "유진",
+    "korean_text": "응! 한국뿐만 아니라 외국 팬들도 다 알 정도로 엄청 유명하잖아.",
+    "translation": "Yeah! It's so famous that even foreign fans know about it, not just in Korea.",
+    "audio_hint": "공감하며 인기의 대단함을 강조하는 목소리"
+  },
+  {
+    "unit": 40,
+    "dialogue_id": "d40-3",
+    "speaker": "성민",
+    "korean_text": "맞아. 영상 편집도 전문가 뺨칠 정도로 재미있게 잘하더라고.",
+    "translation": "Right. The video editing is so funny and well-done that it puts professionals to shame.",
+    "audio_hint": "칭찬과 감탄을 담은 어조"
+  },
+  {
+    "unit": 40,
+    "dialogue_id": "d40-4",
+    "speaker": "유진",
+    "korean_text": "그런데 얼마 전에 인터넷에서 영화를 불법 다운로드하려다가 큰 벌금을 낼 뻔한 사람 뉴스를 봤어.",
+    "translation": "By the way, not long ago I saw news of someone who almost paid a heavy fine trying to download movies illegally on the internet.",
+    "audio_hint": "경각심을 일깨우는 진지한 어조"
+  },
+  {
+    "unit": 40,
+    "dialogue_id": "d40-5",
+    "speaker": "성민",
+    "korean_text": "콘텐츠를 창작하는 사람들의 저작권을 지키지 않으면 안 된다는 걸 명심해야 해.",
+    "translation": "We must keep in mind that we must not fail to protect the copyright of content creators.",
+    "audio_hint": "온라인 윤리를 강조하는 차분하고 단호한 톤"
+  },
+  {
+    "unit": 40,
+    "dialogue_id": "d40-6",
+    "speaker": "유진",
+    "korean_text": "맞아. 건전하고 올바른 인터넷 윤리를 지켜야 인터넷 문화가 더욱 발전할 수 있어.",
+    "translation": "Right. Only when we maintain sound and correct internet ethics can internet culture develop further.",
+    "audio_hint": "신뢰감 넘치는 밝은 마무리"
+  }
+]

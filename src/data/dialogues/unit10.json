@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 10,
+    "dialogue_id": "d10-1",
+    "speaker": "도안닝",
+    "korean_text": "수연 씨, 오늘 밖의 날씨가 어때요?",
+    "translation": "Suyeon, how is the weather outside today?",
+    "audio_hint": "창밖을 보며 날씨를 묻는 편안한 어조"
+  },
+  {
+    "unit": 10,
+    "dialogue_id": "d10-2",
+    "speaker": "이수연",
+    "korean_text": "하늘이 맑고 따뜻해요. 어제보다 훨씬 따뜻해요.",
+    "translation": "The sky is clear and warm. It is much warmer than yesterday.",
+    "audio_hint": "화창한 날씨에 기분 좋은 목소리"
+  },
+  {
+    "unit": 10,
+    "dialogue_id": "d10-3",
+    "speaker": "도안닝",
+    "korean_text": "좋네요! 점심 먹고 공원에 산책하러 가요.",
+    "translation": "Nice! Let's go take a walk in the park after lunch.",
+    "audio_hint": "산책을 제안하는 경쾌한 톤"
+  },
+  {
+    "unit": 10,
+    "dialogue_id": "d10-4",
+    "speaker": "리홍",
+    "korean_text": "민호 씨는 사계절 중에서 어느 계절을 제일 좋아해요?",
+    "translation": "Minho, which season do you like the best among the four seasons?",
+    "audio_hint": "계절 선호를 묻는 밝고 호기심 어린 톤"
+  },
+  {
+    "unit": 10,
+    "dialogue_id": "d10-5",
+    "speaker": "김민호",
+    "korean_text": "저는 가을을 가장 좋아해요. 날씨가 시원하고 단풍이 예뻐서요.",
+    "translation": "I like autumn the most. Because the weather is cool and the autumn leaves are beautiful.",
+    "audio_hint": "가을의 정취를 전하는 부드러운 톤"
+  },
+  {
+    "unit": 10,
+    "dialogue_id": "d10-6",
+    "speaker": "리홍",
+    "korean_text": "저도 가을을 좋아해요! 한국의 가을 하늘은 정말 높고 푸르러요.",
+    "translation": "I like autumn too! The Korean autumn sky is truly high and blue.",
+    "audio_hint": "공감하며 즐겁게 맞장구치는 톤"
+  }
+]

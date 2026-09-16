@@ -1,0 +1,86 @@
+[
+  {
+    "word": "시",
+    "meaning": "하루의 24분의 1이 되는 시간의 단위 (O'clock / Hour)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "오후 두 시에 수업이 끝나요.",
+    "level": "초급"
+  },
+  {
+    "word": "분",
+    "meaning": "한 시간의 60분의 1이 되는 시간의 단위 (Minute)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "삼십 분 동안 걸었어요.",
+    "level": "초급"
+  },
+  {
+    "word": "반",
+    "meaning": "전체의 2분의 1 또는 30분을 이르는 말 (Half / Half past)",
+    "part_of_speech": "명사",
+    "example_sentence": "열두 시 반에 점심을 먹어요.",
+    "level": "초급"
+  },
+  {
+    "word": "오전",
+    "meaning": "자정부터 정오까지의 시간 (AM / Morning)",
+    "part_of_speech": "명사",
+    "example_sentence": "오전 아홉 시에 출근해요.",
+    "level": "초급"
+  },
+  {
+    "word": "오후",
+    "meaning": "정오부터 자정까지의 시간 (PM / Afternoon)",
+    "part_of_speech": "명사",
+    "example_sentence": "오후에 도서관에 갈 거예요.",
+    "level": "초급"
+  },
+  {
+    "word": "월요일",
+    "meaning": "일요일 다음 날이자 주의 첫째 요일 (Monday)",
+    "part_of_speech": "명사",
+    "example_sentence": "월요일에는 회의가 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "금요일",
+    "meaning": "목요일 다음 날이자 주말 전 요일 (Friday)",
+    "part_of_speech": "명사",
+    "example_sentence": "금요일 저녁에 친구를 만나요.",
+    "level": "초급"
+  },
+  {
+    "word": "주말",
+    "meaning": "한 주의 끝인 토요일과 일요일 (Weekend)",
+    "part_of_speech": "명사",
+    "example_sentence": "주말에 집에서 푹 쉴 거예요.",
+    "level": "초급"
+  },
+  {
+    "word": "생일",
+    "meaning": "세상에 태어난 날 (Birthday)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구 생일 파티에 초대받았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "몇",
+    "meaning": "그리 많지 않은 얼마 되지 않는 수효 (How many / What)",
+    "part_of_speech": "관형사",
+    "example_sentence": "지금 몇 시예요?",
+    "level": "초급"
+  },
+  {
+    "word": "월",
+    "meaning": "한 해를 열둘로 나눈 단위 (Month)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "생일이 5월이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "일",
+    "meaning": "날짜를 나타내는 단위 (Day / Date)",
+    "part_of_speech": "의존명사",
+    "example_sentence": "오늘이 10월 9일이에요.",
+    "level": "초급"
+  }
+]

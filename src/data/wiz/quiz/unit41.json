@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q41-1",
+    "type": "multiple_choice",
+    "question": "객관적 증거나 사실을 근거로 합리적 결론을 추론할 때 쓰는 고급 문법은?",
+    "options": [
+      "-(으)로 미루어 보아",
+      "-(으)ㄹ 뻔하도록",
+      "-는 셈 치고",
+      "-자마자"
+    ],
+    "answer": "-(으)로 미루어 보아",
+    "explanation": "근거를 바탕으로 한 고급 논리 추론은 '-(으)로 미루어 보아/볼 때'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-2",
+    "type": "multiple_choice",
+    "question": "규범이나 상황에 견주어 평가를 내릴 때 쓰는 표현은?",
+    "options": [
+      "-에 비추어 볼 때",
+      "-에 못지않게",
+      "-는 한편",
+      "-(으)ㄹ 뿐더러"
+    ],
+    "answer": "-에 비추어 볼 때",
+    "explanation": "상황이나 기준을 대조·반영하여 판단할 때는 '-에 비추어 볼 때'를 씁니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-3",
+    "type": "multiple_choice",
+    "question": "선행 현상의 변화에 비례하여 후행 결과가 함께 달라짐을 나타내는 격식체 어미는?",
+    "options": [
+      "-(으)ㅁ에 따라",
+      "-는 대신에",
+      "-는 바람에",
+      "-는 탓에"
+    ],
+    "answer": "-(으)ㅁ에 따라",
+    "explanation": "현상의 연쇄적 변화를 나타내는 고급 격식 표현은 '-(으)ㅁ에 따라'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-4",
+    "type": "multiple_choice",
+    "question": "배출 탄소량과 흡수 탄소량을 같게 하여 순배출량을 제로(0)로 만드는 정책은?",
+    "options": [
+      "탄소중립",
+      "기상이변",
+      "신재생에너지",
+      "해빙"
+    ],
+    "answer": "탄소중립",
+    "explanation": "온실가스 순배출량 제로를 달성하는 개념은 '탄소중립(Net Zero)'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-5",
+    "type": "multiple_choice",
+    "question": "동사 '급증하다'에 변화 상관 어미가 결합한 올바른 형태는?",
+    "options": [
+      "급증함에 따라",
+      "급증함에 의해",
+      "급증함에 비추어",
+      "급증함에 관해"
+    ],
+    "answer": "급증함에 따라",
+    "explanation": "'급증하다'의 명사형 '급증함'에 '-에 따라'가 결합하여 '급증함에 따라'가 됩니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-6",
+    "type": "fill_in_the_blank",
+    "question": "여러 증거로 미루___ 보아 피고인의 주장은 사실과 다릅니다. (미루어)",
+    "answer": "어",
+    "explanation": "'미루어 보아'의 '어'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-7",
+    "type": "fill_in_the_blank",
+    "question": "현실 상황에 비___어 볼 때 대책 마련이 시급합니다. (비추어)",
+    "answer": "추",
+    "explanation": "'비추어 볼 때'의 '추'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-8",
+    "type": "fill_in_the_blank",
+    "question": "기온이 상승___에 따라 빙하가 빠르게 녹고 있습니다. (상승함에)",
+    "answer": "함",
+    "explanation": "'상승함에 따라'의 명사형 전성 형태 '함'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-9",
+    "type": "fill_in_the_blank",
+    "question": "상태가 급변하는 한계점을 ___계점이라고 합니다. (임)",
+    "answer": "임",
+    "explanation": "'임계점(臨界點)'의 '임'입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-10",
+    "type": "fill_in_the_blank",
+    "question": "여러 주체가 보조를 맞추어 협력하는 것을 ___조라고 합니다. (공)",
+    "answer": "공",
+    "explanation": "'공조(共助)'는 힘을 합쳐 도움을 주는 행위입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [기상이변으로 미루어 보아 / 심각함을 / 온난화가 / 알 수 있습니다]",
+    "answer": "기상이변으로 미루어 보아 온난화가 심각함을 알 수 있습니다",
+    "explanation": "추론 근거절(기상이변으로 미루어 보아) + 목적어절(온난화가 심각함을) + 서술어(알 수 있습니다) 순서입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [가시화되고 있습니다 / 문제에 비추어 볼 때 / 위기가 / 해빙]",
+    "answer": "해빙 문제에 비추어 볼 때 위기가 가시화되고 있습니다",
+    "explanation": "판단 기준절(해빙 문제에 비추어 볼 때) + 주어(위기가) + 서술어(가시화되고 있습니다) 순서입니다.",
+    "source_unit": 41
+  },
+  {
+    "quiz_id": "q41-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [모호해지고 있습니다 / 사계절의 경계가 / 배출량이 급증함에 따라]",
+    "answer": "배출량이 급증함에 따라 사계절의 경계가 모호해지고 있습니다",
+    "explanation": "변화 원인절(배출량이 급증함에 따라) + 주어(사계절의 경계가) + 서술어(모호해지고 있습니다) 순서입니다.",
+    "source_unit": 41
+  }
+]

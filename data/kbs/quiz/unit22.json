@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q22-1",
+    "type": "multiple_choice",
+    "question": "선행 동작이 끝난 뒤 다음 동작이 일어남을 나타내는 표현은?",
+    "options": [
+      "출력한 후에",
+      "출력하는 바람에",
+      "출력할 텐데",
+      "출력하느라고"
+    ],
+    "answer": "출력한 후에",
+    "explanation": "선후 관계를 명확히 나타내는 표현은 '-(으)ㄴ 후에'입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-2",
+    "type": "multiple_choice",
+    "question": "상대방의 말이나 지시와 똑같이 따르겠다는 의지를 나타내는 어미는?",
+    "options": [
+      "-는 대로",
+      "-는 바람에",
+      "-는 동안",
+      "-는 통에"
+    ],
+    "answer": "-는 대로",
+    "explanation": "지시나 사실과 동일하게 실행함을 나타낼 때는 '-는 대로'를 씁니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-3",
+    "type": "multiple_choice",
+    "question": "상대방에게 정중하고 부드럽게 권유하는 종결어미는?",
+    "options": [
+      "-(으)시지요",
+      "-(으)ㄹ 뿐이다",
+      "-(으)ㄴ 셈이다",
+      "-고 말았다"
+    ],
+    "answer": "-(으)시지요",
+    "explanation": "공손하고 격식 있는 권유는 '-(으)시지요'입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-4",
+    "type": "multiple_choice",
+    "question": "세심하고 빈틈없이 일을 처리하는 태도를 나타내는 형용사는?",
+    "options": [
+      "꼼꼼하다",
+      "급하다",
+      "지루하다",
+      "느긋하다"
+    ],
+    "answer": "꼼꼼하다",
+    "explanation": "작은 부분까지 꼼꼼히 살피는 성격이나 태도는 '꼼꼼하다'입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-5",
+    "type": "multiple_choice",
+    "question": "컴퓨터 문서나 파일을 종이로 인쇄하는 행위는?",
+    "options": [
+      "출력",
+      "삭제",
+      "입력",
+      "보관"
+    ],
+    "answer": "출력",
+    "explanation": "프린터 등을 통해 종이에 뽑아내는 것을 '출력(出力)'이라고 합니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-6",
+    "type": "fill_in_the_blank",
+    "question": "손을 씻___ 후에 식사를 하세요. (씻다 + -(으)ㄴ 후에)",
+    "answer": "은",
+    "explanation": "'씻다'에 받침이 있으므로 '-은 후에'가 결합하여 '씻은 후에'가 됩니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-7",
+    "type": "fill_in_the_blank",
+    "question": "지시하___ 대로 정확하게 처리하겠습니다. (신)",
+    "answer": "신",
+    "explanation": "'지시하신 대로'의 형태입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-8",
+    "type": "fill_in_the_blank",
+    "question": "잠시 여기 앉아서 기다리___지요. (-시지요)",
+    "answer": "시",
+    "explanation": "'기다리다'에 권유 어미 '-(으)시지요'가 결합하여 '기다리시지요'가 됩니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-9",
+    "type": "fill_in_the_blank",
+    "question": "문서의 잘못된 부분을 고치는 것을 ___정이라고 합니다. (수)",
+    "answer": "수",
+    "explanation": "'수정(修正)'은 잘못을 바로잡는 일입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-10",
+    "type": "fill_in_the_blank",
+    "question": "상사에게 결과를 알리는 문서를 ___고서라고 합니다. (보)",
+    "answer": "보",
+    "explanation": "'보고서(報告書)'의 '보'입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [후에 / 부장님께 / 자료를 / 출력한 / 보고하세요]",
+    "answer": "자료를 출력한 후에 부장님께 보고하세요",
+    "explanation": "목적어구(자료를 출력한 후에) + 부사어(부장님께) + 서술어(보고하세요) 순서입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [진행하겠습니다 / 대로 / 말씀하신 / 양식을 수정해서]",
+    "answer": "말씀하신 대로 양식을 수정해서 진행하겠습니다",
+    "explanation": "기준절(말씀하신 대로) + 방법(양식을 수정해서) + 서술어(진행하겠습니다) 순서입니다.",
+    "source_unit": 22
+  },
+  {
+    "quiz_id": "q22-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [커피 / 한잔하시지요 / 끝나면 / 다]",
+    "answer": "다 끝나면 커피 한잔하시지요",
+    "explanation": "조건절(다 끝나면) + 목적어(커피) + 공손한 권유 서술어(한잔하시지요) 순서입니다.",
+    "source_unit": 22
+  }
+]

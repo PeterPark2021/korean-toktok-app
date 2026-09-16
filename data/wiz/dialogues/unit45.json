@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 45,
+    "dialogue_id": "d45-1",
+    "speaker": "오 앵커",
+    "korean_text": "최근 통계청 조사로 미루어 볼 때, 1인 가구의 급격한 증가와 초고령화 현상은 가족 제도의 근본적 재편을 예고하고 있습니다.",
+    "translation": "Judging from recent National Statistical Office surveys, the rapid increase in single-person households and super-aging phenomena herald a fundamental restructuring of the family system.",
+    "audio_hint": "뉴스를 진행하는 신뢰감 넘치는 앵커 톤"
+  },
+  {
+    "unit": 45,
+    "dialogue_id": "d45-2",
+    "speaker": "신 기자",
+    "korean_text": "네, 또한 치열한 고용 한파 속에서 청년층의 취업 준비 기간이 장기화되는 경향이 뚜렷하게 나타나고 있습니다.",
+    "translation": "Yes, furthermore amid the fierce employment freeze, the trend of prolonged job preparation periods among young people is appearing distinctly.",
+    "audio_hint": "사회 문제를 취재 보도하는 명확하고 진지한 어조"
+  },
+  {
+    "unit": 45,
+    "dialogue_id": "d45-3",
+    "speaker": "오 앵커",
+    "korean_text": "청년들의 경제적 자립이 지연됨에 따라 결혼과 출산을 기피하는 풍조마저 확산되고 있는 실정이지요.",
+    "translation": "As young people's economic independence is delayed, even the tendency to avoid marriage and childbirth is spreading.",
+    "audio_hint": "원인과 파장을 짚어 주는 심층 분석 톤"
+  },
+  {
+    "unit": 45,
+    "dialogue_id": "d45-4",
+    "speaker": "신 기자",
+    "korean_text": "정부는 청년 일자리 창출과 주거 안정을 위한 종합적인 정책 지원을 마련하고자 다각도로 고심하고 있습니다.",
+    "translation": "The government is contemplating from diverse angles wishing to prepare comprehensive policy support for youth job creation and housing stability.",
+    "audio_hint": "대책 추진 현황을 차분하게 보고하는 톤"
+  },
+  {
+    "unit": 45,
+    "dialogue_id": "d45-5",
+    "speaker": "오 앵커",
+    "korean_text": "단기적인 땜질식 처방에 그치지 않고, 사회 안전망을 획기적으로 강화하는 구조적 개혁이 수반되어야 할 것입니다.",
+    "translation": "Rather than stopping at short-term makeshift remedies, structural reforms that dramatically strengthen the social safety net must be accompanied.",
+    "audio_hint": "근본적 해결책을 촉구하는 단호한 목소리"
+  },
+  {
+    "unit": 45,
+    "dialogue_id": "d45-6",
+    "speaker": "신 기자",
+    "korean_text": "우리 사회 전체가 청년들의 미래와 건강한 공동체 회복을 위해 지혜와 역량을 결집해야 합니다.",
+    "translation": "Our entire society must unite wisdom and capabilities for the future of youth and the restoration of a healthy community.",
+    "audio_hint": "공동체의 책무를 강조하는 당당한 마무리"
+  }
+]

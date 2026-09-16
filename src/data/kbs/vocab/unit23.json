@@ -1,0 +1,72 @@
+[
+  {
+    "word": "수강",
+    "meaning": "강의나 수업을 들음 (Course registration / attending lecture)",
+    "part_of_speech": "명사",
+    "example_sentence": "다음 학기 수강 계획표를 작성했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "신청",
+    "meaning": "어떤 일에 대해 정식으로 청함 (Application / registration)",
+    "part_of_speech": "명사",
+    "example_sentence": "장학금 지원 신청을 마쳤습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "전공",
+    "meaning": "전문적으로 연구하고 공부하는 분야 (Major / specialty)",
+    "part_of_speech": "명사",
+    "example_sentence": "제 대학교 전공은 컴퓨터공학이에요.",
+    "level": "중급"
+  },
+  {
+    "word": "과제",
+    "meaning": "학생에게 주어지는 학업 숙제나 연구물 (Assignment / task)",
+    "part_of_speech": "명사",
+    "example_sentence": "팀 프로젝트 과제를 제출했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "정원",
+    "meaning": "규정상 정해진 인원수 (Fixed capacity / quota)",
+    "part_of_speech": "명사",
+    "example_sentence": "강의 정원이 다 차서 마감되었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "로그인",
+    "meaning": "컴퓨터 시스템에 접속하기 위한 사용자 인증 (Log in)",
+    "part_of_speech": "명사",
+    "example_sentence": "비밀번호를 입력하고 홈페이지에 로그인했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "학기",
+    "meaning": "한 학년 동안의 교육 기간 구분 (Semester / term)",
+    "part_of_speech": "명사",
+    "example_sentence": "새 학기가 시작되어 캠퍼스가 활기차요.",
+    "level": "중급"
+  },
+  {
+    "word": "우려",
+    "meaning": "걱정하거나 염려함 (Concern / apprehension)",
+    "part_of_speech": "명사",
+    "example_sentence": "시험 난이도에 대한 학생들의 우려가 컸어요.",
+    "level": "중급"
+  },
+  {
+    "word": "취소하다",
+    "meaning": "이미 정해진 계획이나 신청을 무효로 하다 (To cancel)",
+    "part_of_speech": "동사",
+    "example_sentence": "일정이 겹쳐서 예약을 취소했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "해내다",
+    "meaning": "어려운 일을 끝까지 완수하다 (To accomplish / pull off)",
+    "part_of_speech": "동사",
+    "example_sentence": "열심히 노력해서 과제를 훌륭히 해냈어요.",
+    "level": "중급"
+  }
+]

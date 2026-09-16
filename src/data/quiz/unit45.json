@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q45-1",
+    "type": "multiple_choice",
+    "question": "사회적 현상의 객관적인 추세나 경향을 서술할 때 쓰는 문법은?",
+    "options": [
+      "-는 경향이 있다",
+      "-는 탓에 있다",
+      "-는 셈에 있다",
+      "-는 바람에 있다"
+    ],
+    "answer": "-는 경향이 있다",
+    "explanation": "사회적 현상의 추세나 성향을 나타낼 때는 '-는 경향이 있다'를 씁니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-2",
+    "type": "multiple_choice",
+    "question": "공식 문서나 발표에서 정책적 목적과 의지를 천명할 때 쓰는 격식체 어미는?",
+    "options": [
+      "-고자 하다",
+      "-는 법이다",
+      "-기 십상이다",
+      "-았/었던 셈이다"
+    ],
+    "answer": "-고자 하다",
+    "explanation": "공식적인 목적과 의지를 나타내는 문어체 표현은 '-고자 하다'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-3",
+    "type": "multiple_choice",
+    "question": "통계 자료나 지표를 근거로 미래를 진단하는 고급 표현은?",
+    "options": [
+      "-(으)로 미루어 볼 때",
+      "-에 못지않게",
+      "-을 비롯하여",
+      "-(으)ㄹ 뿐더러"
+    ],
+    "answer": "-(으)로 미루어 볼 때",
+    "explanation": "지표와 통계 기반의 종합적 진단에는 '-(으)로 미루어 볼 때'를 씁니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-4",
+    "type": "multiple_choice",
+    "question": "혼자 독립하여 생계를 유지하는 1인 형태의 가구를 무엇이라 하나요?",
+    "options": [
+      "1인 가구",
+      "다가구",
+      "핵가족",
+      "확대가족"
+    ],
+    "answer": "1인 가구",
+    "explanation": "혼자 독립 생계를 유지하는 가구 형태는 '1인 가구'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-5",
+    "type": "multiple_choice",
+    "question": "국민을 빈곤과 재난의 위협에서 보호하는 복지 체계를 뜻하는 용어는?",
+    "options": [
+      "사회 안전망",
+      "유대감",
+      "동호회",
+      "공휴일"
+    ],
+    "answer": "사회 안전망",
+    "explanation": "국민의 생존과 복지를 지탱하는 시스템을 '사회 안전망(Social safety net)'이라고 합니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-6",
+    "type": "fill_in_the_blank",
+    "question": "결혼을 늦게 하___ 경향이 뚜렷해지고 있습니다. (추세)",
+    "answer": "는",
+    "explanation": "관형사형 어미 '하는 경향'의 '는'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-7",
+    "type": "fill_in_the_blank",
+    "question": "청년 일자리를 창출하___자 합니다. (의지)",
+    "answer": "고",
+    "explanation": "목적 의지 어미 '-고자 하다'의 '고'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-8",
+    "type": "fill_in_the_blank",
+    "question": "조사 결과로 미루___ 볼 때 개선이 시급합니다. (미루어)",
+    "answer": "어",
+    "explanation": "'미루어 볼 때'의 '어'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-9",
+    "type": "fill_in_the_blank",
+    "question": "일자리를 구하기 어려운 사회적 고통을 취업___이라고 합니다. (난)",
+    "answer": "난",
+    "explanation": "'취업난(就業難)'의 '난'입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-10",
+    "type": "fill_in_the_blank",
+    "question": "힘과 지혜를 한곳으로 모으는 것을 ___집한다고 합니다. (결)",
+    "answer": "결",
+    "explanation": "'결집(結集)'은 힘을 하나로 모으는 일입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [미루어 볼 때 / 변화가 큽니다 / 통계 조사로 / 가족 제도의]",
+    "answer": "통계 조사로 미루어 볼 때 가족 제도의 변화가 큽니다",
+    "explanation": "진단 근거절(통계 조사로 미루어 볼 때) + 주어(가족 제도의 변화가) + 서술어(큽니다) 순서입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [장기화되는 / 취업 준비 기간이 / 경향이 있어요]",
+    "answer": "취업 준비 기간이 장기화되는 경향이 있어요",
+    "explanation": "주어(취업 준비 기간이) + 서술어구(장기화되는 경향이 있어요) 순서입니다.",
+    "source_unit": 45
+  },
+  {
+    "quiz_id": "q45-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [마련하고자 / 종합 대책을 / 최선을 다하고 있습니다]",
+    "answer": "종합 대책을 마련하고자 최선을 다하고 있습니다",
+    "explanation": "목적구(종합 대책을 마련하고자) + 서술어(최선을 다하고 있습니다) 순서입니다.",
+    "source_unit": 45
+  }
+]

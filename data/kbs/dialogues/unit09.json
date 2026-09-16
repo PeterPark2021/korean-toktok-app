@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 9,
+    "dialogue_id": "d9-1",
+    "speaker": "이수연",
+    "korean_text": "도안닝 씨, 이번 주말에 같이 한강에서 자전거 탈래요?",
+    "translation": "Doanning, would you like to ride bicycles together at the Han River this weekend?",
+    "audio_hint": "주말 나들이를 제안하는 다정하고 설레는 톤"
+  },
+  {
+    "unit": 9,
+    "dialogue_id": "d9-2",
+    "speaker": "도안닝",
+    "korean_text": "좋아요! 자전거 타고 시원한 바람을 쐬러 가요.",
+    "translation": "Great! Let's ride bicycles and go get some fresh cool air.",
+    "audio_hint": "기쁘게 수락하는 밝은 톤"
+  },
+  {
+    "unit": 9,
+    "dialogue_id": "d9-3",
+    "speaker": "이수연",
+    "korean_text": "그럼 토요일 오후 두 시에 여의도역에서 만나요.",
+    "translation": "Then let's meet at Yeouido Station at 2 PM on Saturday.",
+    "audio_hint": "구체적인 시간과 장소를 정하는 명확한 톤"
+  },
+  {
+    "unit": 9,
+    "dialogue_id": "d9-4",
+    "speaker": "김민호",
+    "korean_text": "리홍 씨, 이번 여름 방학 동안 뭐 할 거예요?",
+    "translation": "Rihong, what are you going to do during this summer vacation?",
+    "audio_hint": "방학 계획을 궁금해하며 묻는 친근한 톤"
+  },
+  {
+    "unit": 9,
+    "dialogue_id": "d9-5",
+    "speaker": "리홍",
+    "korean_text": "저는 친구들과 제주도로 여행을 갈 거예요. 사진도 많이 찍을 거예요.",
+    "translation": "I am going to travel to Jeju Island with my friends. I will take lots of pictures too.",
+    "audio_hint": "기대감에 부푼 목소리로 계획을 말하는 톤"
+  },
+  {
+    "unit": 9,
+    "dialogue_id": "d9-6",
+    "speaker": "김민호",
+    "korean_text": "정말 재미있겠네요! 즐거운 여행 다녀오세요.",
+    "translation": "That sounds really fun! Have a wonderful trip.",
+    "audio_hint": "진심 어린 축하와 격려를 전하는 따뜻한 톤"
+  }
+]

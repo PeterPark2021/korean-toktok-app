@@ -1,0 +1,107 @@
+[
+  {
+    "word": "이것",
+    "meaning": "말하는 이에게 가까이 있는 사물을 가리키는 말 (This)",
+    "part_of_speech": "대명사",
+    "example_sentence": "이것은 제 가방이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "그것",
+    "meaning": "듣는 이에게 가까이 있거나 이미 언급된 사물을 가리키는 말 (That)",
+    "part_of_speech": "대명사",
+    "example_sentence": "그것이 어디에 있어요?",
+    "level": "초급"
+  },
+  {
+    "word": "저것",
+    "meaning": "말하는 이와 듣는 이 모두에게서 멀리 있는 사물을 가리키는 말 (That over there)",
+    "part_of_speech": "대명사",
+    "example_sentence": "저것은 누구 모자예요?",
+    "level": "초급"
+  },
+  {
+    "word": "가방",
+    "meaning": "물건을 넣어 들고 다니는 용구 (Bag)",
+    "part_of_speech": "명사",
+    "example_sentence": "가방 안에 지갑이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "지갑",
+    "meaning": "돈이나 카드를 넣어 가지고 다니는 물건 (Wallet)",
+    "part_of_speech": "명사",
+    "example_sentence": "지갑을 잃어버렸어요.",
+    "level": "초급"
+  },
+  {
+    "word": "휴대전화",
+    "meaning": "손에 쥐고 다니며 통화할 수 있는 전화기 (Mobile phone)",
+    "part_of_speech": "명사",
+    "example_sentence": "휴대전화로 사진을 찍어요.",
+    "level": "초급"
+  },
+  {
+    "word": "시계",
+    "meaning": "시간을 나타내거나 재는 기계 (Clock / Watch)",
+    "part_of_speech": "명사",
+    "example_sentence": "벽에 예쁜 시계가 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "책상",
+    "meaning": "앉아서 책을 읽거나 글을 쓰는 상 (Desk)",
+    "part_of_speech": "명사",
+    "example_sentence": "책상 위에 컴퓨터가 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "의자",
+    "meaning": "사람이 앉을 수 있도록 만든 가구 (Chair)",
+    "part_of_speech": "명사",
+    "example_sentence": "의자에 앉으세요.",
+    "level": "초급"
+  },
+  {
+    "word": "안경",
+    "meaning": "시력을 교정하거나 눈을 보호하기 위해 쓰는 물건 (Glasses)",
+    "part_of_speech": "명사",
+    "example_sentence": "안경을 쓰고 책을 읽어요.",
+    "level": "초급"
+  },
+  {
+    "word": "위",
+    "meaning": "어떤 기준보다 높은 쪽 (On / Above)",
+    "part_of_speech": "명사",
+    "example_sentence": "침대 위에 인형이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "아래",
+    "meaning": "어떤 기준보다 낮은 쪽 (Under / Below)",
+    "part_of_speech": "명사",
+    "example_sentence": "나무 아래에서 쉬어요.",
+    "level": "초급"
+  },
+  {
+    "word": "앞",
+    "meaning": "바라보고 있는 방향 쪽 (Front)",
+    "part_of_speech": "명사",
+    "example_sentence": "학교 앞에서 만나요.",
+    "level": "초급"
+  },
+  {
+    "word": "뒤",
+    "meaning": "등이 향하고 있는 방향 쪽 (Behind)",
+    "part_of_speech": "명사",
+    "example_sentence": "건물 뒤에 주차장이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "옆",
+    "meaning": "왼쪽이나 오른쪽 방향 (Next to / Beside)",
+    "part_of_speech": "명사",
+    "example_sentence": "은행 옆에 우체국이 있어요.",
+    "level": "초급"
+  }
+]

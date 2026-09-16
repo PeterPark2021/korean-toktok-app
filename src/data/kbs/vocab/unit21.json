@@ -1,0 +1,72 @@
+[
+  {
+    "word": "공공예절",
+    "meaning": "공공장소에서 지켜야 할 바른 태도 (Public etiquette)",
+    "part_of_speech": "명사",
+    "example_sentence": "지하철에서는 공공예절을 잘 지켜야 합니다.",
+    "level": "중급"
+  },
+  {
+    "word": "허락",
+    "meaning": "청하는 일을 들어줌 (Permission)",
+    "part_of_speech": "명사",
+    "example_sentence": "선생님의 허락을 받고 조퇴했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "금지",
+    "meaning": "어떤 행동을 하지 못하게 막음 (Prohibition)",
+    "part_of_speech": "명사",
+    "example_sentence": "도서관 내 음식물 반입은 금지입니다.",
+    "level": "중급"
+  },
+  {
+    "word": "배려",
+    "meaning": "남을 도와주거나 보살펴 주려는 마음 (Consideration / caring)",
+    "part_of_speech": "명사",
+    "example_sentence": "타인을 배려하는 따뜻한 태도가 필요해요.",
+    "level": "중급"
+  },
+  {
+    "word": "방해",
+    "meaning": "남의 일을 가로막아 해를 끼침 (Disturbance / interference)",
+    "part_of_speech": "명사",
+    "example_sentence": "수업 시간에 소음을 내면 방해가 됩니다.",
+    "level": "중급"
+  },
+  {
+    "word": "휴게실",
+    "meaning": "잠깐 쉴 수 있도록 마련된 방 (Lounge / rest room)",
+    "part_of_speech": "명사",
+    "example_sentence": "휴게실에서 동료와 커피를 마셨어요.",
+    "level": "중급"
+  },
+  {
+    "word": "소음",
+    "meaning": "시끄러워 불쾌감을 주는 소리 (Noise)",
+    "part_of_speech": "명사",
+    "example_sentence": "층간 소음 문제를 해결하기 위해 대화했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "쾌적하다",
+    "meaning": "기분이 상쾌하고 알맞다 (To be pleasant / comfortable)",
+    "part_of_speech": "형용사",
+    "example_sentence": "환기를 시키니 실내 공기가 쾌적해요.",
+    "level": "중급"
+  },
+  {
+    "word": "주의하다",
+    "meaning": "조심하여 정신을 차리다 (To pay attention / be careful)",
+    "part_of_speech": "동사",
+    "example_sentence": "길이 미끄러우니 발밑을 주의하세요.",
+    "level": "중급"
+  },
+  {
+    "word": "복도",
+    "meaning": "건물 안에서 방과 방 사이를 연결하는 통로 (Hallway / corridor)",
+    "part_of_speech": "명사",
+    "example_sentence": "복도에서는 조용히 걸어 다닙시다.",
+    "level": "중급"
+  }
+]

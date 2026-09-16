@@ -1,0 +1,116 @@
+[
+  {
+    "quiz_id": "q5-1",
+    "type": "multiple_choice",
+    "question": "시간 7:30을 한국어로 올바르게 읽은 것은?",
+    "options": ["일곱 시 반", "칠 시 삼십 분", "일곱 시 삼십", "칠 시 반"],
+    "answer": "일곱 시 반",
+    "explanation": "'시'는 고유어 수사(일곱 시), 30분은 '반' 또는 한자어 '삼십 분'으로 읽습니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-2",
+    "type": "multiple_choice",
+    "question": "10월의 올바른 발음과 표기는?",
+    "options": ["시월", "십월", "열월", "십일월"],
+    "answer": "시월",
+    "explanation": "10월은 받침 ㅂ이 탈락하여 '시월'로 읽고 씁니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-3",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 조사는?\n'금요일 저녁 일곱 시___ 만나요.'",
+    "options": ["에", "에서", "부터", "으로"],
+    "answer": "에",
+    "explanation": "약속이 이루어지는 구체적인 시점을 나타내는 조사는 '-에'입니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-4",
+    "type": "multiple_choice",
+    "question": "다음 중 시점 조사 '-에'를 붙이지 않는 단어는?",
+    "options": ["어제", "월요일", "세 시", "주말"],
+    "answer": "어제",
+    "explanation": "'어제, 오늘, 내일, 지금' 등의 시간 부사어 뒤에는 조사 '-에'를 붙이지 않습니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-5",
+    "type": "multiple_choice",
+    "question": "근무 시간을 나타낼 때 빈칸에 알맞은 조사는?\n'아홉 시___ 여섯 시___ 일해요.'",
+    "options": [
+      "부터, 까지",
+      "에서, 까지",
+      "에, 에서",
+      "부터, 로"
+    ],
+    "answer": "부터, 까지",
+    "explanation": "시간의 시작과 끝을 나타낼 때는 '시간 + 부터', '시간 + 까지'를 결합합니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-6",
+    "type": "fill_in_the_blank",
+    "question": "6월의 올바른 한국어 표기를 한글 두 글자로 쓰세요.\n'(____)'",
+    "answer": "유월",
+    "explanation": "6월은 '육월'이 아닌 '유월'로 표기하고 발음합니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-7",
+    "type": "fill_in_the_blank",
+    "question": "시간 2:15의 '시' 부분을 순우리말 수사로 쓰세요.\n'(____) 시 십오 분'",
+    "answer": "두",
+    "explanation": "시간 '시' 앞에서는 수사 '둘'이 관형형 '두'로 변합니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-8",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 시간의 종료 시점을 나타내는 조사(까지)를 쓰세요.\n'일곱 시(____) 식당에 갈게요.'",
+    "answer": "까지",
+    "explanation": "기한이나 끝 시점을 나타내는 조사는 '-까지'입니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-9",
+    "type": "fill_in_the_blank",
+    "question": "30분을 뜻하는 한 글자 어휘를 쓰세요.\n'일곱 시 (____)에 만나요.'",
+    "answer": "반",
+    "explanation": "30분은 '반'으로 표현할 수 있습니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-10",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 시간 조사(에)를 쓰세요.\n'월요일(____) 시험이 있어요.'",
+    "answer": "에",
+    "explanation": "요일 뒤에 붙는 시점 조사는 '-에'입니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 시간을 묻는 문장을 완성하세요.",
+    "answer": "생일 파티가 몇 시예요",
+    "explanation": "주어 '생일 파티가' + 의문 서술어 '몇 시예요' 순으로 배열합니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 날짜를 묻는 문장을 만드세요.",
+    "answer": "오늘이 몇 월 며칠이에요",
+    "explanation": "주어 '오늘이' + 의문 날짜 '몇 월 며칠이에요' 순서입니다.",
+    "source_unit": 5
+  },
+  {
+    "quiz_id": "q5-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.",
+    "answer": "저녁 일곱 시 반에 만나요",
+    "explanation": "시간 부사어 '저녁 일곱 시 반에' + 서술어 '만나요' 순서입니다.",
+    "source_unit": 5
+  }
+]

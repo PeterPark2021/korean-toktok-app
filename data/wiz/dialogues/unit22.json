@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 22,
+    "dialogue_id": "d22-1",
+    "speaker": "김 대리",
+    "korean_text": "박 과장님, 이번 기획 보고서 작성 끝났습니다.",
+    "translation": "Manager Park, I have finished writing this project proposal report.",
+    "audio_hint": "공손하고 명확한 업무 보고 톤"
+  },
+  {
+    "unit": 22,
+    "dialogue_id": "d22-2",
+    "speaker": "박 과장",
+    "korean_text": "수고했어요. 그럼 회의 자료를 출력한 후에 부장님께 검토를 요청하세요.",
+    "translation": "Good job. Then after printing the meeting materials, please request a review from the general manager.",
+    "audio_hint": "지시 사항을 차분하고 조리 있게 전달하는 어조"
+  },
+  {
+    "unit": 22,
+    "dialogue_id": "d22-3",
+    "speaker": "김 대리",
+    "korean_text": "네, 부장님께서 말씀하신 대로 양식을 수정해서 진행하겠습니다.",
+    "translation": "Yes, I will proceed by modifying the template exactly as the general manager instructed.",
+    "audio_hint": "적극적이고 확실한 업무 이행 톤"
+  },
+  {
+    "unit": 22,
+    "dialogue_id": "d22-4",
+    "speaker": "박 과장",
+    "korean_text": "오후 회의 시작하기 전에 준비를 마치도록 하세요.",
+    "translation": "Make sure you finish the preparations before the afternoon meeting begins.",
+    "audio_hint": "마감 시한을 당부하는 톤"
+  },
+  {
+    "unit": 22,
+    "dialogue_id": "d22-5",
+    "speaker": "김 대리",
+    "korean_text": "알겠습니다. 필요한 서류를 꼼꼼히 챙기겠습니다.",
+    "translation": "Understood. I will prepare the necessary documents meticulously.",
+    "audio_hint": "신뢰감을 주는 답변"
+  },
+  {
+    "unit": 22,
+    "dialogue_id": "d22-6",
+    "speaker": "박 과장",
+    "korean_text": "좋아요. 다 끝나면 커피 한잔하시지요.",
+    "translation": "Great. When you're all done, let's have a cup of coffee.",
+    "audio_hint": "부하 직원을 격려하는 따뜻한 권유 톤"
+  }
+]

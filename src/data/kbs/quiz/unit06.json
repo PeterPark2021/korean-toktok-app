@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q6-1",
+    "type": "multiple_choice",
+    "question": "교통수단을 나타낼 때 알맞은 조사는?\n'학교에 지하철___ 가요.'",
+    "options": [
+      "로",
+      "으로",
+      "에서",
+      "에"
+    ],
+    "answer": "로",
+    "explanation": "'지하철'은 끝음절에 'ㄹ' 받침이 있으므로 조사 '-로'가 결합하여 '지하철로'가 됩니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-2",
+    "type": "multiple_choice",
+    "question": "출발지와 목적지를 나타내는 조사의 짝으로 올바른 것은?\n'서울___ 부산___ KTX로 가요.'",
+    "options": [
+      "에서, 까지",
+      "부터, 까지",
+      "에, 에서",
+      "으로, 까지"
+    ],
+    "answer": "에서, 까지",
+    "explanation": "공간의 출발점과 도착지를 나타낼 때는 '장소 + 에서', '장소 + 까지'를 씁니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-3",
+    "type": "multiple_choice",
+    "question": "소요 시간을 묻는 질문으로 가장 알맞은 것은?",
+    "options": [
+      "시간이 얼마나 걸려요?",
+      "시간이 몇 개 있어요?",
+      "시간이 어디에 있어요?",
+      "시간이 누구예요?"
+    ],
+    "answer": "시간이 얼마나 걸려요?",
+    "explanation": "소요되는 시간의 양을 물을 때는 '얼마나 걸려요?'라고 묻습니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-4",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 조사는?\n'버스가 없어서 택시___ 탔어요.'",
+    "options": [
+      "를",
+      "로",
+      "에",
+      "에서"
+    ],
+    "answer": "를",
+    "explanation": "동사 '타다' 앞에는 목적격 조사 '-을/를'이 붙어 '택시를 타다'가 됩니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-5",
+    "type": "multiple_choice",
+    "question": "비행기를 타고 갈 때 올바른 표현은?",
+    "options": [
+      "제주도에 비행기로 가요.",
+      "제주도에 비행기로 내려요.",
+      "제주도에 비행기를 걸려요.",
+      "제주도에 비행기에서 걸어요."
+    ],
+    "answer": "제주도에 비행기로 가요.",
+    "explanation": "수단 조사 '-로'와 이동 동사 '가요'가 바르게 연결되었습니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-6",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 수단 조사(로/으로)를 쓰세요.\n'집에 버스(____) 가요.'",
+    "answer": "로",
+    "explanation": "'버스'는 받침이 없으므로 조사 '-로'를 씁니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-7",
+    "type": "fill_in_the_blank",
+    "question": "출발지를 나타내는 조사(에서)를 쓰세요.\n'집(____) 학교까지 30분 걸려요.'",
+    "answer": "에서",
+    "explanation": "공간의 출발점을 나타내는 조사는 '-에서'입니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-8",
+    "type": "fill_in_the_blank",
+    "question": "시간 소요를 나타내는 동사 '걸리다'의 현재형을 쓰세요.\n'부산까지 KTX로 2시간 반 (_______).' ",
+    "answer": "걸려요",
+    "explanation": "'걸리다'의 현재형은 '걸려요'입니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-9",
+    "type": "fill_in_the_blank",
+    "question": "이동 방법을 묻는 의문 부사(어떻게)를 쓰세요.\n'학교에 (_______) 가요?'",
+    "answer": "어떻게",
+    "explanation": "수단과 방법을 물을 때 '어떻게'를 씁니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-10",
+    "type": "fill_in_the_blank",
+    "question": "도착 목적지를 나타내는 조사(까지)를 쓰세요.\n'서울역(____) 지하철을 타요.'",
+    "answer": "까지",
+    "explanation": "목적지 범위를 나타내는 조사는 '-까지'입니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 가요 / 어떻게 / 학교에 ]",
+    "answer": "학교에 어떻게 가요",
+    "explanation": "목적지 '학교에' + 의문 부사 '어떻게' + 이동 서술어 '가요' 순서입니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 소요 시간을 묻는 문장을 완성하세요.\n[ 걸려요 / 얼마나 / 서울에서 / 부산까지 ]",
+    "answer": "서울에서 부산까지 얼마나 걸려요",
+    "explanation": "출발지 '서울에서' + 도착지 '부산까지' + 의문문 '얼마나 걸려요' 순서입니다.",
+    "source_unit": 6
+  },
+  {
+    "quiz_id": "q6-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 집에서 / 학교까지 / 삼십 / 걸려요 / 분 ]",
+    "answer": "집에서 학교까지 삼십 분 걸려요",
+    "explanation": "구간 '집에서 학교까지' + 소요 시간 '삼십 분' + 서술어 '걸려요' 순서입니다.",
+    "source_unit": 6
+  }
+]

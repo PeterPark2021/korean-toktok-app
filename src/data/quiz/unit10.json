@@ -1,0 +1,121 @@
+[
+  {
+    "quiz_id": "q10-1",
+    "type": "multiple_choice",
+    "question": "두 대상을 비교할 때 기준 뒤에 붙는 알맞은 조사는?\n'오늘은 어제___ 따뜻해요.'",
+    "options": ["보다", "에서", "으로", "까지"],
+    "answer": "보다",
+    "explanation": "비교 기준 명사 뒤에 붙는 비교 조사는 '-보다'입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-2",
+    "type": "multiple_choice",
+    "question": "여럿 중에서 으뜸임을 나타내는 최상급 부사로 알맞은 것은?\n'사계절 중에서 가을을 ___ 좋아해요.'",
+    "options": ["가장", "아주", "조금", "별로"],
+    "answer": "가장",
+    "explanation": "여럿 중에서 첫째로 꼽을 때는 '가장' 또는 '제일'을 씁니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-3",
+    "type": "multiple_choice",
+    "question": "이유를 나타내는 표현의 쓰임이 올바른 것은?",
+    "options": [
+      "날씨가 시원해서 가을이 좋아요.",
+      "날씨가 시원하지만 가을이 좋아요.",
+      "날씨가 시원하면 가을이 좋아요.",
+      "날씨가 시원하러 가을이 좋아요."
+    ],
+    "answer": "날씨가 시원해서 가을이 좋아요.",
+    "explanation": "가을이 좋은 이유와 원인을 설명하므로 '-아서/어서'가 결합한 '시원해서'가 맞습니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-4",
+    "type": "multiple_choice",
+    "question": "한국의 사계절 중 따뜻하고 꽃이 피는 계절은?",
+    "options": ["봄", "여름", "가을", "겨울"],
+    "answer": "봄",
+    "explanation": "따뜻하고 꽃이 피는 계절은 '봄'입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-5",
+    "type": "multiple_choice",
+    "question": "'비행기가 기차보다 빨라요'의 의미로 올바른 것은?",
+    "options": [
+      "비행기가 더 빠르다.",
+      "기차가 더 빠르다.",
+      "둘의 속도가 같다.",
+      "비행기가 더 느리다."
+    ],
+    "answer": "비행기가 더 빠르다.",
+    "explanation": "'-보다'가 붙은 '기차'가 비교 기준이므로 비행기가 더 빠르다는 의미입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-6",
+    "type": "fill_in_the_blank",
+    "question": "비교 조사(보다)를 빈칸에 쓰세요.\n'형이 동생(____) 키가 커요.'",
+    "answer": "보다",
+    "explanation": "비교 기준 명사 뒤에 붙는 조사는 '-보다'입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-7",
+    "type": "fill_in_the_blank",
+    "question": "최상급을 나타내는 두 글자 부사(제일/가장) 중 하나를 쓰세요.\n'우리 반에서 영수가 키가 (____) 커요.'",
+    "answer": "제일",
+    "explanation": "최상급을 나타내는 부사로 '제일' 또는 '가장'이 쓰입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-8",
+    "type": "fill_in_the_blank",
+    "question": "단풍이 아름다운 서늘한 계절(가을)을 쓰세요.\n'(____)에는 단풍이 예뻐요.'",
+    "answer": "가을",
+    "explanation": "단풍이 들고 시원한 계절은 '가을'입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-9",
+    "type": "fill_in_the_blank",
+    "question": "형용사 '덥다'의 현재형(-아/어요)을 쓰세요.\n'여름 날씨는 정말 (_______).' ",
+    "answer": "더워요",
+    "explanation": "'ㅂ' 불규칙 형용사 '덥다'는 모음 어미 앞에서 '더워요'가 됩니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-10",
+    "type": "fill_in_the_blank",
+    "question": "형용사 '춥다'의 현재형(-아/어요)을 쓰세요.\n'겨울에는 바람이 불어서 (_______).' ",
+    "answer": "추워요",
+    "explanation": "'ㅂ' 불규칙 형용사 '춥다'는 모음 어미 앞에서 '추워요'가 됩니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 날씨 질문을 완성하세요.",
+    "answer": "오늘 날씨가 어때요",
+    "explanation": "시간 '오늘' + 주어 '날씨가' + 의문 서술어 '어때요' 순서입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 계절 선호 질문을 완성하세요.",
+    "answer": "어느 계절을 제일 좋아해요",
+    "explanation": "관형 수식 '어느 계절을' + 최상급 부사 '제일' + 서술어 '좋아해요' 순서입니다.",
+    "source_unit": 10
+  },
+  {
+    "quiz_id": "q10-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.",
+    "answer": "오늘은 어제보다 훨씬 따뜻해요",
+    "explanation": "주어 '오늘은' + 비교 '어제보다' + 강조 부사 '훨씬' + 서술어 '따뜻해요' 순서입니다.",
+    "source_unit": 10
+  }
+]

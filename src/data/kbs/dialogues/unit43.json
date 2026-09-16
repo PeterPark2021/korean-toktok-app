@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 43,
+    "dialogue_id": "d43-1",
+    "speaker": "예린",
+    "korean_text": "교수님, 한국어에는 상황을 비유적으로 꿰뚫는 속담과 관용구가 참 많더라고요.",
+    "translation": "Professor, there are truly so many proverbs and idioms in Korean that penetrate situations metaphorically.",
+    "audio_hint": "학구적인 열의를 담은 질문 톤"
+  },
+  {
+    "unit": 43,
+    "dialogue_id": "d43-2",
+    "speaker": "이 교수",
+    "korean_text": "그렇단다. 예를 들어 '발 없는 말이 천 리 간다'는 속담은 소문의 파급력이 얼마나 크고 빠른지를 경계하는 조상의 지혜가 담겨 있지.",
+    "translation": "Indeed. For example, the proverb 'Words with no feet travel a thousand ri' holds our ancestors' wisdom warning how vast and fast the impact of rumors is.",
+    "audio_hint": "자상하고 품격 있는 해설 어조"
+  },
+  {
+    "unit": 43,
+    "dialogue_id": "d43-3",
+    "speaker": "예린",
+    "korean_text": "신체 어휘를 활용한 관용구도 재미있어요. '눈이 높다'거나 '발이 넓다'는 표현은 일상에서도 자주 쓰이더라고요.",
+    "translation": "Idioms utilizing body parts are interesting too. Expressions like 'having high eyes (high standards)' or 'having wide feet (having extensive connections)' are often used in daily life.",
+    "audio_hint": "흥미를 느끼며 즐겁게 대화를 잇는 목소리"
+  },
+  {
+    "unit": 43,
+    "dialogue_id": "d43-4",
+    "speaker": "이 교수",
+    "korean_text": "속담은 언어의 직관적인 표현력을 풍부하게 해 주는 한편, 그 민족 고유의 문화적 정서와 역사적 교훈을 고스란히 반영하기 마련이란다.",
+    "translation": "Proverbs enrich the intuitive expressiveness of a language on one hand, while inherently reflecting the nation's unique cultural sentiment and historical lessons intact.",
+    "audio_hint": "깊이 있는 인문학적 성찰을 담은 어조"
+  },
+  {
+    "unit": 43,
+    "dialogue_id": "d43-5",
+    "speaker": "예린",
+    "korean_text": "문맥에 맞는 적절한 속담 활용은 고급 한국어 구사력에 못지않게 중요한 의사소통 역량임을 깨달았습니다.",
+    "translation": "I realized that using appropriate proverbs fitting the context is an important communicative competency no less than advanced Korean fluency.",
+    "audio_hint": "깨달음을 정리하는 정중한 톤"
+  },
+  {
+    "unit": 43,
+    "dialogue_id": "d43-6",
+    "speaker": "이 교수",
+    "korean_text": "앞으로도 한국어의 다채로운 비유와 은유를 깊이 있게 탐구해 보렴.",
+    "translation": "Do continue to deeply explore the diverse metaphors and analogies of the Korean language in the future.",
+    "audio_hint": "제자를 향한 따뜻한 격려의 마무리"
+  }
+]

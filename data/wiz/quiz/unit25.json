@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q25-1",
+    "type": "multiple_choice",
+    "question": "자신의 행동에 집중하느라 다른 부정적 결과가 생겼음을 나타내는 어미는?",
+    "options": [
+      "-느라고",
+      "-자마자",
+      "-는 길에",
+      "-(으)시지요"
+    ],
+    "answer": "-느라고",
+    "explanation": "행위로 인한 시간 소모 및 피로·부정적 결과에는 '-느라고'를 씁니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-2",
+    "type": "multiple_choice",
+    "question": "불확실한 원인을 완곡하게 추측하여 설명할 때 쓰는 표현은?",
+    "options": [
+      "-아/어서 그런지",
+      "-는 셈 치고",
+      "-는 한편",
+      "-는 척하고"
+    ],
+    "answer": "-아/어서 그런지",
+    "explanation": "이유의 조심스러운 추측에는 '-아/어서 그런지'를 씁니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-3",
+    "type": "multiple_choice",
+    "question": "부정적인 결과의 책임을 앞의 원인에 돌릴 때 쓰는 표현은?",
+    "options": [
+      "-(으)ㄴ/는 탓에",
+      "-(으)ㄴ 덕분에",
+      "-(으)ㄹ 정도로",
+      "-기 마련이다"
+    ],
+    "answer": "-(으)ㄴ/는 탓에",
+    "explanation": "부정적인 원인이나 핑계를 나타낼 때는 '-(으)ㄴ/는 탓에'를 씁니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-4",
+    "type": "multiple_choice",
+    "question": "잠을 자지 않고 하얗게 밤을 보내는 것을 뜻하는 관용구는?",
+    "options": [
+      "밤을 새우다",
+      "발을 뻗다",
+      "귀를 기울이다",
+      "손을 씻다"
+    ],
+    "answer": "밤을 새우다",
+    "explanation": "잠을 자지 않고 밤 시간을 보내는 표현은 '밤을 새우다'입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-5",
+    "type": "multiple_choice",
+    "question": "마감 시한 전에 보고서를 내는 행위는?",
+    "options": [
+      "제출",
+      "작성",
+      "출력",
+      "취소"
+    ],
+    "answer": "제출",
+    "explanation": "서류나 과제물을 내어 바치는 것을 '제출(提出)'이라고 합니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-6",
+    "type": "fill_in_the_blank",
+    "question": "시험공부를 하___라고 잠을 거의 못 잤어요. (-느라고)",
+    "answer": "느",
+    "explanation": "'하다' 뒤에 목적 행동 원인 어미 '-느라고'가 붙어 '하느라고'가 됩니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-7",
+    "type": "fill_in_the_blank",
+    "question": "날씨가 추워서 ___런지 거리에 사람이 없네요. (그런지)",
+    "answer": "그",
+    "explanation": "'추워서 그런지'의 '그'입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-8",
+    "type": "fill_in_the_blank",
+    "question": "눈이 많이 온 ___에 도로가 마비되었습니다. (탓에)",
+    "answer": "탓",
+    "explanation": "부정적 원인을 나타내는 명사 '탓에'입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-9",
+    "type": "fill_in_the_blank",
+    "question": "과제나 일의 마치는 기한을 ___감이라고 합니다. (마)",
+    "answer": "마",
+    "explanation": "'마감(截止/Deadline)'의 '마'입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-10",
+    "type": "fill_in_the_blank",
+    "question": "학술적인 연구 성과를 기록한 글을 ___문이라고 합니다. (논)",
+    "answer": "논",
+    "explanation": "'논문(論文)'은 연구를 적은 글입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [새웠어요 / 밤을 / 과제를 하느라고 / 꼬박]",
+    "answer": "과제를 하느라고 밤을 꼬박 새웠어요",
+    "explanation": "원인절(과제를 하느라고) + 목적어(밤을) + 부사(꼬박) + 서술어(새웠어요) 순서입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [책을 안 읽어서 / 리포트가 / 어려웠어요 / 그런지]",
+    "answer": "책을 안 읽어서 그런지 리포트가 어려웠어요",
+    "explanation": "추측 원인절(책을 안 읽어서 그런지) + 주어(리포트가) + 서술어(어려웠어요) 순서입니다.",
+    "source_unit": 25
+  },
+  {
+    "quiz_id": "q25-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [이해가 / 전문 용어가 많은 / 안 됐어요 / 탓에]",
+    "answer": "전문 용어가 많은 탓에 이해가 안 됐어요",
+    "explanation": "부정 원인절(전문 용어가 많은 탓에) + 주어(이해가) + 부정 서술어(안 됐어요) 순서입니다.",
+    "source_unit": 25
+  }
+]

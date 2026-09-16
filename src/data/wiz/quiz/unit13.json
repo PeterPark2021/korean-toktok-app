@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q13-1",
+    "type": "multiple_choice",
+    "question": "동작이 일어나는 때를 나타내는 알맞은 연결 형태는? '쉴 ___ 음악을 들어요.'",
+    "options": [
+      "때",
+      "길에",
+      "바람에",
+      "탓에"
+    ],
+    "answer": "때",
+    "explanation": "시간이나 시점을 가리킬 때는 '-(으)ㄹ 때'를 씁니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-2",
+    "type": "multiple_choice",
+    "question": "동사 '치다'를 명사구로 만들어 목적어로 바르게 쓴 것은?",
+    "options": [
+      "치는 것을",
+      "치은 것을",
+      "치을 것을",
+      "칩는 것을"
+    ],
+    "answer": "치는 것을",
+    "explanation": "동사 어간 '치-' 뒤에 명사형 어미 '-는 것'이 붙어 '치는 것을(치는 걸)'이 됩니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-3",
+    "type": "multiple_choice",
+    "question": "외부 상황으로 인해 새로운 상태로 변화함을 나타내는 문장은?",
+    "options": [
+      "한국에 오게 되었어요.",
+      "한국에 오려고 해요.",
+      "한국에 오니까 좋아요.",
+      "한국에 오면 좋겠어요."
+    ],
+    "answer": "한국에 오게 되었어요.",
+    "explanation": "환경이나 상황의 변화로 결과에 이르게 됨을 나타내는 표현은 '-게 되다'입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-4",
+    "type": "multiple_choice",
+    "question": "자유롭게 쉬며 즐기는 시간을 뜻하는 어휘는?",
+    "options": [
+      "여가",
+      "출근",
+      "과제",
+      "지각"
+    ],
+    "answer": "여가",
+    "explanation": "일이 없어 자유롭게 쓸 수 있는 남는 시간은 '여가(Leisure)'입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-5",
+    "type": "multiple_choice",
+    "question": "다음 중 어법상 가장 자연스러운 문장은?",
+    "options": [
+      "영화를 보는 것을 즐겨요.",
+      "영화를 본 것을 좋아할래요.",
+      "영화를 볼 것이 싫어요.",
+      "영화를 봅는 걸 좋아해요."
+    ],
+    "answer": "영화를 보는 것을 즐겨요.",
+    "explanation": "현재의 취미나 일반적 선호를 나타낼 때 '동사 + -는 것'을 결합합니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-6",
+    "type": "fill_in_the_blank",
+    "question": "시간이 있___ 때 운동을 하세요. (있다 + -(으)ㄹ 때)",
+    "answer": "을",
+    "explanation": "'있다'에 받침이 있으므로 '-을 때'가 붙어 '있을 때'가 됩니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-7",
+    "type": "fill_in_the_blank",
+    "question": "음악을 듣___ 것을 가장 좋아해요. (-는)",
+    "answer": "는",
+    "explanation": "'듣다'의 어간 뒤에 현재 명사형 어미 '-는'이 붙습니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-8",
+    "type": "fill_in_the_blank",
+    "question": "회사 발령으로 서울에 살___ 되었습니다. (살다 + -게 되다)",
+    "answer": "게",
+    "explanation": "'살다'의 어간 '살-' 뒤에 '-게 되다'가 붙어 '살게 되었습니다'가 됩니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-9",
+    "type": "fill_in_the_blank",
+    "question": "피아노나 기타 같은 악기를 다루는 것을 ___라고 합니다. (연주)",
+    "answer": "연주",
+    "explanation": "악기를 다루어 소리 내는 행위는 '연주'입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-10",
+    "type": "fill_in_the_blank",
+    "question": "친구의 권___로 동아리에 가입했어요. (권유의 '유')",
+    "answer": "유",
+    "explanation": "'권유(勸誘)'는 권하는 행위입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [좋아해요 / 피아노 / 치는 / 것을]",
+    "answer": "피아노 치는 것을 좋아해요",
+    "explanation": "목적어구(피아노 치는 것을) + 서술어(좋아해요) 어순입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [음악을 / 때 / 들어요 / 쉴]",
+    "answer": "쉴 때 음악을 들어요",
+    "explanation": "시간 부사절(쉴 때) + 목적어(음악을) + 서술어(들어요) 순서입니다.",
+    "source_unit": 13
+  },
+  {
+    "quiz_id": "q13-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [되었어요 / 학원에 / 다니게 / 작년에]",
+    "answer": "작년에 학원에 다니게 되었어요",
+    "explanation": "시간 부사(작년에) + 부사어(학원에) + 결과 서술어(다니게 되었어요) 순서입니다.",
+    "source_unit": 13
+  }
+]

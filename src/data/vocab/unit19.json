@@ -1,0 +1,72 @@
+[
+  {
+    "word": "증상",
+    "meaning": "병을 앓을 때 나타나는 신체적 변화 (Symptom)",
+    "part_of_speech": "명사",
+    "example_sentence": "초기 감기 증상으로 목이 따끔거려요.",
+    "level": "초급"
+  },
+  {
+    "word": "열",
+    "meaning": "몸에서 나는 높은 온도 (Fever / heat)",
+    "part_of_speech": "명사",
+    "example_sentence": "체온계로 열을 쟀더니 38도였어요.",
+    "level": "초급"
+  },
+  {
+    "word": "두통",
+    "meaning": "머리가 아픈 증세 (Headache)",
+    "part_of_speech": "명사",
+    "example_sentence": "심한 두통 때문에 잠을 못 잤어요.",
+    "level": "초급"
+  },
+  {
+    "word": "감기",
+    "meaning": "호흡기에 바이러스가 침투해 걸리는 병 (Cold / flu)",
+    "part_of_speech": "명사",
+    "example_sentence": "겨울철에 감기에 걸리지 않도록 조심하세요.",
+    "level": "초급"
+  },
+  {
+    "word": "이비인후과",
+    "meaning": "귀, 코, 목을 진료하는 병원 (ENT Clinic)",
+    "part_of_speech": "명사",
+    "example_sentence": "목이 아파서 이비인후과에 갔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "내과",
+    "meaning": "수술 없이 약물로 치료하는 병원 (Internal medicine)",
+    "part_of_speech": "명사",
+    "example_sentence": "배가 아파서 내과에서 진료를 받았어요.",
+    "level": "초급"
+  },
+  {
+    "word": "처방전",
+    "meaning": "의사가 약국에 약 조제를 지시하는 서류 (Prescription)",
+    "part_of_speech": "명사",
+    "example_sentence": "처방전을 약국에 내고 약을 샀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "진료",
+    "meaning": "의사가 환자를 진찰하고 치료함 (Medical consultation / treatment)",
+    "part_of_speech": "명사",
+    "example_sentence": "오전 9시부터 진료가 시작됩니다.",
+    "level": "초급"
+  },
+  {
+    "word": "예약",
+    "meaning": "미리 시간을 정해 약속함 (Appointment / reservation)",
+    "part_of_speech": "명사",
+    "example_sentence": "병원 진료 예약을 변경했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "안정",
+    "meaning": "몸과 마음이 편안하게 가라앉음 (Stability / rest)",
+    "part_of_speech": "명사",
+    "example_sentence": "환자는 충분한 휴식과 안정이 필요합니다.",
+    "level": "초급"
+  }
+]

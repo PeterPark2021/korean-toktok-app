@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 21,
+    "dialogue_id": "d21-1",
+    "speaker": "스티븐",
+    "korean_text": "저기, 죄송한데 교실 안에서 김밥이나 간식을 먹어도 돼요?",
+    "translation": "Excuse me, am I allowed to eat kimbap or snacks inside the classroom?",
+    "audio_hint": "조심스럽고 정중하게 허락을 구하는 톤"
+  },
+  {
+    "unit": 21,
+    "dialogue_id": "d21-2",
+    "speaker": "조교",
+    "korean_text": "음료수는 괜찮지만 냄새가 나는 음식은 교실에서 드시면 안 돼요.",
+    "translation": "Beverages are fine, but you must not eat smelly food in the classroom.",
+    "audio_hint": "정중하지만 단호하게 규정을 안내하는 어조"
+  },
+  {
+    "unit": 21,
+    "dialogue_id": "d21-3",
+    "speaker": "스티븐",
+    "korean_text": "아, 그렇군요. 몰랐습니다. 휴게실에 가서 먹고 올게요.",
+    "translation": "Ah, I see. I didn't know. I'll go eat in the lounge and come back.",
+    "audio_hint": "즉시 수긍하고 예의를 갖추는 톤"
+  },
+  {
+    "unit": 21,
+    "dialogue_id": "d21-4",
+    "speaker": "조교",
+    "korean_text": "그리고 밤늦은 시간에는 기숙사 복도에서 통화할 때 조금 조용히 합시다.",
+    "translation": "Also, late at night, let's keep it quiet when making phone calls in the dorm hallway.",
+    "audio_hint": "배려를 당부하는 부드러운 청유 톤"
+  },
+  {
+    "unit": 21,
+    "dialogue_id": "d21-5",
+    "speaker": "스티븐",
+    "korean_text": "네, 다른 학생들에게 방해되지 않도록 주의하겠습니다.",
+    "translation": "Yes, I will be careful not to disturb other students.",
+    "audio_hint": "다짐과 존중의 어조"
+  },
+  {
+    "unit": 21,
+    "dialogue_id": "d21-6",
+    "speaker": "조교",
+    "korean_text": "서로 배려하며 생활하면 모두가 쾌적하게 지낼 수 있어요.",
+    "translation": "If we respect each other, everyone can live pleasantly.",
+    "audio_hint": "따뜻한 격려 톤"
+  }
+]

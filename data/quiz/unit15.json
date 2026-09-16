@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q15-1",
+    "type": "multiple_choice",
+    "question": "두 행동 중 하나를 선택하여 나열할 때 알맞은 연결어미는?",
+    "options": [
+      "-거나",
+      "-지만",
+      "-는데",
+      "-느라고"
+    ],
+    "answer": "-거나",
+    "explanation": "동작의 선택을 나타내는 어미는 '-거나'입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-2",
+    "type": "multiple_choice",
+    "question": "자신의 계획이나 의도를 나타내는 문장은?",
+    "options": [
+      "친구에게 목도리를 선물하려고요.",
+      "친구에게 목도리를 선물하는 바람에 늦었어요.",
+      "친구에게 목도리를 선물하니까 좋아요.",
+      "친구에게 목도리를 선물한 적이 없어요."
+    ],
+    "answer": "친구에게 목도리를 선물하려고요.",
+    "explanation": "의도와 계획을 나타내는 종결 표현은 '-(으)려고요'입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-3",
+    "type": "multiple_choice",
+    "question": "상대방에게 부드럽게 행동을 제안하는 문장으로 알맞은 것은?",
+    "options": [
+      "케이크를 만들어 주는 건 어때요?",
+      "케이크를 만들어 주는 바람에 그래요.",
+      "케이크를 만들어 주어야만 해요.",
+      "케이크를 만들어 주자마자 갔어요."
+    ],
+    "answer": "케이크를 만들어 주는 건 어때요?",
+    "explanation": "제안과 권유를 부드럽게 나타낼 때는 '-는 건 어때요?'를 사용합니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-4",
+    "type": "multiple_choice",
+    "question": "특별히 기억하고 축하할 만한 날을 가리키는 단어는?",
+    "options": [
+      "기념일",
+      "일과",
+      "출근일",
+      "방학식"
+    ],
+    "answer": "기념일",
+    "explanation": "특별한 일을 기억하고 기념하는 날은 '기념일'입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-5",
+    "type": "multiple_choice",
+    "question": "'받침 없는 동사' 뒤에 결합하는 의도 표현 형태는?",
+    "options": [
+      "-려고 하다",
+      "-으려고 하다",
+      "-느라고 하다",
+      "-고자 하다만"
+    ],
+    "answer": "-려고 하다",
+    "explanation": "받침이 없거나 'ㄹ' 받침인 동사 뒤에는 '-려고 하다'가 결합합니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-6",
+    "type": "fill_in_the_blank",
+    "question": "주말에는 책을 읽___ 영화를 봐요. (선택 -거나)",
+    "answer": "거나",
+    "explanation": "'읽다' 뒤에 선택 어미 '-거나'가 붙어 '읽거나'가 됩니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-7",
+    "type": "fill_in_the_blank",
+    "question": "친구를 위해 케이크를 사___고 해요. (사다 + 의도)",
+    "answer": "려고",
+    "explanation": "'사다'는 받침이 없으므로 '-려고'가 결합하여 '사려고'가 됩니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-8",
+    "type": "fill_in_the_blank",
+    "question": "마음을 다한 정___을 담아 선물을 준비했어요. (정성의 '성')",
+    "answer": "성",
+    "explanation": "'정성(精誠)'은 정성스러운 마음입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-9",
+    "type": "fill_in_the_blank",
+    "question": "오늘 저녁에 같이 외식하는 건 ___때요? (어)",
+    "answer": "어",
+    "explanation": "'어때요'의 첫 글자 '어'입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-10",
+    "type": "fill_in_the_blank",
+    "question": "겨울철 목을 따뜻하게 감싸는 방한용품은 ___도리입니다. (목)",
+    "answer": "목",
+    "explanation": "목에 두르는 직물은 '목도리'입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [선물하려고요 / 목도리를 / 친구한테 / 따뜻한]",
+    "answer": "친구한테 따뜻한 목도리를 선물하려고요",
+    "explanation": "수여 대상(친구한테) + 수식 관형어(따뜻한) + 목적어(목도리를) + 서술어(선물하려고요) 순서입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [편지를 / 어때요 / 쓰는 / 건]",
+    "answer": "편지를 쓰는 건 어때요",
+    "explanation": "목적어(편지를) + 제안 표현(쓰는 건 어때요) 어순입니다.",
+    "source_unit": 15
+  },
+  {
+    "quiz_id": "q15-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [만들거나 / 음식을 / 사 먹어요]",
+    "answer": "음식을 만들거나 사 먹어요",
+    "explanation": "목적어(음식을) + 선택 동사(만들거나) + 서술어(사 먹어요) 순서입니다.",
+    "source_unit": 15
+  }
+]

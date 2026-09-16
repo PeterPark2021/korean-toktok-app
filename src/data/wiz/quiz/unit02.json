@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q2-1",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 조사는?\n'저___ 김민호예요.'",
+    "options": [
+      "는",
+      "은",
+      "이",
+      "가"
+    ],
+    "answer": "는",
+    "explanation": "'저'는 받침이 없는 음절이므로 주제 보조사 '-는'이 결합합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-2",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 종결어미는?\n'저는 회사원___.'",
+    "options": [
+      "이에요",
+      "예요",
+      "습니다",
+      "입니다"
+    ],
+    "answer": "이에요",
+    "explanation": "'회사원'은 끝음절 '원'에 받침(ㄴ)이 있으므로 '-이에요'가 결합합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-3",
+    "type": "multiple_choice",
+    "question": "다음 중 밑줄 친 부분의 쓰임이 올바른 것은?",
+    "options": [
+      "저는 의사이에요.",
+      "선생님은 한국 사람이에요.",
+      "리홍 씨는 가수이에요.",
+      "가족이 셋 명이에요."
+    ],
+    "answer": "선생님은 한국 사람이에요.",
+    "explanation": "'사람'은 받침이 있어 '-이에요'가 바르게 결합했습니다. '의사'와 '가수'는 받침이 없어 '의사예요', '가수예요'가 맞고, '셋 명'은 '세 명'으로 바뀌어야 합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-4",
+    "type": "multiple_choice",
+    "question": "가족의 수를 묻고 답할 때 올바른 표현은?",
+    "options": [
+      "가족이 몇 명이에요? - 세 명이에요.",
+      "가족이 몇 살이에요? - 세 살이에요.",
+      "가족이 몇 개예요? - 세 개예요.",
+      "가족이 몇 번이에요? - 세 번이에요."
+    ],
+    "answer": "가족이 몇 명이에요? - 세 명이에요.",
+    "explanation": "사람의 수를 셀 때는 단위명사 '명'을 사용하여 '몇 명이에요?', '세 명이에요'로 말합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-5",
+    "type": "multiple_choice",
+    "question": "빈칸에 들어갈 알맞은 것은?\n'동생___ 있어요.'",
+    "options": [
+      "이",
+      "가",
+      "을",
+      "를"
+    ],
+    "answer": "이",
+    "explanation": "'동생'은 받침(ㅇ)이 있으므로 주격 조사 '-이'와 결합하여 '동생이 있어요'가 됩니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-6",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 '이에요' 또는 '예요' 중 알맞은 형태를 쓰세요.\n'저는 의사(____).' ",
+    "answer": "예요",
+    "explanation": "'의사'는 받침이 없는 명사이므로 '-예요'가 결합합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-7",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 알맞은 주제 조사(은/는)를 쓰세요.\n'선생님(____) 한국 사람이에요.'",
+    "answer": "은",
+    "explanation": "'선생님'의 마지막 글자 '님'에 받침(ㅁ)이 있으므로 조사 '-은'을 씁니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-8",
+    "type": "fill_in_the_blank",
+    "question": "괄호 안의 숫자를 알맞은 한국어 수사 관형형(한/두/세/네)으로 바꾸어 쓰세요.\n'우리 가족은 (3)____ 명이에요.'",
+    "answer": "세",
+    "explanation": "단위명사 '명' 앞에서는 수사 '셋'이 '세'로 변형됩니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-9",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 '이' 또는 '가' 중 알맞은 주격 조사를 쓰세요.\n'친절한 친구(____) 있어요.'",
+    "answer": "가",
+    "explanation": "'친구'는 받침이 없으므로 주격 조사 '-가'가 결합합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-10",
+    "type": "fill_in_the_blank",
+    "question": "빈칸에 '이에요' 또는 '예요' 중 알맞은 형태를 쓰세요.\n'리홍 씨는 학생(____).' ",
+    "answer": "이에요",
+    "explanation": "'학생'은 끝 글자에 받침(ㅇ)이 있으므로 '-이에요'를 씁니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-11",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 자연스러운 문장을 완성하세요.\n[ 회사원이에요 / 저는 ]",
+    "answer": "저는 회사원이에요",
+    "explanation": "주어 '저는' + 보어/서술어 '회사원이에요' 순서로 어순을 배치합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-12",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 가족 수를 묻는 문장을 만드세요.\n[ 몇 / 명이에요 / 가족은 ]",
+    "answer": "가족은 몇 명이에요",
+    "explanation": "'가족은' + '몇 명이에요' 순서로 의문문을 구성합니다.",
+    "source_unit": 2
+  },
+  {
+    "quiz_id": "q2-13",
+    "type": "sentence_reordering",
+    "question": "단어 칩을 올바른 순서대로 배열하여 완성하세요.\n[ 네 / 우리 / 명이에요 / 가족은 ]",
+    "answer": "우리 가족은 네 명이에요",
+    "explanation": "주어 '우리 가족은' + 수량 서술어 '네 명이에요' 순서로 완성합니다.",
+    "source_unit": 2
+  }
+]

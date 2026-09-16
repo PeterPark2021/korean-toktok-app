@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 16,
+    "dialogue_id": "d16-1",
+    "speaker": "나래",
+    "korean_text": "저기 키가 크고 안경을 쓴 사람이 지민 씨 동생이에요?",
+    "translation": "Is that tall person wearing glasses your younger brother, Jimin?",
+    "audio_hint": "대상을 손으로 가리키며 묻는 자연스러운 톤"
+  },
+  {
+    "unit": 16,
+    "dialogue_id": "d16-2",
+    "speaker": "지민",
+    "korean_text": "아니요, 제 동생은 머리가 길고 빨간색 모자를 쓰고 있어요.",
+    "translation": "No, my younger sister has long hair and is wearing a red hat.",
+    "audio_hint": "차분하게 외모 특징을 정정해 주는 어조"
+  },
+  {
+    "unit": 16,
+    "dialogue_id": "d16-3",
+    "speaker": "나래",
+    "korean_text": "아, 청바지를 입고 흰 운동화를 신은 분이군요!",
+    "translation": "Ah, the person wearing blue jeans and white sneakers!",
+    "audio_hint": "알아차리고 반가워하는 억양"
+  },
+  {
+    "unit": 16,
+    "dialogue_id": "d16-4",
+    "speaker": "지민",
+    "korean_text": "맞아요. 제 동생은 항상 밝은 옷을 입는 걸 좋아해요.",
+    "translation": "That's right. My sister always likes wearing bright clothes.",
+    "audio_hint": "동생을 자랑스러워하는 다정한 어조"
+  },
+  {
+    "unit": 16,
+    "dialogue_id": "d16-5",
+    "speaker": "나래",
+    "korean_text": "스타일이 참 멋있고 세련되었네요.",
+    "translation": "Her style is really cool and stylish.",
+    "audio_hint": "진심 어린 칭찬 톤"
+  },
+  {
+    "unit": 16,
+    "dialogue_id": "d16-6",
+    "speaker": "지민",
+    "korean_text": "고마워요. 얼른 가서 인사 나눠요.",
+    "translation": "Thank you. Let's go over quickly and say hello.",
+    "audio_hint": "이동을 재촉하는 밝은 목소리"
+  }
+]

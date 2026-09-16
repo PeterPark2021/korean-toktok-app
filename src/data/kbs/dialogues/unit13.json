@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 13,
+    "dialogue_id": "d13-1",
+    "speaker": "유진",
+    "korean_text": "현우 씨는 주말에 쉴 때 보통 뭐 해요?",
+    "translation": "Hyunwoo, what do you usually do when you rest on weekends?",
+    "audio_hint": "호기심을 담은 가볍고 친근한 톤"
+  },
+  {
+    "unit": 13,
+    "dialogue_id": "d13-2",
+    "speaker": "현우",
+    "korean_text": "저는 음악 듣는 걸 좋아해서 피아노를 쳐요.",
+    "translation": "I like listening to music, so I play the piano.",
+    "audio_hint": "즐거운 취미를 소개하는 차분한 어조"
+  },
+  {
+    "unit": 13,
+    "dialogue_id": "d13-3",
+    "speaker": "유진",
+    "korean_text": "피아노를 칠 줄 아세요? 언제부터 치게 되었어요?",
+    "translation": "You know how to play piano? Since when did you start playing?",
+    "audio_hint": "놀라움과 칭찬의 억양"
+  },
+  {
+    "unit": 13,
+    "dialogue_id": "d13-4",
+    "speaker": "현우",
+    "korean_text": "작년에 친구 권유로 피아노 학원에 다니게 되었어요.",
+    "translation": "Last year, thanks to a friend's recommendation, I started going to a piano academy.",
+    "audio_hint": "계기를 설명하는 부드러운 톤"
+  },
+  {
+    "unit": 13,
+    "dialogue_id": "d13-5",
+    "speaker": "유진",
+    "korean_text": "저도 스트레스 받을 때 기타를 배우고 싶어요.",
+    "translation": "I also want to learn the guitar when I'm stressed.",
+    "audio_hint": "공감과 바람을 나타내는 톤"
+  },
+  {
+    "unit": 13,
+    "dialogue_id": "d13-6",
+    "speaker": "현우",
+    "korean_text": "악기를 연주하면 기분이 정말 좋아져요. 꼭 배워 보세요!",
+    "translation": "Playing an instrument really makes you feel good. Definitely try learning!",
+    "audio_hint": "열정적인 추천 어조"
+  }
+]

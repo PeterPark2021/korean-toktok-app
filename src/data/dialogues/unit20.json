@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 20,
+    "dialogue_id": "d20-1",
+    "speaker": "서연",
+    "korean_text": "민수 씨, 아까 몇 번이나 전화했는데 왜 핸드폰이 꺼져 있었어요?",
+    "translation": "Minsu, I called you several times earlier, why was your phone turned off?",
+    "audio_hint": "답답함과 궁금함이 섞인 자연스러운 톤"
+  },
+  {
+    "unit": 20,
+    "dialogue_id": "d20-2",
+    "speaker": "민수",
+    "korean_text": "아, 배터리가 없어서 꺼져 있었어요. 중요한 회의 중이라 확인을 못 했어요.",
+    "translation": "Ah, it was off because I ran out of battery. I couldn't check since I was in an important meeting.",
+    "audio_hint": "차분하고 미안하게 해명하는 어조"
+  },
+  {
+    "unit": 20,
+    "dialogue_id": "d20-3",
+    "speaker": "서연",
+    "korean_text": "그랬군요. 급한 일인 줄 알고 걱정했어요.",
+    "translation": "I see. I was worried thinking it was something urgent.",
+    "audio_hint": "안도하는 따뜻한 목소리"
+  },
+  {
+    "unit": 20,
+    "dialogue_id": "d20-4",
+    "speaker": "민수",
+    "korean_text": "죄송해요. 지금은 이동 중이라 긴 통화는 하기 어렵습니다.",
+    "translation": "I'm sorry. I'm moving right now, so it is difficult to have a long call.",
+    "audio_hint": "정중하고 공손하게 사정을 알리는 톤"
+  },
+  {
+    "unit": 20,
+    "dialogue_id": "d20-5",
+    "speaker": "서연",
+    "korean_text": "네, 괜찮아요. 도착하시면 편하실 때 메시지 남겨 주세요.",
+    "translation": "Yes, it's fine. When you arrive and have time, please leave a message.",
+    "audio_hint": "배려심 넘치는 부드러운 대답 톤"
+  },
+  {
+    "unit": 20,
+    "dialogue_id": "d20-6",
+    "speaker": "민수",
+    "korean_text": "네, 도착하는 대로 바로 연락드리겠습니다.",
+    "translation": "Yes, I will contact you immediately as soon as I arrive.",
+    "audio_hint": "명확하고 신뢰감을 주는 마무리 톤"
+  }
+]

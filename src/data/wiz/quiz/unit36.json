@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q36-1",
+    "type": "multiple_choice",
+    "question": "뒤의 결과가 성립하기 위한 절대적 필수 조건을 나타내는 어미는?",
+    "options": [
+      "-아야/어야",
+      "-는데",
+      "-자마자",
+      "-는 길에"
+    ],
+    "answer": "-아야/어야",
+    "explanation": "필수적인 선행 조건을 나타낼 때는 '-아야/어야'를 씁니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-2",
+    "type": "multiple_choice",
+    "question": "목표를 원활히 달성할 수 있도록 유도하는 연결어미는?",
+    "options": [
+      "-(으)ㄹ 수 있도록",
+      "-(으)ㄹ 뻔하도록",
+      "-(으)ㄴ 탓에",
+      "-는 바람에"
+    ],
+    "answer": "-(으)ㄹ 수 있도록",
+    "explanation": "목적 달성을 위한 환경이나 상태 유도는 '-(으)ㄹ 수 있도록'을 씁니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-3",
+    "type": "multiple_choice",
+    "question": "한 번 쓰고 버리는 일회용 컵 대신 쓰는 휴대용 다회용 컵은?",
+    "options": [
+      "텀블러",
+      "비닐봉지",
+      "나무젓가락",
+      "종이컵"
+    ],
+    "answer": "텀블러",
+    "explanation": "반복 사용하는 휴대용 음료 용기는 '텀블러(Tumbler)'입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-4",
+    "type": "multiple_choice",
+    "question": "쓰레기를 재질별로 나누어 배출하는 환경 보호 행위는?",
+    "options": [
+      "분리수거",
+      "자취",
+      "견학",
+      "개설"
+    ],
+    "answer": "분리수거",
+    "explanation": "재활용품을 종류별로 분류 배출하는 것을 '분리수거(分離收去)'라고 합니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-5",
+    "type": "multiple_choice",
+    "question": "한 가지 행동으로 두 가지 이득을 동시에 얻는다는 사자성어는?",
+    "options": [
+      "일석이조",
+      "동문서답",
+      "작심삼일",
+      "배은망덕"
+    ],
+    "answer": "일석이조",
+    "explanation": "돌 하나로 새 두 마리를 잡는다는 뜻의 사자성어는 '일석이조(一石二鳥)'입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-6",
+    "type": "fill_in_the_blank",
+    "question": "라벨을 깨끗이 떼___야 분리수거가 가능해요. (필수조건)",
+    "answer": "어",
+    "explanation": "'떼다'의 모음 뒤에 '-어야'가 결합하여 '떼어야'가 됩니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-7",
+    "type": "fill_in_the_blank",
+    "question": "환경을 지킬 수 있___록 다 함께 노력해요. (-도록)",
+    "answer": "도",
+    "explanation": "목적 유도 어미 '있도록'의 '도'입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-8",
+    "type": "fill_in_the_blank",
+    "question": "일회용품을 줄이___ 위해서 장바구니를 챙겼어요. (목적)",
+    "answer": "기",
+    "explanation": "'줄이기 위해'의 '기'입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-9",
+    "type": "fill_in_the_blank",
+    "question": "다 쓴 물건을 다시 원료로 가공해 쓰는 것을 ___활용이라고 합니다. (재)",
+    "answer": "재",
+    "explanation": "'재활용(再活用)'의 '재'입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-10",
+    "type": "fill_in_the_blank",
+    "question": "계획한 바를 몸소 행동에 옮기는 것을 ___천이라고 합니다. (실)",
+    "answer": "실",
+    "explanation": "'실천(實踐)'은 실제로 행하는 일입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [줄이기 위해 / 쓰레기를 / 텀블러를 / 사용해요]",
+    "answer": "쓰레기를 줄이기 위해 텀블러를 사용해요",
+    "explanation": "목적구(쓰레기를 줄이기 위해) + 목적어(텀블러를) + 서술어(사용해요) 순서입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [분리배출을 / 깨끗이 씻어야 / 할 수 있어요]",
+    "answer": "깨끗이 씻어야 분리배출을 할 수 있어요",
+    "explanation": "필수조건절(깨끗이 씻어야) + 목적어(분리배출을) + 가능 서술어(할 수 있어요) 순서입니다.",
+    "source_unit": 36
+  },
+  {
+    "quiz_id": "q36-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [만들 수 있도록 / 지구를 / 깨끗한 / 노력합시다]",
+    "answer": "깨끗한 지구를 만들 수 있도록 노력합시다",
+    "explanation": "수식구(깨끗한 지구를) + 유도절(만들 수 있도록) + 청유 서술어(노력합시다) 순서입니다.",
+    "source_unit": 36
+  }
+]

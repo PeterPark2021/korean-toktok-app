@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q28-1",
+    "type": "multiple_choice",
+    "question": "어떤 일을 할 수는 있으나 능숙하지 못함을 나타내는 표현은?",
+    "options": [
+      "잘 못 쳐요",
+      "치지 못해요",
+      "칠 줄 알아요",
+      "치도록 해요"
+    ],
+    "answer": "잘 못 쳐요",
+    "explanation": "서툰 능력을 부드럽게 표현할 때는 부사 '잘 못'을 결합합니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-2",
+    "type": "multiple_choice",
+    "question": "방법이나 기술을 전혀 알지 못함을 나타내는 어미는?",
+    "options": [
+      "-(으)ㄹ 줄 모르다",
+      "-(으)ㄹ 뻔하다",
+      "-(으)ㄴ 셈 치다",
+      "-기 십상이다"
+    ],
+    "answer": "-(으)ㄹ 줄 모르다",
+    "explanation": "방법이나 능력의 부재는 '-(으)ㄹ 줄 모르다'로 표현합니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-3",
+    "type": "multiple_choice",
+    "question": "자신이 대체로 어떤 성향에 속함을 완곡하게 말할 때 쓰는 어미는?",
+    "options": [
+      "-(으)ㄴ/는 편이다",
+      "-(으)ㄹ 뿐이다",
+      "-(으)ㄴ 척하다",
+      "-기 마련이다"
+    ],
+    "answer": "-(으)ㄴ/는 편이다",
+    "explanation": "일반적 경향이나 성향의 범주화는 '-(으)ㄴ/는 편이다'를 씁니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-4",
+    "type": "multiple_choice",
+    "question": "취미나 관심사가 같은 사람들의 사교 모임을 가리키는 말은?",
+    "options": [
+      "동호회",
+      "동창회",
+      "학술대회",
+      "기숙사"
+    ],
+    "answer": "동호회",
+    "explanation": "공통의 취미를 즐기는 사람들의 모임은 '동호회(同好會)'입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-5",
+    "type": "multiple_choice",
+    "question": "동사 '운전하다'에 방법 지식의 유무 표현이 올바르게 결합한 형태는?",
+    "options": [
+      "운전할 줄 알아요",
+      "운전하는 줄 알아요",
+      "운전한 줄 알아요",
+      "운전하도록 알아요"
+    ],
+    "answer": "운전할 줄 알아요",
+    "explanation": "'운전하다'에 받침이 없으므로 '-ㄹ 줄 알다'가 결합합니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-6",
+    "type": "fill_in_the_blank",
+    "question": "수영을 전혀 할 줄 ___라요. (모르다)",
+    "answer": "몰",
+    "explanation": "'모르다'의 활용형 '몰라요'의 '몰'입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-7",
+    "type": "fill_in_the_blank",
+    "question": "저는 주말에 주로 집에서 쉬___ 편이에요. (쉬다 + 경향)",
+    "answer": "는",
+    "explanation": "'쉬다'의 현재 시제 경향 어미 '-는 편이다'의 '는'입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-8",
+    "type": "fill_in_the_blank",
+    "question": "한국 음식을 좋아하지만 매운 찌개는 ___ 못 먹어요. (잘)",
+    "answer": "잘",
+    "explanation": "서툰 정도를 나타내는 부사는 '잘'입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-9",
+    "type": "fill_in_the_blank",
+    "question": "어떤 일을 처음 시작하여 서툰 사람을 ___보자라고 합니다. (초)",
+    "answer": "초",
+    "explanation": "'초보자(初步者)'의 '초'입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-10",
+    "type": "fill_in_the_blank",
+    "question": "어려운 일에 당당히 맞서는 씩씩한 기운을 ___기라고 합니다. (용)",
+    "answer": "용",
+    "explanation": "'용기(勇氣)'는 두려움을 이겨내는 힘입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [테니스는 / 저는 / 못 쳐요 / 잘]",
+    "answer": "저는 테니스는 잘 못 쳐요",
+    "explanation": "주어(저는) + 목적 주제어(테니스는) + 부사어(잘) + 서술어(못 쳐요) 순서입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [줄 몰라도 / 라켓을 / 참가할 수 / 쥘 / 있나요]",
+    "answer": "라켓을 쥘 줄 몰라도 참가할 수 있나요",
+    "explanation": "목적어(라켓을) + 양보 능력절(쥘 줄 몰라도) + 가능 서술어(참가할 수 있나요) 순서입니다.",
+    "source_unit": 28
+  },
+  {
+    "quiz_id": "q28-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [즐기는 / 운동을 / 편이에요 / 저는]",
+    "answer": "저는 운동을 즐기는 편이에요",
+    "explanation": "주어(저는) + 목적어(운동을) + 경향 서술어(즐기는 편이에요) 순서입니다.",
+    "source_unit": 28
+  }
+]

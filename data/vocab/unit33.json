@@ -1,0 +1,72 @@
+[
+  {
+    "word": "연극",
+    "meaning": "배우가 무대 위에서 대사와 연기로 표현하는 예술 (Play / theatrical performance)",
+    "part_of_speech": "명사",
+    "example_sentence": "소극장에서 연극을 관람했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "뮤지컬",
+    "meaning": "노래와 춤, 대사가 어우러진 종합 무대 예술 (Musical)",
+    "part_of_speech": "명사",
+    "example_sentence": "유명한 브로드웨이 뮤지컬을 예매했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "예매",
+    "meaning": "표나 좌석을 미리 사 두는 일 (Booking / advance ticket purchase)",
+    "part_of_speech": "명사",
+    "example_sentence": "인기 콘서트는 예매 시작 1분 만에 매진되었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "감동적",
+    "meaning": "마음에 깊은 울림과 감동을 주는 (Touching / moving)",
+    "part_of_speech": "관형사/명사",
+    "example_sentence": "영화의 결말이 매우 감동적이었습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "극단",
+    "meaning": "연극이나 뮤지컬을 전문으로 공연하는 단체 (Theater troupe)",
+    "part_of_speech": "명사",
+    "example_sentence": "청년 극단의 신작 발표회를 보러 갔어요.",
+    "level": "중급"
+  },
+  {
+    "word": "무대 연출",
+    "meaning": "조명, 음향, 배경 등을 기획하여 무대를 꾸밈 (Stage direction / production)",
+    "part_of_speech": "명사",
+    "example_sentence": "화려한 무대 연출이 관객의 시선을 사로잡았습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "좌석",
+    "meaning": "앉을 수 있도록 마련된 자리 (Seat)",
+    "part_of_speech": "명사",
+    "example_sentence": "앞자리 좌석을 예매하여 시야가 좋았어요.",
+    "level": "중급"
+  },
+  {
+    "word": "후기",
+    "meaning": "어떤 일이나 공연을 겪은 후 남기는 소감 (Review / epilogue)",
+    "part_of_speech": "명사",
+    "example_sentence": "공연 후기를 SNS에 정성껏 작성했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "생생하다",
+    "meaning": "눈앞에 보듯 또렷하고 사실적이다 (To be vivid)",
+    "part_of_speech": "형용사",
+    "example_sentence": "배우의 표정 연기가 아주 생생했어요.",
+    "level": "중급"
+  },
+  {
+    "word": "창작",
+    "meaning": "새로운 예술 작품을 독창적으로 만들어 냄 (Creative / original work)",
+    "part_of_speech": "명사",
+    "example_sentence": "한국형 창작 뮤지컬이 세계로 뻗어나가고 있습니다.",
+    "level": "중급"
+  }
+]

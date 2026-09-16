@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 34,
+    "dialogue_id": "d34-1",
+    "speaker": "지은",
+    "korean_text": "소율아, 요즘 젊은 층 사이에서는 밝은 파스텔톤 옷이 유행이래.",
+    "translation": "Soyul, they say bright pastel clothes are in fashion among youngsters these days.",
+    "audio_hint": "패션 유행 정보를 신나게 전달하는 톤"
+  },
+  {
+    "unit": 34,
+    "dialogue_id": "d34-2",
+    "speaker": "소율",
+    "korean_text": "패션 잡지에 따르면 올봄에는 편안한 오버핏 스타일이 대세래요.",
+    "translation": "According to fashion magazines, comfortable oversized styles are the mainstream trend this spring.",
+    "audio_hint": "정보 출처를 밝히며 동조하는 어조"
+  },
+  {
+    "unit": 34,
+    "dialogue_id": "d34-3",
+    "speaker": "지은",
+    "korean_text": "어제 백화점에 봄옷을 사러 갔다가 마음에 드는 디자인이 없어서 그냥 돌아왔어.",
+    "translation": "I went to the department store yesterday to buy spring clothes, but there were no designs I liked, so I just came back.",
+    "audio_hint": "쇼핑 중도 포기 경험을 아쉬워하며 털어놓는 목소리"
+  },
+  {
+    "unit": 34,
+    "dialogue_id": "d34-4",
+    "speaker": "소율",
+    "korean_text": "오프라인 매장 대신에 온라인 쇼핑몰을 둘러보는 건 어때? 훨씬 다양해.",
+    "translation": "How about browsing online shopping malls instead of offline stores? There is much more variety.",
+    "audio_hint": "대안을 제안하는 똑똑한 어조"
+  },
+  {
+    "unit": 34,
+    "dialogue_id": "d34-5",
+    "speaker": "지은",
+    "korean_text": "온라인 쇼핑몰은 사이즈 교환이나 반품하기가 좀 번거롭지 않아?",
+    "translation": "Aren't size exchanges or returns a bit tedious on online shopping malls?",
+    "audio_hint": "걱정스러운 점을 되묻는 톤"
+  },
+  {
+    "unit": 34,
+    "dialogue_id": "d34-6",
+    "speaker": "소율",
+    "korean_text": "요즘은 무료 반품 서비스가 많아서 편리하게 이용할 수 있어!",
+    "translation": "These days there are many free return services, so you can use them conveniently!",
+    "audio_hint": "안심시키며 강력 추천하는 마무리"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 6,
+    "dialogue_id": "d6-1",
+    "speaker": "도안닝",
+    "korean_text": "수연 씨, 학교에 어떻게 가요?",
+    "translation": "Suyeon, how do you get to school?",
+    "audio_hint": "이동 방법을 묻는 자연스러운 질문 어조"
+  },
+  {
+    "unit": 6,
+    "dialogue_id": "d6-2",
+    "speaker": "이수연",
+    "korean_text": "지하철로 가요. 집에서 학교까지 30분 걸려요.",
+    "translation": "I go by subway. It takes 30 minutes from home to school.",
+    "audio_hint": "교통수단과 소요 시간을 차분히 설명하는 톤"
+  },
+  {
+    "unit": 6,
+    "dialogue_id": "d6-3",
+    "speaker": "도안닝",
+    "korean_text": "저는 버스를 타요. 버스 정류장이 집 앞에 있어요.",
+    "translation": "I take the bus. The bus stop is in front of my house.",
+    "audio_hint": "자신의 일상을 소개하는 밝은 톤"
+  },
+  {
+    "unit": 6,
+    "dialogue_id": "d6-4",
+    "speaker": "리홍",
+    "korean_text": "민호 씨, 서울에서 부산까지 얼마나 걸려요?",
+    "translation": "Minho, how long does it take from Seoul to Busan?",
+    "audio_hint": "이동 소요 시간을 궁금해하는 질문 억양"
+  },
+  {
+    "unit": 6,
+    "dialogue_id": "d6-5",
+    "speaker": "김민호",
+    "korean_text": "KTX로 두 시간 반 걸려요.",
+    "translation": "It takes two and a half hours by KTX.",
+    "audio_hint": "정확한 정보를 전달하는 명쾌한 톤"
+  },
+  {
+    "unit": 6,
+    "dialogue_id": "d6-6",
+    "speaker": "리홍",
+    "korean_text": "와, KTX가 정말 빠르네요! 이번 주말에 부산에 갈 거예요.",
+    "translation": "Wow, KTX is really fast! I will go to Busan this weekend.",
+    "audio_hint": "감탄과 주말 계획을 밝히는 활기찬 톤"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "word": "등산",
+    "meaning": "산을 오르는 운동이나 활동 (Hiking / mountain climbing)",
+    "part_of_speech": "명사",
+    "example_sentence": "가을에 단풍 구경 겸 등산을 갔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "정상",
+    "meaning": "산의 가장 높은 꼭대기 (Summit / peak)",
+    "part_of_speech": "명사",
+    "example_sentence": "산 정상에서 멋진 사진을 찍었습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "공기",
+    "meaning": "지구를 둘러싼 대기 (Air)",
+    "part_of_speech": "명사",
+    "example_sentence": "숲속에 오니 공기가 아주 상쾌해요.",
+    "level": "초급"
+  },
+  {
+    "word": "바람",
+    "meaning": "공기의 움직임 (Wind)",
+    "part_of_speech": "명사",
+    "example_sentence": "시원한 바람이 솔솔 불어요.",
+    "level": "초급"
+  },
+  {
+    "word": "미끄럽다",
+    "meaning": "표면이 미끄러워 넘어지기 쉽다 (To be slippery)",
+    "part_of_speech": "형용사",
+    "example_sentence": "눈 온 뒤에는 길이 미끄러우니 조심하세요.",
+    "level": "초급"
+  },
+  {
+    "word": "조심하다",
+    "meaning": "탈이 나지 않도록 마음을 쓰다 (To be careful)",
+    "part_of_speech": "동사",
+    "example_sentence": "차를 조심해서 운전하세요.",
+    "level": "초급"
+  },
+  {
+    "word": "무리하다",
+    "meaning": "힘에 벅찬 일을 억지로 하다 (To overdo / overexert)",
+    "part_of_speech": "동사/형용사",
+    "example_sentence": "아플 때는 무리하지 말고 쉬어야 해요.",
+    "level": "초급"
+  },
+  {
+    "word": "올라가다",
+    "meaning": "낮은 곳에서 높은 곳으로 가다 (To go up / climb)",
+    "part_of_speech": "동사",
+    "example_sentence": "계단을 천천히 올라갔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "상쾌하다",
+    "meaning": "기분이나 느낌이 맑고 시원하다 (To be refreshing)",
+    "part_of_speech": "형용사",
+    "example_sentence": "아침 산책을 하니 기분이 상쾌해요.",
+    "level": "초급"
+  },
+  {
+    "word": "챙기다",
+    "meaning": "필요한 물건을 챙겨 가지다 (To pack / take care of)",
+    "part_of_speech": "동사",
+    "example_sentence": "외출할 때 지갑과 우산을 챙기세요.",
+    "level": "초급"
+  }
+]

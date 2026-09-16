@@ -1,0 +1,72 @@
+[
+  {
+    "word": "첫인상",
+    "meaning": "어떤 대상을 처음 보았을 때 느끼는 인상 (First impression)",
+    "part_of_speech": "명사",
+    "example_sentence": "첫인상이 좋아 면접에서 좋은 점수를 얻었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "무뚝뚝하다",
+    "meaning": "말이나 행동에 정다움이 없고 딱딱하다 (To be blunt / curt / standoffish)",
+    "part_of_speech": "형용사",
+    "example_sentence": "겉으로는 무뚝뚝하지만 속은 따뜻한 사람이에요.",
+    "level": "중급"
+  },
+  {
+    "word": "섣불리",
+    "meaning": "충분한 생각 없이 서투르고 어설프게 (Hastily / rashly)",
+    "part_of_speech": "부사",
+    "example_sentence": "결과를 섣불리 예측해서는 안 됩니다.",
+    "level": "중급"
+  },
+  {
+    "word": "판단하다",
+    "meaning": "사물의 옳고 그름이나 성격을 헤아려 정하다 (To judge / determine)",
+    "part_of_speech": "동사",
+    "example_sentence": "증거를 종합하여 공정하게 판단했습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "소심하다",
+    "meaning": "담력이 작고 사소한 일에도 겁이 많다 (To be timid / hesitant)",
+    "part_of_speech": "형용사",
+    "example_sentence": "소심한 성격을 극복하고 발표를 잘 마쳤어요.",
+    "level": "중급"
+  },
+  {
+    "word": "긍정적",
+    "meaning": "바람직하거나 희망적인 (Positive / constructive)",
+    "part_of_speech": "관형사/명사",
+    "example_sentence": "긍정적인 생각은 스트레스를 줄여 줍니다.",
+    "level": "중급"
+  },
+  {
+    "word": "영향",
+    "meaning": "어떤 사물이 다른 것에 미치는 작용이나 힘 (Influence / impact)",
+    "part_of_speech": "명사",
+    "example_sentence": "선생님의 말씀이 제 진로에 큰 영향을 주었어요.",
+    "level": "중급"
+  },
+  {
+    "word": "배려심",
+    "meaning": "남을 도와주고 보살피려는 따뜻한 마음 (Thoughtfulness / consideration)",
+    "part_of_speech": "명사",
+    "example_sentence": "깊은 배려심으로 친구들을 감동시켰습니다.",
+    "level": "중급"
+  },
+  {
+    "word": "관계",
+    "meaning": "둘 이상의 대상이 맺고 있는 관계나 인연 (Relationship / connection)",
+    "part_of_speech": "명사",
+    "example_sentence": "원활한 인간관계를 위해 먼저 인사하세요.",
+    "level": "중급"
+  },
+  {
+    "word": "반전",
+    "meaning": "일의 형세가 반대로 뒤바뀜 (Twist / reversal)",
+    "part_of_speech": "명사",
+    "example_sentence": "드라마 마지막 회에 놀라운 반전이 있었어요.",
+    "level": "중급"
+  }
+]

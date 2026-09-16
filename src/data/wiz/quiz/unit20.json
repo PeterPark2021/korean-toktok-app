@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q20-1",
+    "type": "multiple_choice",
+    "question": "어떤 동작이 완료된 결과 상태가 지속됨을 나타내는 표현은?",
+    "options": [
+      "꺼져 있었어요",
+      "꺼질 뻔했어요",
+      "꺼지는 바람이에요",
+      "꺼지도록 해요"
+    ],
+    "answer": "꺼져 있었어요",
+    "explanation": "완료된 결과 상태의 지속은 '-아/어 있다'로 나타냅니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-2",
+    "type": "multiple_choice",
+    "question": "상대방에게 정중하게 통화가 곤란함을 알릴 때 알맞은 표현은?",
+    "options": [
+      "지금은 통화하기 어렵습니다",
+      "지금은 통화할 수밖에 없습니다",
+      "지금은 통화하는 편입니다",
+      "지금은 통화하도록 하겠습니다"
+    ],
+    "answer": "지금은 통화하기 어렵습니다",
+    "explanation": "정중한 거절이나 상황 설명에는 '-기 어렵습니다'를 씁니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-3",
+    "type": "multiple_choice",
+    "question": "도착하자마자 즉시 연락하겠다는 의지를 나타내는 어미는?",
+    "options": [
+      "-는 대로",
+      "-는 바람에",
+      "-는 동안에",
+      "-는 탓에"
+    ],
+    "answer": "-는 대로",
+    "explanation": "동작 완료 직후의 행동을 나타내는 연결어미는 '-는 대로'입니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-4",
+    "type": "multiple_choice",
+    "question": "자리에 없어서 전화를 받지 못한 상태를 뜻하는 단어는?",
+    "options": [
+      "부재중",
+      "출근",
+      "상담",
+      "연락망"
+    ],
+    "answer": "부재중",
+    "explanation": "자리에 없는 상태를 '부재중(不在中)'이라고 합니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-5",
+    "type": "multiple_choice",
+    "question": "자동사 '열리다'의 결과 상태 지속 형태는?",
+    "options": [
+      "창문이 열려 있어요",
+      "창문이 열고 있어요",
+      "창문이 열릴 뻔해요",
+      "창문이 열리는 바람이에요"
+    ],
+    "answer": "창문이 열려 있어요",
+    "explanation": "'열리다'에 '-어 있다'가 결합하여 '열려 있다'가 됩니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-6",
+    "type": "fill_in_the_blank",
+    "question": "회의 중이라 전화를 받___ 어렵습니다. (-기)",
+    "answer": "기",
+    "explanation": "명사형 어미 '-기' 뒤에 '어렵습니다'가 결합합니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-7",
+    "type": "fill_in_the_blank",
+    "question": "집에 도착하___ 대로 연락할게요. (-는)",
+    "answer": "는",
+    "explanation": "'도착하다'의 어간 뒤에 즉시성을 나타내는 '-는 대로'가 결합합니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-8",
+    "type": "fill_in_the_blank",
+    "question": "의자에 앉___ 있는 분이 부장님이세요. (앉다 + -아 있다)",
+    "answer": "아",
+    "explanation": "'앉다'에 결과 지속 어미 '-아 있다'가 결합하여 '앉아'가 됩니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-9",
+    "type": "fill_in_the_blank",
+    "question": "전화로 음성을 주고받는 대화를 ___화라고 합니다. (통)",
+    "answer": "통",
+    "explanation": "전화 대화를 뜻하는 명사는 '통화(通話)'입니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-10",
+    "type": "fill_in_the_blank",
+    "question": "전화기 배터리가 모두 닳아서 전원이 ___졌어요. (꺼)",
+    "answer": "꺼",
+    "explanation": "'꺼지다'의 과거형 '꺼졌어요'입니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [핸드폰이 / 있었어요 / 아까 / 꺼져]",
+    "answer": "아까 핸드폰이 꺼져 있었어요",
+    "explanation": "시간 부사(아까) + 주어(핸드폰이) + 상태 지속 서술어(꺼져 있었어요) 어순입니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [통화하기가 / 지금은 / 어렵습니다 / 길게]",
+    "answer": "지금은 길게 통화하기가 어렵습니다",
+    "explanation": "시간 부사(지금은) + 부사(길게) + 주어구(통화하기가) + 서술어(어렵습니다) 순서입니다.",
+    "source_unit": 20
+  },
+  {
+    "quiz_id": "q20-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [연락드리겠습니다 / 바로 / 도착하는 / 대로]",
+    "answer": "도착하는 대로 바로 연락드리겠습니다",
+    "explanation": "직후 연결절(도착하는 대로) + 부사(바로) + 서술어(연락드리겠습니다) 순서입니다.",
+    "source_unit": 20
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 27,
+    "dialogue_id": "d27-1",
+    "speaker": "안나",
+    "korean_text": "안녕하세요. 미국에 있는 가족에게 국제 특급 소포를 보내려고 하는데요.",
+    "translation": "Hello. I'd like to send an international express parcel to my family in the US.",
+    "audio_hint": "업무 창구에서 목적을 밝히는 공손한 톤"
+  },
+  {
+    "unit": 27,
+    "dialogue_id": "d27-2",
+    "speaker": "직원",
+    "korean_text": "네, 저울 위에 상자를 올려놓으시지요. 안에 깨지는 물건이나 음식물은 없나요?",
+    "translation": "Yes, please place the box on the scale. Are there any fragile items or food inside?",
+    "audio_hint": "절차를 안내하는 친절하고 전문적인 어조"
+  },
+  {
+    "unit": 27,
+    "dialogue_id": "d27-3",
+    "speaker": "안나",
+    "korean_text": "옷하고 책만 들어 있어요. 미국까지 도착하는 데 얼마나 걸릴까요?",
+    "translation": "Only clothes and books are in it. How long will it take to arrive in the US?",
+    "audio_hint": "기간을 문의하는 명확한 어조"
+  },
+  {
+    "unit": 27,
+    "dialogue_id": "d27-4",
+    "speaker": "직원",
+    "korean_text": "항공편으로 발송되니까 아마 영업일 기준으로 5일에서 7일 정도 걸릴 거예요.",
+    "translation": "Since it is sent by airmail, it will probably take about 5 to 7 business days.",
+    "audio_hint": "예상 기간을 추측하여 설명하는 톤"
+  },
+  {
+    "unit": 27,
+    "dialogue_id": "d27-5",
+    "speaker": "안나",
+    "korean_text": "생각보다 빠르네요! 그리고 바로 옆 은행에서 통장도 개설하려고 하는데 신분증만 있으면 되나요?",
+    "translation": "That's faster than I thought! And I also want to open an account at the bank next door, do I only need my ID?",
+    "audio_hint": "안도하며 다음 업무를 묻는 톤"
+  },
+  {
+    "unit": 27,
+    "dialogue_id": "d27-6",
+    "speaker": "직원",
+    "korean_text": "네, 외국인등록증과 재직증명서나 재학증명서를 챙겨 가시면 됩니다.",
+    "translation": "Yes, you can take your Alien Registration Card and certificate of employment or enrollment.",
+    "audio_hint": "친절하게 서류를 안내해 주는 톤"
+  }
+]

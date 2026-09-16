@@ -1,0 +1,100 @@
+[
+  {
+    "word": "마시다",
+    "meaning": "물이나 음료를 입으로 넘기다 (To drink)",
+    "part_of_speech": "동사",
+    "example_sentence": "카페에서 시원한 주스를 마셔요.",
+    "level": "초급"
+  },
+  {
+    "word": "공부하다",
+    "meaning": "지식이나 학문을 배우고 익히다 (To study)",
+    "part_of_speech": "동사",
+    "example_sentence": "도서관에서 한국어를 공부해요.",
+    "level": "초급"
+  },
+  {
+    "word": "쉬다",
+    "meaning": "피로를 풀기 위해 편안히 머무르다 (To rest)",
+    "part_of_speech": "동사",
+    "example_sentence": "주말에는 집에서 푹 쉬어요.",
+    "level": "초급"
+  },
+  {
+    "word": "보다",
+    "meaning": "눈으로 대상을 감상하거나 관찰하다 (To watch / see)",
+    "part_of_speech": "동사",
+    "example_sentence": "극장에서 재미있는 영화를 봤어요.",
+    "level": "초급"
+  },
+  {
+    "word": "운동하다",
+    "meaning": "몸을 단련하거나 경기를 하다 (To exercise)",
+    "part_of_speech": "동사",
+    "example_sentence": "공원에서 매일 아침 운동해요.",
+    "level": "초급"
+  },
+  {
+    "word": "일하다",
+    "meaning": "직장에서 업무를 수행하다 (To work)",
+    "part_of_speech": "동사",
+    "example_sentence": "회사에서 열심히 일했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "카페",
+    "meaning": "커피나 음료를 파는 곳 (Cafe)",
+    "part_of_speech": "명사",
+    "example_sentence": "친구와 카페에서 만났어요.",
+    "level": "초급"
+  },
+  {
+    "word": "도서관",
+    "meaning": "책을 열람하고 공부하는 곳 (Library)",
+    "part_of_speech": "명사",
+    "example_sentence": "도서관에서 책을 읽어요.",
+    "level": "초급"
+  },
+  {
+    "word": "극장",
+    "meaning": "영화나 연극을 상영하는 시설 (Theater / Cinema)",
+    "part_of_speech": "명사",
+    "example_sentence": "주말에 극장에 갈 거예요.",
+    "level": "초급"
+  },
+  {
+    "word": "공원",
+    "meaning": "시민들이 산책하고 실 수 있는 녹지 공간 (Park)",
+    "part_of_speech": "명사",
+    "example_sentence": "날씨가 좋아서 공원에 갔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "지금",
+    "meaning": "말하고 있는 바로 이 순간 (Now)",
+    "part_of_speech": "부사",
+    "example_sentence": "지금 몇 시예요?",
+    "level": "초급"
+  },
+  {
+    "word": "어제",
+    "meaning": "오늘의 바로 전날 (Yesterday)",
+    "part_of_speech": "명사",
+    "example_sentence": "어제 친구와 쇼핑을 했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "내일",
+    "meaning": "오늘의 바로 다음 날 (Tomorrow)",
+    "part_of_speech": "명사",
+    "example_sentence": "내일 시험이 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "재미있다",
+    "meaning": "즐겁고 흥미롭다 (To be fun / interesting)",
+    "part_of_speech": "형용사",
+    "example_sentence": "한국어 공부가 정말 재미있어요.",
+    "level": "초급"
+  }
+]

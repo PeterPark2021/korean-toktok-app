@@ -1,0 +1,72 @@
+[
+  {
+    "word": "여가",
+    "meaning": "일이 없어 남는 자유 시간 (Leisure)",
+    "part_of_speech": "명사",
+    "example_sentence": "여가 시간에 영화를 봐요.",
+    "level": "초급"
+  },
+  {
+    "word": "취미",
+    "meaning": "즐기기 위해 하는 활동 (Hobby)",
+    "part_of_speech": "명사",
+    "example_sentence": "제 취미는 사진 찍기예요.",
+    "level": "초급"
+  },
+  {
+    "word": "악기",
+    "meaning": "음악을 연주하는 기구 (Musical instrument)",
+    "part_of_speech": "명사",
+    "example_sentence": "어떤 악기를 다룰 수 있나요?",
+    "level": "초급"
+  },
+  {
+    "word": "피아노",
+    "meaning": "건반을 눌러 소리를 내는 악기 (Piano)",
+    "part_of_speech": "명사",
+    "example_sentence": "어릴 때 피아노를 배웠어요.",
+    "level": "초급"
+  },
+  {
+    "word": "연주하다",
+    "meaning": "악기로 음악을 들려주다 (To perform / play an instrument)",
+    "part_of_speech": "동사",
+    "example_sentence": "무대에서 멋지게 연주했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "기타",
+    "meaning": "줄을 튕겨 소리 내는 악기 (Guitar)",
+    "part_of_speech": "명사",
+    "example_sentence": "노래를 부르며 기타를 쳐요.",
+    "level": "초급"
+  },
+  {
+    "word": "스트레스",
+    "meaning": "정신적·육체적 피로와 긴장 (Stress)",
+    "part_of_speech": "명사",
+    "example_sentence": "운동으로 스트레스를 풀어요.",
+    "level": "초급"
+  },
+  {
+    "word": "권유",
+    "meaning": "어떤 일을 하도록 권함 (Recommendation / advice)",
+    "part_of_speech": "명사",
+    "example_sentence": "선생님의 권유로 대회에 나갔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "배우다",
+    "meaning": "지식이나 기술을 익히다 (To learn)",
+    "part_of_speech": "동사",
+    "example_sentence": "한국 요리를 배우고 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "휴식",
+    "meaning": "하던 일을 멈추고 쉼 (Rest / break)",
+    "part_of_speech": "명사",
+    "example_sentence": "주말에는 충분한 휴식이 필요해요.",
+    "level": "초급"
+  }
+]

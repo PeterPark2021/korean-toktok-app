@@ -1,0 +1,72 @@
+[
+  {
+    "word": "기념일",
+    "meaning": "특별한 일을 기억하는 날 (Anniversary)",
+    "part_of_speech": "명사",
+    "example_sentence": "결혼기념일을 축하했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "선물",
+    "meaning": "남에게 감사나 축하의 뜻으로 주는 물건 (Gift / present)",
+    "part_of_speech": "명사",
+    "example_sentence": "생일 선물을 포장했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "정성",
+    "meaning": "마음을 다하는 성의 (Heartfelt sincerity)",
+    "part_of_speech": "명사",
+    "example_sentence": "정성을 담아 편지를 썼습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "목도리",
+    "meaning": "목을 감싸 추위를 막는 옷감 (Scarf / muffler)",
+    "part_of_speech": "명사",
+    "example_sentence": "추운 겨울에는 따뜻한 목도리를 둘러요.",
+    "level": "초급"
+  },
+  {
+    "word": "실용적",
+    "meaning": "실제 생활에 쓰임새가 좋은 (Practical)",
+    "part_of_speech": "관형사/명사",
+    "example_sentence": "텀블러는 아주 실용적인 선물이에요.",
+    "level": "초급"
+  },
+  {
+    "word": "축하하다",
+    "meaning": "좋은 일에 기쁜 마음을 표하다 (To congratulate / celebrate)",
+    "part_of_speech": "동사",
+    "example_sentence": "친구의 승진을 축하했습니다.",
+    "level": "초급"
+  },
+  {
+    "word": "준비하다",
+    "meaning": "미리 마련하여 갖추다 (To prepare)",
+    "part_of_speech": "동사",
+    "example_sentence": "파티 음식을 준비하고 있어요.",
+    "level": "초급"
+  },
+  {
+    "word": "편지",
+    "meaning": "소식이나 사연을 적은 글 (Letter)",
+    "part_of_speech": "명사",
+    "example_sentence": "부모님께 감사 편지를 보냈어요.",
+    "level": "초급"
+  },
+  {
+    "word": "포장하다",
+    "meaning": "물건을 싸다 (To wrap / pack)",
+    "part_of_speech": "동사",
+    "example_sentence": "선물을 예쁜 상자에 포장했어요.",
+    "level": "초급"
+  },
+  {
+    "word": "의도",
+    "meaning": "무엇을 하고자 하는 생각이나 계획 (Intention / plan)",
+    "part_of_speech": "명사",
+    "example_sentence": "좋은 의도로 한 행동이었어요.",
+    "level": "초급"
+  }
+]

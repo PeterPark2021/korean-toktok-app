@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 7,
+    "dialogue_id": "d7-1",
+    "speaker": "이수연",
+    "korean_text": "아저씨, 이 사과 얼마예요?",
+    "translation": "Mister, how much are these apples?",
+    "audio_hint": "가격을 묻는 친근하고 공손한 질문 톤"
+  },
+  {
+    "unit": 7,
+    "dialogue_id": "d7-2",
+    "speaker": "상인",
+    "korean_text": "세 개에 5,000원이에요. 아주 달고 맛있어요.",
+    "translation": "They are 5,000 won for three. They are very sweet and delicious.",
+    "audio_hint": "물건을 권하는 활기찬 상인의 목소리"
+  },
+  {
+    "unit": 7,
+    "dialogue_id": "d7-3",
+    "speaker": "이수연",
+    "korean_text": "그럼 사과 세 개하고 주스 한 병 주세요.",
+    "translation": "Then please give me three apples and a bottle of juice.",
+    "audio_hint": "수량을 정하여 또박또박 주문하는 톤"
+  },
+  {
+    "unit": 7,
+    "dialogue_id": "d7-4",
+    "speaker": "리홍",
+    "korean_text": "도안닝 씨, 이 파란색 티셔츠 어때요?",
+    "translation": "Doanning, how is this blue t-shirt?",
+    "audio_hint": "의견을 묻는 밝고 경쾌한 톤"
+  },
+  {
+    "unit": 7,
+    "dialogue_id": "d7-5",
+    "speaker": "도안닝",
+    "korean_text": "예쁘지만 조금 비싸요. 저 흰색 티셔츠는 어때요? 가격도 싸요.",
+    "translation": "It is pretty, but a bit expensive. How about that white t-shirt over there? The price is also cheap.",
+    "audio_hint": "비교하며 다른 옷을 제안하는 톤"
+  },
+  {
+    "unit": 7,
+    "dialogue_id": "d7-6",
+    "speaker": "리홍",
+    "korean_text": "좋아요! 디자인도 깔끔해서 마음에 들어요. 이걸로 살게요.",
+    "translation": "Great! The design is neat so I like it. I will buy this one.",
+    "audio_hint": "만족감을 표현하며 구매를 결정하는 활기찬 어조"
+  }
+]

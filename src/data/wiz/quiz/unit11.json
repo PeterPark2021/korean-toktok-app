@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q11-1",
+    "type": "multiple_choice",
+    "question": "다음 빈칸에 알맞은 것은? '버스를 놓치는 ___ 늦었어요.'",
+    "options": [
+      "바람에",
+      "덕분에",
+      "위해서",
+      "길에"
+    ],
+    "answer": "바람에",
+    "explanation": "예상치 못한 부정적 결과나 이유를 나타낼 때는 '-는 바람에'를 사용합니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-2",
+    "type": "multiple_choice",
+    "question": "다음 중 배경 상황을 나타내는 연결어미가 올바르게 결합한 것은?",
+    "options": [
+      "바쁜데",
+      "바쁘는데",
+      "바쁘은데",
+      "바쁩는데"
+    ],
+    "answer": "바쁜데",
+    "explanation": "형용사 '바쁘다'는 받침이 없으므로 '-(으)ㄴ데'가 결합하여 '바쁜데'가 됩니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-3",
+    "type": "multiple_choice",
+    "question": "다음 대화의 빈칸에 알맞은 것은? '그동안 어떻게 지냈어요?' - '잘 지내___ 좀 바빴어요.'",
+    "options": [
+      "는데",
+      "려고",
+      "니까",
+      "도록"
+    ],
+    "answer": "는데",
+    "explanation": "동사 '지내다' 뒤에 배경 상황을 제시하는 어미 '-는데'가 결합하여 '지내는데'가 됩니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-4",
+    "type": "multiple_choice",
+    "question": "단어 '근황'의 의미로 가장 알맞은 것은?",
+    "options": [
+      "최근의 사정이나 상태",
+      "과거의 유명한 역사",
+      "미래에 대한 상상",
+      "학교에서의 시험 점수"
+    ],
+    "answer": "최근의 사정이나 상태",
+    "explanation": "'근황(近況)'은 최근의 일상 형편이나 사정을 뜻합니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-5",
+    "type": "multiple_choice",
+    "question": "동작의 중단과 전환을 나타내는 문장으로 알맞은 것은?",
+    "options": [
+      "학교에 가다가 친구를 만났어요.",
+      "학교에 가려고 일어났어요.",
+      "학교에 가니까 문이 닫혔어요.",
+      "학교에 가도록 노력해요."
+    ],
+    "answer": "학교에 가다가 친구를 만났어요.",
+    "explanation": "이동 중에 다른 동작으로 전환됨을 표현할 때는 '-다가'를 사용합니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-6",
+    "type": "fill_in_the_blank",
+    "question": "사고가 나는 ___ 도로가 많이 막혔어요. (바람에)",
+    "answer": "바람에",
+    "explanation": "예상치 못한 부정적 원인을 설명할 때 명사 '바람에'를 결합합니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-7",
+    "type": "fill_in_the_blank",
+    "question": "텔레비전을 보___ 잠이 들었어요. (-다가)",
+    "answer": "보다가",
+    "explanation": "'보다'에 중단을 나타내는 어미 '-다가'가 붙어 '보다가'가 됩니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-8",
+    "type": "fill_in_the_blank",
+    "question": "지금 시간이 없___ 나중에 이야기해요. (형용사 '없다' + -는데/-(으)ㄴ데)",
+    "answer": "없는데",
+    "explanation": "'있다/없다' 뒤에는 '-는데'가 붙어 '없는데'가 됩니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-9",
+    "type": "fill_in_the_blank",
+    "question": "오랜만에 친구에게 안부 ___을 전했습니다. (정보나 안부를 뜻하는 명사)",
+    "answer": "소식",
+    "explanation": "새로운 정보나 안부를 가리키는 명사는 '소식'입니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-10",
+    "type": "fill_in_the_blank",
+    "question": "약속 시간에 늦어서 진심으로 ___했어요. (사과하다 과거형)",
+    "answer": "사과",
+    "explanation": "'사과했습니다' 또는 '사과'가 자연스럽습니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [바람에 / 늦었습니다 / 놓치는 / 버스를]",
+    "answer": "버스를 놓치는 바람에 늦었습니다",
+    "explanation": "목적어(버스를) + 원인(-는 바람에) + 결과 서술어(늦었습니다) 순으로 배열합니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [바빠요 / 잘 / 요즘 / 지내는데]",
+    "answer": "잘 지내는데 요즘 바빠요",
+    "explanation": "배경 서술(잘 지내는데) + 부사(요즘) + 서술어(바빠요) 어순입니다.",
+    "source_unit": 11
+  },
+  {
+    "quiz_id": "q11-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [친구를 / 학교에 / 가다가 / 만났어요]",
+    "answer": "학교에 가다가 친구를 만났어요",
+    "explanation": "장소이동(-다가) + 목적어(친구를) + 서술어(만났어요) 순으로 구성됩니다.",
+    "source_unit": 11
+  }
+]

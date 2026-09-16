@@ -1,0 +1,86 @@
+[
+  {
+    "word": "지하철",
+    "meaning": "땅 밑으로 다니는 전철 (Subway)",
+    "part_of_speech": "명사",
+    "example_sentence": "지하철 2호선을 타고 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "버스",
+    "meaning": "많은 승객을 태우고 일정한 노선을 운행하는 대형 자동차 (Bus)",
+    "part_of_speech": "명사",
+    "example_sentence": "버스 정류장에서 버스를 기다려요.",
+    "level": "초급"
+  },
+  {
+    "word": "택시",
+    "meaning": "승객이 원하는 곳까지 태워다 주고 요금을 받는 자동차 (Taxi)",
+    "part_of_speech": "명사",
+    "example_sentence": "늦어서 택시를 탔어요.",
+    "level": "초급"
+  },
+  {
+    "word": "기차",
+    "meaning": "철도 위를 달리는 교통수단 (Train)",
+    "part_of_speech": "명사",
+    "example_sentence": "기차를 타고 춘천에 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "비행기",
+    "meaning": "공중을 날아다니는 항공기 (Airplane)",
+    "part_of_speech": "명사",
+    "example_sentence": "제주도에 비행기로 가요.",
+    "level": "초급"
+  },
+  {
+    "word": "자전거",
+    "meaning": "발로 페달을 밟아 바퀴를 굴리는 탈것 (Bicycle)",
+    "part_of_speech": "명사",
+    "example_sentence": "한강에서 자전거를 타요.",
+    "level": "초급"
+  },
+  {
+    "word": "타다",
+    "meaning": "탈것이나 동물 등의 위에 몸을 싣다 (To ride / take)",
+    "part_of_speech": "동사",
+    "example_sentence": "아침마다 지하철을 타요.",
+    "level": "초급"
+  },
+  {
+    "word": "내리다",
+    "meaning": "타고 있던 것에서 밖으로 나오다 (To get off)",
+    "part_of_speech": "동사",
+    "example_sentence": "시청역에서 내려요.",
+    "level": "초급"
+  },
+  {
+    "word": "갈아타다",
+    "meaning": "다른 교통수단으로 바꾸어 타다 (To transfer)",
+    "part_of_speech": "동사",
+    "example_sentence": "강남역에서 2호선으로 갈아타요.",
+    "level": "초급"
+  },
+  {
+    "word": "걸리다",
+    "meaning": "시간이나 비용 등이 소요되다 (To take time)",
+    "part_of_speech": "동사",
+    "example_sentence": "학교까지 20분 걸려요.",
+    "level": "초급"
+  },
+  {
+    "word": "얼마나",
+    "meaning": "수량이나 시간의 정도를 묻는 말 (How much / How long)",
+    "part_of_speech": "부사",
+    "example_sentence": "시간이 얼마나 걸려요?",
+    "level": "초급"
+  },
+  {
+    "word": "빠르다",
+    "meaning": "움직임이나 속도가 신속하다 (To be fast)",
+    "part_of_speech": "형용사",
+    "example_sentence": "KTX는 정말 빨라요.",
+    "level": "초급"
+  }
+]

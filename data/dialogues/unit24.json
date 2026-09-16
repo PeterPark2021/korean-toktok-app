@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 24,
+    "dialogue_id": "d24-1",
+    "speaker": "현아",
+    "korean_text": "민지 씨, 헤어스타일 바꿨네요? 앞머리를 잘랐더니 훨씬 어려 보여요!",
+    "translation": "Minji, you changed your hairstyle! Cutting your bangs makes you look so much younger!",
+    "audio_hint": "깜짝 놀라며 진심으로 칭찬하는 밝은 어조"
+  },
+  {
+    "unit": 24,
+    "dialogue_id": "d24-2",
+    "speaker": "민지",
+    "korean_text": "정말요? 기분 전환하려고 잘랐더니 다들 어려 보인다고 하더라고요.",
+    "translation": "Really? I cut them for a change of pace, and everyone told me I look younger.",
+    "audio_hint": "쑥스러우면서도 기뻐하는 미소 띤 목소리"
+  },
+  {
+    "unit": 24,
+    "dialogue_id": "d24-3",
+    "speaker": "현아",
+    "korean_text": "그리고 지난번보다 얼굴도 아주 갸름해지고 슬림해졌어요.",
+    "translation": "And your face has become much slimmer and defined compared to last time.",
+    "audio_hint": "세밀하게 변화를 짚어 주는 톤"
+  },
+  {
+    "unit": 24,
+    "dialogue_id": "d24-4",
+    "speaker": "민지",
+    "korean_text": "매일 저녁에 헬스장에서 유산소 운동을 열심히 했더니 살이 좀 빠졌어요.",
+    "translation": "I exercised diligently doing cardio at the gym every evening, so I lost some weight.",
+    "audio_hint": "성취감을 담은 뿌듯한 어조"
+  },
+  {
+    "unit": 24,
+    "dialogue_id": "d24-5",
+    "speaker": "현아",
+    "korean_text": "꾸준히 자기 관리하는 모습이 정말 멋있고 본받을 만해요.",
+    "translation": "Your steady self-management is really admirable and worth emulating.",
+    "audio_hint": "감탄과 칭찬의 톤"
+  },
+  {
+    "unit": 24,
+    "dialogue_id": "d24-6",
+    "speaker": "민지",
+    "korean_text": "고마워요, 현아 씨! 앞으로도 건강을 위해 꾸준히 운동하려고요.",
+    "translation": "Thanks, Hyuna! I intend to keep exercising steadily for my health.",
+    "audio_hint": "밝은 다짐의 마무리 어조"
+  }
+]

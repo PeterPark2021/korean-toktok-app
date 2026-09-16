@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 30,
+    "dialogue_id": "d30-1",
+    "speaker": "태양",
+    "korean_text": "수진아, 선영이가 이번 주 토요일에 집들이 한다고 같이 오래.",
+    "translation": "Sujin, Sunyoung said she's having a housewarming party this Saturday and invited us to come together.",
+    "audio_hint": "초대 소식을 즐겁게 전하는 친근한 톤"
+  },
+  {
+    "unit": 30,
+    "dialogue_id": "d30-2",
+    "speaker": "수진",
+    "korean_text": "정말? 선영이가 새 아파트로 이사했다고 들었는데 집들이하는구나!",
+    "translation": "Really? I heard Sunyoung moved to a new apartment, so she's having a housewarming!",
+    "audio_hint": "반가워하며 축하하는 어조"
+  },
+  {
+    "unit": 30,
+    "dialogue_id": "d30-3",
+    "speaker": "태양",
+    "korean_text": "응, 다른 친구들한테도 시간 되는지 물어봐 달라고 하더라고.",
+    "translation": "Yeah, she asked me to ask the other friends if they have time too.",
+    "audio_hint": "부탁받은 내용을 전달하는 어조"
+  },
+  {
+    "unit": 30,
+    "dialogue_id": "d30-4",
+    "speaker": "수진",
+    "korean_text": "그럼 단체 대화방에 공지할게. 집들이 선물로는 뭐가 좋을까?",
+    "translation": "Then I'll announce it in the group chat. What would be good for a housewarming gift?",
+    "audio_hint": "적극적으로 준비를 상의하는 톤"
+  },
+  {
+    "unit": 30,
+    "dialogue_id": "d30-5",
+    "speaker": "태양",
+    "korean_text": "한국에서는 보통 휴지나 세제를 선물한다고 하니까 우리 같이 사 가자.",
+    "translation": "People say in Korea they usually give toilet paper or detergent as gifts, so let's buy them together.",
+    "audio_hint": "한국의 전통 관습을 설명하며 제안하는 톤"
+  },
+  {
+    "unit": 30,
+    "dialogue_id": "d30-6",
+    "speaker": "수진",
+    "korean_text": "좋은 생각이야! 애들한테 동창회비 좀 모아 달라고도 전할게.",
+    "translation": "Great idea! I will also pass along the message asking everyone to collect the alumni fee.",
+    "audio_hint": "일정을 꼼꼼히 챙기는 밝은 마무리"
+  }
+]

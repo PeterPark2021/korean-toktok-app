@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q21-1",
+    "type": "multiple_choice",
+    "question": "상대방에게 행동의 허락을 구할 때 쓰는 표현은?",
+    "options": [
+      "먹어도 돼요?",
+      "먹으면 안 돼요?",
+      "먹어야만 해요?",
+      "먹을 리가 없어요?"
+    ],
+    "answer": "먹어도 돼요?",
+    "explanation": "허락을 요청할 때는 '-아/어도 되다'를 씁니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-2",
+    "type": "multiple_choice",
+    "question": "공공장소에서 금지 규정을 안내할 때 알맞은 표현은?",
+    "options": [
+      "사진을 찍으면 안 됩니다",
+      "사진을 찍어도 됩니다",
+      "사진을 찍는 편입니다",
+      "사진을 찍자마자입니다"
+    ],
+    "answer": "사진을 찍으면 안 됩니다",
+    "explanation": "금지를 나타내는 어미는 '-(으)면 안 되다'입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-3",
+    "type": "multiple_choice",
+    "question": "상대방과 함께 조용히 할 것을 공식적으로 청유하는 문장은?",
+    "options": [
+      "조용히 합시다",
+      "조용히 하세요",
+      "조용히 해야 돼요",
+      "조용히 하려고요"
+    ],
+    "answer": "조용히 합시다",
+    "explanation": "공식적인 청유형 종결어미는 '-(으)ㅂ시다'입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-4",
+    "type": "multiple_choice",
+    "question": "남을 도와주거나 살펴주는 따뜻한 마음씨를 뜻하는 어휘는?",
+    "options": [
+      "배려",
+      "방해",
+      "소음",
+      "복도"
+    ],
+    "answer": "배려",
+    "explanation": "타인의 처지를 생각하고 돌봐주는 태도는 '배려(配慮)'입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-5",
+    "type": "multiple_choice",
+    "question": "받침 있는 동사 '찍다'에 금지 표현이 결합한 형태는?",
+    "options": [
+      "찍으면 안 돼요",
+      "찍면 안 돼요",
+      "찍어도 돼요",
+      "찍어야 돼요"
+    ],
+    "answer": "찍으면 안 돼요",
+    "explanation": "'찍다'는 받침이 있으므로 '-으면 안 돼요'가 결합합니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-6",
+    "type": "fill_in_the_blank",
+    "question": "여기에 잠깐 앉___도 됩니까? (앉다 + 허락)",
+    "answer": "아",
+    "explanation": "'앉다'에 모음 '아'로 끝나는 어간이므로 '-아도'가 결합하여 '앉아도'가 됩니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-7",
+    "type": "fill_in_the_blank",
+    "question": "도서관 안에서 크게 떠들___ 안 됩니다. (금지)",
+    "answer": "면",
+    "explanation": "'떠들다'의 'ㄹ' 받침 뒤에는 '-면 안 되다'가 결합하여 '떠들면'이 됩니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-8",
+    "type": "fill_in_the_blank",
+    "question": "다 함께 환경을 깨끗이 지킵___다. (청유)",
+    "answer": "시",
+    "explanation": "'지키다'에 청유 어미 '-ㅂ시다'가 붙어 '지킵시다'가 됩니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-9",
+    "type": "fill_in_the_blank",
+    "question": "공공장소에서 지켜야 하는 기본 규칙을 공공___절이라고 합니다. (예)",
+    "answer": "예",
+    "explanation": "'공공예절(公共禮節)'의 '예'입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-10",
+    "type": "fill_in_the_blank",
+    "question": "불쾌감을 유발하는 시끄러운 소리를 ___음이라고 합니다. (소)",
+    "answer": "소",
+    "explanation": "'소음(騷音)'은 시끄러운 소리입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [음식을 / 교실에서 / 먹으면 / 안 돼요]",
+    "answer": "교실에서 음식을 먹으면 안 돼요",
+    "explanation": "장소(교실에서) + 목적어(음식을) + 금지 서술어(먹으면 안 돼요) 순서입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [되나요 / 여기서 / 사진을 / 찍어도]",
+    "answer": "여기서 사진을 찍어도 되나요",
+    "explanation": "장소(여기서) + 목적어(사진을) + 허락 서술어(찍어도 되나요) 순서입니다.",
+    "source_unit": 21
+  },
+  {
+    "quiz_id": "q21-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [조용히 / 복도에서는 / 합시다 / 조금]",
+    "answer": "복도에서는 조금 조용히 합시다",
+    "explanation": "장소 주제어(복도에서는) + 부사(조금) + 청유 서술어(조용히 합시다) 순서입니다.",
+    "source_unit": 21
+  }
+]

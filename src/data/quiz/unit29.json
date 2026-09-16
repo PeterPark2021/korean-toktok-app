@@ -1,0 +1,136 @@
+[
+  {
+    "quiz_id": "q29-1",
+    "type": "multiple_choice",
+    "question": "조건만 갖추어지면 충분함을 나타내는 올바른 표현은?",
+    "options": [
+      "있으면 됩니다",
+      "있어야만 합니다",
+      "있는 바람입니다",
+      "있는 셈입니다"
+    ],
+    "answer": "있으면 됩니다",
+    "explanation": "충족 조건을 제시할 때는 '-(으)면 되다'를 씁니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-2",
+    "type": "multiple_choice",
+    "question": "앞의 상태를 그대로 유지한 채 다른 행동을 함을 나타내는 어미는?",
+    "options": [
+      "-(으)ㄴ 채(로)",
+      "-는 길에",
+      "-자마자",
+      "-는 바람에"
+    ],
+    "answer": "-(으)ㄴ 채(로)",
+    "explanation": "상태의 지속 유지는 '-(으)ㄴ 채(로)'로 표현합니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-3",
+    "type": "multiple_choice",
+    "question": "동사 '신다'에 상태 유지 어미가 결합한 올바른 형태는?",
+    "options": [
+      "신은 채로",
+      "신는 채로",
+      "신을 채로",
+      "신은 탓에"
+    ],
+    "answer": "신은 채로",
+    "explanation": "'신다'에 받침이 있으므로 '-은 채로'가 결합하여 '신은 채로'가 됩니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-4",
+    "type": "multiple_choice",
+    "question": "기름을 두르고 열을 가해 음식을 익히는 조리 방법은?",
+    "options": [
+      "볶다",
+      "삶다",
+      "찌다",
+      "절이다"
+    ],
+    "answer": "볶다",
+    "explanation": "팬에 기름을 두르고 젓거나 익히는 행위는 '볶다'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-5",
+    "type": "multiple_choice",
+    "question": "어느 한쪽으로 치우치지 않고 평등하게 퍼진 상태를 나타내는 부사는?",
+    "options": [
+      "골고루",
+      "간신히",
+      "도무지",
+      "차마"
+    ],
+    "answer": "골고루",
+    "explanation": "빠짐없이 고르게를 뜻하는 부사는 '골고루'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-6",
+    "type": "fill_in_the_blank",
+    "question": "모르는 단어는 사전을 찾으___ 됩니다. (찾다 + -(으)면 되다)",
+    "answer": "면",
+    "explanation": "'찾다'에 받침이 있으므로 '-으면'이 결합하여 '찾으면'이 됩니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-7",
+    "type": "fill_in_the_blank",
+    "question": "불을 켠 ___로 외출하면 위험해요. (켜다 + -(으)ㄴ 채로)",
+    "answer": "채",
+    "explanation": "'켠 채로'의 '채'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-8",
+    "type": "fill_in_the_blank",
+    "question": "양념이 잘 배___록 숟가락으로 저어 주세요. (-도록)",
+    "answer": "도",
+    "explanation": "목적 유도 어미 '-도록'의 '도'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-9",
+    "type": "fill_in_the_blank",
+    "question": "음식을 만드는 조리법이나 요리 안내서를 ___시피라고 합니다. (레)",
+    "answer": "레",
+    "explanation": "'레시피(Recipe)'의 '레'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-10",
+    "type": "fill_in_the_blank",
+    "question": "음식을 만드는 데 쓰이는 각종 재료를 식___료라고 합니다. (재)",
+    "answer": "재",
+    "explanation": "'식재료(食材料)'의 '재'입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-11",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [계란이랑 / 대파만 / 됩니다 / 있으면]",
+    "answer": "계란이랑 대파만 있으면 됩니다",
+    "explanation": "주어(계란이랑 대파만) + 충족조건 서술어(있으면 됩니다) 순서입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-12",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [볶은 채로 / 파를 / 계란을 / 넣으세요]",
+    "answer": "파를 볶은 채로 계란을 넣으세요",
+    "explanation": "상태유지절(파를 볶은 채로) + 목적어(계란을) + 명령서술(넣으세요) 순서입니다.",
+    "source_unit": 29
+  },
+  {
+    "quiz_id": "q29-13",
+    "type": "sentence_reordering",
+    "question": "단어를 올바른 순서로 배열하세요: [골고루 / 저어 주세요 / 양념을 / 숟가락으로]",
+    "answer": "숟가락으로 양념을 골고루 저어 주세요",
+    "explanation": "도구 부사어(숟가락으로) + 목적어(양념을) + 부사(골고루) + 서술어(저어 주세요) 순서입니다.",
+    "source_unit": 29
+  }
+]

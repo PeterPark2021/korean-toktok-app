@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 5,
+    "dialogue_id": "d5-1",
+    "speaker": "리홍",
+    "korean_text": "민호 씨, 생일 파티가 몇 시예요?",
+    "translation": "Minho, what time is the birthday party?",
+    "audio_hint": "약속 시간을 묻는 밝고 경쾌한 톤"
+  },
+  {
+    "unit": 5,
+    "dialogue_id": "d5-2",
+    "speaker": "김민호",
+    "korean_text": "저녁 일곱 시 반이에요. 리홍 씨, 올 수 있어요?",
+    "translation": "It is at 7:30 in the evening. Can you come, Rihong?",
+    "audio_hint": "시간을 명확히 전달하고 참석을 권유하는 톤"
+  },
+  {
+    "unit": 5,
+    "dialogue_id": "d5-3",
+    "speaker": "리홍",
+    "korean_text": "네, 갈게요! 일곱 시까지 식당에 갈게요.",
+    "translation": "Yes, I will go! I will go to the restaurant by 7 o'clock.",
+    "audio_hint": "기쁨과 확신을 담은 밝은 대답"
+  },
+  {
+    "unit": 5,
+    "dialogue_id": "d5-4",
+    "speaker": "이수연",
+    "korean_text": "도안닝 씨, 오늘이 몇 월 며칠이에요?",
+    "translation": "Doanning, what is the date today?",
+    "audio_hint": "오늘 날짜를 확인하는 친근한 의문 톤"
+  },
+  {
+    "unit": 5,
+    "dialogue_id": "d5-5",
+    "speaker": "도안닝",
+    "korean_text": "10월 9일이에요. 그리고 한글날이에요.",
+    "translation": "It is October 9th. And it is Hangul Day.",
+    "audio_hint": "날짜를 또박또박 발음하는 톤 (시월 구일)"
+  },
+  {
+    "unit": 5,
+    "dialogue_id": "d5-6",
+    "speaker": "이수연",
+    "korean_text": "아, 오늘이 금요일이군요! 주말에 푹 쉬어요.",
+    "translation": "Ah, today is Friday! Rest well over the weekend.",
+    "audio_hint": "깨달음과 주말 인사를 전하는 따뜻한 톤"
+  }
+]

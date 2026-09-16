@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 36,
+    "dialogue_id": "d36-1",
+    "speaker": "세아",
+    "korean_text": "준우야, 카페 갈 때 개인 텀블러를 챙겨 가네?",
+    "translation": "Junu, you take a personal tumbler when going to the cafe?",
+    "audio_hint": "친환경 실천을 발견하고 칭찬하는 톤"
+  },
+  {
+    "unit": 36,
+    "dialogue_id": "d36-2",
+    "speaker": "준우",
+    "korean_text": "응, 플라스틱 쓰레기를 줄이기 위해 일회용 컵 대신 항상 텀블러를 사용해.",
+    "translation": "Yeah, I always use a tumbler instead of disposable cups in order to reduce plastic waste.",
+    "audio_hint": "환경 보호 의식을 담은 차분하고 당당한 어조"
+  },
+  {
+    "unit": 36,
+    "dialogue_id": "d36-3",
+    "speaker": "세아",
+    "korean_text": "환경도 지키고 음료 할인도 받으니 일석이조구나!",
+    "translation": "You protect the environment and get beverage discounts, killing two birds with one stone!",
+    "audio_hint": "감탄하며 맞장구치는 톤"
+  },
+  {
+    "unit": 36,
+    "dialogue_id": "d36-4",
+    "speaker": "준우",
+    "korean_text": "맞아. 그리고 가정에서도 투명 페트병의 라벨을 떼고 깨끗이 씻어야 올바른 분리배출을 할 수 있어.",
+    "translation": "Right. And at home too, only if you remove labels from transparent PET bottles and wash them clean can you do proper separate disposal.",
+    "audio_hint": "분리수거 노하우를 명확히 설명하는 톤"
+  },
+  {
+    "unit": 36,
+    "dialogue_id": "d36-5",
+    "speaker": "세아",
+    "korean_text": "비닐이나 플라스틱을 제대로 분리수거해야 재활용률이 높아진다고 들었어.",
+    "translation": "I heard recycling rates increase only when we properly separate vinyl and plastic.",
+    "audio_hint": "지식을 확인하며 공감하는 어조"
+  },
+  {
+    "unit": 36,
+    "dialogue_id": "d36-6",
+    "speaker": "준우",
+    "korean_text": "작은 실천이 모여 깨끗한 지구를 만들 수 있도록 우리 모두 노력하자!",
+    "translation": "Let us all make efforts so that small practices gather to make a clean Earth!",
+    "audio_hint": "희망차고 힘찬 격려의 마무리"
+  }
+]

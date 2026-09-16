@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 19,
+    "dialogue_id": "d19-1",
+    "speaker": "하은",
+    "korean_text": "민재 씨, 얼굴이 많이 안 좋아 보여요. 어디 아파요?",
+    "translation": "Minjae, you don't look well at all. Are you sick somewhere?",
+    "audio_hint": "걱정스러운 눈빛과 차분한 염려 톤"
+  },
+  {
+    "unit": 19,
+    "dialogue_id": "d19-2",
+    "speaker": "민재",
+    "korean_text": "아침부터 열이 나고 머리가 좀 아픈 것 같아요.",
+    "translation": "I've had a fever since morning, and I think I have a slight headache.",
+    "audio_hint": "기운 없고 힘없는 목소리"
+  },
+  {
+    "unit": 19,
+    "dialogue_id": "d19-3",
+    "speaker": "하은",
+    "korean_text": "감기에 걸린 모양이네요. 약은 먹었어요?",
+    "translation": "It looks like you caught a cold. Did you take medicine?",
+    "audio_hint": "상태를 살피며 묻는 어조"
+  },
+  {
+    "unit": 19,
+    "dialogue_id": "d19-4",
+    "speaker": "민재",
+    "korean_text": "아직 안 먹었어요. 병원에 가 봐야 할 것 같아요.",
+    "translation": "I haven't taken any yet. I think I need to go to the hospital.",
+    "audio_hint": "피곤하지만 판단을 내리는 톤"
+  },
+  {
+    "unit": 19,
+    "dialogue_id": "d19-5",
+    "speaker": "하은",
+    "korean_text": "회사 근처에 이비인후과가 있어요. 제가 진료 예약해 줄 테니까 거기에 가 보세요.",
+    "translation": "There is an ENT clinic near our company. I will book an appointment for you, so try going there.",
+    "audio_hint": "신속하게 도움을 주는 친절한 어조"
+  },
+  {
+    "unit": 19,
+    "dialogue_id": "d19-6",
+    "speaker": "민재",
+    "korean_text": "신경 써 줘서 정말 고마워요. 얼른 다녀올게요.",
+    "translation": "Thank you so much for taking care of me. I'll be back quickly.",
+    "audio_hint": "고마움을 표하는 감사 톤"
+  }
+]

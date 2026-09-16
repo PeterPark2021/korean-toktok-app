@@ -1,0 +1,50 @@
+[
+  {
+    "unit": 26,
+    "dialogue_id": "d26-1",
+    "speaker": "보람",
+    "korean_text": "민우 씨, 주말에 어디 다녀오셨어요? 연락이 안 되던데요.",
+    "translation": "Minwoo, where did you go on the weekend? I noticed I couldn't reach you.",
+    "audio_hint": "자연스럽게 과거 상황을 회상하며 묻는 어조"
+  },
+  {
+    "unit": 26,
+    "dialogue_id": "d26-2",
+    "speaker": "민우",
+    "korean_text": "우리 강아지 코코가 갑자기 아파서 동물병원에 다녀오느라고 바빴어요.",
+    "translation": "Our puppy Coco suddenly got sick, so I was busy taking him to the vet.",
+    "audio_hint": "걱정스러웠던 상황을 털어놓는 차분한 목소리"
+  },
+  {
+    "unit": 26,
+    "dialogue_id": "d26-3",
+    "speaker": "보람",
+    "korean_text": "아이고, 코코가 많이 아팠나 봐요. 지금은 좀 괜찮아졌어요?",
+    "translation": "Oh no, Coco must have been very sick. Is he feeling better now?",
+    "audio_hint": "진심 어린 걱정과 위로의 톤"
+  },
+  {
+    "unit": 26,
+    "dialogue_id": "d26-4",
+    "speaker": "민우",
+    "korean_text": "네, 의사 선생님께서 주사도 놔 주시고 약도 처방해 주셔서 많이 회복되었어요.",
+    "translation": "Yes, the doctor gave him an injection and prescribed medicine, so he recovered a lot.",
+    "audio_hint": "안도하며 감사해하는 어조"
+  },
+  {
+    "unit": 26,
+    "dialogue_id": "d26-5",
+    "speaker": "보람",
+    "korean_text": "정말 다행이에요! 참, 어제 TV 음악 프로그램 보니까 새로 나온 가수가 노래를 엄청 잘하던데요?",
+    "translation": "What a relief! By the way, watching the TV music show yesterday, that new singer sang amazingly well!",
+    "audio_hint": "자신이 직접 본 감상을 생생히 회상하는 활기찬 톤"
+  },
+  {
+    "unit": 26,
+    "dialogue_id": "d26-6",
+    "speaker": "민우",
+    "korean_text": "맞아요, 저도 봤는데 가창력이 정말 뛰어나더라고요.",
+    "translation": "Right, I saw it too, and their singing ability was truly outstanding.",
+    "audio_hint": "적극적으로 동의하며 감탄하는 마무리 어조"
+  }
+]
