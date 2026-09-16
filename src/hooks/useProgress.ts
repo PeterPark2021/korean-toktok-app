@@ -1,5 +1,23 @@
-import { useState, useEffect, useCallback } from 'react';
-import { AppStorageData, UnitProgressRecord, UnitQuizScoreRecord, EditionType } from '../types';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import {
+  AppStorageData,
+  UnitProgressRecord,
+  UnitQuizScoreRecord,
+  EditionType,
+  MistakeNoteItem
+} from '../types';
+import { useAuth } from '../contexts/AuthContext';
+import {
+  getLocalMistakeNotes,
+  saveLocalMistakeNotes,
+  syncLocalWithCloud,
+  saveUnitProgressToCloud,
+  saveQuizScoreToCloud,
+  saveMistakeNoteToCloud,
+  resolveMistakeNoteInCloud,
+  recordStudySessionToCloud,
+  subscribeToRealtimeSync
+} from '../services/cloudSyncService';
 
 const STORAGE_KEY = 'korean_toktok_progress_v3';
 
@@ -39,6 +57,9 @@ const initialStorageData: AppStorageData = {
 };
 
 export const useProgress = () => {
+  const { user, isAuthenticated, setCloudSyncStatus } = useAuth();
+  const isInitialSyncDone = useRef(false);
+
   const [data, setData] = useState<AppStorageData>(() => {
     if (typeof window === 'undefined') return initialStorageData;
     try {
@@ -58,7 +79,6 @@ export const useProgress = () => {
           progress: {},
           quizScores: {}
         };
-        // copy unitXX to kbs_unitXX and wiz_unitXX
         Object.entries(parsed.progress || {}).forEach(([k, v]) => {
           const num = k.replace('unit', '');
           migrated.progress[`kbs_unit${num}`] = v as UnitProgressRecord;
@@ -77,6 +97,10 @@ export const useProgress = () => {
     return initialStorageData;
   });
 
+  const [mistakeNotes, setMistakeNotes] = useState<MistakeNoteItem[]>(() => {
+    return getLocalMistakeNotes();
+  });
+
   // Save to LocalStorage whenever data changes
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -88,47 +112,167 @@ export const useProgress = () => {
     }
   }, [data]);
 
-  // 1. Mark Unit as Studied
-  const markUnitStudied = useCallback((unitNumber: number, studied = true, edition: EditionType = 'kbs') => {
-    const key = getUnitKey(unitNumber, edition);
-    setData((prev) => {
-      const current = prev.progress[key] || { studied: false, vocabMastered: [] };
-      return {
-        ...prev,
-        progress: {
-          ...prev.progress,
-          [key]: {
-            ...current,
-            studied
+  // Save mistake notes to LocalStorage
+  useEffect(() => {
+    saveLocalMistakeNotes(mistakeNotes);
+  }, [mistakeNotes]);
+
+  // Perform Cloud Sync when user changes or logs in
+  useEffect(() => {
+    if (!isAuthenticated || user.isGuest) {
+      isInitialSyncDone.current = false;
+      return;
+    }
+
+    let isMounted = true;
+    const performSync = async () => {
+      setCloudSyncStatus('syncing');
+      const { mergedData, mergedMistakes, isCloudConnected } = await syncLocalWithCloud(
+        user.id,
+        data,
+        mistakeNotes
+      );
+
+      if (isMounted) {
+        setData(mergedData);
+        setMistakeNotes(mergedMistakes);
+        setCloudSyncStatus(isCloudConnected ? 'synced' : 'offline');
+        isInitialSyncDone.current = true;
+      }
+    };
+
+    performSync();
+
+    // Subscribe to Realtime Sync updates from other devices
+    const unsubscribe = subscribeToRealtimeSync(
+      user.id,
+      (remoteProg) => {
+        if (!remoteProg) return;
+        const key = getUnitKey(remoteProg.unit_number, remoteProg.edition);
+        setData((prev) => ({
+          ...prev,
+          progress: {
+            ...prev.progress,
+            [key]: {
+              studied: remoteProg.studied,
+              vocabMastered: remoteProg.vocab_mastered || []
+            }
           }
-        },
-        lastActiveDate: new Date().toISOString().split('T')[0]
-      };
-    });
-  }, []);
+        }));
+      },
+      (remoteScore) => {
+        if (!remoteScore) return;
+        const key = getUnitKey(remoteScore.unit_number, remoteScore.edition);
+        setData((prev) => ({
+          ...prev,
+          quizScores: {
+            ...prev.quizScores,
+            [key]: {
+              attempts: remoteScore.attempts,
+              bestScore: remoteScore.best_score,
+              totalQuestions: remoteScore.total_questions,
+              lastAttemptAt: remoteScore.last_attempt_at
+            }
+          }
+        }));
+      },
+      (remoteMistake) => {
+        if (!remoteMistake) return;
+        setMistakeNotes((prev) => {
+          const idx = prev.findIndex(
+            (m) =>
+              m.unitNumber === remoteMistake.unit_number &&
+              m.edition === remoteMistake.edition &&
+              m.quizId === remoteMistake.quiz_id
+          );
+          const formatted: MistakeNoteItem = {
+            id: remoteMistake.id,
+            unitNumber: remoteMistake.unit_number,
+            edition: remoteMistake.edition,
+            quizId: remoteMistake.quiz_id,
+            question: remoteMistake.question_text,
+            userAnswer: remoteMistake.user_answer,
+            correctAnswer: remoteMistake.correct_answer,
+            explanation: remoteMistake.explanation,
+            resolved: remoteMistake.resolved,
+            createdAt: remoteMistake.created_at
+          };
+
+          if (idx !== -1) {
+            const next = [...prev];
+            next[idx] = formatted;
+            return next;
+          }
+          return [formatted, ...prev];
+        });
+      }
+    );
+
+    return () => {
+      isMounted = false;
+      unsubscribe();
+    };
+  }, [user.id, isAuthenticated, user.isGuest]);
+
+  // 1. Mark Unit as Studied
+  const markUnitStudied = useCallback(
+    (unitNumber: number, studied = true, edition: EditionType = 'kbs') => {
+      const key = getUnitKey(unitNumber, edition);
+      setData((prev) => {
+        const current = prev.progress[key] || { studied: false, vocabMastered: [] };
+        const updatedVocab = current.vocabMastered || [];
+        
+        // Cloud Sync background push
+        if (isAuthenticated && !user.isGuest) {
+          saveUnitProgressToCloud(user.id, unitNumber, edition, studied, updatedVocab);
+        }
+
+        return {
+          ...prev,
+          progress: {
+            ...prev.progress,
+            [key]: {
+              ...current,
+              studied
+            }
+          },
+          lastActiveDate: new Date().toISOString().split('T')[0]
+        };
+      });
+    },
+    [user.id, isAuthenticated, user.isGuest]
+  );
 
   // 2. Toggle Vocab Mastered
-  const toggleVocabMastered = useCallback((unitNumber: number, word: string, edition: EditionType = 'kbs') => {
-    const key = getUnitKey(unitNumber, edition);
-    setData((prev) => {
-      const current = prev.progress[key] || { studied: false, vocabMastered: [] };
-      const exists = current.vocabMastered.includes(word);
-      const updatedVocab = exists
-        ? current.vocabMastered.filter((w) => w !== word)
-        : [...current.vocabMastered, word];
+  const toggleVocabMastered = useCallback(
+    (unitNumber: number, word: string, edition: EditionType = 'kbs') => {
+      const key = getUnitKey(unitNumber, edition);
+      setData((prev) => {
+        const current = prev.progress[key] || { studied: false, vocabMastered: [] };
+        const exists = current.vocabMastered.includes(word);
+        const updatedVocab = exists
+          ? current.vocabMastered.filter((w) => w !== word)
+          : [...current.vocabMastered, word];
 
-      return {
-        ...prev,
-        progress: {
-          ...prev.progress,
-          [key]: {
-            ...current,
-            vocabMastered: updatedVocab
-          }
+        // Cloud Sync background push
+        if (isAuthenticated && !user.isGuest) {
+          saveUnitProgressToCloud(user.id, unitNumber, edition, current.studied, updatedVocab);
         }
-      };
-    });
-  }, []);
+
+        return {
+          ...prev,
+          progress: {
+            ...prev.progress,
+            [key]: {
+              ...current,
+              vocabMastered: updatedVocab
+            }
+          }
+        };
+      });
+    },
+    [user.id, isAuthenticated, user.isGuest]
+  );
 
   // 3. Check if Vocab is Mastered
   const isVocabMastered = useCallback(
@@ -153,6 +297,12 @@ export const useProgress = () => {
         const newAttempts = current.attempts + 1;
         const newBestScore = Math.max(current.bestScore, score);
 
+        // Cloud Sync background push
+        if (isAuthenticated && !user.isGuest) {
+          saveQuizScoreToCloud(user.id, unitNumber, edition, newBestScore, newAttempts, totalQuestions);
+          recordStudySessionToCloud(user.id, 5); // Add 5 minutes of quiz study
+        }
+
         return {
           ...prev,
           quizScores: {
@@ -164,12 +314,65 @@ export const useProgress = () => {
               lastAttemptAt: new Date().toISOString()
             }
           },
+          totalStudyMinutes: (prev.totalStudyMinutes || 25) + 5,
           lastActiveDate: new Date().toISOString().split('T')[0]
         };
       });
     },
-    []
+    [user.id, isAuthenticated, user.isGuest]
   );
+
+  // 5. Record Mistake Note
+  const recordMistake = useCallback(
+    (mistake: Omit<MistakeNoteItem, 'id' | 'createdAt' | 'resolved'>) => {
+      const newItem: MistakeNoteItem = {
+        ...mistake,
+        id: `mistake_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`,
+        resolved: false,
+        createdAt: new Date().toISOString()
+      };
+
+      setMistakeNotes((prev) => {
+        const filtered = prev.filter(
+          (m) => !(m.unitNumber === mistake.unitNumber && m.edition === mistake.edition && m.quizId === mistake.quizId)
+        );
+        return [newItem, ...filtered];
+      });
+
+      if (isAuthenticated && !user.isGuest) {
+        saveMistakeNoteToCloud(user.id, newItem);
+      }
+    },
+    [user.id, isAuthenticated, user.isGuest]
+  );
+
+  // 6. Resolve / Unresolve Mistake Note
+  const resolveMistake = useCallback(
+    (unitNumber: number, edition: EditionType, quizId: string, resolved = true) => {
+      setMistakeNotes((prev) =>
+        prev.map((m) => {
+          if (m.unitNumber === unitNumber && m.edition === edition && m.quizId === quizId) {
+            return { ...m, resolved };
+          }
+          return m;
+        })
+      );
+
+      if (isAuthenticated && !user.isGuest) {
+        resolveMistakeNoteInCloud(user.id, unitNumber, edition, quizId, resolved);
+      }
+    },
+    [user.id, isAuthenticated, user.isGuest]
+  );
+
+  // 7. Delete Mistake Note
+  const deleteMistake = useCallback((unitNumber: number, edition: EditionType, quizId: string) => {
+    setMistakeNotes((prev) =>
+      prev.filter(
+        (m) => !(m.unitNumber === unitNumber && m.edition === edition && m.quizId === quizId)
+      )
+    );
+  }, []);
 
   // Getters
   const getUnitProgress = useCallback(
@@ -194,7 +397,7 @@ export const useProgress = () => {
       const prefix = `${edition}_`;
       const editionProgressKeys = Object.keys(data.progress).filter((k) => k.startsWith(prefix));
       const completedUnitsCount = editionProgressKeys.filter((k) => data.progress[k]?.studied).length;
-      
+
       const totalMasteredVocabCount = editionProgressKeys.reduce((acc, k) => {
         return acc + (data.progress[k]?.vocabMastered?.length || 0);
       }, 0);
@@ -202,10 +405,21 @@ export const useProgress = () => {
       const editionQuizKeys = Object.keys(data.quizScores).filter((k) => k.startsWith(prefix));
       const quizAttemptedCount = editionQuizKeys.filter((k) => data.quizScores[k]?.attempts > 0).length;
 
+      const perfectUnitsCount = editionQuizKeys.filter((k) => {
+        const item = data.quizScores[k];
+        return item && item.attempts > 0 && item.bestScore >= item.totalQuestions;
+      }).length;
+
+      const totalQuizScore = editionQuizKeys.reduce((acc, k) => {
+        return acc + (data.quizScores[k]?.bestScore || 0);
+      }, 0);
+
       return {
         completedUnitsCount,
         totalMasteredVocabCount,
         quizAttemptedCount,
+        perfectUnitsCount,
+        totalQuizScore,
         totalUnits: 45,
         overallPercentage: Math.round((completedUnitsCount / 45) * 100)
       };
@@ -215,14 +429,17 @@ export const useProgress = () => {
 
   // Data Backup & Restore utilities
   const exportProgressData = useCallback((): string => {
-    return JSON.stringify(data, null, 2);
-  }, [data]);
+    return JSON.stringify({ ...data, mistakeNotes }, null, 2);
+  }, [data, mistakeNotes]);
 
   const importProgressData = useCallback((jsonString: string): boolean => {
     try {
       const parsed = JSON.parse(jsonString);
       if (parsed && typeof parsed === 'object' && parsed.progress && parsed.quizScores) {
         setData(parsed);
+        if (Array.isArray(parsed.mistakeNotes)) {
+          setMistakeNotes(parsed.mistakeNotes);
+        }
         return true;
       }
       return false;
@@ -234,6 +451,7 @@ export const useProgress = () => {
 
   const resetProgressData = useCallback(() => {
     setData(initialStorageData);
+    setMistakeNotes([]);
   }, []);
 
   const activeStats = getEditionStats(data.currentEdition || 'kbs');
@@ -243,13 +461,16 @@ export const useProgress = () => {
     totalStudyMinutes: data.totalStudyMinutes,
     completedUnitsCount: activeStats.completedUnitsCount,
     totalMasteredVocabCount: activeStats.totalMasteredVocabCount,
-    overallPercentage: activeStats.overallPercentage
+    overallPercentage: activeStats.overallPercentage,
+    perfectUnitsCount: activeStats.perfectUnitsCount,
+    totalQuizScore: activeStats.totalQuizScore
   };
 
   return {
     data,
     progress: data.progress,
     quizScores: data.quizScores,
+    mistakeNotes,
     streakDays: data.streakDays,
     totalStudyMinutes: data.totalStudyMinutes,
     completedUnitsCount: activeStats.completedUnitsCount,
@@ -258,6 +479,9 @@ export const useProgress = () => {
     toggleVocabMastered,
     isVocabMastered,
     recordQuizAttempt,
+    recordMistake,
+    resolveMistake,
+    deleteMistake,
     getUnitProgress,
     getUnitQuizScore,
     getEditionStats,
@@ -266,3 +490,4 @@ export const useProgress = () => {
     resetProgressData
   };
 };
+

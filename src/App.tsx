@@ -8,6 +8,7 @@ const StudyPage = lazy(() => import('./pages/StudyPage').then(m => ({ default: m
 const QuizPage = lazy(() => import('./pages/QuizPage').then(m => ({ default: m.QuizPage })));
 const ProgressPage = lazy(() => import('./pages/ProgressPage').then(m => ({ default: m.ProgressPage })));
 const RoleplayPage = lazy(() => import('./pages/RoleplayPage').then(m => ({ default: m.RoleplayPage })));
+const LeaderboardPage = lazy(() => import('./pages/LeaderboardPage').then(m => ({ default: m.LeaderboardPage })));
 
 function PageLoadingFallback() {
   return (
@@ -29,6 +30,8 @@ export function App() {
               <Route path="/study" element={<StudyPage />} />
               <Route path="/roleplay" element={<RoleplayPage />} />
               <Route path="/quiz" element={<QuizPage />} />
+              <Route path="/leaderboard" element={<LeaderboardPage />} />
+              <Route path="/ranking" element={<LeaderboardPage />} />
               <Route path="/progress" element={<ProgressPage />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
@@ -40,3 +43,4 @@ export function App() {
 }
 
 export default App;
+

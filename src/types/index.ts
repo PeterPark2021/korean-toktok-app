@@ -175,3 +175,49 @@ export interface RoleplaySessionResult {
   xpEarned: number;
 }
 
+// 11. 오답노트 (Mistake Notes) 스키마
+export interface MistakeNoteItem {
+  id: string;
+  unitNumber: number;
+  edition: EditionType;
+  quizId: string;
+  question: string;
+  options?: string[];
+  userAnswer?: string;
+  correctAnswer: string;
+  explanation: string;
+  resolved: boolean;
+  createdAt: string;
+}
+
+// 12. 글로벌 리더보드 (Global Leaderboard) 스키마
+export interface LeaderboardRankItem {
+  rank: number;
+  userId: string;
+  userName: string;
+  avatarId: string;
+  countryFlag: string;
+  countryName: string;
+  targetLevel: string;
+  weeklyStudyMinutes: number;
+  streakDays: number;
+  completedUnitsCount: number;
+  isCurrentUser?: boolean;
+}
+
+export interface QuizHallOfFameItem {
+  rank: number;
+  userId: string;
+  userName: string;
+  avatarId: string;
+  countryFlag: string;
+  countryName: string;
+  perfectUnitsCount: number; // 퀴즈 100% 만점 달성 단원 수
+  totalScore: number;
+  badgeTitle: string;
+  isCurrentUser?: boolean;
+}
+
+// 13. 클라우드 동기화 상태
+export type CloudSyncStatus = 'synced' | 'syncing' | 'offline' | 'guest' | 'error';
+

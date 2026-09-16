@@ -28,7 +28,7 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({
   const [isCompleted, setIsCompleted] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
 
-  const { recordQuizAttempt } = useProgress();
+  const { recordQuizAttempt, recordMistake } = useProgress();
 
   const currentQuiz = quizList[currentIndex] || quizList[0];
   const currentAnswer = userAnswers[currentQuiz.quiz_id];
@@ -75,6 +75,22 @@ export const QuizEngine: React.FC<QuizEngineProps> = ({
   const handleSubmit = () => {
     setIsSubmitted(true);
     setShowExplanation(true);
+
+    const isAnsCorrect = checkCurrentCorrect();
+    if (!isAnsCorrect) {
+      // Record wrong answer to mistake notes
+      const ansText = Array.isArray(currentAnswer) ? currentAnswer.join(' ') : String(currentAnswer || '');
+      recordMistake({
+        unitNumber,
+        edition,
+        quizId: currentQuiz.quiz_id,
+        question: currentQuiz.question,
+        options: currentQuiz.options,
+        userAnswer: ansText,
+        correctAnswer: currentQuiz.answer,
+        explanation: currentQuiz.explanation
+      });
+    }
   };
 
   const handleNextQuestion = () => {

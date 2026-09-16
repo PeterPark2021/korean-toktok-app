@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BookOpen, HelpCircle, BarChart3, Flame, GraduationCap, Layers, User, LogIn, Settings, Bot } from 'lucide-react';
+import {
+  BookOpen,
+  HelpCircle,
+  BarChart3,
+  Flame,
+  GraduationCap,
+  Layers,
+  User,
+  LogIn,
+  Settings,
+  Bot,
+  Trophy,
+  Cloud,
+  CheckCircle2
+} from 'lucide-react';
 import { useProgress } from '../../hooks/useProgress';
 import { useAuth } from '../../contexts/AuthContext';
 import { getActiveEdition } from '../../data';
@@ -9,7 +23,7 @@ import { getSpeakerAvatar } from '../../utils/characterAvatar';
 
 export const Sidebar: React.FC = () => {
   const { streakDays, completedUnitsCount } = useProgress();
-  const { user, isAuthenticated, isGuest, openAuthModal, openProfileModal } = useAuth();
+  const { user, isAuthenticated, isGuest, cloudSyncStatus, openAuthModal, openProfileModal } = useAuth();
   const [edition, setEdition] = useState<EditionType>(getActiveEdition());
   const avatarInfo = getSpeakerAvatar(user.avatarId || 'minho');
 
@@ -50,34 +64,61 @@ export const Sidebar: React.FC = () => {
 
         {/* User Profile / Auth Card */}
         {isAuthenticated ? (
-          <div className="p-3.5 rounded-2xl bg-gradient-to-br from-blue-50/80 to-indigo-50/60 border border-blue-200/70 flex items-center justify-between shadow-2xs">
-            <div className="flex items-center gap-2.5 min-w-0">
-              <img
-                src={avatarInfo.avatarUrl}
-                alt={user.name}
-                className="w-10 h-10 rounded-xl object-cover border border-blue-300 shrink-0"
-              />
-              <div className="min-w-0">
-                <div className="flex items-center gap-1.5">
-                  <span className="font-black text-xs text-slate-900 truncate">{user.name}</span>
-                  <span className="text-[9px] px-1.5 py-0.2 rounded-md bg-blue-200/70 text-blue-800 font-bold shrink-0">
-                    {user.targetLevel || '초급'}
-                  </span>
+          <div className="p-3.5 rounded-2xl bg-gradient-to-br from-blue-50/80 to-indigo-50/60 border border-blue-200/70 space-y-2 shadow-2xs">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5 min-w-0">
+                <img
+                  src={avatarInfo.avatarUrl}
+                  alt={user.name}
+                  className="w-10 h-10 rounded-xl object-cover border border-blue-300 shrink-0"
+                />
+                <div className="min-w-0">
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-black text-xs text-slate-900 truncate">{user.name}</span>
+                    <span className="text-[9px] px-1.5 py-0.2 rounded-md bg-blue-200/70 text-blue-800 font-bold shrink-0">
+                      {user.targetLevel || '초급'}
+                    </span>
+                  </div>
+                  <p className="text-[10px] text-slate-500 truncate">{user.email}</p>
                 </div>
-                <p className="text-[10px] text-slate-500 truncate">{user.email}</p>
               </div>
+
+              <button
+                type="button"
+                onClick={openProfileModal}
+                className="p-1.5 rounded-xl hover:bg-white text-slate-400 hover:text-blue-600 transition-colors cursor-pointer shrink-0"
+                title="프로필 설정"
+              >
+                <Settings size={16} />
+              </button>
             </div>
 
-            <button
-              type="button"
-              onClick={openProfileModal}
-              className="p-1.5 rounded-xl hover:bg-white text-slate-400 hover:text-blue-600 transition-colors cursor-pointer shrink-0"
-              title="프로필 설정"
-            >
-              <Settings size={16} />
-            </button>
+            {/* Cloud Sync Status Indicator */}
+            <div className="pt-1.5 border-t border-blue-200/60 flex items-center justify-between text-[10px]">
+              <span className="text-slate-500 flex items-center gap-1">
+                <Cloud size={11} className="text-blue-500" />
+                <span>클라우드 동기화</span>
+              </span>
+              <span
+                className={`font-bold flex items-center gap-1 px-1.5 py-0.2 rounded-md ${
+                  cloudSyncStatus === 'synced'
+                    ? 'text-emerald-700 bg-emerald-100/80'
+                    : cloudSyncStatus === 'syncing'
+                    ? 'text-blue-700 bg-blue-100 animate-pulse'
+                    : 'text-slate-500 bg-slate-100'
+                }`}
+              >
+                <span
+                  className={`w-1.5 h-1.5 rounded-full ${
+                    cloudSyncStatus === 'synced' ? 'bg-emerald-500' : 'bg-blue-500'
+                  }`}
+                />
+                <span>{cloudSyncStatus === 'synced' ? '실시간 연결됨' : '동기화 중'}</span>
+              </span>
+            </div>
           </div>
         ) : (
+
           <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
             <div className="flex items-center justify-between">
               <span className="text-xs font-bold text-slate-700">게스트 모드</span>
@@ -132,6 +173,18 @@ export const Sidebar: React.FC = () => {
           <NavLink to="/quiz" className={navLinkClass}>
             <HelpCircle size={19} />
             <span>단원 퀴즈 풀기</span>
+          </NavLink>
+
+          <NavLink to="/leaderboard" className={navLinkClass}>
+            <div className="flex items-center gap-3 w-full justify-between">
+              <div className="flex items-center gap-3">
+                <Trophy size={19} className="text-amber-500" />
+                <span>글로벌 랭킹 & 오답노트</span>
+              </div>
+              <span className="text-[9px] font-black px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-800">
+                Top 20
+              </span>
+            </div>
           </NavLink>
 
           <NavLink to="/progress" className={navLinkClass}>
