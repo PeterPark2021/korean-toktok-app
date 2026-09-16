@@ -121,3 +121,57 @@ export interface UserProfile {
   lastLoginAt: string;
   isGuest?: boolean;
 }
+
+// 10. AI 실시간 롤플레이 스키마
+export type RoleplayCategory = 'restaurant' | 'hospital' | 'cafe' | 'real_estate' | 'market' | 'office' | 'transport' | 'public';
+
+export interface RoleplayMission {
+  id: string;
+  text: string;
+  description?: string;
+  completed: boolean;
+}
+
+export interface RoleplayPersona {
+  name: string;
+  role: string;
+  avatarId: string;
+  avatarEmoji: string;
+  tone: string;
+}
+
+export interface RoleplayScenario {
+  id: string;
+  title: string;
+  category: RoleplayCategory;
+  categoryName: string;
+  level: '초급' | '중급' | '고급';
+  situation: string;
+  aiPersona: RoleplayPersona;
+  userRole: string;
+  initialMessage: string;
+  initialTranslation: string;
+  missions: RoleplayMission[];
+  suggestedExpressions: { korean: string; meaning: string }[];
+  culturalNote?: string;
+  bgGradient: string;
+}
+
+export interface RoleplayMessage {
+  id: string;
+  sender: 'user' | 'ai';
+  text: string;
+  translation?: string;
+  coachingTip?: string; // 실시간 원어민식 자연스러운 표현 교정
+  timestamp: number;
+}
+
+export interface RoleplaySessionResult {
+  scenarioId: string;
+  totalTurns: number;
+  completedMissionsCount: number;
+  totalMissionsCount: number;
+  coachingTips: string[];
+  xpEarned: number;
+}
+

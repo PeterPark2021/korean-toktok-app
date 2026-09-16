@@ -1,8 +1,8 @@
 # Korean TokTok (한국어 톡톡) - Developer Hand-off Document
 
-> **문서 버전:** 1.3.0  
+> **문서 버전:** 1.4.0  
 > **최종 갱신일:** 2026-09-16  
-> **프로젝트 성격:** 다문화가정 및 외국인 학습자를 위한 실용 한국어 회화, 어휘, 문법, 문화, 퀴즈, 게이미피케이션, 회원 인증, 음소 단위 발음 교정 통합 학습 플랫폼
+> **프로젝트 성격:** 다문화가정 및 외국인 학습자를 위한 실용 한국어 회화, 어휘, 문법, 문화, 퀴즈, 게이미피케이션, 회원 인증, 음소 단위 발음 교정, 실시간 AI 프리토킹 롤플레이(Gemini Live) 통합 학습 플랫폼
 
 ---
 
@@ -12,9 +12,13 @@
 
 - **프론트엔드 스택:** React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons
 - **회원 인증 & 프로필:** `AuthContext` 기반 회원가입, 로그인, 게스트 모드, 소셜 로그인(Google/Kakao), 9개국어 모국어(한국어, 영어, 베트남어, 중국어, 일본어, 러시아어, 스페인어, 몽골어, 태국어) 및 아바타 커스텀
-- **음성/AI 기능:** Web Speech API (TTS 음성 합성 & STT 발음 채점), 한글 초성/중성/종성 음소 단위 정밀 오발음 분석 & 글자별 하이라이트 교정 엔진 (`src/utils/pronunciationAnalysis.ts`), Google Gemini AI (`@google/genai`) 서버리스 프록시 문법 튜터 및 내장 비유 해설 엔진
+- **음성/AI 기능:**
+  - Web Speech API (TTS 음성 합성 & STT 발음 채점)
+  - 한글 초성/중성/종성 음소 단위 정밀 오발음 분석 & 글자별 하이라이트 교정 엔진 (`src/utils/pronunciationAnalysis.ts`)
+  - **실시간 프리토킹 롤플레이 (Gemini Live)**: 8개 실생활 상황(식당, 병원, 카페, 부동산 등) 음성/채팅 롤플레이 & 실시간 원어민식 표현 코칭 & 화자별 최대 7턴 제한 (`api/roleplay.ts`, `src/services/roleplayService.ts`)
+  - Google Gemini AI (`@google/genai`) 서버리스 프록시 문법 튜터 (`api/explain.ts`) 및 내장 비유 해설 엔진
 - **시각화 및 게이미피케이션:** 애니메이션 캐릭터 아바타, 단원별 상황 일러스트, 14종 메탈릭 성취 뱃지 시스템, 어휘 연상 비주얼 큐, 실사 한국 문화 카드
-- **배포 & 보안:** Vercel 서버리스 (`/api/explain.ts`), API 키 서버 격리, SPA 라우팅 (`vercel.json`)
+- **배포 & 보안:** Vercel 서버리스 (`/api/explain.ts`, `/api/roleplay.ts`), API 키 서버 격리, SPA 라우팅 (`vercel.json`)
 
 ---
 
@@ -28,6 +32,8 @@
    - 초급·중급 표준 단원 데이터 매핑
 3. **단일 통합 진입점** (`src/data/index.ts` & `src/data/units.json`):
    - 45개 전 단원의 메타데이터, 회화문, 어휘, 문법, 퀴즈, 문화 데이터를 동기화하여 제공
+4. **실시간 롤플레이 시나리오** (`src/data/roleplay/roleplayScenarios.ts`):
+   - 8개 실생활 상황별 페르소나, 대화 미션, 추천 표현 및 문화 팁 제공
 
 ### 2.2 표준 데이터 스키마 준수 (`.agents/rules/data-schema.md`)
 모든 단원 데이터 파일은 아래의 표준 JSON 스키마를 엄격히 준수합니다.
@@ -85,15 +91,25 @@ interface QuizItem {
 
 ## 3. 주요 구현 기능 및 모듈 설명
 
-### 3.1 회원가입, 로그인 & 프로필 관리 모듈 (`src/contexts/AuthContext.tsx`)
-- **이메일/비밀번호 인증**: 유효성 검사, 중복 가입 방지, 안전한 로컬 세션 유지
-- **게스트 체험 모드 (Guest Mode)**: 가입 없이 즉시 모든 기능을 체험하고, 이후 진도 유실 없이 정식 회원으로 전환 가능
-- **소셜 로그인 (Google / Kakao)**: 1클릭 간편 로그인 지원
-- **학습자 맞춤 설정**:
-  - 9개국 모국어 선택 (한국어, 영어, 베트남어, 중국어, 일본어, 러시아어, 스페인어, 몽골어, 태국어)
-  - 대표 캐릭터 아바타 선택 (민호, 리홍, 도안, 수연, 선생님, 친구)
-  - 목표 레벨 설정 (초급, 중급, 고급)
-- **UI 연동**: 데스크톱 사이드바([Sidebar.tsx](src/components/common/Sidebar.tsx)) 및 모바일 헤더([Layout.tsx](src/components/common/Layout.tsx)) 프로필 위젯
+### 3.1 실시간 프리토킹 롤플레이 (Gemini Live) (`api/roleplay.ts`, `src/components/roleplay/`, `src/pages/RoleplayPage.tsx`)
+- **8대 실생활 시나리오**:
+  1. 🍲 식당에서 반찬 & 앞접시 추가 요청하기 (초급)
+  2. 🩺 병원에서 감기/배탈 증상 설명하기 (초급~중급)
+  3. ☕ 카페에서 디카페인 원두 변경 및 맞춤 주문하기 (초급)
+  4. 🏠 부동산에서 예산에 맞는 원룸 구하기 (중급)
+  5. 🍓 전통시장에서 과일 가격 흥정하고 덤 요청하기 (초급~중급)
+  6. 💼 직장에서 팀장님께 연차 신청 및 인수인계 보고하기 (고급)
+  7. 🚕 택시 타고 목적지 빠른 길 안내 & 영수증 요청하기 (초급)
+  8. 🏛️ 주민센터에서 외국인등록 사실증명서 발급 신청하기 (중급)
+- **화자별 최대 7턴 대화 제한**:
+  - 발화 턴 카운터(예: `1 / 7턴`) 시각화 및 7턴 도달 시 AI의 자연스러운 대화 마무리
+  - 7턴 종료 시 **롤플레이 결과 리포트 모달** (달성 미션, 획득 XP, 전체 코칭 피드백 모음, 다시 도전하기)
+- **실시간 원어민식 표현 코칭 (Coaching Tip)**:
+  - 어색한 조사(`은/는` vs `이/가`), 반말/존댓말 혼용, 어색한 어휘를 즉각 교정하여 원어민식 세련된 표현 추천
+- **음성 STT/TTS 완벽 지원**:
+  - Web Speech API 마이크 음성 입력 + AI 응답 음성 자동 재생(토글 가능)
+- **무중단 스마트 폴백 엔진 (`src/services/roleplayService.ts`)**:
+  - API 키가 없거나 네트워크 장애 시에도 내장 지능형 대화 트리와 정규식 미션 판별 엔진으로 100% 정상 작동
 
 ### 3.2 음소 및 글자 단위 정밀 발음 교정 & 섀도잉 (`src/utils/pronunciationAnalysis.ts`, `SpeechPracticeModal.tsx`)
 - **Needleman-Wunsch 동적 정렬 알고리즘**: 목표 문장과 음성 인식 텍스트를 글자 단위로 매핑하여 누락/오발음/정확 음절을 정확히 판별
@@ -105,28 +121,34 @@ interface QuizItem {
   - 글자별 색상 뱃지 (🟢 초록: 정확, 🔴 빨강: 오발음 및 인식 글자 표기, 🟡 노랑: 누락)
   - 오발음 글자 클릭 시 해당 음절만 원음 TTS 재생 및 맞춤 조음 팁 팝업
 
-### 3.3 비주얼 회화 뷰어 (`src/components/study/DialogueViewer.tsx`)
+### 3.3 회원가입, 로그인 & 프로필 관리 모듈 (`src/contexts/AuthContext.tsx`)
+- **이메일/비밀번호 인증**: 유효성 검사, 중복 가입 방지, 안전한 로컬 세션 유지
+- **게스트 체험 모드 (Guest Mode)**: 가입 없이 즉시 모든 기능을 체험하고, 이후 진도 유실 없이 정식 회원으로 전환 가능
+- **소셜 로그인 (Google / Kakao)**: 1클릭 간편 로그인 지원
+- **학습자 맞춤 설정**: 9개국 모국어 및 대표 캐릭터 아바타, 목표 레벨 설정
+
+### 3.4 비주얼 회화 뷰어 (`src/components/study/DialogueViewer.tsx`)
 - **캐릭터 아바타 시스템 (`src/utils/characterAvatar.ts`)**: 발화자별 8종 전용 아바타 매핑
 - **상황별 배너 일러스트 (`src/utils/unitSituation.ts`)**: 단원별 첫 만남, 쇼핑, 식당, 길 찾기 등 고해상도 상황 삽화 렌더링
 - **롤플레이 & 섀도잉**: Web Speech API 기반 음성 듣기(TTS) 및 마이크 발음 정확도(STT) 실시간 채점
 
-### 3.4 어휘 플래시카드 & 문화 톡톡 (`src/components/study/CultureViewer.tsx`, `VocabFlashcard.tsx`)
+### 3.5 어휘 플래시카드 & 문화 톡톡 (`src/components/study/CultureViewer.tsx`, `VocabFlashcard.tsx`)
 - **어휘 연상 비주얼 큐 (`src/utils/vocabVisuals.ts`)**: 10개 시맨틱 카테고리에 따른 컬러 태그, 이모지 및 연상 기억 힌트
 - **문화 톡톡 4번째 탭 (`src/data/culture/cultureData.ts`)**: 45개 전 단원 한국 문화 배경, 고화질 실사 사진, 에티켓 Do & Don't, 원어민 필수 표현 수록
 
-### 3.5 멀티모달 퀴즈 엔진 (`src/components/quiz/QuizEngine.tsx`, `MultipleChoiceCard.tsx`)
+### 3.6 멀티모달 퀴즈 엔진 (`src/components/quiz/QuizEngine.tsx`, `MultipleChoiceCard.tsx`)
 - **그림/사진 기반 객관식 퀴즈 (`src/utils/visualQuizHelper.ts`)**: 시각 자극(상황도, 문화 사진, 캐릭터 등)을 동적으로 퀴즈 카드에 포함
 - **즉각적인 정답/오답 피드백**: 정답 애니메이션 및 상세 한국어 해설 표시
 
-### 3.6 게이미피케이션 & 대시보드 (`src/components/dashboard/BadgeCollection.tsx`, `src/pages/ProgressPage.tsx`)
+### 3.7 게이미피케이션 & 대시보드 (`src/components/dashboard/BadgeCollection.tsx`, `src/pages/ProgressPage.tsx`)
 - **14종 메탈릭 성취 뱃지 (`src/data/badges/badgeData.ts`)**: 브론즈부터 다이아몬드까지 실시간 조건 계산 및 모달 팝업
 - **학습 진도 백업/복원 기능**: 진도 데이터를 JSON 파일로 원클릭 내보내기/불러오기 지원
 
-### 3.7 초성 및 자모 분해 검색 엔진 (`src/utils/hangulSearch.ts`, `src/services/searchService.ts`)
+### 3.8 초성 및 자모 분해 검색 엔진 (`src/utils/hangulSearch.ts`, `src/services/searchService.ts`)
 - **입력 중 깜박임 완전 제거**: 한글 조합 중(예: `존` -> `존ㅊ` -> `존칭`)에도 끊김 없이 매칭되는 자모 분해 알고리즘
 - `useDeferredValue` + 동기 검색 처리로 키 입력 지연 및 모달 리렌더링 제거
 
-### 3.8 Google Gemini AI 문법 튜터 & 보안 프록시 (`api/explain.ts`, `src/services/aiExplanation.ts`)
+### 3.9 Google Gemini AI 문법 튜터 & 보안 프록시 (`api/explain.ts`, `src/services/aiExplanation.ts`)
 - Vercel Node.js 서버리스 함수로 Gemini API 키를 서버 전용(`process.env.GEMINI_API_KEY`)으로 격리
 - API 키가 없거나 네트워크 장애 시에도 앱 내 **지능형 내장 비유 해설 엔진**으로 즉시 자동 폴백
 
@@ -138,7 +160,8 @@ interface QuizItem {
 korean-toktok-app/
 ├── .agents/                    # 에이전트 규칙 및 스키마 정의
 ├── api/
-│   └── explain.ts              # Gemini AI Vercel 서버리스 프록시
+│   ├── explain.ts              # Gemini AI 문법 튜터 서버리스 프록시
+│   └── roleplay.ts             # Gemini Live 롤플레이 서버리스 프록시
 ├── books/                      # KBS 교재 원본 PDF (Git 제외)
 ├── data/                       # 원본 데이터 (빌드 제외)
 ├── public/
@@ -154,14 +177,15 @@ korean-toktok-app/
 │   │   ├── common/             # Layout, Sidebar, BottomNav, GlobalSearchModal
 │   │   ├── dashboard/          # BadgeCollection, ProgressStats
 │   │   ├── quiz/               # QuizEngine, MultipleChoiceCard
+│   │   ├── roleplay/           # RoleplayCard, RoleplayChatRoom
 │   │   └── study/              # DialogueViewer, CultureViewer, VocabFlashcard, SpeechPracticeModal
 │   ├── contexts/
 │   │   └── AuthContext.tsx     # 회원 인증 & 세션 상태 관리
-│   ├── data/                   # 런타임 45개 단원 데이터 (badges, culture, dialogues 등)
-│   ├── hooks/                  # useAuth, useProgress, useTTS, useSpeechRecognition
-│   ├── pages/                  # StudyPage, QuizPage, ProgressPage (Code-split)
-│   ├── services/               # aiExplanation, searchService
-│   ├── types/                  # UserProfile, UnitItem, DialogueItem 등
+│   ├── data/                   # 런타임 45개 단원 데이터 (badges, culture, roleplay, dialogues 등)
+│   ├── hooks/                  # useAuth, useProgress, useTTS, useSpeechRecognition, useRoleplay
+│   ├── pages/                  # StudyPage, RoleplayPage, QuizPage, ProgressPage (Code-split)
+│   ├── services/               # aiExplanation, roleplayService, searchService
+│   ├── types/                  # UserProfile, RoleplayScenario, UnitItem, DialogueItem 등
 │   ├── utils/                  # pronunciationAnalysis, hangulSearch, characterAvatar, vocabVisuals 등
 │   ├── App.tsx
 │   ├── index.css
@@ -187,12 +211,12 @@ npm run dev
 ### 5.2 프로덕션 빌드
 ```bash
 npm run build
-# React.lazy + Vite manualChunks로 초기 청크 크기 21KB 최적화 완료
+# React.lazy + Vite manualChunks로 초기 청크 크기 최적화 완료
 ```
 
 ### 5.3 Vercel 배포
 1. [Vercel](https://vercel.com)에서 GitHub 저장소(`PeterPark2021/korean-toktok-app`) Import
-2. Environment Variables에 `GEMINI_API_KEY` 등록 (서버 전용, 키 없어도 내장 튜터로 정상 작동)
+2. Environment Variables에 `GEMINI_API_KEY` 등록 (서버 전용, 키 없어도 내장 튜터/롤플레이로 정상 작동)
 3. Deploy 클릭 ➡️ 배포 완료!
 
 ---
@@ -207,3 +231,4 @@ npm run build
    - 무료 체험 단원 및 프리미엄 단원/AI 튜터 무제한 질문 패키지.
 4. **Google AdMob / 애드센스 광고 위젯 연동**:
    - 단원 완료 보상형 광고 및 학습 대시보드 하단 배너 광고 슬롯.
+

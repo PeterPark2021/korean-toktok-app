@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BookOpen, HelpCircle, BarChart3, Flame, GraduationCap, Layers, User, LogIn, Settings } from 'lucide-react';
+import { BookOpen, HelpCircle, BarChart3, Flame, GraduationCap, Layers, User, LogIn, Settings, Bot } from 'lucide-react';
 import { useProgress } from '../../hooks/useProgress';
 import { useAuth } from '../../contexts/AuthContext';
 import { getActiveEdition } from '../../data';
@@ -115,6 +115,18 @@ export const Sidebar: React.FC = () => {
           <NavLink to="/" className={navLinkClass} end>
             <BookOpen size={19} />
             <span>회화·어휘 학습</span>
+          </NavLink>
+
+          <NavLink to="/roleplay" className={navLinkClass}>
+            <div className="flex items-center gap-3 w-full justify-between">
+              <div className="flex items-center gap-3">
+                <Bot size={19} />
+                <span>AI 롤플레이</span>
+              </div>
+              <span className="text-[9px] font-black px-1.5 py-0.5 rounded-full bg-amber-400 text-slate-900 shadow-2xs animate-pulse">
+                Live
+              </span>
+            </div>
           </NavLink>
 
           <NavLink to="/quiz" className={navLinkClass}>
