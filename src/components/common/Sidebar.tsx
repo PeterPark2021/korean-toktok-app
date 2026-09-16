@@ -13,7 +13,8 @@ import {
   Bot,
   Trophy,
   Cloud,
-  CheckCircle2
+  CheckCircle2,
+  Sparkles
 } from 'lucide-react';
 import { useProgress } from '../../hooks/useProgress';
 import { useAuth } from '../../contexts/AuthContext';
@@ -152,6 +153,18 @@ export const Sidebar: React.FC = () => {
           <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-3 pb-1">
             학습 메뉴
           </div>
+
+          <NavLink to="/hangul" className={navLinkClass}>
+            <div className="flex items-center gap-3 w-full justify-between">
+              <div className="flex items-center gap-3">
+                <Sparkles size={19} className="text-amber-500" />
+                <span>한글 익히기 (자모·기초)</span>
+              </div>
+              <span className="text-[9px] font-black px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                예비편
+              </span>
+            </div>
+          </NavLink>
 
           <NavLink to="/" className={navLinkClass} end>
             <BookOpen size={19} />

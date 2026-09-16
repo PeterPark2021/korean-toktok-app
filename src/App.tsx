@@ -5,6 +5,7 @@ import { AuthProvider } from './contexts/AuthContext';
 
 // Code-split route pages to optimize initial bundle size
 const StudyPage = lazy(() => import('./pages/StudyPage').then(m => ({ default: m.StudyPage })));
+const HangulPage = lazy(() => import('./pages/HangulPage').then(m => ({ default: m.HangulPage })));
 const QuizPage = lazy(() => import('./pages/QuizPage').then(m => ({ default: m.QuizPage })));
 const ProgressPage = lazy(() => import('./pages/ProgressPage').then(m => ({ default: m.ProgressPage })));
 const RoleplayPage = lazy(() => import('./pages/RoleplayPage').then(m => ({ default: m.RoleplayPage })));
@@ -28,6 +29,9 @@ export function App() {
             <Routes>
               <Route path="/" element={<StudyPage />} />
               <Route path="/study" element={<StudyPage />} />
+              <Route path="/hangul" element={<HangulPage />} />
+              <Route path="/alphabet" element={<HangulPage />} />
+              <Route path="/preliminary" element={<HangulPage />} />
               <Route path="/roleplay" element={<RoleplayPage />} />
               <Route path="/quiz" element={<QuizPage />} />
               <Route path="/leaderboard" element={<LeaderboardPage />} />

@@ -235,6 +235,37 @@ export const StudyPage: React.FC = () => {
         </div>
       </div>
 
+      {/* Beginner Hangul Callout Banner */}
+      <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50 via-indigo-50 to-purple-50 border border-blue-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-2xs">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center text-lg font-black shrink-0 shadow-xs">
+            🌱
+          </div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-extrabold text-xs sm:text-sm text-slate-900">
+                한글 자모나 기초 문법이 처음이신가요?
+              </span>
+              <span className="text-[10px] font-black px-2 py-0.2 rounded-full bg-blue-100 text-blue-700">
+                초급 예비편
+              </span>
+            </div>
+            <p className="text-[11px] text-slate-500">
+              세종대왕의 창제 원리, 40자 자모, 실시간 글자 결합기, 받침 7대 대표음부터 시작해 보세요.
+            </p>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          onClick={() => navigate('/hangul')}
+          className="px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 active:scale-95 text-white font-bold text-xs shadow-xs transition-all flex items-center justify-center gap-1.5 cursor-pointer shrink-0"
+        >
+          <span>한글 익히기 시작하기</span>
+          <ArrowRight size={14} />
+        </button>
+      </div>
+
       {/* 2. Primary "이어서 학습하기 (Hero Card)" - Highest Information Hierarchy */}
       <div className="p-6 md:p-8 rounded-3xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white shadow-xl relative overflow-hidden border border-slate-800">
         {/* Decorative Watermark Number */}
