@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/common/Layout';
+import { AuthProvider } from './contexts/AuthContext';
 
 // Code-split route pages to optimize initial bundle size
 const StudyPage = lazy(() => import('./pages/StudyPage').then(m => ({ default: m.StudyPage })));
@@ -18,19 +19,21 @@ function PageLoadingFallback() {
 
 export function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Suspense fallback={<PageLoadingFallback />}>
-          <Routes>
-            <Route path="/" element={<StudyPage />} />
-            <Route path="/study" element={<StudyPage />} />
-            <Route path="/quiz" element={<QuizPage />} />
-            <Route path="/progress" element={<ProgressPage />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </Suspense>
-      </Layout>
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <Layout>
+          <Suspense fallback={<PageLoadingFallback />}>
+            <Routes>
+              <Route path="/" element={<StudyPage />} />
+              <Route path="/study" element={<StudyPage />} />
+              <Route path="/quiz" element={<QuizPage />} />
+              <Route path="/progress" element={<ProgressPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Suspense>
+        </Layout>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 

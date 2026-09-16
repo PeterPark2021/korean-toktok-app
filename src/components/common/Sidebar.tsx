@@ -1,13 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { BookOpen, HelpCircle, BarChart3, Flame, GraduationCap, Layers } from 'lucide-react';
+import { BookOpen, HelpCircle, BarChart3, Flame, GraduationCap, Layers, User, LogIn, Settings } from 'lucide-react';
 import { useProgress } from '../../hooks/useProgress';
+import { useAuth } from '../../contexts/AuthContext';
 import { getActiveEdition } from '../../data';
 import { EditionType } from '../../types';
+import { getSpeakerAvatar } from '../../utils/characterAvatar';
 
 export const Sidebar: React.FC = () => {
   const { streakDays, completedUnitsCount } = useProgress();
+  const { user, isAuthenticated, isGuest, openAuthModal, openProfileModal } = useAuth();
   const [edition, setEdition] = useState<EditionType>(getActiveEdition());
+  const avatarInfo = getSpeakerAvatar(user.avatarId || 'minho');
 
   useEffect(() => {
     const handleEditionChange = (e: any) => {
@@ -25,9 +29,9 @@ export const Sidebar: React.FC = () => {
     }`;
 
   return (
-    <aside className="hidden md:flex md:w-64 lg:w-72 fixed inset-y-0 left-0 z-40 flex-col bg-white/90 backdrop-blur-xl border-r border-slate-200/80 p-6 justify-between">
+    <aside className="hidden md:flex md:w-64 lg:w-72 fixed inset-y-0 left-0 z-40 flex-col bg-white/90 backdrop-blur-xl border-r border-slate-200/80 p-6 justify-between overflow-y-auto">
       {/* Top: Logo & Main Navigation */}
-      <div className="space-y-8">
+      <div className="space-y-6">
         {/* Brand Logo */}
         <NavLink to="/" className="flex items-center gap-3 group">
           <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-black text-2xl shadow-md shadow-blue-500/30 group-hover:scale-105 transition-transform">
@@ -43,6 +47,64 @@ export const Sidebar: React.FC = () => {
             <p className="text-[11px] text-slate-400 font-medium">생생 회화 & 인터랙티브 학습</p>
           </div>
         </NavLink>
+
+        {/* User Profile / Auth Card */}
+        {isAuthenticated ? (
+          <div className="p-3.5 rounded-2xl bg-gradient-to-br from-blue-50/80 to-indigo-50/60 border border-blue-200/70 flex items-center justify-between shadow-2xs">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <img
+                src={avatarInfo.avatarUrl}
+                alt={user.name}
+                className="w-10 h-10 rounded-xl object-cover border border-blue-300 shrink-0"
+              />
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <span className="font-black text-xs text-slate-900 truncate">{user.name}</span>
+                  <span className="text-[9px] px-1.5 py-0.2 rounded-md bg-blue-200/70 text-blue-800 font-bold shrink-0">
+                    {user.targetLevel || '초급'}
+                  </span>
+                </div>
+                <p className="text-[10px] text-slate-500 truncate">{user.email}</p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={openProfileModal}
+              className="p-1.5 rounded-xl hover:bg-white text-slate-400 hover:text-blue-600 transition-colors cursor-pointer shrink-0"
+              title="프로필 설정"
+            >
+              <Settings size={16} />
+            </button>
+          </div>
+        ) : (
+          <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-bold text-slate-700">게스트 모드</span>
+              <span className="text-[10px] font-semibold text-slate-400">비로그인</span>
+            </div>
+            <p className="text-[11px] text-slate-500 leading-snug">
+              로그인하면 학습 진도와 뱃지를 클라우드에 안전하게 보관할 수 있어요.
+            </p>
+            <div className="flex items-center gap-2 pt-1">
+              <button
+                type="button"
+                onClick={() => openAuthModal('login')}
+                className="flex-1 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 active:scale-95 text-white font-bold text-xs transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                <LogIn size={13} />
+                <span>로그인</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => openAuthModal('signup')}
+                className="flex-1 py-2 rounded-xl bg-white hover:bg-slate-100 active:scale-95 text-slate-700 font-bold text-xs border border-slate-200 transition-all shadow-2xs flex items-center justify-center cursor-pointer"
+              >
+                <span>회원가입</span>
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Navigation Menu Links */}
         <nav className="space-y-2">
@@ -68,7 +130,7 @@ export const Sidebar: React.FC = () => {
       </div>
 
       {/* Bottom: Streak & Level Badge Widget */}
-      <div className="space-y-3">
+      <div className="space-y-3 pt-4">
         {/* Active Edition Badge */}
         <div className="p-3 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-center justify-between">
           <div className="flex items-center gap-2">

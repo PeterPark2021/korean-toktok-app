@@ -1,8 +1,12 @@
 import React from 'react';
 import { Sidebar } from './Sidebar';
 import { BottomNav } from './BottomNav';
-import { Flame } from 'lucide-react';
+import { Flame, User } from 'lucide-react';
 import { useProgress } from '../../hooks/useProgress';
+import { useAuth } from '../../contexts/AuthContext';
+import { AuthModal } from '../auth/AuthModal';
+import { UserProfileModal } from '../auth/UserProfileModal';
+import { getSpeakerAvatar } from '../../utils/characterAvatar';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,6 +14,8 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   const { streakDays } = useProgress();
+  const { user, isAuthenticated, openAuthModal, openProfileModal } = useAuth();
+  const avatarInfo = getSpeakerAvatar(user.avatarId || 'minho');
 
   return (
     <div className="min-h-screen flex bg-gradient-to-br from-slate-50 via-rose-50/20 to-orange-50/20 text-slate-900">
@@ -29,9 +35,31 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             </span>
           </div>
 
-          <div className="flex items-center gap-1.5 px-2.5 py-1 bg-orange-50 text-orange-600 border border-orange-200/80 rounded-full font-bold text-xs">
-            <Flame size={14} className="text-orange-500 fill-orange-500 animate-pulse" />
-            <span>{streakDays}일 연속</span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 px-2.5 py-1 bg-orange-50 text-orange-600 border border-orange-200/80 rounded-full font-bold text-xs">
+              <Flame size={14} className="text-orange-500 fill-orange-500 animate-pulse" />
+              <span>{streakDays}일</span>
+            </div>
+
+            {/* User Profile / Auth Button (Mobile) */}
+            <button
+              type="button"
+              onClick={() => (isAuthenticated ? openProfileModal() : openAuthModal('login'))}
+              className="p-1 rounded-full border border-slate-200 bg-white hover:bg-slate-50 active:scale-95 transition-all cursor-pointer shadow-2xs"
+              title={isAuthenticated ? `${user.name} 프로필` : '로그인'}
+            >
+              {isAuthenticated ? (
+                <img
+                  src={avatarInfo.avatarUrl}
+                  alt={user.name}
+                  className="w-7 h-7 rounded-full object-cover"
+                />
+              ) : (
+                <div className="w-7 h-7 rounded-full bg-slate-100 flex items-center justify-center text-slate-600">
+                  <User size={15} />
+                </div>
+              )}
+            </button>
           </div>
         </header>
 
@@ -48,6 +76,10 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Fixed Bottom Tab Bar (Mobile) */}
       <BottomNav />
+
+      {/* Global Auth & Profile Modals */}
+      <AuthModal />
+      <UserProfileModal />
     </div>
   );
 };

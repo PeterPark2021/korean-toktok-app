@@ -108,3 +108,16 @@ export interface AppStorageData {
   totalStudyMinutes: number;
   currentEdition?: EditionType;
 }
+
+// 9. 사용자 및 회원 인증 스키마
+export interface UserProfile {
+  id: string;
+  name: string;
+  email: string;
+  avatarId: string;
+  nativeLanguage: string;
+  targetLevel: '초급' | '중급' | '고급';
+  createdAt: string;
+  lastLoginAt: string;
+  isGuest?: boolean;
+}
