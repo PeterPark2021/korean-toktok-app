@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef } from 'react';
+import { analyzePronunciation, PronunciationAnalysisResult } from '../utils/pronunciationAnalysis';
 
 // SpeechRecognition global type helper
 interface IWindow extends Window {
@@ -6,43 +7,12 @@ interface IWindow extends Window {
   SpeechRecognition?: any;
 }
 
-// Levenshtein distance for string similarity (0 ~ 100%)
-function calculateSimilarity(str1: string, str2: string): number {
-  const s1 = str1.replace(/[\s.,?!~]/g, '').toLowerCase();
-  const s2 = str2.replace(/[\s.,?!~]/g, '').toLowerCase();
-
-  if (s1 === s2) return 100;
-  if (!s1.length || !s2.length) return 0;
-
-  const track = Array(s2.length + 1)
-    .fill(null)
-    .map(() => Array(s1.length + 1).fill(null));
-
-  for (let i = 0; i <= s1.length; i += 1) track[0][i] = i;
-  for (let j = 0; j <= s2.length; j += 1) track[j][0] = j;
-
-  for (let j = 1; j <= s2.length; j += 1) {
-    for (let i = 1; i <= s1.length; i += 1) {
-      const indicator = s1[i - 1] === s2[j - 1] ? 0 : 1;
-      track[j][i] = Math.min(
-        track[j][i - 1] + 1, // deletion
-        track[j - 1][i] + 1, // insertion
-        track[j - 1][i - 1] + indicator // substitution
-      );
-    }
-  }
-
-  const distance = track[s2.length][s1.length];
-  const maxLen = Math.max(s1.length, s2.length);
-  const similarity = Math.max(0, Math.round((1 - distance / maxLen) * 100));
-  return similarity;
-}
-
 export interface UseSpeechRecognitionReturn {
   isListening: boolean;
   transcript: string;
   accuracy: number | null;
   supported: boolean;
+  analysis: PronunciationAnalysisResult | null;
   startListening: (targetText: string) => void;
   stopListening: () => void;
   resetRecognition: () => void;
@@ -53,6 +23,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
   const [accuracy, setAccuracy] = useState<number | null>(null);
+  const [analysis, setAnalysis] = useState<PronunciationAnalysisResult | null>(null);
   const [feedbackMessage, setFeedbackMessage] = useState<string | null>(null);
 
   const recognitionRef = useRef<any>(null);
@@ -76,6 +47,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
     stopListening();
     setTranscript('');
     setAccuracy(null);
+    setAnalysis(null);
     setFeedbackMessage(null);
   }, [stopListening]);
 
@@ -107,16 +79,18 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
 
         setTranscript(currentTranscript);
 
-        if (event.results[0].isFinal) {
-          const score = calculateSimilarity(targetTextRef.current, currentTranscript);
-          setAccuracy(score);
+        // Run real-time phoneme & character precision analysis
+        const detailed = analyzePronunciation(targetTextRef.current, currentTranscript);
+        setAnalysis(detailed);
+        setAccuracy(detailed.score);
 
-          if (score >= 85) {
-            setFeedbackMessage('🎉 훌륭합니다! 완벽한 발음이에요!');
-          } else if (score >= 60) {
-            setFeedbackMessage('👍 아주 좋아요! 조금만 더 또박또박 발음해 보세요.');
+        if (event.results[0].isFinal) {
+          if (detailed.score >= 85) {
+            setFeedbackMessage('🎉 훌륭합니다! 거의 완벽한 원어민 발음이에요!');
+          } else if (detailed.score >= 60) {
+            setFeedbackMessage('👍 아주 좋아요! 아래 붉은색 글자의 발음 팁을 확인해 보세요.');
           } else {
-            setFeedbackMessage('💪 다시 한 번 천천히 따라 읽어볼까요?');
+            setFeedbackMessage('💪 붉은색 글자의 팁을 참고하여 천천히 다시 읽어볼까요?');
           }
         }
       };
@@ -151,6 +125,7 @@ export const useSpeechRecognition = (): UseSpeechRecognitionReturn => {
     transcript,
     accuracy,
     supported: isSupported,
+    analysis,
     startListening,
     stopListening,
     resetRecognition,
