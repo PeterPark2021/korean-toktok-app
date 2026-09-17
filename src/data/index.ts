@@ -935,6 +935,11 @@ export const getUnitDetails = (unitNumber: number, edition: EditionType = getAct
   return units.find((u) => u.unit_number === unitNumber) || units[0];
 };
 
+export const getUnitSubLessons = (unitNumber: number, edition: EditionType = getActiveEdition()): UnitItem[] => {
+  const units = getAllUnits(edition);
+  return units.filter((u) => u.unit_number === unitNumber);
+};
+
 export const getUnitDialogues = (unitNumber: number, edition: EditionType = getActiveEdition()): DialogueItem[] => {
   const map = edition === 'kbs' ? kbsDialoguesMap : wizDialoguesMap;
   return map[unitNumber] || map[1] || [];

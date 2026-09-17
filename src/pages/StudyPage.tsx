@@ -472,6 +472,7 @@ export const StudyPage: React.FC = () => {
             queueIndex={queueIndex}
             unitNumber={currentUnitNumber}
             situationText={currentUnit.situation}
+            edition={currentEdition}
           />
         )}
 

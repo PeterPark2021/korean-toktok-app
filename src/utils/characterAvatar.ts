@@ -22,7 +22,7 @@ export const getSpeakerAvatar = (speakerName: string): CharacterInfo => {
   if (name.includes('리홍')) {
     return {
       name: '리홍',
-      role: '헤어 디자이너',
+      role: '중국인 의사',
       avatarUrl: '/images/characters/lihong.webp',
       color: 'pink',
       badgeBg: 'bg-pink-100 text-pink-700 border-pink-200'
